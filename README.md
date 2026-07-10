@@ -1,12 +1,14 @@
 # AI 热点抓取（ai-hotspot-daily）
 
-每天从 24 个中英文信息源抓取过去 24 小时的 AI 热点，由 Claude Code 整理成一份分类日报。零 API 成本：抓取脚本纯 Python 标准库（零依赖），所有信息源均为免费匿名接口，整理跑在 Claude Code 定时任务里。
+每天从 25 个中英文信息源抓取过去 24 小时的 AI 热点，由 Claude Code 整理成一份分类日报。零 API 成本：抓取脚本纯 Python 标准库（零依赖），所有信息源均为免费匿名接口，整理跑在 Claude Code 定时任务里。
 
 ## 信息源（全部实测可用）
 
 **英文**：Hacker News（Algolia API）· HuggingFace Daily Papers / Trending · GitHub Trending · Techmeme · smol.ai AINews（X/Reddit/Discord 每日综述）· TechCrunch AI · The Verge AI · VentureBeat · The Decoder · MIT 科技评论 · Ars Technica · ProductHunt
 
-**KOL / 官号**：zpravobot（OpenAI / Anthropic / DeepMind / Sam Altman / Perplexity 等 X 官号镜像）· Bluesky（Ethan Mollick / Simon Willison / Nathan Lambert / Karpathy / Carmack）— 详见 `reference/sources.md` 的实测结论
+**官方博客**：OpenAI · Google DeepMind · Google AI · Mistral · HuggingFace · Apple ML · NVIDIA · 微软研究院（各厂官方 newsroom RSS，最权威的一手发布）
+
+**KOL / 官号推文**：zpravobot（OpenAI / Anthropic / DeepMind / Sam Altman / Perplexity 等 X 官号镜像）· Bluesky（Ethan Mollick / Simon Willison / Nathan Lambert / Karpathy / Carmack）— 详见 `reference/sources.md` 的实测结论
 
 **中文**：微博热搜 · 知乎热榜 · B站排行 · 量子位 · IT之家 · 36氪 · 掘金 AI 热榜 · 雷锋网 · NewsNow（抖音/百度/头条热榜聚合）
 

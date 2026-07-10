@@ -11,6 +11,7 @@
     "github_trending": true,
     "techmeme": true,
     "smolai": true,
+    "vendor_blogs": true,
     "zpravobot": true,
     "bluesky": true,
     "weibo": true,
@@ -30,6 +31,18 @@
     "producthunt": true,
     "newsnow": true
   },
+
+  "_vendor_blogs说明": "各大厂官方博客 RSS（最权威的官号一手来源）。native_ai=true 全是AI无需过滤；false 的是泛科技博客需关键词过滤。Anthropic/Meta AI 官网无 RSS（靠 zpravobot/媒体覆盖）；DeepSeek/Cohere/xAI/Stability 无 RSS；Qwen 博客已停更",
+  "vendor_blogs": [
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "native_ai": true},
+    {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "native_ai": true},
+    {"name": "Google AI", "url": "https://blog.google/technology/ai/rss/", "native_ai": true},
+    {"name": "Mistral", "url": "https://mistral.ai/rss.xml", "native_ai": true},
+    {"name": "HuggingFace", "url": "https://huggingface.co/blog/feed.xml", "native_ai": true},
+    {"name": "Apple ML", "url": "https://machinelearning.apple.com/rss.xml", "native_ai": true},
+    {"name": "NVIDIA", "url": "https://blogs.nvidia.com/feed/", "native_ai": false},
+    {"name": "微软研究院", "url": "https://www.microsoft.com/en-us/research/feed/", "native_ai": false}
+  ],
 
   "hn_queries": ["AI", "LLM", "OpenAI", "Claude", "GPT", "Gemini"],
   "hn_min_points": 20,

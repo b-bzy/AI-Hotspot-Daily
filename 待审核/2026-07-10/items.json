@@ -2,10 +2,10 @@
  "meta": {
   "date": "2026-07-10",
   "window_hours": 24,
-  "generated_at": "2026-07-10T21:34:42+08:00",
-  "sources_ok": 24,
-  "sources_enabled": 24,
-  "total_items": 173
+  "generated_at": "2026-07-10T22:32:17+08:00",
+  "sources_ok": 25,
+  "sources_enabled": 25,
+  "total_items": 180
  },
  "items": [
   {
@@ -13,8 +13,8 @@
    "lang": "en",
    "title": "GPT-5.6",
    "url": "https://openai.com/index/gpt-5-6/",
-   "heat": "首页·1392分/963评论",
-   "heat_val": 1392.0,
+   "heat": "首页·1415分/993评论",
+   "heat_val": 1415.0,
    "published_at": "2026-07-09T17:04:14+00:00",
    "summary": "",
    "native_ai": false
@@ -24,8 +24,8 @@
    "lang": "en",
    "title": "AI-generated videos to maximally drive a target brain region",
    "url": "https://nevo-project.epfl.ch/",
-   "heat": "首页·135分/134评论",
-   "heat_val": 135.0,
+   "heat": "首页·152分/157评论",
+   "heat_val": 152.0,
    "published_at": "2026-07-10T07:39:11+00:00",
    "summary": "",
    "native_ai": false
@@ -35,8 +35,8 @@
    "lang": "en",
    "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
    "url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
-   "heat": "首页·119分/165评论",
-   "heat_val": 119.0,
+   "heat": "首页·133分/185评论",
+   "heat_val": 133.0,
    "published_at": "2026-07-06T14:59:21+00:00",
    "summary": "",
    "native_ai": false
@@ -46,8 +46,8 @@
    "lang": "en",
    "title": "Building a real-time AI tutor for 5-year-olds",
    "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-   "heat": "首页·108分/213评论",
-   "heat_val": 108.0,
+   "heat": "首页·115分/231评论",
+   "heat_val": 115.0,
    "published_at": "2026-07-09T20:51:06+00:00",
    "summary": "",
    "native_ai": false
@@ -55,11 +55,11 @@
   {
    "source": "hackernews",
    "lang": "en",
-   "title": "OpenAI faked inability to search training data, hid billions of logs, NYT says",
-   "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-   "heat": "60分/8评论",
-   "heat_val": 60.0,
-   "published_at": "2026-07-09T19:01:43+00:00",
+   "title": "How do you use Vim in the era of AI?",
+   "url": "https://news.ycombinator.com/item?id=48859439",
+   "heat": "首页·23分/37评论",
+   "heat_val": 23.0,
+   "published_at": "2026-07-10T13:11:30+00:00",
    "summary": "",
    "native_ai": false
   },
@@ -132,23 +132,23 @@
   {
    "source": "hf_papers",
    "lang": "en",
+   "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+   "url": "https://huggingface.co/papers/2607.08770",
+   "heat": "19赞",
+   "heat_val": 19.0,
+   "published_at": "2026-07-08T20:00:00+00:00",
+   "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose Lo",
+   "native_ai": true
+  },
+  {
+   "source": "hf_papers",
+   "lang": "en",
    "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
    "url": "https://huggingface.co/papers/2607.08758",
    "heat": "19赞",
    "heat_val": 19.0,
    "published_at": "2026-07-08T20:00:00+00:00",
    "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say lit",
-   "native_ai": true
-  },
-  {
-   "source": "hf_papers",
-   "lang": "en",
-   "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
-   "url": "https://huggingface.co/papers/2607.08770",
-   "heat": "18赞",
-   "heat_val": 18.0,
-   "published_at": "2026-07-08T20:00:00+00:00",
-   "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose Lo",
    "native_ai": true
   },
   {
@@ -222,8 +222,8 @@
    "lang": "en",
    "title": "[模型] empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-   "heat": "趋势分526·1951赞",
-   "heat_val": 526.0,
+   "heat": "趋势分525·1952赞",
+   "heat_val": 525.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -233,8 +233,8 @@
    "lang": "en",
    "title": "[模型] zai-org/GLM-5.2",
    "url": "https://huggingface.co/zai-org/GLM-5.2",
-   "heat": "趋势分352·3758赞",
-   "heat_val": 352.0,
+   "heat": "趋势分349·3760赞",
+   "heat_val": 349.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -244,8 +244,8 @@
    "lang": "en",
    "title": "[模型] InternScience/Agents-A1",
    "url": "https://huggingface.co/InternScience/Agents-A1",
-   "heat": "趋势分253·456赞",
-   "heat_val": 253.0,
+   "heat": "趋势分254·458赞",
+   "heat_val": 254.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -255,8 +255,8 @@
    "lang": "en",
    "title": "[模型] baidu/Unlimited-OCR",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
-   "heat": "趋势分225·1913赞",
-   "heat_val": 225.0,
+   "heat": "趋势分224·1914赞",
+   "heat_val": 224.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -266,19 +266,8 @@
    "lang": "en",
    "title": "[Space] smolagents/hf-realtime-voice",
    "url": "https://huggingface.co/spaces/smolagents/hf-realtime-voice",
-   "heat": "趋势分216·338赞",
-   "heat_val": 216.0,
-   "published_at": "",
-   "summary": "",
-   "native_ai": true
-  },
-  {
-   "source": "hf_trending",
-   "lang": "en",
-   "title": "[模型] google/tabfm-1.0.0-pytorch",
-   "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-   "heat": "趋势分196·341赞",
-   "heat_val": 196.0,
+   "heat": "趋势分211·338赞",
+   "heat_val": 211.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -288,7 +277,18 @@
    "lang": "en",
    "title": "[模型] bottlecapai/ThinkingCap-Qwen3.6-27B",
    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-   "heat": "趋势分195·202赞",
+   "heat": "趋势分196·203赞",
+   "heat_val": 196.0,
+   "published_at": "",
+   "summary": "",
+   "native_ai": true
+  },
+  {
+   "source": "hf_trending",
+   "lang": "en",
+   "title": "[模型] google/tabfm-1.0.0-pytorch",
+   "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+   "heat": "趋势分195·341赞",
    "heat_val": 195.0,
    "published_at": "",
    "summary": "",
@@ -310,8 +310,8 @@
    "lang": "en",
    "title": "[模型] froggeric/Qwen-Fixed-Chat-Templates",
    "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates",
-   "heat": "趋势分186·829赞",
-   "heat_val": 186.0,
+   "heat": "趋势分188·831赞",
+   "heat_val": 188.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -321,7 +321,7 @@
    "lang": "en",
    "title": "[模型] mistralai/Leanstral-1.5-119B-A6B",
    "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-   "heat": "趋势分175·181赞",
+   "heat": "趋势分175·182赞",
    "heat_val": 175.0,
    "published_at": "",
    "summary": "",
@@ -343,8 +343,8 @@
    "lang": "en",
    "title": "[模型] HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
    "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-   "heat": "趋势分156·2613赞",
-   "heat_val": 156.0,
+   "heat": "趋势分155·2613赞",
+   "heat_val": 155.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -354,8 +354,8 @@
    "lang": "en",
    "title": "[模型] conradlocke/krea2-identity-edit",
    "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
-   "heat": "趋势分153·154赞",
-   "heat_val": 153.0,
+   "heat": "趋势分155·156赞",
+   "heat_val": 155.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -365,8 +365,8 @@
    "lang": "en",
    "title": "[模型] deepreinforce-ai/Ornith-1.0-35B-GGUF",
    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-   "heat": "趋势分152·833赞",
-   "heat_val": 152.0,
+   "heat": "趋势分150·834赞",
+   "heat_val": 150.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -376,8 +376,8 @@
    "lang": "en",
    "title": "[模型] yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-   "heat": "趋势分133·1129赞",
-   "heat_val": 133.0,
+   "heat": "趋势分131·1129赞",
+   "heat_val": 131.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -387,8 +387,8 @@
    "lang": "en",
    "title": "[Space] Sneak-Moose/Pro-Realism-Edit-Studio",
    "url": "https://huggingface.co/spaces/Sneak-Moose/Pro-Realism-Edit-Studio",
-   "heat": "趋势分106·485赞",
-   "heat_val": 106.0,
+   "heat": "趋势分107·486赞",
+   "heat_val": 107.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -398,7 +398,7 @@
    "lang": "en",
    "title": "[Space] kulkas2pintu/wan555",
    "url": "https://huggingface.co/spaces/kulkas2pintu/wan555",
-   "heat": "趋势分89·420赞",
+   "heat": "趋势分89·422赞",
    "heat_val": 89.0,
    "published_at": "",
    "summary": "",
@@ -409,7 +409,7 @@
    "lang": "en",
    "title": "[Space] baidu/Unlimited-OCR",
    "url": "https://huggingface.co/spaces/baidu/Unlimited-OCR",
-   "heat": "趋势分52·210赞",
+   "heat": "趋势分52·211赞",
    "heat_val": 52.0,
    "published_at": "",
    "summary": "",
@@ -420,8 +420,8 @@
    "lang": "en",
    "title": "[Space] victor/gemma-avatar",
    "url": "https://huggingface.co/spaces/victor/gemma-avatar",
-   "heat": "趋势分49·55赞",
-   "heat_val": 49.0,
+   "heat": "趋势分48·55赞",
+   "heat_val": 48.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -431,8 +431,8 @@
    "lang": "en",
    "title": "[Space] r3gm/wan2-2-fp8da-aoti-preview-2c",
    "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview-2c",
-   "heat": "趋势分45·2016赞",
-   "heat_val": 45.0,
+   "heat": "趋势分44·2016赞",
+   "heat_val": 44.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -442,7 +442,7 @@
    "lang": "en",
    "title": "[Space] krea/Krea-2",
    "url": "https://huggingface.co/spaces/krea/Krea-2",
-   "heat": "趋势分43·152赞",
+   "heat": "趋势分43·153赞",
    "heat_val": 43.0,
    "published_at": "",
    "summary": "",
@@ -506,23 +506,23 @@
   {
    "source": "github_trending",
    "lang": "en",
-   "title": "TencentCloud/TencentDB-Agent-Memory",
-   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-   "heat": "今日+581星",
-   "heat_val": 581.0,
-   "published_at": "",
-   "summary": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-   "native_ai": false
-  },
-  {
-   "source": "github_trending",
-   "lang": "en",
    "title": "sponsors/wonderwhy-er",
    "url": "https://github.com/sponsors/wonderwhy-er",
    "heat": "今日+349星",
    "heat_val": 349.0,
    "published_at": "",
    "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+   "native_ai": false
+  },
+  {
+   "source": "github_trending",
+   "lang": "en",
+   "title": "TencentCloud/TencentDB-Agent-Memory",
+   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+   "heat": "今日+134星",
+   "heat_val": 134.0,
+   "published_at": "",
+   "summary": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
    "native_ai": false
   },
   {
@@ -545,6 +545,28 @@
    "heat_val": 101.0,
    "published_at": "",
    "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude C",
+   "native_ai": false
+  },
+  {
+   "source": "techmeme",
+   "lang": "en",
+   "title": "Like the Claude app it imitates, the new ChatGPT \"Super App\", which merges Codex with ChatGPT, is a tangle of toggles and strange UI decisions (M.G. S",
+   "url": "https://www.techmeme.com/260710/p15#a260710p15",
+   "heat": "Techmeme头条",
+   "heat_val": 50.0,
+   "published_at": "2026-07-10T10:01:17-04:00",
+   "summary": "M.G. Siegler / Spyglass : Like the Claude app it imitates, the new ChatGPT “Super App”, which merges Codex with ChatGPT, is a tangle of toggles and strange UI decisions — Even if it's ultimately the r",
+   "native_ai": false
+  },
+  {
+   "source": "techmeme",
+   "lang": "en",
+   "title": "An RIAA-led coalition representing labels and artists proposes two tags for AI content: one for entirely AI-generated songs and another for \"AI-assist",
+   "url": "https://www.techmeme.com/260710/p14#a260710p14",
+   "heat": "Techmeme头条",
+   "heat_val": 50.0,
+   "published_at": "2026-07-10T09:40:02-04:00",
+   "summary": "Katherine Sayre / Wall Street Journal : An RIAA-led coalition representing labels and artists proposes two tags for AI content: one for entirely AI-generated songs and another for “AI-assisted” tracks",
    "native_ai": false
   },
   {
@@ -600,6 +622,83 @@
    "heat_val": 100.0,
    "published_at": "2026-07-09T05:44:39+00:00",
    "summary": "a quiet day. AI News for 7/08/2026-7/09/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched a new three-model GPT‑5.6 family and simultaneously expanded the product stack around it. OpenAI announced GPT‑5.6 Sol, Terra, and Luna rolling out across ChatGPT, Codex, and the API via @OpenAI and @OpenAIDevs In ChatGPT, Plus, Pro, Business, and Enterprise users get access to GPT‑5.6 Sol through medium+ effort settings, while Pro and Enterprise can select GPT‑5.6 Pro for highest-quality results on complex tasks, per @OpenAI API pricing introduced a tiered lineup: Sol $5 / $30 per million input/output tokens , Terra $2.5 / $15 , Luna $1 / $6 , with cache-write pricing added for the first time and 90% cache-read discount retained, according to @ArtificialAnlys OpenAI framed the family around a price-performance ladder: Sol = flagship/highest ceiling , Terra = GPT‑5.5-like capability at lower cost , Luna = fastest/cheapest high-volume option , via @OpenAIDevs The launch bundled major app-layer changes: ChatGPT Work , a new desktop app merging Codex + ChatGPT , Sites beta, programmatic tool calling , and multi-agent beta in the Responses API, via @OpenAI , @OpenAIDevs , and @OpenAIDevs Official claims and benchmark results OpenAI’s official message emphasized strong agentic/coding performance, better artifact quality, and improved economics. Sam Altman called it “ obviously the best model we have ever produced ” in the launch post, linking the release blog, via @sama Altman also highlighted enterprise economics: “ 5.6 sol is a huge step forward for dollars-per-task ,” via @sama Greg Brockman said the goal is “ the best price for any level of target performance ” and the highest possible ceiling, via @gdb OpenAI claimed GPT‑5.6 Sol sets a new high of 53.6 on Agents’ Last Exam , beating Claude Fable 5 adaptive by 13.1 points ; at medium reasoning it beats Fable by 11.4 points at roughly one-quarter the estimated cost , while Terra and Luna also outperform Fable at around one-sixteenth the cost , via @OpenAI OpenAI said GPT‑5.6 improves artifact quality across presentations, documents, and spreadsheets , with outputs exportable into existing enterprise tools, via @OpenAI OpenAI positioned GPT‑5.6 as state of the art for reasoning through complex tasks and for producing materia",
+   "native_ai": true
+  },
+  {
+   "source": "vendor_blog",
+   "lang": "en",
+   "title": "[OpenAI] How Deutsche Telekom is rewiring telecommunications with AI",
+   "url": "https://openai.com/index/deutsche-telekom",
+   "heat": "官方·OpenAI",
+   "heat_val": 12.0,
+   "published_at": "2026-07-10T07:00:00+00:00",
+   "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+   "native_ai": true
+  },
+  {
+   "source": "vendor_blog",
+   "lang": "en",
+   "title": "[HuggingFace] Profiling in PyTorch (Part 3): Attention is all you profile",
+   "url": "https://huggingface.co/blog/torch-attention-profile",
+   "heat": "官方·HuggingFace",
+   "heat_val": 12.0,
+   "published_at": "2026-07-10T00:00:00+00:00",
+   "summary": "",
+   "native_ai": true
+  },
+  {
+   "source": "vendor_blog",
+   "lang": "en",
+   "title": "[微软研究院] Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+   "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+   "heat": "官方·微软研究院",
+   "heat_val": 12.0,
+   "published_at": "2026-07-09T16:46:22+00:00",
+   "summary": "At a glance Aurora 1.5 is a major extension of Microsoft’s Aurora Earth System foundation model that adds 22 more weather variables relevant to energy, agriculture, transport, and climate risk, along ",
+   "native_ai": false
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@sama: GPT-5.6 is now the preferred model in Microsoft 365 Copilot https:// openai.com/",
+   "url": "https://zpravobot.news/@sama/116896151167241850",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T14:28:32+00:00",
+   "summary": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot https:// openai.com/index/gpt-5-6-prefe rred-model-microsoft-365-copilot/",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@sama: makes us happy to see people love 5.6 sol so much!",
+   "url": "https://zpravobot.news/@sama/116896033344073375",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T13:58:35+00:00",
+   "summary": "makes us happy to see people love 5.6 sol so much!",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@sama: Sam Altman 𝕏💬 @thsottiaux@twitter.com: the sun is out today https:// nitter.net/",
+   "url": "https://zpravobot.news/@sama/116896033257950670",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T13:58:33+00:00",
+   "summary": "Sam Altman 𝕏💬 @thsottiaux@twitter.com: the sun is out today https:// nitter.net/sama/status/2075579 012223787402",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@sama: Sam Altman 𝕏🔁 @embirico@twitter.com: Massive day for us @ OpenAI : - GPT-5.6 SOT",
+   "url": "https://zpravobot.news/@sama/116896017551634520",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T13:54:34+00:00",
+   "summary": "Sam Altman 𝕏🔁 @embirico@twitter.com: Massive day for us @ OpenAI : - GPT-5.6 SOTA at ~everything & by far most token efficient - Agents for everyone in the new ChatGPT app Work and Codex modes - Work",
    "native_ai": true
   },
   {
@@ -666,28 +765,6 @@
    "heat_val": 30.0,
    "published_at": "2026-07-09T17:14:37+00:00",
    "summary": "obviously the best model we have ever produced, but also one of the best blog posts we have ever produced: openai.com/index/gpt-5-6/",
-   "native_ai": true
-  },
-  {
-   "source": "kol_x",
-   "lang": "en",
-   "title": "@sama: 5.6 livestream going now. in addition to the model, 3 major product things. 1. C",
-   "url": "https://zpravobot.news/@sama/116891141627278381",
-   "heat": "官方号/KOL推文",
-   "heat_val": 30.0,
-   "published_at": "2026-07-09T17:14:33+00:00",
-   "summary": "5.6 livestream going now. in addition to the model, 3 major product things. 1. ChatGPT Work--really big deal! 2. new ChatGPT desktop app 3. hosted sites",
-   "native_ai": true
-  },
-  {
-   "source": "kol_x",
-   "lang": "en",
-   "title": "@sama: Sam Altman 𝕏🔁 @ OpenAI : Today. 10am PT.",
-   "url": "https://zpravobot.news/@sama/116890985001136767",
-   "heat": "官方号/KOL推文",
-   "heat_val": 30.0,
-   "published_at": "2026-07-09T16:34:43+00:00",
-   "summary": "Sam Altman 𝕏🔁 @ OpenAI : Today. 10am PT.",
    "native_ai": true
   },
   {
@@ -856,28 +933,6 @@
    "native_ai": true
   },
   {
-   "source": "kol_x",
-   "lang": "en",
-   "title": "@perplexity_ai: The model has an advisor tool that natively escalates to a stronger model when n",
-   "url": "https://zpravobot.news/@perplexity_ai/116890497426683011",
-   "heat": "官方号/KOL推文",
-   "heat_val": 30.0,
-   "published_at": "2026-07-09T14:30:43+00:00",
-   "summary": "The model has an advisor tool that natively escalates to a stronger model when needed. This model is hosted in the U.S. by Perplexity on Nvidia B200 GPUs. We will improve the model in research preview",
-   "native_ai": true
-  },
-  {
-   "source": "kol_x",
-   "lang": "en",
-   "title": "@perplexity_ai: We're releasing a research preview of a new orchestrator model in Perplexity Com",
-   "url": "https://zpravobot.news/@perplexity_ai/116890497310145357",
-   "heat": "官方号/KOL推文",
-   "heat_val": 30.0,
-   "published_at": "2026-07-09T14:30:41+00:00",
-   "summary": "We're releasing a research preview of a new orchestrator model in Perplexity Computer. The model is an adapted version of GLM 5.2, post-trained for the Computer harness. It delivers near-frontier perf",
-   "native_ai": true
-  },
-  {
    "source": "kol_bsky",
    "lang": "en",
    "title": "Ethan Mollick: Hint for all AI Labs as they branch out from apps for programming to general kno",
@@ -959,7 +1014,7 @@
    "lang": "zh",
    "title": "半导体设备新股暴涨1070%",
    "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%AE%BE%E5%A4%87%E6%96%B0%E8%82%A1%E6%9A%B4%E6%B6%A81070%25%23",
-   "heat": "热搜#20·388767·新",
+   "heat": "热搜#20·602036·新",
    "heat_val": 980.0,
    "published_at": "",
    "summary": "",
@@ -970,10 +1025,21 @@
    "lang": "zh",
    "title": "SpaceXAI 发布 Grok 4.5，和 Cursor 一起联合开发的 AI 模型有什么特别的？",
    "url": "https://www.zhihu.com/question/2058472497230648834",
-   "heat": "热榜#17·112 万热度",
+   "heat": "热榜#17·116 万热度",
    "heat_val": 983.0,
    "published_at": "",
    "summary": "",
+   "native_ai": false
+  },
+  {
+   "source": "zhihu",
+   "lang": "zh",
+   "title": "AI能让人减少孤独，还是会让人更孤独？",
+   "url": "https://www.zhihu.com/question/2050922931207632609",
+   "heat": "热榜#28·56 万热度",
+   "heat_val": 972.0,
+   "published_at": "",
+   "summary": "技术越是强大，那些「并不高效但属于我」的痕迹，就越珍贵。 你无需证明，只需记录，我们邀请你一起共建一场充满「人味」的讨论场。让过去的创造、今天的尝试，还有未来的每一步——都带着人类的温度，被看见、被留下… 2026 人文季正式启动｜活动主会场 ⬇️知乎 2026 人文季「本来就很棒的人类」",
    "native_ai": false
   },
   {
@@ -981,8 +1047,8 @@
    "lang": "zh",
    "title": "多动症版甄嬛传2-感人泪下的甄氏父女情【AI全民制作人】",
    "url": "https://www.bilibili.com/video/BV1coMg6WEc5",
-   "heat": "157万播放·影视杂谈",
-   "heat_val": 1579030.0,
+   "heat": "160万播放·影视杂谈",
+   "heat_val": 1605314.0,
    "published_at": "",
    "summary": "",
    "native_ai": false
@@ -1067,6 +1133,17 @@
   {
    "source": "ithome",
    "lang": "zh",
+   "title": "国际 / 美国唱片业协会拟与 Spotify、Apple Music 等流媒体平台合作，推进 AI 音乐标识落地",
+   "url": "https://www.ithome.com/0/975/354.htm",
+   "heat": "IT之家",
+   "heat_val": 10.0,
+   "published_at": "2026-07-10T14:12:20+00:00",
+   "summary": "IT之家 7 月 10 日消息，据华尔街日报消息，美国唱片业协会（RIAA）与国际唱片业协会（IFPI）计划与 Spotify 和 Apple Music 等流媒体平台展开合作，共同推进 AI 音乐标识的落地。 由 RIAA 主导的联盟共提出了两种标识，旨在将完全由 AI 生成的音轨与仅部分使用 AI 制作的音轨之间划清界限： AI 生成 ：适用于完全由 AI 通过文本提示词（Prompt）自动构",
+   "native_ai": false
+  },
+  {
+   "source": "ithome",
+   "lang": "zh",
    "title": "加速进化发布 Booster T2 具身开发旗舰平台：搭载英伟达 Thor 芯片，2070TFLOPS 算力",
    "url": "https://www.ithome.com/0/975/340.htm",
    "heat": "IT之家",
@@ -1106,17 +1183,6 @@
    "heat_val": 10.0,
    "published_at": "2026-07-10T09:34:23+00:00",
    "summary": "IT之家 7 月 10 日消息，蔡司半导体制造技术 (ZEISS SMT) 当地时间今日宣布在韩国龙仁开设半导体创新中心。 龙仁是韩国正在建设的一大半导体集群的所在地，三星电子和 SK 海力士都将在此大规模投资。韩国半导体创新中心旨在为蔡司与韩国领先的芯片制造客户搭建直接合作平台。 龙仁创新中心汇集了蔡司精选的半导体掩模解决方案和晶圆制造解决方案 ，已安装有三维 X 光计量和检测设备 NLX-10",
-   "native_ai": false
-  },
-  {
-   "source": "ithome",
-   "lang": "zh",
-   "title": "消息称 SK 海力士计划重启大连二厂扩建工程，将生产 238 层 NAND 闪存芯片",
-   "url": "https://www.ithome.com/0/975/210.htm",
-   "heat": "IT之家",
-   "heat_val": 10.0,
-   "published_at": "2026-07-10T08:53:43+00:00",
-   "summary": "IT之家 7 月 10 日消息，据韩媒 newstomato 消息，业界消息透露，SK 海力士近期将以向中国大连第二工厂引进设备为契机，正式推进全新生产线的投资与建设。 SK 海力士计划从今年下半年起搬入生产设备，并于明年上半年分阶段完成设施建设。目前，大连第一工厂已完成向 192 层 NAND 闪存产线的升级投资以及老化设备的更换工作。 报道称，在 SK 海力士所有的 NAND 闪存生产基地中，",
    "native_ai": false
   },
   {
@@ -1179,8 +1245,8 @@
    "lang": "zh",
    "title": "凌晨睡不着，我给台风巴威写了个追踪网站",
    "url": "https://juejin.cn/post/7659393583027896330",
-   "heat": "AI热榜·7180阅读",
-   "heat_val": 7180.0,
+   "heat": "AI热榜·7232阅读",
+   "heat_val": 7232.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1190,8 +1256,8 @@
    "lang": "zh",
    "title": "我筛了 1400 个 Claude Code Skills，留下 5 个天天在用的",
    "url": "https://juejin.cn/post/7657936630132883492",
-   "heat": "AI热榜·4840阅读",
-   "heat_val": 4840.0,
+   "heat": "AI热榜·4852阅读",
+   "heat_val": 4852.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1201,8 +1267,8 @@
    "lang": "zh",
    "title": "GPT5.6 今晚全量开发？Codex上线史上最强Coding模型！",
    "url": "https://juejin.cn/post/7659585088225624079",
-   "heat": "AI热榜·2947阅读",
-   "heat_val": 2947.0,
+   "heat": "AI热榜·2953阅读",
+   "heat_val": 2953.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1212,8 +1278,8 @@
    "lang": "zh",
    "title": "豆包和千问同时关了智能体，我用它们搭的 3 个自动化全废了——迁移方案整理",
    "url": "https://juejin.cn/post/7658599462051086371",
-   "heat": "AI热榜·2223阅读",
-   "heat_val": 2223.0,
+   "heat": "AI热榜·2225阅读",
+   "heat_val": 2225.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1223,8 +1289,8 @@
    "lang": "zh",
    "title": "人均配了AI, 为什么公司还是没变快? 🤔 本质还是分布式系统问题",
    "url": "https://juejin.cn/post/7657956930892136475",
-   "heat": "AI热榜·1913阅读",
-   "heat_val": 1913.0,
+   "heat": "AI热榜·1914阅读",
+   "heat_val": 1914.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1234,8 +1300,8 @@
    "lang": "zh",
    "title": "介绍一个夯到爆的浏览器AI插件！学习效率翻倍",
    "url": "https://juejin.cn/post/7658710517372059688",
-   "heat": "AI热榜·1852阅读",
-   "heat_val": 1852.0,
+   "heat": "AI热榜·1856阅读",
+   "heat_val": 1856.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1245,8 +1311,8 @@
    "lang": "zh",
    "title": "我多年积累的 100+ 简历优化经验，整理成了 Skill",
    "url": "https://juejin.cn/post/7659275867992850486",
-   "heat": "AI热榜·1359阅读",
-   "heat_val": 1359.0,
+   "heat": "AI热榜·1365阅读",
+   "heat_val": 1365.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1256,8 +1322,8 @@
    "lang": "zh",
    "title": "三年了，为什么 AI 应用还没爆发？",
    "url": "https://juejin.cn/post/7659709059810705462",
-   "heat": "AI热榜·1089阅读",
-   "heat_val": 1089.0,
+   "heat": "AI热榜·1098阅读",
+   "heat_val": 1098.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1278,8 +1344,8 @@
    "lang": "zh",
    "title": "从5万次到日均2000万次调用：大模型推理服务的性能工程实践",
    "url": "https://juejin.cn/post/7660697495832035362",
-   "heat": "AI热榜·677阅读",
-   "heat_val": 677.0,
+   "heat": "AI热榜·678阅读",
+   "heat_val": 678.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1311,8 +1377,8 @@
    "lang": "zh",
    "title": "判断一个人懂不懂 agent harness",
    "url": "https://juejin.cn/post/7657737434764148755",
-   "heat": "AI热榜·625阅读",
-   "heat_val": 625.0,
+   "heat": "AI热榜·626阅读",
+   "heat_val": 626.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1322,8 +1388,8 @@
    "lang": "zh",
    "title": "一个看不见的撇号，让Claude Code追踪了中国开发者三个月",
    "url": "https://juejin.cn/post/7659618806900588582",
-   "heat": "AI热榜·602阅读",
-   "heat_val": 602.0,
+   "heat": "AI热榜·607阅读",
+   "heat_val": 607.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1333,8 +1399,8 @@
    "lang": "zh",
    "title": "我同时用了 Claude Code、Cursor 和 Codex，说说三个工具的真实差距——2026 年选错工具比不用 AI 更浪费时间",
    "url": "https://juejin.cn/post/7659431096430592038",
-   "heat": "AI热榜·553阅读",
-   "heat_val": 553.0,
+   "heat": "AI热榜·558阅读",
+   "heat_val": 558.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1355,8 +1421,8 @@
    "lang": "zh",
    "title": "GPT-5.6 来了：Sol / Terra / Luna 三个模型怎么选",
    "url": "https://juejin.cn/post/7660459363907780662",
-   "heat": "AI热榜·471阅读",
-   "heat_val": 471.0,
+   "heat": "AI热榜·497阅读",
+   "heat_val": 497.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1639,6 +1705,17 @@
   {
    "source": "theverge",
    "lang": "en",
+   "title": "Instagram’s Adam Mosseri: If you don’t like AI, ‘then you shouldn’t have it in your feed’",
+   "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
+   "heat": "The Verge",
+   "heat_val": 8.0,
+   "published_at": "2026-07-10T09:45:02-04:00",
+   "summary": "Though Instagram head Adam Mosseri doesn't want to filter out AI content on the platform, he argues that you \"shouldn't have it in your feed\" if you don't like it. \"I don't think we should filter out ",
+   "native_ai": true
+  },
+  {
+   "source": "theverge",
+   "lang": "en",
    "title": "Would you host part of an AI data center in your home?",
    "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
    "heat": "The Verge",
@@ -1711,17 +1788,6 @@
    "heat_val": 8.0,
    "published_at": "2026-07-09T13:00:00-04:00",
    "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump a",
-   "native_ai": true
-  },
-  {
-   "source": "theverge",
-   "lang": "en",
-   "title": "Meta says its new AI model is ready to compete on coding",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
-   "heat": "The Verge",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T10:00:00-04:00",
-   "summary": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta ",
    "native_ai": true
   },
   {
@@ -1881,17 +1947,6 @@
   {
    "source": "producthunt",
    "lang": "en",
-   "title": "GPT-5.6",
-   "url": "https://www.producthunt.com/products/openai",
-   "heat": "PH新品",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T10:08:01-07:00",
-   "summary": "Stronger performance per dollar and more smarts per token Discussion | Link",
-   "native_ai": false
-  },
-  {
-   "source": "producthunt",
-   "lang": "en",
    "title": "Muse Spark 1.1 by Meta AI",
    "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
    "heat": "PH新品",
@@ -1903,12 +1958,34 @@
   {
    "source": "producthunt",
    "lang": "en",
+   "title": "GPT-5.6",
+   "url": "https://www.producthunt.com/products/openai",
+   "heat": "PH新品",
+   "heat_val": 8.0,
+   "published_at": "2026-07-09T10:08:01-07:00",
+   "summary": "Stronger performance per dollar and more smarts per token Discussion | Link",
+   "native_ai": false
+  },
+  {
+   "source": "producthunt",
+   "lang": "en",
    "title": "Ship OS by Notion",
    "url": "https://www.producthunt.com/products/notion",
    "heat": "PH新品",
    "heat_val": 8.0,
    "published_at": "2026-07-09T11:19:56-07:00",
    "summary": "The agent-native way to ship software Discussion | Link",
+   "native_ai": false
+  },
+  {
+   "source": "newsnow",
+   "lang": "zh",
+   "title": "半导体大跌结束了吗",
+   "url": "https://www.toutiao.com/trending/7660877593171725874/",
+   "heat": "头条热榜#7",
+   "heat_val": 493.0,
+   "published_at": "",
+   "summary": "",
    "native_ai": false
   }
  ]

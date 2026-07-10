@@ -284,6 +284,28 @@ def fetch_zpravobot(cfg, hours, en_match, zh_match):
     return items, ("部分账号失败: " + "; ".join(errors)) if errors else ""
 
 
+def fetch_vendor_blogs(cfg, hours, en_match, zh_match):
+    """抓各大厂官方博客/newsroom 的最新发布——最权威的"官号"一手来源。
+    清单在 配置.json vendor_blogs：{name, url, native_ai}。native_ai=false 的需关键词过滤。"""
+    items, errors = [], []
+    for b in cfg.get("vendor_blogs", []):
+        try:
+            for title, link, pub, desc in _rss_entries(b["url"]):
+                dt = parse_dt(pub)
+                if not within(dt, hours):
+                    continue
+                if not b.get("native_ai") and not en_match(title + " " + strip_html(desc, 200)):
+                    continue
+                items.append(make_item("vendor_blog", "en", f"[{b['name']}] {title}", link,
+                                       f"官方·{b['name']}", 12, dt, desc,
+                                       native_ai=b.get("native_ai", False)))
+        except Exception as e:  # 单个厂商 feed 失败不拖累其他
+            errors.append(f"{b['name']}: {e}")
+    if errors and not items:
+        raise RuntimeError("; ".join(errors))
+    return items, ("部分厂商feed失败: " + "; ".join(errors)) if errors else ""
+
+
 def fetch_bluesky(cfg, hours, en_match, zh_match):
     """抓 AI 博主/掌舵人在 Bluesky 的最新原创帖（原生号 + X 镜像号）。
     补 zpravobot 拿不到的个人 KOL；用 api.bsky.app（public.api 域的 searchPosts 会 403）。"""
@@ -480,26 +502,23 @@ def fetch_producthunt(cfg, hours, en_match, zh_match):
 # --- NewsNow 聚合：补抖音/百度/头条社会热榜里的 AI 条目（排名当热度，需过滤） ---
 
 def fetch_newsnow(cfg, hours, en_match, zh_match):
-    items, errors = [], []
+    items, errors, reached = [], [], 0
     src_names = {"douyin": "抖音", "baidu": "百度", "toutiao": "头条", "kuaishou": "快手"}
     for sid in cfg.get("newsnow_ids", ["douyin", "baidu", "toutiao"]):
         try:
             data = get_json(f"https://newsnow.busiyi.world/api/s?id={sid}")
-            lst = data.get("items", [])
-            if not lst:
-                errors.append(f"{sid}: 空")
-                continue
-            for i, e in enumerate(lst, 1):
+            reached += 1  # 能连通就算这个源健康（哪怕过滤后 0 条 AI）
+            for i, e in enumerate(data.get("items", []), 1):
                 title = e.get("title") or ""
                 url = e.get("url") or ""
                 if not url or not zh_match(title):
                     continue
                 items.append(make_item("newsnow", "zh", title, url,
                                        f"{src_names.get(sid, sid)}热榜#{i}", 500 - i, None))
-        except Exception as e:
+        except Exception as e:  # 公共实例偶发 500，单子源失败很常见
             errors.append(f"{sid}: {e}")
-    if errors and not items:
-        raise RuntimeError("; ".join(errors))
+    if reached == 0:  # 只有全部子源都连不上才算本源失败
+        raise RuntimeError("全部子源不可达: " + "; ".join(errors))
     return items, ("部分子源异常: " + "; ".join(errors)) if errors else ""
 
 
@@ -510,6 +529,7 @@ ADAPTERS = {
     "github_trending": fetch_github_trending,
     "techmeme": fetch_techmeme,
     "smolai": fetch_smolai,
+    "vendor_blogs": fetch_vendor_blogs,
     "zpravobot": fetch_zpravobot,
     "bluesky": fetch_bluesky,
     "weibo": fetch_weibo,
