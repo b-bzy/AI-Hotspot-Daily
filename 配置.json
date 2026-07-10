@@ -18,7 +18,16 @@
     "qbitai": true,
     "ithome": true,
     "kr36": true,
-    "juejin": true
+    "juejin": true,
+    "thedecoder": true,
+    "techcrunch": true,
+    "theverge": true,
+    "venturebeat": true,
+    "mit_tr": true,
+    "arstechnica": true,
+    "leiphone": true,
+    "producthunt": true,
+    "newsnow": true
   },
 
   "hn_queries": ["AI", "LLM", "OpenAI", "Claude", "GPT", "Gemini"],
@@ -26,6 +35,7 @@
   "hf_paper_min_upvotes": 5,
   "smolai_digest_chars": 2500,
   "zpravobot_accounts": ["sama", "OpenAI", "AnthropicAI", "googledeepmind", "xai"],
+  "newsnow_ids": ["douyin", "baidu", "toutiao"],
 
   "keywords_zh": [
     "AI", "人工智能", "大模型", "大语言模型", "AIGC", "智能体", "机器人", "具身",

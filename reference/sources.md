@@ -20,6 +20,15 @@ MVP 已接入 14 源。端点细节都在 `scripts/fetch_all.py` 的适配器里
 | ithome | 泛科技快讯 | 量大，关键词过滤后仍是中文条目主力 |
 | kr36 | 商业动态 | 只用 /feed；快讯 API 要签名，别碰 |
 | juejin | 开发者热榜 | category_id=6809637773935378440 是"人工智能"分类 |
+| thedecoder | 英文AI媒体 | 100% AI，native_ai 无需过滤 |
+| techcrunch | 英文AI频道 | /category/artificial-intelligence/feed/，天然AI |
+| theverge | 英文AI频道 | Atom，天然AI |
+| venturebeat | 英文AI媒体 | **必须用主 feed /feed/ 并过滤**——/category/ai/feed/ 已冻结停更数月，是坑 |
+| mit_tr | 英文AI频道 | 更新慢，日常 0-2 条正常 |
+| arstechnica | 英文泛科技 | 需过滤；更新慢，多数日 0-2 条 |
+| leiphone | 中文AI媒体 | 需过滤；首条常是频道名"雷峰网"要在解析层忽略 |
+| producthunt | AI新品 | Atom，标题即产品名，过滤出 AI 相关；多数日 3-8 条 |
+| newsnow | 社会热榜聚合 | 抖音/百度/头条榜里捞 AI；**低产源**——平时社会新闻刷屏 0 条，大 AI 新闻日才有；个人实例无 SLA |
 
 ## 死亡名单（别再试）
 
@@ -31,11 +40,11 @@ MVP 已接入 14 源。端点细节都在 `scripts/fetch_all.py` 的适配器里
 
 ## 扩展候选（下一版可加）
 
-- NewsNow 公共实例 `newsnow.busiyi.world/api/s?id={weibo|douyin|toutiao|baidu}`：作微博/知乎的降级链 + 补抖音/头条/百度
-- anyknew `www.anyknew.com/api/v1/sites/{site}`：同上互备
+- anyknew `www.anyknew.com/api/v1/sites/{site}`：微博/知乎的降级链互备
 - Bluesky `api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed`：镜像号 karpathy-mirr.selfhosted.social / sama-mirr.selfhosted.social / anthropicbot.bsky.social
-- Reddit OAuth（r/LocalLLaMA 等 5 个 sub，需 jacob 注册免费 app）
+- Reddit OAuth（r/LocalLLaMA 等 5 个 sub，需 jacob 注册免费 app 才能绕过匿名 403）
 - 36氪快讯：`36kr.com/newsflashes` 页内 `window.initialState` JSON（脆弱）
+- 已评估但**不加**：钛媒体（AI 占比太低，首屏集成灶/医药/美妆）、arXiv（HF 论文已覆盖热门研究，原始 arXiv 每天 15+ 篇纯噪声）、InfoQ（与掘金重叠）、虎嗅（超时不稳）、PingWest（RSS 405）
 
 ## 关键词表维护
 

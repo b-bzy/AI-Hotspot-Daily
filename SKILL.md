@@ -1,9 +1,9 @@
 ---
 name: ai-hotspot-daily
-description: 抓取过去 24 小时中英文全网 AI 热点（14 个源），整理成一份 AI 热点日报落盘到待审核区。零 API 成本，脚本零依赖。
+description: 抓取过去 24 小时中英文全网 AI 热点（23 个源），整理成一份 AI 热点日报落盘到待审核区。零 API 成本，脚本零依赖。
 ---
 
-# AI 热点抓取 · 日报流水线（MVP v1）
+# AI 热点抓取 · 日报流水线（v1.1，23 源）
 
 **一句话**：跑一次脚本抓全部源 → Claude 读 items.json 整理成分类日报 → 落盘 `待审核/YYYY-MM-DD/`。只收集，不打分、不选题、不写文、**绝不自动发布**。
 
@@ -29,7 +29,7 @@ cd "/Users/jacob/Desktop/账号运营的内容/AI热点抓取"
 python3 scripts/fetch_all.py
 ```
 
-- 脚本自己处理：14 个源抓取、单源失败不阻塞、中文热搜 AI 关键词过滤、跨源 URL 去重、摘要截断
+- 脚本自己处理：23 个源抓取、单源失败不阻塞、中文热搜 AI 关键词过滤、跨源 URL 去重、摘要截断
 - 产物：`待审核/YYYY-MM-DD/items.json`（全部条目）+ `fetch_report.json`（各源成败）
 - 脚本 exit 2 = 超 60% 源失败 → 终止流程，把 fetch_report 里的错误写进报告，等人工处理。此时残缺数据在 `items.failed.json`（不写 items.json，所以重跑不会被幂等挡住）
 - **不要重试失败的源**，失败信息如实进日报尾部
@@ -39,7 +39,7 @@ python3 scripts/fetch_all.py
 **只读 `items.json`**（绝不去读任何原始网页/RSS/HTML），写 `待审核/YYYY-MM-DD/AI热点日报.md`：
 
 ```markdown
-# AI 热点日报 · YYYY-MM-DD（前 24h，共 N 条，M/14 源正常）
+# AI 热点日报 · YYYY-MM-DD（前 24h，共 N 条，M/23 源正常）
 
 ## 🔥 今日焦点（跨源同报的大事，0-5 条）
 ## 🚀 模型与产品发布

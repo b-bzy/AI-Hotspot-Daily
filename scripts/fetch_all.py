@@ -392,6 +392,87 @@ def fetch_juejin(cfg, hours, en_match, zh_match):
     return items
 
 
+# --- 英文科技媒体 RSS（补足公司/产品/行业新闻深度，此前英文侧只有 Techmeme） ---
+# native AI 频道无需过滤；Ars 是泛科技需过滤。heat_val=8 让媒体条目排在有真实热度的源之后。
+
+def fetch_thedecoder(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("thedecoder", "https://the-decoder.com/feed/", hours,
+                             en_match, native_ai=True, lang="en", heat="The Decoder", heat_val=8)
+
+
+def fetch_techcrunch(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("techcrunch", "https://techcrunch.com/category/artificial-intelligence/feed/",
+                             hours, en_match, native_ai=True, lang="en", heat="TechCrunch", heat_val=8)
+
+
+def fetch_theverge(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("theverge", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+                             hours, en_match, native_ai=True, lang="en", heat="The Verge", heat_val=8)
+
+
+def fetch_venturebeat(cfg, hours, en_match, zh_match):
+    # 用主 feed + 过滤：/category/ai/feed/ 已冻结不更新（最新条目停在数月前），主 feed 才是新鲜的
+    return _fetch_rss_source("venturebeat", "https://venturebeat.com/feed/",
+                             hours, en_match, native_ai=False, lang="en", heat="VentureBeat", heat_val=8)
+
+
+def fetch_mittr(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("mit_tr", "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+                             hours, en_match, native_ai=True, lang="en", heat="MIT科技评论", heat_val=8)
+
+
+def fetch_arstechnica(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("arstechnica", "https://feeds.arstechnica.com/arstechnica/technology-lab",
+                             hours, en_match, native_ai=False, lang="en", heat="Ars Technica", heat_val=8)
+
+
+# --- 中文补充 ---
+
+def fetch_leiphone(cfg, hours, en_match, zh_match):
+    return _fetch_rss_source("leiphone", "https://www.leiphone.com/feed", hours,
+                             zh_match, heat="雷锋网")
+
+
+# --- ProductHunt：AI 新产品发布（Atom，标题即产品名，过滤出 AI 相关） ---
+
+def fetch_producthunt(cfg, hours, en_match, zh_match):
+    items = []
+    for title, link, pub, desc in _rss_entries("https://www.producthunt.com/feed"):
+        dt = parse_dt(pub)
+        if not within(dt, hours):
+            continue
+        if not (en_match(title) or en_match(desc)):
+            continue
+        items.append(make_item("producthunt", "en", title, link, "PH新品", 8, dt, desc))
+    return items
+
+
+# --- NewsNow 聚合：补抖音/百度/头条社会热榜里的 AI 条目（排名当热度，需过滤） ---
+
+def fetch_newsnow(cfg, hours, en_match, zh_match):
+    items, errors = [], []
+    src_names = {"douyin": "抖音", "baidu": "百度", "toutiao": "头条", "kuaishou": "快手"}
+    for sid in cfg.get("newsnow_ids", ["douyin", "baidu", "toutiao"]):
+        try:
+            data = get_json(f"https://newsnow.busiyi.world/api/s?id={sid}")
+            lst = data.get("items", [])
+            if not lst:
+                errors.append(f"{sid}: 空")
+                continue
+            for i, e in enumerate(lst, 1):
+                title = e.get("title") or ""
+                url = e.get("url") or ""
+                if not url or not zh_match(title):
+                    continue
+                items.append(make_item("newsnow", "zh", title, url,
+                                       f"{src_names.get(sid, sid)}热榜#{i}", 500 - i, None))
+        except Exception as e:
+            errors.append(f"{sid}: {e}")
+    if errors and not items:
+        raise RuntimeError("; ".join(errors))
+    return items, ("部分子源异常: " + "; ".join(errors)) if errors else ""
+
+
 ADAPTERS = {
     "hackernews": fetch_hackernews,
     "hf_papers": fetch_hf_papers,
@@ -407,6 +488,16 @@ ADAPTERS = {
     "ithome": fetch_ithome,
     "kr36": fetch_36kr,
     "juejin": fetch_juejin,
+    # 扩展源（2026-07-10 新增）
+    "thedecoder": fetch_thedecoder,
+    "techcrunch": fetch_techcrunch,
+    "theverge": fetch_theverge,
+    "venturebeat": fetch_venturebeat,
+    "mit_tr": fetch_mittr,
+    "arstechnica": fetch_arstechnica,
+    "leiphone": fetch_leiphone,
+    "producthunt": fetch_producthunt,
+    "newsnow": fetch_newsnow,
 }
 
 # ---------------------------------------------------------------- 主流程
