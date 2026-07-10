@@ -1,0 +1,52 @@
+{
+  "_说明": "AI热点抓取 运行配置。脚本零依赖只认 JSON。改这里，不用改 SKILL.md 和脚本。",
+  "hours": 24,
+  "timezone": "Asia/Shanghai",
+
+  "sources": {
+    "_说明": "true=启用 false=关闭。源挂了想临时屏蔽就改这里",
+    "hackernews": true,
+    "hf_papers": true,
+    "hf_trending": true,
+    "github_trending": true,
+    "techmeme": true,
+    "smolai": true,
+    "zpravobot": true,
+    "weibo": true,
+    "zhihu": true,
+    "bilibili": true,
+    "qbitai": true,
+    "ithome": true,
+    "kr36": true,
+    "juejin": true
+  },
+
+  "hn_queries": ["AI", "LLM", "OpenAI", "Claude", "GPT", "Gemini"],
+  "hn_min_points": 20,
+  "hf_paper_min_upvotes": 5,
+  "smolai_digest_chars": 2500,
+  "zpravobot_accounts": ["sama", "OpenAI", "AnthropicAI", "googledeepmind", "xai"],
+
+  "keywords_zh": [
+    "AI", "人工智能", "大模型", "大语言模型", "AIGC", "智能体", "机器人", "具身",
+    "算力", "芯片", "半导体", "英伟达", "GPU", "自动驾驶", "智驾",
+    "GPT", "ChatGPT", "Claude", "Gemini", "Grok", "Llama", "Qwen", "千问",
+    "DeepSeek", "深度求索", "豆包", "Kimi", "通义", "文心", "混元", "盘古",
+    "智谱", "GLM", "Sora", "Midjourney",
+    "OpenAI", "Anthropic", "DeepMind", "月之暗面", "MiniMax", "阶跃", "零一万物", "面壁",
+    "生成式", "文生图", "文生视频", "数字人", "AI眼镜", "机器学习", "神经网络",
+    "AGI", "昇腾", "寒武纪", "开源模型", "端侧模型", "推理模型", "多模态",
+    "Agent", "MCP", "Copilot", "Cursor", "xAI", "马斯克"
+  ],
+
+  "keywords_en": [
+    "AI", "A\\.I\\.", "LLMs?", "GPTs?", "GPT-\\d", "ChatGPT", "Claude", "Gemini",
+    "Grok", "Llama", "Mistral", "Qwen", "DeepSeek", "Kimi",
+    "OpenAI", "Anthropic", "DeepMind", "xAI", "Nvidia", "CUDA",
+    "AGI", "machine[- ]learning", "deep[- ]learning", "neural", "transformers?",
+    "diffusion", "agentic", "agents?", "copilot", "chatbots?", "multimodal",
+    "fine-?tun\\w*", "inference", "RAG", "hugging ?face", "foundation model",
+    "open[- ]?weights?", "text-to-(image|video|speech)", "TTS", "speech-to-text",
+    "robotics", "humanoid", "embodied", "GPU", "TPU", "semiconductor", "MCP"
+  ]
+}

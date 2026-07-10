@@ -1,0 +1,42 @@
+# 信息源清单与坑（2026-07-09/10 本机实测）
+
+MVP 已接入 14 源。端点细节都在 `scripts/fetch_all.py` 的适配器里，这里记「为什么这样写」和已知的坑，供维护时查。
+
+## 已接入
+
+| 源 | 类型 | 关键坑 |
+|---|---|---|
+| hackernews | 热度(points) | Algolia `numericFilters` 的 `>` 必须 URL 编码 `%3E`；points 过滤参数不可靠，客户端过滤（配置 hn_min_points=20） |
+| hf_papers | 热度(upvotes) | daily_papers 本身就是"昨天的论文"，天然契合 |
+| hf_trending | 热度(trendingScore) | models + spaces 两个端点 |
+| github_trending | 热度(stars today) | 无官方 API，HTML 正则解析，**页面改版会挂**，挂了看 `<article>` 结构改正则 |
+| techmeme | 上榜即热度 | 标题自带信源署名，信息密度高 |
+| smolai | 每日综述 | 一条 item = 全天 X/Reddit/Discord 热议；摘要截 2500 字符给 Claude 提炼；周一可能是上周五的期号（放宽 72h） |
+| zpravobot | KOL 推文镜像 | 个人维护的 Mastodon 实例，**可能停摆**；单账号失败不影响其他账号 |
+| weibo | 榜单排名+num | **必须带 Referer: https://weibo.com/**，裸请求 403 |
+| zhihu | 榜单排名+热度文本 | **必须用 api.zhihu.com 域**，www 域的端点要登录 |
+| bilibili | view/like | 参数是 `rid` 不是 `tid`；需要普通 UA |
+| qbitai | AI 垂直媒体 | 100% AI，机器之心 RSS 已死后的替代 |
+| ithome | 泛科技快讯 | 量大，关键词过滤后仍是中文条目主力 |
+| kr36 | 商业动态 | 只用 /feed；快讯 API 要签名，别碰 |
+| juejin | 开发者热榜 | category_id=6809637773935378440 是"人工智能"分类 |
+
+## 死亡名单（别再试）
+
+- Reddit 匿名 JSON：本机 IP 被 Cloudflare 拦，403（要接需注册免费 OAuth app）
+- Nitter 全部公共实例、RSSHub 全部公共实例：反爬墙/停服
+- 机器之心 RSS：已随改版下线
+- tophub.today：反爬严；InBrief API（ai-news-skill）：404 失效
+- `public.api.bsky.app` 的 searchPosts：403，要用 `api.bsky.app`（Bluesky 尚未接入，扩展项）
+
+## 扩展候选（下一版可加）
+
+- NewsNow 公共实例 `newsnow.busiyi.world/api/s?id={weibo|douyin|toutiao|baidu}`：作微博/知乎的降级链 + 补抖音/头条/百度
+- anyknew `www.anyknew.com/api/v1/sites/{site}`：同上互备
+- Bluesky `api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed`：镜像号 karpathy-mirr.selfhosted.social / sama-mirr.selfhosted.social / anthropicbot.bsky.social
+- Reddit OAuth（r/LocalLLaMA 等 5 个 sub，需 jacob 注册免费 app）
+- 36氪快讯：`36kr.com/newsflashes` 页内 `window.initialState` JSON（脆弱）
+
+## 关键词表维护
+
+词表在 `配置.json`（keywords_zh / keywords_en）。原则沿用 GitHub-AI-Trending 的经验：保持高质量词 50–100 个；每次看日报发现误放/漏放，就来改词表。英文词是正则（注意转义），短词自带 `\b` 词边界防止 "air" 误命中 "ai"。
