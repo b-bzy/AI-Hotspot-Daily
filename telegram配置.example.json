@@ -1,0 +1,5 @@
+{
+  "_说明": "复制本文件为 telegram配置.json 并填入真实值。telegram配置.json 已被 gitignore，绝对不要提交到仓库。",
+  "bot_token": "在这里粘贴 @BotFather 给你的 token，形如 123456789:ABCdefGHI...",
+  "chat_id": "在这里填 chat_id：个人对话是纯数字；频道是 @频道名 或 -100 开头的数字"
+}

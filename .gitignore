@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Telegram bot token —— 绝对不能进仓库
+telegram配置.json

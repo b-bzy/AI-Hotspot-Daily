@@ -60,6 +60,16 @@ python3 scripts/fetch_all.py
 5. **排序**：板块内按热度原值/多源命中降序；宁多勿删，除第 3 条外不做筛选——这是收集不是策展
 6. **允许平静**：真没大事，焦点板块写「今日平静」即可，不硬凑
 
+## 第三步半（可选）：推送 Telegram
+
+```bash
+python3 scripts/send_telegram.py
+```
+
+- 工作区根目录存在 `telegram配置.json`（bot_token + chat_id）时才真正发送：焦点板块作为消息 + 完整日报 .md 作为附件
+- 未配置/占位符状态脚本自动 SKIP（exit 0），流水线无条件调用即可
+- 发送失败不阻塞流程，如实写进汇报；token 文件已 gitignore，**绝不能提交**
+
 ## 第四步：落盘 + 汇报
 
 1. 确认 `待审核/YYYY-MM-DD/` 下有：`items.json`、`fetch_report.json`、`AI热点日报.md`
