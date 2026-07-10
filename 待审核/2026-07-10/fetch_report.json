@@ -2,29 +2,29 @@
  "meta": {
   "date": "2026-07-10",
   "window_hours": 24,
-  "generated_at": "2026-07-10T22:32:17+08:00",
+  "generated_at": "2026-07-10T22:54:44+08:00",
   "sources_ok": 25,
   "sources_enabled": 25,
-  "total_items": 180
+  "total_items": 175
  },
  "sources": [
   {
    "source": "hackernews",
    "ok": true,
-   "count": 6,
-   "secs": 5.8
+   "count": 5,
+   "secs": 5.6
   },
   {
    "source": "hf_papers",
    "ok": true,
    "count": 12,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "source": "hf_trending",
    "ok": true,
    "count": 23,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "source": "github_trending",
@@ -36,31 +36,31 @@
    "source": "techmeme",
    "ok": true,
    "count": 6,
-   "secs": 1.0
+   "secs": 4.7
   },
   {
    "source": "smolai",
    "ok": true,
    "count": 1,
-   "secs": 0.6
+   "secs": 1.0
   },
   {
    "source": "vendor_blogs",
    "ok": true,
    "count": 3,
-   "secs": 5.8
+   "secs": 5.9
   },
   {
    "source": "zpravobot",
    "ok": true,
-   "count": 25,
-   "secs": 9.5
+   "count": 24,
+   "secs": 9.7
   },
   {
    "source": "bluesky",
    "ok": true,
    "count": 7,
-   "secs": 6.9
+   "secs": 6.7
   },
   {
    "source": "weibo",
@@ -71,8 +71,8 @@
   {
    "source": "zhihu",
    "ok": true,
-   "count": 2,
-   "secs": 0.6
+   "count": 1,
+   "secs": 0.8
   },
   {
    "source": "bilibili",
@@ -84,37 +84,37 @@
    "source": "qbitai",
    "ok": true,
    "count": 7,
-   "secs": 1.3
+   "secs": 2.4
   },
   {
    "source": "ithome",
    "ok": true,
    "count": 5,
-   "secs": 4.4
+   "secs": 14.1
   },
   {
    "source": "kr36",
    "ok": true,
    "count": 5,
-   "secs": 3.8
+   "secs": 3.1
   },
   {
    "source": "juejin",
    "ok": true,
    "count": 20,
-   "secs": 1.0
+   "secs": 1.2
   },
   {
    "source": "thedecoder",
    "ok": true,
    "count": 6,
-   "secs": 1.1
+   "secs": 1.2
   },
   {
    "source": "techcrunch",
    "ok": true,
-   "count": 16,
-   "secs": 0.1
+   "count": 14,
+   "secs": 4.2
   },
   {
    "source": "theverge",
@@ -132,31 +132,31 @@
    "source": "mit_tr",
    "ok": true,
    "count": 1,
-   "secs": 0.2
+   "secs": 0.7
   },
   {
    "source": "arstechnica",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "source": "leiphone",
    "ok": true,
    "count": 10,
-   "secs": 3.2
+   "secs": 2.7
   },
   {
    "source": "producthunt",
    "ok": true,
    "count": 3,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "source": "newsnow",
    "ok": true,
    "count": 1,
-   "secs": 8.3
+   "secs": 26.6
   }
  ]
 }

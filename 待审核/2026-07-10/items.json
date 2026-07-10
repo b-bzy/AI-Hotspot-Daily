@@ -2,10 +2,10 @@
  "meta": {
   "date": "2026-07-10",
   "window_hours": 24,
-  "generated_at": "2026-07-10T22:32:17+08:00",
+  "generated_at": "2026-07-10T22:54:44+08:00",
   "sources_ok": 25,
   "sources_enabled": 25,
-  "total_items": 180
+  "total_items": 175
  },
  "items": [
   {
@@ -13,8 +13,8 @@
    "lang": "en",
    "title": "GPT-5.6",
    "url": "https://openai.com/index/gpt-5-6/",
-   "heat": "首页·1415分/993评论",
-   "heat_val": 1415.0,
+   "heat": "首页·1428分/1005评论",
+   "heat_val": 1428.0,
    "published_at": "2026-07-09T17:04:14+00:00",
    "summary": "",
    "native_ai": false
@@ -24,8 +24,8 @@
    "lang": "en",
    "title": "AI-generated videos to maximally drive a target brain region",
    "url": "https://nevo-project.epfl.ch/",
-   "heat": "首页·152分/157评论",
-   "heat_val": 152.0,
+   "heat": "首页·155分/163评论",
+   "heat_val": 155.0,
    "published_at": "2026-07-10T07:39:11+00:00",
    "summary": "",
    "native_ai": false
@@ -35,31 +35,9 @@
    "lang": "en",
    "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
    "url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
-   "heat": "首页·133分/185评论",
-   "heat_val": 133.0,
+   "heat": "首页·138分/190评论",
+   "heat_val": 138.0,
    "published_at": "2026-07-06T14:59:21+00:00",
-   "summary": "",
-   "native_ai": false
-  },
-  {
-   "source": "hackernews",
-   "lang": "en",
-   "title": "Building a real-time AI tutor for 5-year-olds",
-   "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-   "heat": "首页·115分/231评论",
-   "heat_val": 115.0,
-   "published_at": "2026-07-09T20:51:06+00:00",
-   "summary": "",
-   "native_ai": false
-  },
-  {
-   "source": "hackernews",
-   "lang": "en",
-   "title": "How do you use Vim in the era of AI?",
-   "url": "https://news.ycombinator.com/item?id=48859439",
-   "heat": "首页·23分/37评论",
-   "heat_val": 23.0,
-   "published_at": "2026-07-10T13:11:30+00:00",
    "summary": "",
    "native_ai": false
   },
@@ -71,6 +49,17 @@
    "heat": "23分/1评论",
    "heat_val": 23.0,
    "published_at": "2026-07-09T22:28:58+00:00",
+   "summary": "",
+   "native_ai": false
+  },
+  {
+   "source": "hackernews",
+   "lang": "en",
+   "title": "Unified Memory, Explained: Why Mini PCs Can Run 70B Models a Big GPU Can't",
+   "url": "https://vettedconsumer.com/unified-memory-explained-why-mini-pcs-can-run-70b-models-a-big-gpu-cant-and-where-they-slow-down/",
+   "heat": "首页·15分/4评论",
+   "heat_val": 15.0,
+   "published_at": "2026-07-10T10:40:26+00:00",
    "summary": "",
    "native_ai": false
   },
@@ -211,8 +200,8 @@
    "lang": "en",
    "title": "[模型] tencent/Hy3",
    "url": "https://huggingface.co/tencent/Hy3",
-   "heat": "趋势分620·643赞",
-   "heat_val": 620.0,
+   "heat": "趋势分622·645赞",
+   "heat_val": 622.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -222,8 +211,8 @@
    "lang": "en",
    "title": "[模型] empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-   "heat": "趋势分525·1952赞",
-   "heat_val": 525.0,
+   "heat": "趋势分524·1953赞",
+   "heat_val": 524.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -233,8 +222,8 @@
    "lang": "en",
    "title": "[模型] zai-org/GLM-5.2",
    "url": "https://huggingface.co/zai-org/GLM-5.2",
-   "heat": "趋势分349·3760赞",
-   "heat_val": 349.0,
+   "heat": "趋势分348·3760赞",
+   "heat_val": 348.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -255,8 +244,8 @@
    "lang": "en",
    "title": "[模型] baidu/Unlimited-OCR",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
-   "heat": "趋势分224·1914赞",
-   "heat_val": 224.0,
+   "heat": "趋势分223·1914赞",
+   "heat_val": 223.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -266,8 +255,8 @@
    "lang": "en",
    "title": "[Space] smolagents/hf-realtime-voice",
    "url": "https://huggingface.co/spaces/smolagents/hf-realtime-voice",
-   "heat": "趋势分211·338赞",
-   "heat_val": 211.0,
+   "heat": "趋势分208·338赞",
+   "heat_val": 208.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -277,8 +266,8 @@
    "lang": "en",
    "title": "[模型] bottlecapai/ThinkingCap-Qwen3.6-27B",
    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
-   "heat": "趋势分196·203赞",
-   "heat_val": 196.0,
+   "heat": "趋势分197·204赞",
+   "heat_val": 197.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -288,8 +277,8 @@
    "lang": "en",
    "title": "[模型] google/tabfm-1.0.0-pytorch",
    "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-   "heat": "趋势分195·341赞",
-   "heat_val": 195.0,
+   "heat": "趋势分193·341赞",
+   "heat_val": 193.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -321,8 +310,8 @@
    "lang": "en",
    "title": "[模型] mistralai/Leanstral-1.5-119B-A6B",
    "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
-   "heat": "趋势分175·182赞",
-   "heat_val": 175.0,
+   "heat": "趋势分169·182赞",
+   "heat_val": 169.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -343,7 +332,7 @@
    "lang": "en",
    "title": "[模型] HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
    "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-   "heat": "趋势分155·2613赞",
+   "heat": "趋势分155·2614赞",
    "heat_val": 155.0,
    "published_at": "",
    "summary": "",
@@ -365,8 +354,8 @@
    "lang": "en",
    "title": "[模型] deepreinforce-ai/Ornith-1.0-35B-GGUF",
    "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
-   "heat": "趋势分150·834赞",
-   "heat_val": 150.0,
+   "heat": "趋势分149·834赞",
+   "heat_val": 149.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -387,8 +376,8 @@
    "lang": "en",
    "title": "[Space] Sneak-Moose/Pro-Realism-Edit-Studio",
    "url": "https://huggingface.co/spaces/Sneak-Moose/Pro-Realism-Edit-Studio",
-   "heat": "趋势分107·486赞",
-   "heat_val": 107.0,
+   "heat": "趋势分106·486赞",
+   "heat_val": 106.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -398,8 +387,8 @@
    "lang": "en",
    "title": "[Space] kulkas2pintu/wan555",
    "url": "https://huggingface.co/spaces/kulkas2pintu/wan555",
-   "heat": "趋势分89·422赞",
-   "heat_val": 89.0,
+   "heat": "趋势分88·422赞",
+   "heat_val": 88.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -442,8 +431,8 @@
    "lang": "en",
    "title": "[Space] krea/Krea-2",
    "url": "https://huggingface.co/spaces/krea/Krea-2",
-   "heat": "趋势分43·153赞",
-   "heat_val": 43.0,
+   "heat": "趋势分44·154赞",
+   "heat_val": 44.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -922,17 +911,6 @@
    "native_ai": true
   },
   {
-   "source": "kol_x",
-   "lang": "en",
-   "title": "@perplexity_ai: We measured cost per task against GLM 5.2 as the baseline. On WANDR, GLM 5.2 + a",
-   "url": "https://zpravobot.news/@perplexity_ai/116890575878915417",
-   "heat": "官方号/KOL推文",
-   "heat_val": 30.0,
-   "published_at": "2026-07-09T14:50:40+00:00",
-   "summary": "We measured cost per task against GLM 5.2 as the baseline. On WANDR, GLM 5.2 + advisor runs at 2.1x versus Opus at 6.1x, averaging roughly half the cost of Opus across all benchmarks.",
-   "native_ai": true
-  },
-  {
    "source": "kol_bsky",
    "lang": "en",
    "title": "Ethan Mollick: Hint for all AI Labs as they branch out from apps for programming to general kno",
@@ -1014,8 +992,8 @@
    "lang": "zh",
    "title": "半导体设备新股暴涨1070%",
    "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%AE%BE%E5%A4%87%E6%96%B0%E8%82%A1%E6%9A%B4%E6%B6%A81070%25%23",
-   "heat": "热搜#20·602036·新",
-   "heat_val": 980.0,
+   "heat": "热搜#18·433512·新",
+   "heat_val": 982.0,
    "published_at": "",
    "summary": "",
    "native_ai": false
@@ -1025,21 +1003,10 @@
    "lang": "zh",
    "title": "SpaceXAI 发布 Grok 4.5，和 Cursor 一起联合开发的 AI 模型有什么特别的？",
    "url": "https://www.zhihu.com/question/2058472497230648834",
-   "heat": "热榜#17·116 万热度",
-   "heat_val": 983.0,
+   "heat": "热榜#18·112 万热度",
+   "heat_val": 982.0,
    "published_at": "",
    "summary": "",
-   "native_ai": false
-  },
-  {
-   "source": "zhihu",
-   "lang": "zh",
-   "title": "AI能让人减少孤独，还是会让人更孤独？",
-   "url": "https://www.zhihu.com/question/2050922931207632609",
-   "heat": "热榜#28·56 万热度",
-   "heat_val": 972.0,
-   "published_at": "",
-   "summary": "技术越是强大，那些「并不高效但属于我」的痕迹，就越珍贵。 你无需证明，只需记录，我们邀请你一起共建一场充满「人味」的讨论场。让过去的创造、今天的尝试，还有未来的每一步——都带着人类的温度，被看见、被留下… 2026 人文季正式启动｜活动主会场 ⬇️知乎 2026 人文季「本来就很棒的人类」",
    "native_ai": false
   },
   {
@@ -1047,8 +1014,8 @@
    "lang": "zh",
    "title": "多动症版甄嬛传2-感人泪下的甄氏父女情【AI全民制作人】",
    "url": "https://www.bilibili.com/video/BV1coMg6WEc5",
-   "heat": "160万播放·影视杂谈",
-   "heat_val": 1605314.0,
+   "heat": "161万播放·影视杂谈",
+   "heat_val": 1615604.0,
    "published_at": "",
    "summary": "",
    "native_ai": false
@@ -1245,8 +1212,8 @@
    "lang": "zh",
    "title": "凌晨睡不着，我给台风巴威写了个追踪网站",
    "url": "https://juejin.cn/post/7659393583027896330",
-   "heat": "AI热榜·7232阅读",
-   "heat_val": 7232.0,
+   "heat": "AI热榜·7233阅读",
+   "heat_val": 7233.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1311,8 +1278,8 @@
    "lang": "zh",
    "title": "我多年积累的 100+ 简历优化经验，整理成了 Skill",
    "url": "https://juejin.cn/post/7659275867992850486",
-   "heat": "AI热榜·1365阅读",
-   "heat_val": 1365.0,
+   "heat": "AI热榜·1366阅读",
+   "heat_val": 1366.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1322,8 +1289,8 @@
    "lang": "zh",
    "title": "三年了，为什么 AI 应用还没爆发？",
    "url": "https://juejin.cn/post/7659709059810705462",
-   "heat": "AI热榜·1098阅读",
-   "heat_val": 1098.0,
+   "heat": "AI热榜·1099阅读",
+   "heat_val": 1099.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1388,8 +1355,8 @@
    "lang": "zh",
    "title": "一个看不见的撇号，让Claude Code追踪了中国开发者三个月",
    "url": "https://juejin.cn/post/7659618806900588582",
-   "heat": "AI热榜·607阅读",
-   "heat_val": 607.0,
+   "heat": "AI热榜·608阅读",
+   "heat_val": 608.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1399,8 +1366,8 @@
    "lang": "zh",
    "title": "我同时用了 Claude Code、Cursor 和 Codex，说说三个工具的真实差距——2026 年选错工具比不用 AI 更浪费时间",
    "url": "https://juejin.cn/post/7659431096430592038",
-   "heat": "AI热榜·558阅读",
-   "heat_val": 558.0,
+   "heat": "AI热榜·559阅读",
+   "heat_val": 559.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1443,8 +1410,8 @@
    "lang": "zh",
    "title": "Agent 智能体：从概念到实践 —— 如何打造一个真正能干活的 AI 助手",
    "url": "https://juejin.cn/post/7659249446257688591",
-   "heat": "AI热榜·330阅读",
-   "heat_val": 330.0,
+   "heat": "AI热榜·331阅读",
+   "heat_val": 331.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1678,28 +1645,6 @@
    "heat_val": 8.0,
    "published_at": "2026-07-09T17:06:11+00:00",
    "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sideli",
-   "native_ai": true
-  },
-  {
-   "source": "techcrunch",
-   "lang": "en",
-   "title": "Anthropic’s new Claude feature is quietly selling you on AI",
-   "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-   "heat": "TechCrunch",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T14:53:09+00:00",
-   "summary": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
-   "native_ai": true
-  },
-  {
-   "source": "techcrunch",
-   "lang": "en",
-   "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
-   "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
-   "heat": "TechCrunch",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T14:51:00+00:00",
-   "summary": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
    "native_ai": true
   },
   {
@@ -1947,23 +1892,23 @@
   {
    "source": "producthunt",
    "lang": "en",
-   "title": "Muse Spark 1.1 by Meta AI",
-   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
-   "heat": "PH新品",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T08:01:28-07:00",
-   "summary": "Multimodal reasoning model built for agentic tasks Discussion | Link",
-   "native_ai": false
-  },
-  {
-   "source": "producthunt",
-   "lang": "en",
    "title": "GPT-5.6",
    "url": "https://www.producthunt.com/products/openai",
    "heat": "PH新品",
    "heat_val": 8.0,
    "published_at": "2026-07-09T10:08:01-07:00",
    "summary": "Stronger performance per dollar and more smarts per token Discussion | Link",
+   "native_ai": false
+  },
+  {
+   "source": "producthunt",
+   "lang": "en",
+   "title": "Muse Spark 1.1 by Meta AI",
+   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+   "heat": "PH新品",
+   "heat_val": 8.0,
+   "published_at": "2026-07-09T08:01:28-07:00",
+   "summary": "Multimodal reasoning model built for agentic tasks Discussion | Link",
    "native_ai": false
   },
   {

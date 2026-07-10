@@ -60,6 +60,15 @@ python3 scripts/fetch_all.py
 5. **排序**：板块内按热度原值/多源命中降序；宁多勿删，除第 3 条外不做筛选——这是收集不是策展
 6. **允许平静**：真没大事，焦点板块写「今日平静」即可，不硬凑
 
+## 第三步·增补：生成爆款选题榜（自媒体选题）
+
+整理完日报后，读同一份 `items.json`，按 `reference/爆款选题评分框架.md` 的六维模型给当日事件打「爆款指数」，产出 `待审核/YYYY-MM-DD/爆款选题榜.md`：
+
+- 六维：热度势能/情绪张力/社交货币/受众共鸣/角度空间 加权求和 × 红海惩罚系数（全网都在写的大热点要扣分，保护差异化蓝海选题）
+- 输出 TOP 10「选题卡」：排名+爆款指数、2-3 个钩子标题、切入角度、适配平台+写作 skill（kazike-tuwen/keji-koubo-jieshuo/cong-hang-dao-la/fenceng-xushi/news-note-writer）、竞争度、时效窗口、避坑提示
+- 账号定位默认「泛科技号」；若为开发者号，开发者向选题的受众共鸣分 +2（框架 §1.4）
+- 框架完整方法论与集成说明见 `reference/爆款选题评分框架.md`
+
 ## 第三步半（可选）：推送 Telegram
 
 ```bash
@@ -72,7 +81,7 @@ python3 scripts/send_telegram.py
 
 ## 第四步：落盘 + 汇报
 
-1. 确认 `待审核/YYYY-MM-DD/` 下有：`items.json`、`fetch_report.json`、`AI热点日报.md`
+1. 确认 `待审核/YYYY-MM-DD/` 下有：`items.json`、`fetch_report.json`、`AI热点日报.md`、`爆款选题榜.md`
 2. 在 chat 里输出：
    - 统计行：总条数、各板块条数、异常源
    - 「今日焦点」板块全文
