@@ -46,8 +46,16 @@ def api_call(token, method, data=None, file_field=None, file_path=None):
         parts.append(f"\r\n--{boundary}--\r\n".encode())
         req = urllib.request.Request(url, data=b"".join(parts), headers={
             "Content-Type": f"multipart/form-data; boundary={boundary}"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        out = json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            out = json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        # Telegram 的 4xx 响应体里有具体原因(description)，必须读出来否则没法排障
+        try:
+            detail = json.loads(e.read().decode()).get("description", "")
+        except Exception:
+            detail = ""
+        raise RuntimeError(f"Telegram API {e.code}: {detail or e.reason}") from None
     if not out.get("ok"):
         raise RuntimeError(f"Telegram API 错误: {out}")
     return out
