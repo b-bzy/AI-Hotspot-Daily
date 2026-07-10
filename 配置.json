@@ -12,6 +12,7 @@
     "techmeme": true,
     "smolai": true,
     "zpravobot": true,
+    "bluesky": true,
     "weibo": true,
     "zhihu": true,
     "bilibili": true,
@@ -34,7 +35,16 @@
   "hn_min_points": 20,
   "hf_paper_min_upvotes": 5,
   "smolai_digest_chars": 2500,
-  "zpravobot_accounts": ["sama", "OpenAI", "AnthropicAI", "googledeepmind", "xai"],
+  "_zpravobot说明": "X 官号/掌舵人的 Mastodon 镜像。只有少数账号有镜像(实测:大多数厂商/个人无镜像)。加新账号前先确认 zpravobot.news/@账号.rss 返回 200 且近期有更新",
+  "zpravobot_accounts": ["sama", "OpenAI", "AnthropicAI", "googledeepmind", "xai", "perplexity_ai"],
+  "_bluesky说明": "AI 博主/掌舵人在 Bluesky 的原生号或 X 镜像号。加新账号前用 getAuthorFeed 确认近期活跃(很多人有号但已弃用)",
+  "bluesky_handles": [
+    {"handle": "emollick.bsky.social", "name": "Ethan Mollick"},
+    {"handle": "simonwillison.net", "name": "Simon Willison"},
+    {"handle": "natolambert.bsky.social", "name": "Nathan Lambert"},
+    {"handle": "karpathy-mirr.selfhosted.social", "name": "Andrej Karpathy"},
+    {"handle": "id-aa-carmack-x.bsky.social", "name": "John Carmack"}
+  ],
   "newsnow_ids": ["douyin", "baidu", "toutiao"],
 
   "keywords_zh": [

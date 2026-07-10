@@ -284,6 +284,36 @@ def fetch_zpravobot(cfg, hours, en_match, zh_match):
     return items, ("部分账号失败: " + "; ".join(errors)) if errors else ""
 
 
+def fetch_bluesky(cfg, hours, en_match, zh_match):
+    """抓 AI 博主/掌舵人在 Bluesky 的最新原创帖（原生号 + X 镜像号）。
+    补 zpravobot 拿不到的个人 KOL；用 api.bsky.app（public.api 域的 searchPosts 会 403）。"""
+    items, errors = [], []
+    for h in cfg.get("bluesky_handles", []):
+        handle = h["handle"]
+        name = h.get("name", handle)
+        try:
+            url = ("https://api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
+                   f"?limit=15&actor={urllib.parse.quote(handle)}")
+            for fi in get_json(url).get("feed", []):
+                post = fi.get("post") or {}
+                rec = post.get("record") or {}
+                if rec.get("reply") or fi.get("reason"):  # 跳过回复和转发，只要原创发言
+                    continue
+                text = rec.get("text") or ""
+                dt = parse_dt(rec.get("createdAt"))
+                if not text or not within(dt, hours):
+                    continue
+                rkey = (post.get("uri") or "").rsplit("/", 1)[-1]
+                link = f"https://bsky.app/profile/{handle}/post/{rkey}" if rkey else f"https://bsky.app/profile/{handle}"
+                items.append(make_item("kol_bsky", "en", f"{name}: {text[:80]}", link,
+                                       f"KOL·{name}", 30, dt, text, native_ai=True))
+        except Exception as e:  # 单账号失败不拖累其他账号
+            errors.append(f"{handle}: {e}")
+    if errors and not items:
+        raise RuntimeError("; ".join(errors))
+    return items, ("部分账号失败: " + "; ".join(errors)) if errors else ""
+
+
 def fetch_weibo(cfg, hours, en_match, zh_match):
     data = get_json("https://weibo.com/ajax/side/hotSearch",
                     headers={"Referer": "https://weibo.com/"})
@@ -481,6 +511,7 @@ ADAPTERS = {
     "techmeme": fetch_techmeme,
     "smolai": fetch_smolai,
     "zpravobot": fetch_zpravobot,
+    "bluesky": fetch_bluesky,
     "weibo": fetch_weibo,
     "zhihu": fetch_zhihu,
     "bilibili": fetch_bilibili,

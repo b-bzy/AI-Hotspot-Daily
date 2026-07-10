@@ -2,10 +2,10 @@
  "meta": {
   "date": "2026-07-10",
   "window_hours": 24,
-  "generated_at": "2026-07-10T21:21:07+08:00",
-  "sources_ok": 23,
-  "sources_enabled": 23,
-  "total_items": 163
+  "generated_at": "2026-07-10T21:34:42+08:00",
+  "sources_ok": 24,
+  "sources_enabled": 24,
+  "total_items": 173
  },
  "items": [
   {
@@ -13,8 +13,8 @@
    "lang": "en",
    "title": "GPT-5.6",
    "url": "https://openai.com/index/gpt-5-6/",
-   "heat": "首页·1388分/955评论",
-   "heat_val": 1388.0,
+   "heat": "首页·1392分/963评论",
+   "heat_val": 1392.0,
    "published_at": "2026-07-09T17:04:14+00:00",
    "summary": "",
    "native_ai": false
@@ -24,8 +24,8 @@
    "lang": "en",
    "title": "AI-generated videos to maximally drive a target brain region",
    "url": "https://nevo-project.epfl.ch/",
-   "heat": "首页·129分/127评论",
-   "heat_val": 129.0,
+   "heat": "首页·135分/134评论",
+   "heat_val": 135.0,
    "published_at": "2026-07-10T07:39:11+00:00",
    "summary": "",
    "native_ai": false
@@ -35,8 +35,8 @@
    "lang": "en",
    "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
    "url": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
-   "heat": "首页·112分/160评论",
-   "heat_val": 112.0,
+   "heat": "首页·119分/165评论",
+   "heat_val": 119.0,
    "published_at": "2026-07-06T14:59:21+00:00",
    "summary": "",
    "native_ai": false
@@ -46,8 +46,8 @@
    "lang": "en",
    "title": "Building a real-time AI tutor for 5-year-olds",
    "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
-   "heat": "首页·104分/209评论",
-   "heat_val": 104.0,
+   "heat": "首页·108分/213评论",
+   "heat_val": 108.0,
    "published_at": "2026-07-09T20:51:06+00:00",
    "summary": "",
    "native_ai": false
@@ -145,8 +145,8 @@
    "lang": "en",
    "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
    "url": "https://huggingface.co/papers/2607.08770",
-   "heat": "16赞",
-   "heat_val": 16.0,
+   "heat": "18赞",
+   "heat_val": 18.0,
    "published_at": "2026-07-08T20:00:00+00:00",
    "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose Lo",
    "native_ai": true
@@ -222,8 +222,8 @@
    "lang": "en",
    "title": "[模型] empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
    "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-   "heat": "趋势分527·1951赞",
-   "heat_val": 527.0,
+   "heat": "趋势分526·1951赞",
+   "heat_val": 526.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -233,8 +233,8 @@
    "lang": "en",
    "title": "[模型] zai-org/GLM-5.2",
    "url": "https://huggingface.co/zai-org/GLM-5.2",
-   "heat": "趋势分354·3758赞",
-   "heat_val": 354.0,
+   "heat": "趋势分352·3758赞",
+   "heat_val": 352.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -255,8 +255,8 @@
    "lang": "en",
    "title": "[模型] baidu/Unlimited-OCR",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
-   "heat": "趋势分224·1912赞",
-   "heat_val": 224.0,
+   "heat": "趋势分225·1913赞",
+   "heat_val": 225.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -277,8 +277,8 @@
    "lang": "en",
    "title": "[模型] google/tabfm-1.0.0-pytorch",
    "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
-   "heat": "趋势分195·340赞",
-   "heat_val": 195.0,
+   "heat": "趋势分196·341赞",
+   "heat_val": 196.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -376,8 +376,8 @@
    "lang": "en",
    "title": "[模型] yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
    "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-   "heat": "趋势分132·1128赞",
-   "heat_val": 132.0,
+   "heat": "趋势分133·1129赞",
+   "heat_val": 133.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -387,8 +387,8 @@
    "lang": "en",
    "title": "[Space] Sneak-Moose/Pro-Realism-Edit-Studio",
    "url": "https://huggingface.co/spaces/Sneak-Moose/Pro-Realism-Edit-Studio",
-   "heat": "趋势分107·485赞",
-   "heat_val": 107.0,
+   "heat": "趋势分106·485赞",
+   "heat_val": 106.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -398,7 +398,7 @@
    "lang": "en",
    "title": "[Space] kulkas2pintu/wan555",
    "url": "https://huggingface.co/spaces/kulkas2pintu/wan555",
-   "heat": "趋势分89·419赞",
+   "heat": "趋势分89·420赞",
    "heat_val": 89.0,
    "published_at": "",
    "summary": "",
@@ -834,12 +834,133 @@
    "native_ai": true
   },
   {
-   "source": "zhihu",
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@perplexity_ai: GPT-5.6 Terra and Sol are now available in Perplexity and Perplexity Computer.",
+   "url": "https://zpravobot.news/@perplexity_ai/116892879918092403",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T00:36:37+00:00",
+   "summary": "GPT-5.6 Terra and Sol are now available in Perplexity and Perplexity Computer.",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@perplexity_ai: We measured cost per task against GLM 5.2 as the baseline. On WANDR, GLM 5.2 + a",
+   "url": "https://zpravobot.news/@perplexity_ai/116890575878915417",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T14:50:40+00:00",
+   "summary": "We measured cost per task against GLM 5.2 as the baseline. On WANDR, GLM 5.2 + advisor runs at 2.1x versus Opus at 6.1x, averaging roughly half the cost of Opus across all benchmarks.",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@perplexity_ai: The model has an advisor tool that natively escalates to a stronger model when n",
+   "url": "https://zpravobot.news/@perplexity_ai/116890497426683011",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T14:30:43+00:00",
+   "summary": "The model has an advisor tool that natively escalates to a stronger model when needed. This model is hosted in the U.S. by Perplexity on Nvidia B200 GPUs. We will improve the model in research preview",
+   "native_ai": true
+  },
+  {
+   "source": "kol_x",
+   "lang": "en",
+   "title": "@perplexity_ai: We're releasing a research preview of a new orchestrator model in Perplexity Com",
+   "url": "https://zpravobot.news/@perplexity_ai/116890497310145357",
+   "heat": "官方号/KOL推文",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T14:30:41+00:00",
+   "summary": "We're releasing a research preview of a new orchestrator model in Perplexity Computer. The model is an adapted version of GLM 5.2, post-trained for the Computer harness. It delivers near-frontier perf",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Ethan Mollick: Hint for all AI Labs as they branch out from apps for programming to general kno",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mqbdjzh7w22d",
+   "heat": "KOL·Ethan Mollick",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T04:42:58.353000+00:00",
+   "summary": "Hint for all AI Labs as they branch out from apps for programming to general knowledge work: non-coders are not just dumber coders. Taking away a bunch of options from your coding app does not make it",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Ethan Mollick: When GPT-5 came out, I created a procedural brutalist city builder as a demo (yo",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mqbb3kgjrs2w",
+   "heat": "KOL·Ethan Mollick",
+   "heat_val": 30.0,
+   "published_at": "2026-07-10T03:59:05.356000+00:00",
+   "summary": "When GPT-5 came out, I created a procedural brutalist city builder as a demo (you can see it at the video's start) I used GPT-5.6 Sol in Codex to do the same thing, touching no code. Less than a year.",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Ethan Mollick: This is confusing... Claude Cowork was a purposefully more secure (& slightly w",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mqaovjb6v22w",
+   "heat": "KOL·Ethan Mollick",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T22:33:35.452000+00:00",
+   "summary": "This is confusing... Claude Cowork was a purposefully more secure (& slightly weaker) alternative to Code designed so non-coders couldn't cause too much trouble. I got that. But I don't understand wha",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Ethan Mollick: Here is an example of a real work use case with Codex and 5.6 Sol I have a new",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mqagdj7y6k2w",
+   "heat": "KOL·Ethan Mollick",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T20:00:21.499000+00:00",
+   "summary": "Here is an example of a real work use case with Codex and 5.6 Sol I have a new book coming out in October, it has gone through rounds of editing and proofreading. I gave it the full PDF, the AI took 3",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Ethan Mollick: This is lovely. I had a fun conversation about vastness with a virtual William S",
+   "url": "https://bsky.app/profile/emollick.bsky.social/post/3mqa4zg3myc2q",
+   "heat": "KOL·Ethan Mollick",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T17:13:38.990000+00:00",
+   "summary": "This is lovely. I had a fun conversation about vastness with a virtual William Sieghart which led to a beautiful reading of Keat's Endymion, and one about landscapes of memory and led to a reading of ",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "Simon Willison: Notes on GPT-5.6, which includes some interesting new additions to the API (prog",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mqafoxnsl226",
+   "heat": "KOL·Simon Willison",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T19:48:51.988000+00:00",
+   "summary": "Notes on GPT-5.6, which includes some interesting new additions to the API (programmatic tool calling and multi-agent in particular) - plus 18 pelicans for the 6 reasoning levels and 3 new models: sim",
+   "native_ai": true
+  },
+  {
+   "source": "kol_bsky",
+   "lang": "en",
+   "title": "John Carmack: I have been trying to find something meaningful to say about the Id Software lay",
+   "url": "https://bsky.app/profile/id-aa-carmack-x.bsky.social/post/3mqaix6a77a2h",
+   "heat": "KOL·John Carmack",
+   "heat_val": 30.0,
+   "published_at": "2026-07-09T20:42:20+00:00",
+   "summary": "I have been trying to find something meaningful to say about the Id Software layoffs. My “Microsoft will probably be a good steward of the brand” statement isn’t aging well, and this is certainly goin",
+   "native_ai": true
+  },
+  {
+   "source": "weibo",
    "lang": "zh",
-   "title": "SpaceXAI 发布 Grok 4.5，和 Cursor 一起联合开发的 AI 模型有什么特别的？",
-   "url": "https://www.zhihu.com/question/2058472497230648834",
-   "heat": "热榜#17·109 万热度",
-   "heat_val": 983.0,
+   "title": "半导体设备新股暴涨1070%",
+   "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%AE%BE%E5%A4%87%E6%96%B0%E8%82%A1%E6%9A%B4%E6%B6%A81070%25%23",
+   "heat": "热搜#20·388767·新",
+   "heat_val": 980.0,
    "published_at": "",
    "summary": "",
    "native_ai": false
@@ -847,12 +968,12 @@
   {
    "source": "zhihu",
    "lang": "zh",
-   "title": "AI能让人减少孤独，还是会让人更孤独？",
-   "url": "https://www.zhihu.com/question/2050922931207632609",
-   "heat": "热榜#26·57 万热度",
-   "heat_val": 974.0,
+   "title": "SpaceXAI 发布 Grok 4.5，和 Cursor 一起联合开发的 AI 模型有什么特别的？",
+   "url": "https://www.zhihu.com/question/2058472497230648834",
+   "heat": "热榜#17·112 万热度",
+   "heat_val": 983.0,
    "published_at": "",
-   "summary": "技术越是强大，那些「并不高效但属于我」的痕迹，就越珍贵。 你无需证明，只需记录，我们邀请你一起共建一场充满「人味」的讨论场。让过去的创造、今天的尝试，还有未来的每一步——都带着人类的温度，被看见、被留下… 2026 人文季正式启动｜活动主会场 ⬇️知乎 2026 人文季「本来就很棒的人类」",
+   "summary": "",
    "native_ai": false
   },
   {
@@ -861,7 +982,7 @@
    "title": "多动症版甄嬛传2-感人泪下的甄氏父女情【AI全民制作人】",
    "url": "https://www.bilibili.com/video/BV1coMg6WEc5",
    "heat": "157万播放·影视杂谈",
-   "heat_val": 1570530.0,
+   "heat_val": 1579030.0,
    "published_at": "",
    "summary": "",
    "native_ai": false
@@ -1234,8 +1355,8 @@
    "lang": "zh",
    "title": "GPT-5.6 来了：Sol / Terra / Luna 三个模型怎么选",
    "url": "https://juejin.cn/post/7660459363907780662",
-   "heat": "AI热榜·470阅读",
-   "heat_val": 470.0,
+   "heat": "AI热榜·471阅读",
+   "heat_val": 471.0,
    "published_at": "",
    "summary": "",
    "native_ai": true
@@ -1337,17 +1458,6 @@
    "heat_val": 8.0,
    "published_at": "2026-07-09T16:58:44+00:00",
    "summary": "Meta is entering the AI API business with Muse Spark 1.1 at prices that undercut even the dirt-cheap Grok 4.5, released just yesterday. At $4.25 per million output tokens, Meta charges a fraction of w",
-   "native_ai": true
-  },
-  {
-   "source": "thedecoder",
-   "lang": "en",
-   "title": "OpenAI finds roughly 30 percent of popular AI coding test is broken",
-   "url": "https://the-decoder.com/openai-finds-roughly-30-percent-of-popular-ai-coding-test-is-broken/",
-   "heat": "The Decoder",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T13:23:57+00:00",
-   "summary": "OpenAI reviewed SWE-Bench Pro, a widely used test for measuring AI models' programming skills, and found roughly 30 percent of its tasks are broken. The company is pulling its earlier endorsement of t",
    "native_ai": true
   },
   {
@@ -1529,6 +1639,17 @@
   {
    "source": "theverge",
    "lang": "en",
+   "title": "Would you host part of an AI data center in your home?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/963930/sunrun-distributed-ai-data-center",
+   "heat": "The Verge",
+   "heat_val": 8.0,
+   "published_at": "2026-07-10T09:20:25-04:00",
+   "summary": "A solar and home energy storage company is expanding into AI data centers, but not by building one - instead, it's offering to pay its customers to put its compute units in their homes. Sunrun is laun",
+   "native_ai": true
+  },
+  {
+   "source": "theverge",
+   "lang": "en",
    "title": "Microsoft’s carbon emissions went up 25 percent last year",
    "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
    "heat": "The Verge",
@@ -1601,17 +1722,6 @@
    "heat_val": 8.0,
    "published_at": "2026-07-09T10:00:00-04:00",
    "summary": "After reentering the AI race with its first in-house Muse Spark model in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta ",
-   "native_ai": true
-  },
-  {
-   "source": "theverge",
-   "lang": "en",
-   "title": "Say hello to Claude Wrapped",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
-   "heat": "The Verge",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T09:30:00-04:00",
-   "summary": "The popularity of Spotify Wrapped has kicked off a wide range of year-in-review features, on apps from YouTube to Uber - and now, the lookback trend has come to AI. Anthropic on Thursday announced a \"",
    "native_ai": true
   },
   {
@@ -1771,23 +1881,23 @@
   {
    "source": "producthunt",
    "lang": "en",
-   "title": "Muse Spark 1.1 by Meta AI",
-   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
-   "heat": "PH新品",
-   "heat_val": 8.0,
-   "published_at": "2026-07-09T08:01:28-07:00",
-   "summary": "Multimodal reasoning model built for agentic tasks Discussion | Link",
-   "native_ai": false
-  },
-  {
-   "source": "producthunt",
-   "lang": "en",
    "title": "GPT-5.6",
    "url": "https://www.producthunt.com/products/openai",
    "heat": "PH新品",
    "heat_val": 8.0,
    "published_at": "2026-07-09T10:08:01-07:00",
    "summary": "Stronger performance per dollar and more smarts per token Discussion | Link",
+   "native_ai": false
+  },
+  {
+   "source": "producthunt",
+   "lang": "en",
+   "title": "Muse Spark 1.1 by Meta AI",
+   "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+   "heat": "PH新品",
+   "heat_val": 8.0,
+   "published_at": "2026-07-09T08:01:28-07:00",
+   "summary": "Multimodal reasoning model built for agentic tasks Discussion | Link",
    "native_ai": false
   },
   {

@@ -29,6 +29,21 @@ MVP 已接入 14 源。端点细节都在 `scripts/fetch_all.py` 的适配器里
 | leiphone | 中文AI媒体 | 需过滤；首条常是频道名"雷峰网"要在解析层忽略 |
 | producthunt | AI新品 | Atom，标题即产品名，过滤出 AI 相关；多数日 3-8 条 |
 | newsnow | 社会热榜聚合 | 抖音/百度/头条榜里捞 AI；**低产源**——平时社会新闻刷屏 0 条，大 AI 新闻日才有；个人实例无 SLA |
+| zpravobot | X 官号/掌舵人镜像 | Mastodon RSS。账号在 `配置.json` zpravobot_accounts：sama/OpenAI/AnthropicAI/googledeepmind/xai/perplexity_ai |
+| bluesky | AI 博主/掌舵人 | api.bsky.app getAuthorFeed，只取原创帖（跳过回复/转发）。账号在 `配置.json` bluesky_handles：Mollick/Willison/Lambert/Karpathy镜像/Carmack镜像 |
+
+## KOL / 官号信源实测结论（2026-07-10，决定谁能抓）
+
+X 免费抓取已死，KOL/官号只能靠**镜像**，且大部分账号根本没有可用镜像。逐个探测过 65+ 账号，结论：
+
+**zpravobot（X→Mastodon 镜像）实际有镜像且新鲜的**：OpenAI ✓ · AnthropicAI ✓ · GoogleDeepMind ✓ · sama ✓ · perplexity_ai ✓ · xai(8天前较旧) · StabilityAI(基本停更)。
+**zpravobot 无镜像(404)**：Meta/MistralAI/nvidia/cohere/huggingface/midjourney 等所有其他官号；**全部中国厂商**(deepseek_ai/Qwen/Kimi/Zhipu/MiniMax…)；除 sama 外**所有个人**(马斯克/Hassabis/Pichai/Nadella/LeCun/Ng/Dario…)。
+
+**Bluesky 原生活跃(值得抓)**：Ethan Mollick(每天发) · Simon Willison(活跃) · Nathan Lambert(半活跃)。
+**Bluesky 镜像号活跃**：Karpathy(karpathy-mirr.selfhosted.social) · Carmack(id-aa-carmack-x)。
+**Bluesky 有号但已弃用(数月~1年+没更新，不加)**：Yann LeCun · Gary Marcus · swyx · Jeremy Howard · Sebastian Raschka · Mistral CEO Arthur Mensch · HuggingFace 官号。
+
+**结论**：官号能拿 3 大实验室 + Altman + Perplexity；个人能拿 Karpathy/Carmack/Mollick/Willison/Lambert。**其余(马斯克、中国厂商、Meta/NVIDIA 官号、多数掌舵人)无免费途径**——它们的动态主要靠 smol.ai 综述(每天读 544 个 X 账号)间接覆盖。想要更全需付费 X API 或用 Claude in Chrome 人工看。
 
 ## 死亡名单（别再试）
 
