@@ -82,6 +82,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", default=None, help="YYYY-MM-DD,默认今天(Asia/Shanghai)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--file", default=None, help="改推送任意 md 文件(而非默认日报),给绝对/相对路径")
+    ap.add_argument("--text", default=None, help="配合 --file:随附件先发的一段说明文字")
     args = ap.parse_args()
 
     if not CONFIG_PATH.exists():
@@ -92,6 +94,27 @@ def main():
     if "在这里" in str(token) or not token:
         print("SKIP: telegram配置.json 里还是占位符,跳过推送")
         sys.exit(0)
+
+    # --file 模式:推送任意 md 文件(如爆款选题榜)。默认模式推当日日报。
+    if args.file:
+        f = Path(args.file)
+        if not f.is_absolute():
+            f = WORKDIR / args.file
+        if not f.exists():
+            print(f"FAIL: 文件不存在: {f}")
+            sys.exit(1)
+        title = f.read_text("utf-8").strip().splitlines()[0].lstrip("# ").strip()
+        msg = md_to_tg_html(args.text) if args.text else f"<b>{html_mod.escape(title)}</b>"
+        if args.dry_run:
+            print(f"[dry-run] 将发送到 chat_id={chat_id}:\n{msg[:400]}\n[dry-run] 附件: {f}")
+            return
+        if msg:
+            api_call(token, "sendMessage", {"chat_id": chat_id, "text": msg[:4000],
+                     "parse_mode": "HTML", "disable_web_page_preview": "true"})
+        api_call(token, "sendDocument", {"chat_id": chat_id, "caption": title[:1000]},
+                 file_field="document", file_path=f)
+        print(f"OK: 已推送文件到 Telegram: {f.name}")
+        return
 
     date = args.date or datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
     report = WORKDIR / "待审核" / date / "AI热点日报.md"
