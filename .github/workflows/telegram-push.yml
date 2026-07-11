@@ -1,0 +1,50 @@
+name: Push daily report to Telegram
+
+# 云端 routine 生成日报并推到 main 后，本 Action 自动把成品发到 Telegram。
+# Token 存为仓库 Secret（TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID），绝不进代码。
+on:
+  push:
+    branches: [main]
+    paths:
+      - '待审核/**/AI热点日报.md'
+  workflow_dispatch:  # 允许手动触发（Actions 页面点 Run）
+
+concurrency:
+  group: telegram-push
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Send latest report + topic picks to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "未配置 TELEGRAM secrets，跳过。到仓库 Settings → Secrets 添加后即生效。"
+            exit 0
+          fi
+          # 找最新的一个待审核日期目录
+          DATE=$(ls -d 待审核/*/ 2>/dev/null | sort | tail -1 | sed 's#待审核/##; s#/##')
+          if [ -z "$DATE" ]; then echo "无待审核产物，跳过"; exit 0; fi
+          echo "推送日期: $DATE"
+          # 1) 日报（焦点消息 + 全文附件）
+          python3 scripts/send_telegram.py --date "$DATE"
+          # 2) 爆款选题榜（若存在）
+          if [ -f "待审核/$DATE/爆款选题榜.md" ]; then
+            python3 scripts/send_telegram.py --file "待审核/$DATE/爆款选题榜.md" \
+              --text "📋 <b>今日爆款选题榜</b>（$DATE）"
+          fi
+          # 3) AI 串烧口播稿（若存在）
+          if [ -f "待审核/$DATE/AI串烧口播稿.md" ]; then
+            python3 scripts/send_telegram.py --file "待审核/$DATE/AI串烧口播稿.md" \
+              --text "🎬 <b>今日 AI 串烧口播稿</b>（$DATE）"
+          fi

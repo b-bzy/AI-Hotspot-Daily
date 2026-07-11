@@ -15,6 +15,7 @@
 import argparse
 import html as html_mod
 import json
+import os
 import re
 import sys
 import urllib.parse
@@ -26,6 +27,15 @@ from zoneinfo import ZoneInfo
 
 WORKDIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = WORKDIR / "telegram配置.json"
+
+
+def load_creds():
+    """凭据解析优先级: 本地 telegram配置.json > 环境变量(CI/云端用)。
+    返回 (token, chat_id) 或 (None, None) 表示未配置(调用方应 SKIP)。"""
+    if CONFIG_PATH.exists():
+        cfg = json.loads(CONFIG_PATH.read_text("utf-8"))
+        return cfg.get("bot_token"), cfg.get("chat_id")
+    return os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
 
 
 def api_call(token, method, data=None, file_field=None, file_path=None):
@@ -86,14 +96,10 @@ def main():
     ap.add_argument("--text", default=None, help="配合 --file:随附件先发的一段说明文字")
     args = ap.parse_args()
 
-    if not CONFIG_PATH.exists():
-        print(f"SKIP: 未配置 Telegram({CONFIG_PATH.name} 不存在),跳过推送")
+    token, chat_id = load_creds()
+    if not token or not chat_id or "在这里" in str(token):
+        print("SKIP: 未配置 Telegram(本地 telegram配置.json 或环境变量 TELEGRAM_BOT_TOKEN/CHAT_ID 均无),跳过推送")
         sys.exit(0)  # 未配置不算失败,方便流水线里无条件调用
-    cfg = json.loads(CONFIG_PATH.read_text("utf-8"))
-    token, chat_id = cfg["bot_token"], cfg["chat_id"]
-    if "在这里" in str(token) or not token:
-        print("SKIP: telegram配置.json 里还是占位符,跳过推送")
-        sys.exit(0)
 
     # --file 模式:推送任意 md 文件(如爆款选题榜)。默认模式推当日日报。
     if args.file:
