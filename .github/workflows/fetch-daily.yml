@@ -1,0 +1,45 @@
+name: Fetch AI hotspot sources (daily)
+
+# 每天在 GitHub Actions 的 Ubuntu 虚拟机上跑抓取脚本（完整公网出站，免费），
+# 把 items.json 提交进仓库 —— 云端 routine 的沙箱没有公网出站（仅 github.com 放行），
+# 所以抓取由这里代劳，routine 只读仓库里的 items.json 做整理。
+on:
+  schedule:
+    - cron: '43 3 * * *'   # 03:43 UTC = 07:43 GST = 11:43 北京，早于 routine 的 04:17 UTC
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fetch-daily.yml'   # 推送本文件时立即试跑一次（测试用）
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-daily
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run fetch (stdlib-only, 25 sources)
+        run: |
+          python3 --version
+          # exit 2（超60%源失败）也继续提交失败产物供云端诊断，不让流程假装成功
+          python3 scripts/fetch_all.py || echo "::warning::fetch 脚本非零退出（部分/全部源失败），产物照常提交"
+
+      - name: Commit results
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%F)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "待审核/$DATE/" 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无新产物（当日已存在或抓取全失败且无文件），跳过提交"
+            exit 0
+          fi
+          git commit -m "fetch: 待审核/$DATE 抓取产物 (GitHub Actions)"
+          git pull --rebase origin main
+          git push origin main
