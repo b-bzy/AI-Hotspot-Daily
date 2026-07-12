@@ -1,35 +1,38 @@
-# AI 热点抓取（ai-hotspot-daily）
+# AI-Hotspot-Daily · AI 内容运营自动化平台
 
-每天从 25 个中英文信息源抓取过去 24 小时的 AI 热点，由 Claude Code 整理成一份分类日报。零 API 成本：抓取脚本纯 Python 标准库（零依赖），所有信息源均为免费匿名接口，整理跑在 Claude Code 定时任务里。
+5 条流水线,全云端运行(claude.ai routine + GitHub Actions),零 API 成本,产物统一推送 Telegram。从"每日 AI 热点日报工具"演化而来,现覆盖日报、周报、GitHub 项目文章、资讯笔记四类内容的自动生产。
 
-## 信息源（全部实测可用）
+## 每日节奏(GST 迪拜时间)
 
-**英文**：Hacker News（Algolia API）· HuggingFace Daily Papers / Trending · GitHub Trending · Techmeme · smol.ai AINews（X/Reddit/Discord 每日综述）· TechCrunch AI · The Verge AI · VentureBeat · The Decoder · MIT 科技评论 · Ars Technica · ProductHunt
+| 时间 | 产物 | 说明 |
+|---|---|---|
+| 07:17 | **资讯笔记** 正文+标题包 | 从早报选题深耕,机器之心风格,评审迭代,卡兹克标题包 |
+| 07:43 | 日报原始数据 | GitHub Action 抓 25 个中英文源 |
+| 08:17 | **AI 热点日报 + 爆款选题榜** | 8 板块分类日报 + TOP10 选题卡 |
+| 08:47 | **GitHub Trending 文章** | AI 前 3 项目,科技媒体风格,800-1500 字 |
+| 周日 08:27 | **周选题 TOP10 + 串烧初稿** | 一周早报拉通,选题榜 + 口播串烧稿 |
 
-**官方博客**：OpenAI · Google DeepMind · Google AI · Mistral · HuggingFace · Apple ML · NVIDIA · 微软研究院（各厂官方 newsroom RSS，最权威的一手发布）
+## 📖 文档(从这里找一切)
 
-**KOL / 官号推文**：zpravobot（OpenAI / Anthropic / DeepMind / Sam Altman / Perplexity 等 X 官号镜像）· Bluesky（Ethan Mollick / Simon Willison / Nathan Lambert / Karpathy / Carmack）— 详见 `reference/sources.md` 的实测结论
+- **[docs/00-仓库总览.md](docs/00-仓库总览.md)** ← 平台地图/时间表/目录去向/排障速查
+- [docs/01-日报模块.md](docs/01-日报模块.md) · [docs/02-周报模块.md](docs/02-周报模块.md) · [docs/03-GitHub-Trending模块.md](docs/03-GitHub-Trending模块.md) · [docs/04-资讯笔记模块.md](docs/04-资讯笔记模块.md)
 
-**中文**：微博热搜 · 知乎热榜 · B站排行 · 量子位 · IT之家 · 36氪 · 掘金 AI 热榜 · 雷锋网 · NewsNow（抖音/百度/头条热榜聚合）
-
-## 结构
+## 目录速览
 
 ```
-├── SKILL.md              # Claude Code skill 工作流（4 步流水线）
-├── 配置.json              # 源开关 / 时间窗 / 中英文关键词表
-├── scripts/fetch_all.py   # 多源抓取脚本（stdlib-only）
-├── reference/sources.md   # 源清单、已知坑、死亡名单、扩展候选
-└── 待审核/YYYY-MM-DD/     # 每日产物：items.json + fetch_report.json + AI热点日报.md
+待审核/          ①日报产物(items.json + 日报 + 选题榜)   ← SKILL.md/配置.json/reference/ 服务于此模块
+周报/            ②周报产物
+GitHub-Trending/ ③Trending 模块(自包含: SKILL+配置+reference+选题历史+待审核)
+资讯笔记/         ④笔记模块(reference 4个skill规范 + 每日三文件)
+scripts/         抓取脚本(fetch_all.py) + TG推送(send_telegram.py,全模块共用)
+.github/         5个Action: fetch-daily + 4个telegram推送
+docs/            全部说明文档
 ```
 
-## 用法
+## 设计原则
 
-```bash
-# 手动跑一次抓取（幂等，当日已有产物则跳过；--force 覆盖）
-python3 scripts/fetch_all.py
-
-# 完整流水线（抓取 + 日报整理）在 Claude Code 里触发：
-#   "抓一下AI热点" / "跑一下热点日报"
-```
-
-设计原则：脚本做确定性工作（抓取/过滤/去重），Claude 只读压缩后的 items.json 做判断性整理；单源失败不阻塞；超 60% 源失败视为本次不可用（不写 items.json，避免锁死幂等）；绝不自动发布。
+- **脚本干确定性重活,Claude 只做判断性整理**(绝不读原始网页烧额度)
+- **抓取放 GitHub Actions**(全网通),云端 routine 沙箱只放行 github.com
+- **绝不自动发布到内容平台**——一切产物到 Telegram 送审,人工决定发布
+- **失败安全**:幂等检查/单源失败不阻塞/宁缺毋滥不编造
+- token 只存 GitHub Secrets 与本地 gitignore 文件,永不进仓库
