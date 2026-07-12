@@ -1,0 +1,189 @@
+[
+  {
+    "owner": "usestrix",
+    "name": "strix",
+    "url": "https://github.com/usestrix/strix",
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "language": "Python",
+    "stars_total": 32453,
+    "stars_today": 2137,
+    "rank": 1,
+    "source": "github_html"
+  },
+  {
+    "owner": "JuliusBrussee",
+    "name": "caveman",
+    "url": "https://github.com/JuliusBrussee/caveman",
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "language": "JavaScript",
+    "stars_total": 81209,
+    "stars_today": 926,
+    "rank": 2,
+    "source": "github_html"
+  },
+  {
+    "owner": "msitarzewski",
+    "name": "agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "language": "Shell",
+    "stars_total": 125636,
+    "stars_today": 3032,
+    "rank": 3,
+    "source": "github_html"
+  },
+  {
+    "owner": "hasaneyldrm",
+    "name": "exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+    "language": "HTML",
+    "stars_total": 9339,
+    "stars_today": 938,
+    "rank": 4,
+    "source": "github_html"
+  },
+  {
+    "owner": "santifer",
+    "name": "career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "language": "JavaScript",
+    "stars_total": 57941,
+    "stars_today": 372,
+    "rank": 5,
+    "source": "github_html"
+  },
+  {
+    "owner": "obra",
+    "name": "superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_total": 244558,
+    "stars_today": 897,
+    "rank": 6,
+    "source": "github_html"
+  },
+  {
+    "owner": "ChromeDevTools",
+    "name": "chrome-devtools-mcp",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "language": "TypeScript",
+    "stars_total": 45131,
+    "stars_today": 104,
+    "rank": 7,
+    "source": "github_html"
+  },
+  {
+    "owner": "browser-use",
+    "name": "video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "description": "Edit videos with coding agents",
+    "language": "Python",
+    "stars_total": 13873,
+    "stars_today": 554,
+    "rank": 8,
+    "source": "github_html"
+  },
+  {
+    "owner": "actions",
+    "name": "checkout",
+    "url": "https://github.com/actions/checkout",
+    "description": "Action for checking out a repo",
+    "language": "TypeScript",
+    "stars_total": 8179,
+    "stars_today": 26,
+    "rank": 9,
+    "source": "github_html"
+  },
+  {
+    "owner": "affaan-m",
+    "name": "ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "language": "JavaScript",
+    "stars_total": 225248,
+    "stars_today": 486,
+    "rank": 10,
+    "source": "github_html"
+  },
+  {
+    "owner": "HKUDS",
+    "name": "Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "language": "Python",
+    "stars_total": 17401,
+    "stars_today": 939,
+    "rank": 11,
+    "source": "github_html"
+  },
+  {
+    "owner": "agentskills",
+    "name": "agentskills",
+    "url": "https://github.com/agentskills/agentskills",
+    "description": "Specification and documentation for Agent Skills",
+    "language": "Python",
+    "stars_total": 21658,
+    "stars_today": 86,
+    "rank": 12,
+    "source": "github_html"
+  },
+  {
+    "owner": "openai",
+    "name": "codex-plugin-cc",
+    "url": "https://github.com/openai/codex-plugin-cc",
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "language": "JavaScript",
+    "stars_total": 22700,
+    "stars_today": 352,
+    "rank": 13,
+    "source": "github_html"
+  },
+  {
+    "owner": "langflow-ai",
+    "name": "langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "language": "Python",
+    "stars_total": 150796,
+    "stars_today": 117,
+    "rank": 14,
+    "source": "github_html"
+  },
+  {
+    "owner": "pytorch",
+    "name": "pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "language": "Python",
+    "stars_total": 101256,
+    "stars_today": 65,
+    "rank": 15,
+    "source": "github_html"
+  },
+  {
+    "owner": "harvard-edge",
+    "name": "cs249r_book",
+    "url": "https://github.com/harvard-edge/cs249r_book",
+    "description": "Machine Learning Systems",
+    "language": "Python",
+    "stars_total": 25653,
+    "stars_today": 68,
+    "rank": 16,
+    "source": "github_html"
+  },
+  {
+    "owner": "ryanmcdermott",
+    "name": "clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "description": "Clean Code concepts adapted for JavaScript",
+    "language": "JavaScript",
+    "stars_total": 94594,
+    "stars_today": 27,
+    "rank": 17,
+    "source": "github_html"
+  }
+]

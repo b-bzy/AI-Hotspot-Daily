@@ -1,0 +1,42 @@
+# GitHub AI Trending 运行时配置
+# 改这个文件不需要改 SKILL.md
+
+# ============ 数据源 ============
+data_source:
+  primary: github_trending_html    # https://github.com/trending?since=daily
+  fallback: ossinsight_api          # https://api.ossinsight.io
+  timeout_sec: 15
+
+# ============ AI 相关性筛选 ============
+ai_filter:
+  min_score: 3                      # 关键词打分阈值（见 reference/ai-keywords.md）
+  top_n: 3                          # 取前几个项目
+  recheck_with_claude: true         # 是否走 Claude 二判
+  # 不足 3 个时的补位策略
+  fill_with_non_ai_if_insufficient: true   # true=按 today's stars 倒序补足 3 个
+
+# ============ 去重 ============
+dedup_window_days: 90               # 90 天内不重复同一项目
+
+# ============ 内容采集 ============
+readme_max_chars: 4000              # README 截断长度（约 200 行）
+github_api_token: ""                # 未配置 → 限流 60 req/h（够 3 个项目）
+
+# ============ 文章生成 ============
+article:
+  target_chars: 1200                # 800–1500 区间的中位数
+  per_repo_chars_range: [200, 400]  # 每个项目的正文长度
+  title_candidates: 3               # 生成 3 个标题候选
+  style_file: reference/style-tech-media.md
+  template_file: reference/article-template.md
+
+# ============ 行为开关 ============
+skip_on_duplicate_day: true         # 同一天已有产物 → 跳过不覆盖
+abort_on_rate_limit: true           # 触发限流立即终止
+write_report_on_skip: true          # 跳过时也写一份简短报告
+
+# ============ 定时任务 ============
+schedule:
+  hour: 9
+  minute: 0
+  timezone: Asia/Shanghai

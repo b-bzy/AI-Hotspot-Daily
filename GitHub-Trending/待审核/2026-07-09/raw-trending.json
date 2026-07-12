@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "addyosmani/agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": "74623",
+    "stars_today": "1297"
+  },
+  {
+    "slug": "ruvnet/RuView",
+    "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "lang": "Rust",
+    "stars": "79280",
+    "stars_today": "799"
+  },
+  {
+    "slug": "TencentCloud/TencentDB-Agent-Memory",
+    "desc": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+    "lang": "TypeScript",
+    "stars": "7783",
+    "stars_today": "318"
+  },
+  {
+    "slug": "prisma/prisma",
+    "desc": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+    "lang": "TypeScript",
+    "stars": "46637",
+    "stars_today": "46"
+  },
+  {
+    "slug": "mvanhorn/last30days-skill",
+    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "lang": "Python",
+    "stars": "50912",
+    "stars_today": "352"
+  },
+  {
+    "slug": "argoproj/argo-cd",
+    "desc": "Declarative Continuous Deployment for Kubernetes",
+    "lang": "Go",
+    "stars": "23465",
+    "stars_today": "29"
+  },
+  {
+    "slug": "iOfficeAI/OfficeCLI",
+    "desc": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "lang": "C#",
+    "stars": "12287",
+    "stars_today": "1717"
+  },
+  {
+    "slug": "asgeirtj/system_prompts_leaks",
+    "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "lang": "JavaScript",
+    "stars": "54429",
+    "stars_today": "1218"
+  },
+  {
+    "slug": "obra/superpowers",
+    "desc": "An agentic skills framework & software development methodology that works.",
+    "lang": "Shell",
+    "stars": "250081",
+    "stars_today": "1116"
+  },
+  {
+    "slug": "alibaba/zvec",
+    "desc": "A lightweight, lightning-fast, in-process vector database",
+    "lang": "C++",
+    "stars": "14500",
+    "stars_today": "395"
+  },
+  {
+    "slug": "Diolinux/PhotoGIMP",
+    "desc": "A Patch for GIMP 3+ for Photoshop Users",
+    "lang": "CSS",
+    "stars": "15140",
+    "stars_today": "1125"
+  },
+  {
+    "slug": "wonderwhy-er/DesktopCommanderMCP",
+    "desc": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "lang": "TypeScript",
+    "stars": "6419",
+    "stars_today": "28"
+  },
+  {
+    "slug": "huxingyi/autoremesher",
+    "desc": "Automatic quad remeshing tool",
+    "lang": "C++",
+    "stars": "2078",
+    "stars_today": "296"
+  },
+  {
+    "slug": "bradautomates/claude-video",
+    "desc": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "lang": "Python",
+    "stars": "6186",
+    "stars_today": "951"
+  },
+  {
+    "slug": "TencentCloud/CubeSandbox",
+    "desc": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "lang": "Rust",
+    "stars": "9035",
+    "stars_today": "564"
+  }
+]

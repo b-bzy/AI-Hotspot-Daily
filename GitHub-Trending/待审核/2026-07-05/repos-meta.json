@@ -1,0 +1,23 @@
+[
+  {
+    "owner": "Zackriya-Solutions", "name": "meetily",
+    "description": "Privacy-first AI meeting assistant with Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization, built on Rust. 100% local processing.",
+    "language": "Rust", "license": "MIT", "stars_total": 15383, "stars_today": 718,
+    "created_at": "2024-12-26", "homepage": "https://meetily.ai",
+    "topics": ["ai","ai-meeting-assistant","llm","local-ai","ollama","parakeet","whisper","self-hosted","speech-to-text","transcription","privacy-focused"]
+  },
+  {
+    "owner": "ChromeDevTools", "name": "chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents. An MCP server giving AI coding assistants access to a live Chrome for automation, debugging, and performance analysis.",
+    "language": "TypeScript", "license": "Apache-2.0", "stars_total": 45801, "stars_today": 304,
+    "created_at": "2025-09-11", "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
+    "topics": ["mcp","mcp-server","chrome","chrome-devtools","debugging","puppeteer","browser"]
+  },
+  {
+    "owner": "harvard-edge", "name": "cs249r_book",
+    "description": "Machine Learning Systems: Principles and Practices of Engineering Artificially Intelligent Systems. Open textbook covering ML systems from cloud to edge/tiny.",
+    "language": "Python", "license": "CC-BY-NC-SA-4.0", "stars_total": 26594, "stars_today": 443,
+    "created_at": "2023-09-06", "homepage": "http://mlsysbook.ai/",
+    "topics": ["machine-learning-systems","tinyml","edge-machine-learning","deep-learning","textbook","courseware","artificial-intelligence"]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "repo": "google/agents-cli",
+    "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars_total": 4258,
+    "stars_today": 445,
+    "created_at": "2026-04-08T17:09:55Z",
+    "homepage": "https://google.github.io/agents-cli/",
+    "topics": [
+      "adk",
+      "agent-development-kit",
+      "agents",
+      "coding-agent",
+      "gemini",
+      "gemini-enterprise-agent-platform",
+      "generative-ai",
+      "google-cloud"
+    ],
+    "readme_excerpt": "<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/google/agents-cli/main/docs/src/assets/logo_sm.png\" alt=\"agents-cli logo\" width=\"120\" />\n  <h1><code>agents-cli</code></h1>\n  <p>The CLI and skills for building agents on Gemini Enterprise Agent Platform.</p>\n\n  <p>\n    <a href=\"#get-started\">Get Started</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"#agent-skills\">Skills</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"#cli-commands\">Commands</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"https://pypi.org/project/google-agents-cli/\">PyPI</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"https://github.com/google/agents-cli/issues\">Issues</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"https://google.github.io/agents-cli/\">Docs</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"https://github.com/google/agents-cli/blob/main/RELEASE_NOTES.md\">Release Notes</a> &nbsp;&nbsp;|&nbsp;&nbsp;\n    <a href=\"https://github.com/google/agents-cli/stargazers\">Star us</a>\n  </p>\n</div>\n\n---\n\nTurn your favorite coding assistant into an expert at building and deploying agents on Google Cloud.\n\n**Agents CLI in Agent Platform** (`agents-cli`) gives your coding agent the skills and commands to build, scale, govern, and optimize enterprise-grade agents — so you don't have to learn every CLI and service yourself.\n\n**Works seamlessly with:**\n[Antigravity CLI](https://antigravity.google/) &nbsp;•&nbsp; [Claude Code](https://docs.anthropic.com/en/docs/claude-code) &nbsp;•&nbsp; [Codex](https://github.com/openai/codex) &nbsp;•&nbsp; *and any other coding agent.*\n\n## Get Started\n\n**Prerequisites:** Python 3.11+, [uv](https://docs.astral.sh/uv/getting-started/installation/), and [Node.js](https://nodejs.org/en/download).\n\n### 1. Install\n\n```bash\nuvx google-agents-cli setup\n```\n\n<details>\n<summary>Or just the skills — your coding agent will handle the rest</summary>\n\n```bash\nnpx skills add google/agents-cli\n```\n\n</details>\n\n### 2. Open your coding agent\n\nLaunch [Antigravity CLI](https://antigravity.google/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex](https://github.com/openai/codex), or any coding agent you prefer.\n\n### 3. Build your first agent\n\nAsk your coding agent to build something — e.g. *\"Use agents-cli to build a caveman-style agent that compresses verbose text into terse, technical grunts\"*\n\nSee the [full tutorial](https://google.github.io/agents-cli/guide/quickstart-tutorial/) for a step-by-step walkthrough.\n\n**[Browse the full documentation →](https://google.github.io/agents-cli/)**\n\n---\n\n## Agent Skills\n\n| Skill | What your coding agent learns |\n|-------|-------------------------------|\n| `google-agents-cli-workflow` | Development lifecycle, code preservation rules, model selection |\n| `google-agents-cli-adk-code` | ADK Python API — agents, tools, orchestration, callbacks, state |\n| `google-agents-cli-scaffold` | Project scaffolding — `create`, `enhance`, `upgrade` |\n| `google-agents-cli-eval` | Evaluation methodology — metrics, datasets, LLM-as-judge, adaptive rubrics |\n| `google-agents-cli-deploy` | Deployment — [Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale), [Cloud Run](https://cloud.google.com/run), [GKE](https://cloud.google.com/kubernetes-engine), CI/CD, secrets |\n| `google-agents-cli-publish` | Gemini Enterprise registration |\n| `google-agents-cli-observability` | Observability — Cloud Trace, logging, third-party integrations |\n\n---\n\n## CLI Commands\n\n| Command | What it does |\n|---------|-------------|\n| `agents-cli setup` | Install CLI + skills to coding agents |\n| `agents-cli scaffold <name>` | Create a new agent project |\n| `agents-cli eval generate` | Run agent on eval dataset, produce traces |\n| `agents-cli eval grade` | Run agent evaluations on the traces |\n| `agents-cli deploy` | Deploy to Google Cloud |\n| `agents-cli publish gemini-enterprise` | Register with Gemini Enterprise |\n\n<details>\n<summary>See all commands</summary>\n\n| Command | Description |\n|---------|-------------|\n| `\n\n[README 截断，完整版见仓库]"
+  },
+  {
+    "repo": "diegosouzapw/OmniRoute",
+    "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars_total": 8652,
+    "stars_today": 387,
+    "created_at": "2026-02-13T12:38:31Z",
+    "homepage": "https://omniroute.online",
+    "topics": [
+      "a2a",
+      "ai-agents",
+      "ai-gateway",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cline",
+      "codex",
+      "copilot",
+      "cursor",
+      "deepseek",
+      "free-ai",
+      "gemini",
+      "gemini-cli",
+      "llm-gateway",
+      "mcp",
+      "openai",
+      "openai-proxy",
+      "qwen",
+      "token-saver"
+    ],
+    "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/>\n\n<br/>\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n### Never stop coding. Connect every AI tool to **236 providers** — **50+ free** — through one endpoint.\n\n**Plug Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini. Auto-fallback.**\n<br/>\n\n**RTK + Caveman compression saves 15–95% tokens. Never hit limits.**\n\n<br/>\n\n**~1.6B documented free tokens/month** — up to **~2.1B in your first month** with signup credits — aggregated across the free tiers, plus a long tail of permanently-free, no-cap providers, and the compression above stretches every one further. ([how we count →](docs/reference/FREE_TIERS.md#tldr--how-much-free-inference-does-omniroute-actually-aggregate))\n\n<br/>\n\n[![231 AI Providers](https://img.shields.io/badge/231-AI_Providers-6C5CE7?style=for-the-badge)](#-231-ai-providers--50-free)\n[![50+ Free](https://img.shields.io/badge/50%2B-Free_Tiers-00B894?style=for-the-badge)](#-231-ai-providers--50-free)\n[![1.6B Free Tokens/mo](https://img.shields.io/badge/1.6B-Free_Tokens%2Fmo-00B894?style=for-the-badge)](docs/reference/FREE_TIERS.md)\n[![Token Savings](https://img.shields.io/badge/up_to_95%25-Token_Savings-E17055?style=for-the-badge)](#%EF%B8%8F-save-1595-tokens--automatically)\n[![17 Strategies](https://img.shields.io/badge/17-Routing_Strategies-0984E3?style=for-the-badge)](#-combos--the-flagship)\n[![$0 to start](https://img.shields.io/badge/%240-To_Start-FDCB6E?style=for-the-badge&logoColor=black)](#-quick-start)\n\n<br/>\n\n### 💬 Join the community\n\n[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EkzRkpzKYt)\n[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/omnirouteOficial)\n[![WhatsApp Global](https://img.shields.io/badge/WhatsApp_Global-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JI7cDQ1GyaiDHhVBpLxf8b?mode=gi_t)\n[![WhatsApp Brasil](https://img.shields.io/badge/WhatsApp_Brasil-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/BTGJXIyjeNIIgExvTMGGhI)\n\n**Questions, provider tips, roadmap & support → [Discord](https://discord.gg/EkzRkpzKYt) · [Telegram](https://t.me/omnirouteOficial) · WhatsApp [🌍 Global](https://chat.whatsapp.com/JI7cDQ1GyaiDHhVBpLxf8b?mode=gi_t) / [🇧🇷 Brasil](https://chat.whatsapp.com/BTGJXIyjeNIIgExvTMGGhI)**\n\n<br/>\n\n<a href=\"https://trendshift.io/repositories/23589\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23589\" alt=\"diegosouzapw%2FOmniRoute | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[![npm](https://img.shields.io/npm/v/omniroute?logo=npm&style=flat-square)](https://www.npmjs.com/package/omniroute)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)\n[![Node](https://img.shields.io/badge/node-%E2%89%A522.0.0-brightgreen?style=flat-square)](package.json)\n[![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=social)](https://github.com/diegosouzapw/OmniRoute)\n\n<div align=\"center\">\n\n[![npm version](https://img.shields.io/npm/v/omniroute?color=cb3837&logo=npm)](https://www.npmjs.com/package/omniroute)\n![NPM Monthly](https://img.shields.io/npm/dm/omniroute?label=npm/month&color=cb3837&logo=npm)\n[![Docker Hub](https://img.shields.io/docker/v/diegosouzapw/omniroute?label=Docker%20Hub&logo=docker&color=2496ED)](https://hub.docker.com/r/diegosouzapw/omniroute)\n![Docker Pulls](https://img.shields.io/docker/pulls/diegosouzapw/omniroute?label=docker%20pulls&logo=docker&color=2496ED)\n![Electron Downloads](https://img.shields.io/github/downloads/diegosouzapw/omniroute/total?style=flat&label=electron%20downloads&logo=electron&color=47848F)\n[![Website](https://img.shields.io/badge/Website-omniroute.online-blue?logo=google-c\n\n[README 截断，完整版见仓库]"
+  },
+  {
+    "repo": "microsoft/AI-For-Beginners",
+    "description": "12 Weeks, 24 Lessons, AI for All!",
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars_total": 49469,
+    "stars_today": 252,
+    "created_at": "2021-03-03T16:27:36Z",
+    "homepage": "",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "cnn",
+      "computer-vision",
+      "deep-learning",
+      "gan",
+      "machine-learning",
+      "microsoft-for-beginners",
+      "nlp",
+      "rnn"
+    ],
+    "readme_excerpt": "[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)\n[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)\n[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)\n\n[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)\n[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)\n[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)\n[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)\n[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\n[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)\n\n# Artificial Intelligence for Beginners - A Curriculum\n\n|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|\n|:---:|\n| AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |\n\nExplore the world of **Artificial Intelligence** (AI) with our 12-week, 24-lesson curriculum!  It includes practical lessons, quizzes, and labs. The curriculum is beginner-friendly and covers tools like TensorFlow and PyTorch, as well as ethics in AI\n\n\n### 🌐 Multi-Language Support\n\n#### Supported via GitHub Action (Automated & Always Up-to-Date)\n\n<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->\n[Arabic](./translations/ar/README.md) | [Bengali](./translations/bn/README.md) | [Bulgarian](./translations/bg/README.md) | [Burmese (Myanmar)](./translations/my/README.md) | [Chinese (Simplified)](./translations/zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](./translations/zh-HK/README.md) | [Chinese (Traditional, Macau)](./translations/zh-MO/README.md) | [Chinese (Traditional, Taiwan)](./translations/zh-TW/README.md) | [Croatian](./translations/hr/README.md) | [Czech](./translations/cs/README.md) | [Danish](./translations/da/README.md) | [Dutch](./translations/nl/README.md) | [Estonian](./translations/et/README.md) | [Finnish](./translations/fi/README.md) | [French](./translations/fr/README.md) | [German](./translations/de/README.md) | [Greek](./translations/el/README.md) | [Hebrew](./translations/he/README.md) | [Hindi](./translations/hi/README.md) | [Hungarian](./translations/hu/README.md) | [Indonesian](./translations/id/README.md) | [Italian](./translations/it/README.md) | [Japanese](./translations/ja/README.md) | [Kannada](./translations/kn/README.md) | [Khmer](./translations/km/README.md) | [Korean](./translations/ko/README.md) | [Lithuanian](./translations/lt/README.md) | [Malay](./translations/ms/README.md) | [Malayalam](./translations/ml/README.md) | [Marathi](./translations/mr/README.md) | [Nepali](./translations/ne/README.md) | [Nigerian Pidgin](./translations/pcm/README.md) | [Norwegian](./translations/no/README.md) | [Persian (Farsi)](./translations/fa/README.md) | [Polish](./translations/pl/README.md) | [Portuguese (Brazil)](./translations/pt-BR/README.md) | [Portuguese (Portugal)](./translations/pt-PT/RE\n\n[README 截断，完整版见仓库]"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "fetched_at": "2026-07-12",
+  "source": "https://github.com/trending (via web_fetch)",
+  "note": "scripts/fetch_trending.py 不存在，改用 web_fetch 抓取 github.com/trending 日榜后解析。",
+  "repos": [
+    {"rank": 1, "full_name": "usestrix/strix", "language": "Python", "stars_total": 34325, "forks": 3526, "stars_today": 2804, "description": "Open-source AI penetration testing tool to find and fix your app's vulnerabilities.", "ai": true, "dupe": "2026-07-02,2026-07-03"},
+    {"rank": 2, "full_name": "openai/codex-plugin-cc", "language": "JavaScript", "stars_total": 23106, "forks": 1398, "stars_today": 629, "description": "Use Codex from Claude Code to review code or delegate tasks.", "ai": true, "dupe": "2026-07-04"},
+    {"rank": 3, "full_name": "JuliusBrussee/caveman", "language": "JavaScript", "stars_total": 82764, "forks": 4617, "stars_today": 2851, "description": "Claude Code skill that cuts 65% of tokens by talking like caveman", "ai": true, "dupe": "2026-07-03"},
+    {"rank": 4, "full_name": "elastic/elasticsearch", "language": "Java", "stars_total": 77305, "forks": 25922, "stars_today": 77, "description": "Free and Open Source, Distributed, RESTful Search Engine", "ai": false, "dupe": null},
+    {"rank": 5, "full_name": "actions/checkout", "language": "TypeScript", "stars_total": 8250, "forks": 2533, "stars_today": 129, "description": "Action for checking out a repo", "ai": false, "dupe": null},
+    {"rank": 6, "full_name": "ChromeDevTools/chrome-devtools-mcp", "language": "TypeScript", "stars_total": 45441, "forks": 2950, "stars_today": 404, "description": "Chrome DevTools for coding agents", "ai": true, "dupe": "2026-07-05"},
+    {"rank": 7, "full_name": "ansible/ansible", "language": "Python", "stars_total": 69168, "forks": 24107, "stars_today": 50, "description": "Ansible is a radically simple IT automation platform.", "ai": false, "dupe": null},
+    {"rank": 8, "full_name": "facebook/astryx", "language": "TypeScript", "stars_total": 4448, "forks": 262, "stars_today": 943, "description": "An open source design system that's fully customizable and agent ready", "ai": "borderline", "dupe": null},
+    {"rank": 9, "full_name": "rommapp/romm", "language": "Python", "stars_total": 9740, "forks": 471, "stars_today": 236, "description": "A beautiful, powerful, self-hosted rom manager and player.", "ai": false, "dupe": null},
+    {"rank": 10, "full_name": "harvard-edge/cs249r_book", "language": "Python", "stars_total": 26085, "forks": 3116, "stars_today": 792, "description": "Machine Learning Systems", "ai": true, "dupe": "2026-07-05"},
+    {"rank": 11, "full_name": "pytorch/pytorch", "language": "Python", "stars_total": 101401, "forks": 28247, "stars_today": 290, "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration", "ai": true, "dupe": null},
+    {"rank": 12, "full_name": "apache/maven", "language": "Java", "stars_total": 5217, "forks": 2901, "stars_today": 53, "description": "Apache Maven core", "ai": false, "dupe": null},
+    {"rank": 13, "full_name": "safishamsi/graphify", "language": "Python", "stars_total": 76935, "forks": 7627, "stars_today": 937, "description": "AI coding assistant skill (Claude Code, Codex, Cursor, Gemini CLI...). Turn any folder into a queryable knowledge graph.", "ai": true, "dupe": null},
+    {"rank": 14, "full_name": "anthropics/claude-code", "language": "Python", "stars_total": 135769, "forks": 21852, "stars_today": 245, "description": "Claude Code is an agentic coding tool that lives in your terminal.", "ai": true, "dupe": "2026-07-04"},
+    {"rank": 15, "full_name": "ogulcancelik/herdr", "language": "Rust", "stars_total": 10651, "forks": 630, "stars_today": 513, "description": "agent multiplexer that lives in your terminal.", "ai": true, "dupe": "2026-07-02"},
+    {"rank": 16, "full_name": "obra/superpowers", "language": "Shell", "stars_total": 245423, "forks": 21750, "stars_today": 1205, "description": "An agentic skills framework & software development methodology that works.", "ai": true, "dupe": "2026-06-13"},
+    {"rank": 17, "full_name": "agentskills/agentskills", "language": "Python", "stars_total": 21938, "forks": 1390, "stars_today": null, "description": "Specification and documentation for Agent Skills", "ai": true, "dupe": "2026-07-04"}
+  ],
+  "selection": {
+    "ai_candidates_non_dupe": ["safishamsi/graphify", "pytorch/pytorch"],
+    "non_ai_fill_by_stars_today": ["facebook/astryx (943)"],
+    "final_3": ["safishamsi/graphify", "pytorch/pytorch", "facebook/astryx"]
+  }
+}

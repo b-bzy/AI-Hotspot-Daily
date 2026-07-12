@@ -1,0 +1,5 @@
+[
+  {"owner":"MadsLorentzen","name":"ai-job-search","stars_total":11957,"stars_today":2514,"language":"TypeScript","license":"MIT","created_at":"2026-03-18T14:33:04Z","homepage":null,"topics":[],"url":"https://github.com/MadsLorentzen/ai-job-search"},
+  {"owner":"iOfficeAI","name":"OfficeCLI","stars_total":10454,"stars_today":893,"language":"C#","license":"Apache-2.0","created_at":"2026-03-15T07:39:12Z","homepage":"https://officecli.ai","topics":["agent","ai","claude-code","cli","codex","docx","excel","office","pptx","word","xlsx"],"url":"https://github.com/iOfficeAI/OfficeCLI"},
+  {"owner":"kyutai-labs","name":"pocket-tts","stars_total":6343,"stars_today":531,"language":"Python","license":"MIT","created_at":"2026-01-07T17:33:32Z","homepage":null,"topics":[],"url":"https://github.com/kyutai-labs/pocket-tts"}
+]

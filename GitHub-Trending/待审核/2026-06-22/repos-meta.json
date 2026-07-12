@@ -1,0 +1,23 @@
+[
+  {
+    "owner": "bytedance", "name": "deer-flow", "url": "https://github.com/bytedance/deer-flow",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+    "language": "Python", "license": "MIT", "stars_total": 72668, "stars_today": 442,
+    "created_at": "2025-05-07T02:50:19Z", "homepage": "https://deerflow.tech",
+    "topics": ["agent","agentic","agentic-framework","ai","ai-agents","deep-research","harness","langchain","langgraph","llm","multi-agent","superagent"]
+  },
+  {
+    "owner": "topoteretes", "name": "cognee", "url": "https://github.com/topoteretes/cognee",
+    "description": "Cognee is the open-source AI memory platform for agents.",
+    "language": "Python", "license": "Apache-2.0", "stars_total": 18699, "stars_today": 347,
+    "created_at": "2023-08-16T16:16:33Z", "homepage": "https://www.cognee.ai",
+    "topics": ["agent-memory","ai","ai-agents","ai-memory","graph-database","graph-rag","knowledge-graph","vector-database"]
+  },
+  {
+    "owner": "ZhuLinsen", "name": "daily_stock_analysis", "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "description": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard.",
+    "language": "Python", "license": "MIT", "stars_total": 44695, "stars_today": 568,
+    "created_at": "2026-01-10T06:43:20Z", "homepage": "https://dsa.zhulinsen.tech",
+    "topics": ["a-stock","ai-agent","aigc","llm","quant","quantitative-finance","quantitative-trading"]
+  }
+]

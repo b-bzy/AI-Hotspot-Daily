@@ -1,0 +1,222 @@
+[
+  {
+    "owner": "msitarzewski",
+    "name": "agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "language": "Shell",
+    "stars_total": 123974,
+    "stars_today": 2114,
+    "rank": 1,
+    "source": "github_html"
+  },
+  {
+    "owner": "usestrix",
+    "name": "strix",
+    "url": "https://github.com/usestrix/strix",
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "language": "Python",
+    "stars_total": 30051,
+    "stars_today": 1211,
+    "rank": 2,
+    "source": "github_html"
+  },
+  {
+    "owner": "HKUDS",
+    "name": "Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "language": "Python",
+    "stars_total": 16749,
+    "stars_today": 694,
+    "rank": 3,
+    "source": "github_html"
+  },
+  {
+    "owner": "hasaneyldrm",
+    "name": "exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+    "language": "HTML",
+    "stars_total": 8590,
+    "stars_today": 2470,
+    "rank": 4,
+    "source": "github_html"
+  },
+  {
+    "owner": "facebook",
+    "name": "astryx",
+    "url": "https://github.com/facebook/astryx",
+    "description": "An open source design system that's fully customizable and agent ready",
+    "language": "TypeScript",
+    "stars_total": 2825,
+    "stars_today": 708,
+    "rank": 5,
+    "source": "github_html"
+  },
+  {
+    "owner": "diegosouzapw",
+    "name": "OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+    "language": "TypeScript",
+    "stars_total": 9711,
+    "stars_today": 1010,
+    "rank": 6,
+    "source": "github_html"
+  },
+  {
+    "owner": "allenai",
+    "name": "olmocr",
+    "url": "https://github.com/allenai/olmocr",
+    "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+    "language": "Python",
+    "stars_total": 18359,
+    "stars_today": 334,
+    "rank": 7,
+    "source": "github_html"
+  },
+  {
+    "owner": "logto-io",
+    "name": "logto",
+    "url": "https://github.com/logto-io/logto",
+    "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+    "language": "TypeScript",
+    "stars_total": 13343,
+    "stars_today": 113,
+    "rank": 8,
+    "source": "github_html"
+  },
+  {
+    "owner": "togatoga",
+    "name": "karukan",
+    "url": "https://github.com/togatoga/karukan",
+    "description": "Japanese Input Method System for Linux, macOS, Neural Kana-Kanji Conversion Engine",
+    "language": "Rust",
+    "stars_total": 603,
+    "stars_today": 42,
+    "rank": 9,
+    "source": "github_html"
+  },
+  {
+    "owner": "Mebus",
+    "name": "cupp",
+    "url": "https://github.com/Mebus/cupp",
+    "description": "Common User Passwords Profiler (CUPP)",
+    "language": "Python",
+    "stars_total": 6266,
+    "stars_today": 184,
+    "rank": 10,
+    "source": "github_html"
+  },
+  {
+    "owner": "Unclecheng-li",
+    "name": "VulnClaw",
+    "url": "https://github.com/Unclecheng-li/VulnClaw",
+    "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+    "language": "Python",
+    "stars_total": 1632,
+    "stars_today": 132,
+    "rank": 11,
+    "source": "github_html"
+  },
+  {
+    "owner": "microsoft",
+    "name": "AI-For-Beginners",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "description": "12 Weeks, 24 Lessons, AI for All!",
+    "language": "Jupyter Notebook",
+    "stars_total": 50683,
+    "stars_today": 1096,
+    "rank": 12,
+    "source": "github_html"
+  },
+  {
+    "owner": "refactoringhq",
+    "name": "tolaria",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "language": "TypeScript",
+    "stars_total": 18074,
+    "stars_today": 150,
+    "rank": 13,
+    "source": "github_html"
+  },
+  {
+    "owner": "ogulcancelik",
+    "name": "herdr",
+    "url": "https://github.com/ogulcancelik/herdr",
+    "description": "agent multiplexer that lives in your terminal.",
+    "language": "Rust",
+    "stars_total": 9729,
+    "stars_today": 609,
+    "rank": 14,
+    "source": "github_html"
+  },
+  {
+    "owner": "0xNyk",
+    "name": "council-of-high-intelligence",
+    "url": "https://github.com/0xNyk/council-of-high-intelligence",
+    "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
+    "language": "Shell",
+    "stars_total": 2730,
+    "stars_today": 161,
+    "rank": 15,
+    "source": "github_html"
+  },
+  {
+    "owner": "altic-dev",
+    "name": "FluidVoice",
+    "url": "https://github.com/altic-dev/FluidVoice",
+    "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+    "language": "Swift",
+    "stars_total": 5587,
+    "stars_today": 572,
+    "rank": 16,
+    "source": "github_html"
+  },
+  {
+    "owner": "CoreBunch",
+    "name": "Instatic",
+    "url": "https://github.com/CoreBunch/Instatic",
+    "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+    "language": "TypeScript",
+    "stars_total": 2070,
+    "stars_today": 508,
+    "rank": 17,
+    "source": "github_html"
+  },
+  {
+    "owner": "TencentCloud",
+    "name": "CubeSandbox",
+    "url": "https://github.com/TencentCloud/CubeSandbox",
+    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "language": "Rust",
+    "stars_total": 6870,
+    "stars_today": 79,
+    "rank": 18,
+    "source": "github_html"
+  },
+  {
+    "owner": "browser-use",
+    "name": "video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "description": "Edit videos with coding agents",
+    "language": "Python",
+    "stars_total": 13329,
+    "stars_today": 693,
+    "rank": 19,
+    "source": "github_html"
+  },
+  {
+    "owner": "yikart",
+    "name": "AiToEarn",
+    "url": "https://github.com/yikart/AiToEarn",
+    "description": "Let's use AI to Earn!",
+    "language": "TypeScript",
+    "stars_total": 22674,
+    "stars_today": 116,
+    "rank": 20,
+    "source": "github_html"
+  }
+]

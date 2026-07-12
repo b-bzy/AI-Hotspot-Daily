@@ -1,0 +1,63 @@
+[
+  {
+    "repo": "phuryn/pm-skills",
+    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "language": null,
+    "license": "MIT",
+    "stars_total": 16326,
+    "stars_today": 1978,
+    "created_at": "2026-03-01T23:33:44Z",
+    "homepage": "https://www.productcompass.pm/p/pm-skills-2-red-team-ship",
+    "topics": [
+      "agent-skill-repository",
+      "agent-skills",
+      "agentic-skills",
+      "claude-code-marketplace",
+      "claude-code-plugins",
+      "claude-cowork-plugin",
+      "product-management"
+    ],
+    "readme_excerpt_file": "raw/phuryn_pm-skills_readme.txt"
+  },
+  {
+    "repo": "maziyarpanahi/openmed",
+    "description": "open-source healthcare ai",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars_total": 2815,
+    "stars_today": 426,
+    "created_at": "2025-10-04T15:13:34Z",
+    "homepage": "https://openmed.life/",
+    "topics": [
+      "bert",
+      "deepseek",
+      "healthcare",
+      "ios",
+      "llm",
+      "mlx",
+      "ner",
+      "on-device",
+      "on-premise",
+      "pii",
+      "pii-detection",
+      "qwen",
+      "sovereign-ai",
+      "swift",
+      "swift-package",
+      "swiftui"
+    ],
+    "readme_excerpt_file": "raw/maziyarpanahi_openmed_readme.txt"
+  },
+  {
+    "repo": "NVIDIA/SkillSpector",
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars_total": 2768,
+    "stars_today": 319,
+    "created_at": "2026-03-21T00:28:43Z",
+    "homepage": null,
+    "topics": [],
+    "readme_excerpt_file": "raw/NVIDIA_SkillSpector_readme.txt"
+  }
+]

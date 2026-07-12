@@ -1,0 +1,222 @@
+[
+  {
+    "owner": "DeusData",
+    "name": "codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "language": "C",
+    "stars_total": 5718,
+    "stars_today": 371,
+    "rank": 1,
+    "source": "github_html"
+  },
+  {
+    "owner": "n0-computer",
+    "name": "iroh",
+    "url": "https://github.com/n0-computer/iroh",
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "language": "Rust",
+    "stars_total": 9720,
+    "stars_today": 421,
+    "rank": 2,
+    "source": "github_html"
+  },
+  {
+    "owner": "Panniantong",
+    "name": "Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "language": "Python",
+    "stars_total": 33480,
+    "stars_today": 1161,
+    "rank": 3,
+    "source": "github_html"
+  },
+  {
+    "owner": "meshery",
+    "name": "meshery",
+    "url": "https://github.com/meshery/meshery",
+    "description": "Meshery, the cloud native manager",
+    "language": "TypeScript",
+    "stars_total": 11056,
+    "stars_today": 196,
+    "rank": 4,
+    "source": "github_html"
+  },
+  {
+    "owner": "obra",
+    "name": "superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_total": 231335,
+    "stars_today": 1129,
+    "rank": 5,
+    "source": "github_html"
+  },
+  {
+    "owner": "google-research",
+    "name": "timesfm",
+    "url": "https://github.com/google-research/timesfm",
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "language": "Python",
+    "stars_total": 22023,
+    "stars_today": 606,
+    "rank": 6,
+    "source": "github_html"
+  },
+  {
+    "owner": "RocketChat",
+    "name": "Rocket.Chat",
+    "url": "https://github.com/RocketChat/Rocket.Chat",
+    "description": "The Secure CommsOS™ for mission-critical operations",
+    "language": "TypeScript",
+    "stars_total": 45619,
+    "stars_today": 22,
+    "rank": 7,
+    "source": "github_html"
+  },
+  {
+    "owner": "continuedev",
+    "name": "continue",
+    "url": "https://github.com/continuedev/continue",
+    "description": "open-source coding agent",
+    "language": "TypeScript",
+    "stars_total": 33959,
+    "stars_today": 49,
+    "rank": 8,
+    "source": "github_html"
+  },
+  {
+    "owner": "penpot",
+    "name": "penpot",
+    "url": "https://github.com/penpot/penpot",
+    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "language": "Clojure",
+    "stars_total": 50166,
+    "stars_today": 70,
+    "rank": 9,
+    "source": "github_html"
+  },
+  {
+    "owner": "krahets",
+    "name": "hello-algo",
+    "url": "https://github.com/krahets/hello-algo",
+    "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+    "language": "Java",
+    "stars_total": 127535,
+    "stars_today": 96,
+    "rank": 10,
+    "source": "github_html"
+  },
+  {
+    "owner": "Universal-Debloater-Alliance",
+    "name": "universal-android-debloater-next-generation",
+    "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+    "language": "Rust",
+    "stars_total": 7690,
+    "stars_today": 457,
+    "rank": 11,
+    "source": "github_html"
+  },
+  {
+    "owner": "mattpocock",
+    "name": "skills",
+    "url": "https://github.com/mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "language": "Shell",
+    "stars_total": 133965,
+    "stars_today": 1523,
+    "rank": 12,
+    "source": "github_html"
+  },
+  {
+    "owner": "yairm210",
+    "name": "Unciv",
+    "url": "https://github.com/yairm210/Unciv",
+    "description": "Open-source Android/Desktop remake of Civ V",
+    "language": "Kotlin",
+    "stars_total": 10704,
+    "stars_today": 24,
+    "rank": 13,
+    "source": "github_html"
+  },
+  {
+    "owner": "freeCodeCamp",
+    "name": "freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "language": "TypeScript",
+    "stars_total": 449206,
+    "stars_today": 757,
+    "rank": 14,
+    "source": "github_html"
+  },
+  {
+    "owner": "bytedance",
+    "name": "UI-TARS-desktop",
+    "url": "https://github.com/bytedance/UI-TARS-desktop",
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "language": "TypeScript",
+    "stars_total": 36739,
+    "stars_today": 150,
+    "rank": 15,
+    "source": "github_html"
+  },
+  {
+    "owner": "nautechsystems",
+    "name": "nautilus_trader",
+    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+    "language": "Rust",
+    "stars_total": 23861,
+    "stars_today": 98,
+    "rank": 16,
+    "source": "github_html"
+  },
+  {
+    "owner": "chatwoot",
+    "name": "chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+    "language": "Ruby",
+    "stars_total": 32430,
+    "stars_today": 264,
+    "rank": 17,
+    "source": "github_html"
+  },
+  {
+    "owner": "calesthio",
+    "name": "OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "language": "Python",
+    "stars_total": 5501,
+    "stars_today": 98,
+    "rank": 18,
+    "source": "github_html"
+  },
+  {
+    "owner": "alexzhang13",
+    "name": "rlm",
+    "url": "https://github.com/alexzhang13/rlm",
+    "description": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
+    "language": "Python",
+    "stars_total": 4964,
+    "stars_today": 43,
+    "rank": 19,
+    "source": "github_html"
+  },
+  {
+    "owner": "makeplane",
+    "name": "plane",
+    "url": "https://github.com/makeplane/plane",
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "language": "TypeScript",
+    "stars_total": 51403,
+    "stars_today": 89,
+    "rank": 20,
+    "source": "github_html"
+  }
+]

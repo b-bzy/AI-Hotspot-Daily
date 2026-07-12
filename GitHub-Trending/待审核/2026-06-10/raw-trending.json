@@ -1,0 +1,178 @@
+[
+  {
+    "owner": "mvanhorn",
+    "name": "last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars_total": 37593,
+    "stars_today": 3191,
+    "rank": 1,
+    "source": "github_html"
+  },
+  {
+    "owner": "RyanCodrai",
+    "name": "turbovec",
+    "url": "https://github.com/RyanCodrai/turbovec",
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "language": "Python",
+    "stars_total": 10294,
+    "stars_today": 1801,
+    "rank": 2,
+    "source": "github_html"
+  },
+  {
+    "owner": "roboflow",
+    "name": "supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "description": "We write your reusable computer vision tools. 💜",
+    "language": "Python",
+    "stars_total": 43078,
+    "stars_today": 733,
+    "rank": 3,
+    "source": "github_html"
+  },
+  {
+    "owner": "opencv",
+    "name": "opencv",
+    "url": "https://github.com/opencv/opencv",
+    "description": "Open Source Computer Vision Library",
+    "language": "C++",
+    "stars_total": 88690,
+    "stars_today": 102,
+    "rank": 4,
+    "source": "github_html"
+  },
+  {
+    "owner": "refactoringhq",
+    "name": "tolaria",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "language": "TypeScript",
+    "stars_total": 14405,
+    "stars_today": 829,
+    "rank": 5,
+    "source": "github_html"
+  },
+  {
+    "owner": "aaif-goose",
+    "name": "goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "language": "Rust",
+    "stars_total": 48533,
+    "stars_today": 489,
+    "rank": 6,
+    "source": "github_html"
+  },
+  {
+    "owner": "Andyyyy64",
+    "name": "whichllm",
+    "url": "https://github.com/Andyyyy64/whichllm",
+    "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+    "language": "Python",
+    "stars_total": 4152,
+    "stars_today": 633,
+    "rank": 7,
+    "source": "github_html"
+  },
+  {
+    "owner": "TapXWorld",
+    "name": "ChinaTextbook",
+    "url": "https://github.com/TapXWorld/ChinaTextbook",
+    "description": "所有小初高、大学PDF教材。",
+    "language": "Roff",
+    "stars_total": 73563,
+    "stars_today": 519,
+    "rank": 8,
+    "source": "github_html"
+  },
+  {
+    "owner": "x1xhlol",
+    "name": "system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "language": null,
+    "stars_total": 139218,
+    "stars_today": 79,
+    "rank": 9,
+    "source": "github_html"
+  },
+  {
+    "owner": "yikart",
+    "name": "AiToEarn",
+    "url": "https://github.com/yikart/AiToEarn",
+    "description": "Let's use AI to Earn!",
+    "language": "TypeScript",
+    "stars_total": 20029,
+    "stars_today": 402,
+    "rank": 10,
+    "source": "github_html"
+  },
+  {
+    "owner": "phuryn",
+    "name": "pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "language": null,
+    "stars_total": 13512,
+    "stars_today": 806,
+    "rank": 11,
+    "source": "github_html"
+  },
+  {
+    "owner": "santifer",
+    "name": "career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "language": "JavaScript",
+    "stars_total": 51805,
+    "stars_today": 1110,
+    "rank": 12,
+    "source": "github_html"
+  },
+  {
+    "owner": "openai",
+    "name": "plugins",
+    "url": "https://github.com/openai/plugins",
+    "description": "OpenAI Plugins",
+    "language": "JavaScript",
+    "stars_total": 2629,
+    "stars_today": 284,
+    "rank": 13,
+    "source": "github_html"
+  },
+  {
+    "owner": "maziyarpanahi",
+    "name": "openmed",
+    "url": "https://github.com/maziyarpanahi/openmed",
+    "description": "open-source healthcare ai",
+    "language": "Python",
+    "stars_total": 1921,
+    "stars_today": 191,
+    "rank": 14,
+    "source": "github_html"
+  },
+  {
+    "owner": "francescopace",
+    "name": "espectre",
+    "url": "https://github.com/francescopace/espectre",
+    "description": "🛜 ESPectre 👻 - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.",
+    "language": "Python",
+    "stars_total": 8255,
+    "stars_today": 134,
+    "rank": 15,
+    "source": "github_html"
+  },
+  {
+    "owner": "addyosmani",
+    "name": "agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "Shell",
+    "stars_total": 49889,
+    "stars_today": 443,
+    "rank": 16,
+    "source": "github_html"
+  }
+]

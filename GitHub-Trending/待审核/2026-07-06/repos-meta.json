@@ -1,0 +1,62 @@
+[
+  {
+    "owner": "asgeirtj",
+    "name": "system_prompts_leaks",
+    "stars_total": 50130,
+    "stars_today": 981,
+    "language": "JavaScript",
+    "license": "CC0-1.0",
+    "created_at": "2025-05-03",
+    "homepage": "https://asgeirtj.github.io/system_prompts_leaks/",
+    "topics": [
+      "ai",
+      "anthropic",
+      "claude",
+      "chatgpt",
+      "llm",
+      "prompt-engineering",
+      "nlp"
+    ],
+    "description": "Extracted system prompts from AI chatbots - Claude, ChatGPT, Gemini etc."
+  },
+  {
+    "owner": "CoplayDev",
+    "name": "unity-mcp",
+    "stars_total": 11977,
+    "stars_today": 414,
+    "language": "C#",
+    "license": "MIT",
+    "created_at": "2025-03-18",
+    "homepage": "https://coplaydev.github.io/unity-mcp/",
+    "topics": [
+      "ai",
+      "mcp",
+      "model-context-protocol",
+      "unity",
+      "gamedev",
+      "llm",
+      "claude"
+    ],
+    "description": "Unity MCP bridges AI assistants and the Unity Editor via Model Context Protocol."
+  },
+  {
+    "owner": "Leonxlnx",
+    "name": "taste-skill",
+    "stars_total": 57674,
+    "stars_today": 863,
+    "language": "JavaScript",
+    "license": "MIT",
+    "created_at": "2026-02-19",
+    "homepage": "https://tasteskill.dev",
+    "topics": [
+      "ai",
+      "claude",
+      "claude-code",
+      "codex",
+      "design",
+      "frontend",
+      "skill"
+    ],
+    "description": "Anti-slop Agent Skills that improve AI-built frontend interfaces."
+  }
+]

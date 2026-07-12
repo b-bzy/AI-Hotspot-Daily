@@ -1,0 +1,189 @@
+[
+  {
+    "owner": "addyosmani",
+    "name": "agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "Shell",
+    "stars_total": 52119,
+    "stars_today": 821,
+    "rank": 1,
+    "source": "github_html"
+  },
+  {
+    "owner": "phuryn",
+    "name": "pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "language": null,
+    "stars_total": 15106,
+    "stars_today": 804,
+    "rank": 2,
+    "source": "github_html"
+  },
+  {
+    "owner": "refactoringhq",
+    "name": "tolaria",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "description": "Desktop app to manage markdown knowledge bases",
+    "language": "TypeScript",
+    "stars_total": 14990,
+    "stars_today": 612,
+    "rank": 3,
+    "source": "github_html"
+  },
+  {
+    "owner": "mvanhorn",
+    "name": "last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "language": "Python",
+    "stars_total": 39182,
+    "stars_today": 2535,
+    "rank": 4,
+    "source": "github_html"
+  },
+  {
+    "owner": "soxoj",
+    "name": "maigret",
+    "url": "https://github.com/soxoj/maigret",
+    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+    "language": "Python",
+    "stars_total": 32099,
+    "stars_today": 318,
+    "rank": 5,
+    "source": "github_html"
+  },
+  {
+    "owner": "x1xhlol",
+    "name": "system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "language": null,
+    "stars_total": 139567,
+    "stars_today": 393,
+    "rank": 6,
+    "source": "github_html"
+  },
+  {
+    "owner": "obra",
+    "name": "superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "language": "Shell",
+    "stars_total": 223727,
+    "stars_today": 1104,
+    "rank": 7,
+    "source": "github_html"
+  },
+  {
+    "owner": "masterking32",
+    "name": "MasterDnsVPN",
+    "url": "https://github.com/masterking32/MasterDnsVPN",
+    "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+    "language": "Go",
+    "stars_total": 5266,
+    "stars_today": 354,
+    "rank": 8,
+    "source": "github_html"
+  },
+  {
+    "owner": "harry0703",
+    "name": "MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "language": "Python",
+    "stars_total": 85174,
+    "stars_today": 1389,
+    "rank": 9,
+    "source": "github_html"
+  },
+  {
+    "owner": "maziyarpanahi",
+    "name": "openmed",
+    "url": "https://github.com/maziyarpanahi/openmed",
+    "description": "open-source healthcare ai",
+    "language": "Python",
+    "stars_total": 2348,
+    "stars_today": 527,
+    "rank": 10,
+    "source": "github_html"
+  },
+  {
+    "owner": "luongnv89",
+    "name": "claude-howto",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "language": "Python",
+    "stars_total": 36596,
+    "stars_today": 211,
+    "rank": 11,
+    "source": "github_html"
+  },
+  {
+    "owner": "activeloopai",
+    "name": "hivemind",
+    "url": "https://github.com/activeloopai/hivemind",
+    "description": "One brain for all your agents",
+    "language": "TypeScript",
+    "stars_total": 888,
+    "stars_today": 64,
+    "rank": 12,
+    "source": "github_html"
+  },
+  {
+    "owner": "ruvnet",
+    "name": "RuView",
+    "url": "https://github.com/ruvnet/RuView",
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "language": "Rust",
+    "stars_total": 72939,
+    "stars_today": 420,
+    "rank": 13,
+    "source": "github_html"
+  },
+  {
+    "owner": "roboflow",
+    "name": "supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "description": "We write your reusable computer vision tools. 💜",
+    "language": "Python",
+    "stars_total": 43631,
+    "stars_today": 695,
+    "rank": 14,
+    "source": "github_html"
+  },
+  {
+    "owner": "google",
+    "name": "skills",
+    "url": "https://github.com/google/skills",
+    "description": "Agent Skills for Google products and technologies",
+    "language": "Python",
+    "stars_total": 13349,
+    "stars_today": 211,
+    "rank": 15,
+    "source": "github_html"
+  },
+  {
+    "owner": "FareedKhan-dev",
+    "name": "train-llm-from-scratch",
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+    "language": "Python",
+    "stars_total": 5309,
+    "stars_today": 247,
+    "rank": 16,
+    "source": "github_html"
+  },
+  {
+    "owner": "apple",
+    "name": "container",
+    "url": "https://github.com/apple/container",
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+    "language": "Swift",
+    "stars_total": 30015,
+    "stars_today": 1611,
+    "rank": 17,
+    "source": "github_html"
+  }
+]

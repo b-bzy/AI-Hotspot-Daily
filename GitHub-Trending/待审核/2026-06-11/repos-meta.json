@@ -1,0 +1,73 @@
+[
+  {
+    "full_name": "addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "language": "Shell",
+    "license": "MIT",
+    "stargazers_count": 52122,
+    "stars_today": 821,
+    "created_at": "2026-02-15T20:20:26Z",
+    "homepage": "",
+    "topics": [
+      "agent-skills",
+      "antigravity",
+      "antigravity-ide",
+      "claude-code",
+      "cursor",
+      "skills"
+    ],
+    "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` | Tests are proof |\n| Review before merge | `/review` | Improve code health |\n| Simplify the code | `/code-simplify` | Clarity over cleverness |\n| Ship to production | `/ship` | Faster is safer |\n\nWant fewer manual steps once the spec exists? **`/build auto`** generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously. It removes the human stepping *between* tasks, not the verification: every task is still test-driven and committed individually, and it pauses on failures or risky steps.\n\nSkills also activate automatically based on what you're doing — designing an API triggers `api-and-interface-design`, building UI triggers `frontend-ui-engineering`, and so on.\n\n---\n\n## Quick Start\n\n<details>\n<summary><b>Claude Code (recommended)</b></summary>\n\n**Marketplace install:**\n\n```\n/plugin marketplace add addyosmani/agent-skills\n/plugin install agent-skills@addy-agent-skills\n```\n\n> **SSH errors?** The marketplace clones repos via SSH. If you don't have SSH keys set up on GitHub, either [add your SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) or use the full HTTPS URL to force the HTTPS cloning:\n> ```bash\n> /plugin marketplace add https://github.com/addyosmani/agent-skills.git\n> /plugin install agent-skills@addy-agent-skills\n> ```\n\n**Local / development:**\n\n```bash\ngit clone https://github.com/addyosmani/agent-skills.git\nclaude --plugin-dir /path/to/agent-skills\n```\n\n</details>\n\n<details>\n<summary><b>Cursor</b></summary>\n\nCopy any `SKILL.md` into `.cursor/rules/`, or reference the full `skills/` directory. See [docs/cursor-setup.md](docs/cursor-setup.md).\n\n</details>\n\n<details>\n<summary><b>Antigravity CLI</b></summary>\n\nInstall as a native plugin for skills, subagents, and slash commands. See [docs/antigravity-setup.md](docs/antigravity-setup.md).\n\n**Install from the repo:**\n\n```bash\nagy plugin install https://github.com/addyosmani/agent-skills.git\n```\n\n**Install from a local clone:**\n\n```bash\ngit clone https://github.com/addyosmani/agent-skills.git\nagy plugin install ./agent-skills\n```\n\n</details>\n\n<details>\n<summary><b>Gemini CLI</b></summary>\n\nInstall as native skills for auto-discovery, or add to `GEMINI.md` for persistent context. See [docs/gemini-cli-setup.md](docs/gemini-cli-setup.md).\n\n**Install from the repo:**\n\n```bash\ngemini skills install https://github.com/addyosmani/agent-skills.git --path skills\n```\n\n**Install from a local clone:**\n\n```bash\ngemini skills install ./agent-skills/skills/\n```\n\n</details>\n\n<details>\n<summary><b>Windsurf</b></summary>\n\nAdd skill contents to your Windsurf rules configuration. See [docs/winds"
+  },
+  {
+    "full_name": "harry0703/MoneyPrinterTurbo",
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "language": "Python",
+    "license": "MIT",
+    "stargazers_count": 85175,
+    "stars_today": 1389,
+    "created_at": "2024-03-11T02:57:34Z",
+    "homepage": "",
+    "topics": [
+      "ai",
+      "automation",
+      "chatgpt",
+      "moviepy",
+      "python",
+      "shortvideo",
+      "tiktok"
+    ],
+    "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a> | <a href=\"README-ar.md\">العربية</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n\n<br>\n只需提供一个视频 <b>主题</b> 或 <b>关键词</b> ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。\n<br>\n\n<p align=\"center\">\n  <sub>\n    感谢 <a href=\"https://aihubmix.com/?aff=CEve\">AIHubMix</a> 对本项目的赞助。AIHubMix 深度适配 OpenAI、Claude、Gemini、DeepSeek、智谱、千问等全球顶级最新模型，一站式快速接入 GPT-5.5、deepseek-v4-flash 等 700+ 模型（含多个免费模型），提供企业级生产稳定性保障。\n  </sub>\n</p>\n\n<h4>Web界面</h4>\n\n![](docs/webui.jpg)\n\n<h4>API界面</h4>\n\n![](docs/api.jpg)\n\n</div>\n\n## 功能特性 🎯\n\n- [x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`\n- [x] 支持视频文案 **AI自动生成**，也可以**自定义文案**\n- [x] 支持多种 **高清视频** 尺寸\n  - [x] 竖屏 9:16，`1080x1920`\n  - [x] 横屏 16:9，`1920x1080`\n- [x] 支持 **批量视频生成**，可以一次生成多个视频，然后选择一个最满意的\n- [x] 支持 **视频片段时长** 设置，方便调节素材切换频率\n- [x] 支持 **中文** 和 **英文** 视频文案\n- [x] 支持 **多种语音** 合成，可 **实时试听** 效果\n- [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置\n- [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`\n- [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**\n- [x] 支持多种素材源:**Pexels**、**Pixabay**、**Coverr**(免费高清/4K 素材库,使用须遵守 [Coverr 许可条款](https://coverr.co/license),以 16:9 横屏为主;在 [coverr.co/developers](https://coverr.co/developers?ctx=header_navigation) 注册即可,Demo 套餐 50 次/小时)\n- [x] 支持 **OpenAI**、**AIHubMix**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、**DeepSeek**、**MiniMax**、 **文心一言**, **Pollinations**、**ModelScope** 等多种模型接入\n\n## 视频演示 📺\n\n### 竖屏 9:16\n\n<table>\n<thead>\n<tr>\n<th align=\"center\"><g-emoji class=\"g-emoji\" alias=\"arrow_forward\">▶️</g-emoji> 《如何增加生活的乐趣》</th>\n<th align=\"center\"><g-emoji class=\"g-emoji\" alias=\"arrow_forward\">▶️</g-emoji> 《金钱的作用》<br>更真实的合成声音</th>\n<th align=\"center\"><g-emoji class=\"g-emoji\" alias=\"arrow_forward\">▶️</g-emoji> 《生命的意义是什么》</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><video src=\"https://github.com/harry0703/MoneyPrinterTurbo/assets/4928832/a84d33d5-27a2-4aba-8fd0-9fb2bd91c6a6\"></video></td>\n<td align=\"center\"><video src=\"https://github.com/harry0703/MoneyPrinterTurbo/assets/4928832/af2f3b0b-002e-49fe-b161-18ba91c055e8\"></video></td>\n<td align=\"center\"><video src=\"https://github.com/harry0703/MoneyPrinterTurbo/assets/4928832/112c9564-d52b-4472-99ad-970b75f66476\"></video></td>\n</tr>\n</tbody>\n</table>\n\n### 横屏 16:9\n\n<table>\n<thead>\n<tr>\n<th align=\"center\"><g-emoji class=\"g-emoji\" alias=\"arrow_forward\">▶️</g-emoji>《生命的意义是什么》</th>\n<th align=\"center\"><g-emoji class=\"g-emoji\" alias=\"arrow_forward\">▶️</g-emoji>《为什么要运动》</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><video src=\"https://github.com/harry0703/MoneyPrinterTurbo/assets/4928832/346ebb15-c55f-47a9-a653-114f08bb8073\"></video></td>\n<td align=\"center\"><video src=\"https://github.com/harry0703/MoneyPrinterTurbo/assets/4928832/271f2fae-8283-44a0-8aa0-0ed8f9a6fa87\"></video></td>\n</tr>\n</tbody>\n</table>\n\n## 配置要求 📦\n\n- 建议系统：Windows 10 或 MacOS 11.0 以上，或主流 Linux 发行版\n- GPU 不是必需项，但如果你希望本地转录、更快的视频处理或更顺畅的批量生成体验，"
+  },
+  {
+    "full_name": "roboflow/supervision",
+    "description": "We write your reusable computer vision tools. 💜",
+    "language": "Python",
+    "license": "MIT",
+    "stargazers_count": 43633,
+    "stars_today": 695,
+    "created_at": "2022-11-28T14:08:44Z",
+    "homepage": "https://supervision.roboflow.com",
+    "topics": [
+      "classification",
+      "coco",
+      "computer-vision",
+      "deep-learning",
+      "hacktoberfest",
+      "image-processing",
+      "instance-segmentation",
+      "low-code",
+      "machine-learning",
+      "metrics",
+      "object-detection",
+      "oriented-bounding-box",
+      "pascal-voc",
+      "python",
+      "pytorch",
+      "tensorflow",
+      "tracking",
+      "video-processing",
+      "yolo"
+    ],
+    "readme_excerpt": "<div align=\"center\">\n  <p>\n    <a align=\"center\" href=\"\" target=\"https://supervision.roboflow.com\">\n      <img\n        width=\"100%\"\n        src=\"https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529\"\n      >\n    </a>\n  </p>\n\n<br>\n\n[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)\n\n<br>\n\n[![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision) [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision) [![license](https://img.shields.io/pypi/l/supervision)](LICENSE.md) [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision) [![codecov](https://codecov.io/gh/roboflow/supervision/graph/badge.svg?token=HMNJ5FVZ36)](https://codecov.io/gh/roboflow/supervision)\n\n[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision) [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb) [![gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roboflow/Annotators) [![discord](https://img.shields.io/discord/1159501506232451173?logo=discord&label=discord&labelColor=fff&color=5865f2&link=https%3A%2F%2Fdiscord.gg%2FGbfgXGJ8Bk)](https://discord.gg/GbfgXGJ8Bk)\n\n<div align=\"center\">\n    <a href=\"https://trendshift.io/repositories/124\"  target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/124\" alt=\"roboflow%2Fsupervision | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n  </div>\n\n</div>\n\n## 👋 hello\n\n**We are your essential toolkit for computer vision.** From data loading to real-time zone counting, we provide the building blocks so you can focus on building applications around your models. 🤝\n\n## 💻 install\n\nPip install the supervision package in a [**Python>=3.9**](https://www.python.org/) environment.\n\n```bash\npip install supervision\n```\n\nRead more about conda, mamba, and installing from source in our [guide](https://roboflow.github.io/supervision/).\n\n## 🔥 quickstart\n\n### models\n\nSupervision was designed to be model agnostic. Just plug in any classification, detection, or segmentation model. For your convenience, we have created [connectors](https://supervision.roboflow.com/latest/detection/core/#detections) for the most popular libraries like Ultralytics, Transformers, MMDetection, or Inference. Other integrations, like `rfdetr`, already return `sv.Detections` directly.\n\nInstall the optional dependencies for this example with `pip install pillow rfdetr`.\n\n```python\nimport supervision as sv\nfrom PIL import Image\nfrom rfdetr import RFDETRSmall\n\nimage = Image.open(...)\nmodel = RFDETRSmall()\ndetections = model.predict(image, threshold=0.5)\n\nlen(detections)\n# 5\n```\n\n<details>\n<summary>👉 more model connectors</summary>\n\n- inference\n\n    Running with [Inference](https://github.com/roboflow/inference) requires a [Roboflow API KEY](https://docs.roboflow.com/api-reference/authentication#retrieve-an-api-key).\n\n    ```python\n    import supervision as sv\n    from PIL import Image\n    from inference import get_model\n\n    image = Image.open(...)\n    model = get_model(model_id=\"rfdetr-small\", api_key=\"ROBOFLOW_API_KEY\")\n    result = model.infer(image)[0]\n    detections = sv.Detections.from_inference(result)\n\n    len(detections)\n    # 5\n    ```\n\n</details>\n\n### annotators\n\nSupervision offers a wide range of highly customizable [annotators](https://supervision.roboflow.com/latest/detection/annotators/), allowing you to compose the perfect visualization for your use case.\n\n```python\nimport cv2\nimport supervision as sv\n\nimage = cv2.imread(...)\ndetections = sv.Detections(...)\n\nbox"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "owner": "openai",
+    "name": "codex-plugin-cc",
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "stars_total": 23291,
+    "stars_today": 634,
+    "created_at": "2026-03-30T15:29:52Z",
+    "homepage": null,
+    "topics": [],
+    "url": "https://github.com/openai/codex-plugin-cc"
+  },
+  {
+    "owner": "anthropics",
+    "name": "claude-code",
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "language": "Python",
+    "license": null,
+    "stars_total": 135876,
+    "stars_today": 221,
+    "created_at": "2025-02-22T17:41:21Z",
+    "homepage": "https://code.claude.com/docs/en/overview",
+    "topics": [],
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "owner": "agentskills",
+    "name": "agentskills",
+    "description": "Specification and documentation for Agent Skills",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars_total": 22021,
+    "stars_today": 406,
+    "created_at": "2025-12-16T15:47:19Z",
+    "homepage": "https://agentskills.io",
+    "topics": ["agent-skills"],
+    "url": "https://github.com/agentskills/agentskills"
+  }
+]

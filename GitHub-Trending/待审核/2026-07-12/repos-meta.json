@@ -1,0 +1,44 @@
+{
+  "fetched_at": "2026-07-12",
+  "source": "github.com repo pages via web_fetch (no PAT; GitHub REST API not called — see report)",
+  "repos": [
+    {
+      "full_name": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph.",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total_repo_page": "75.2k",
+      "stars_today": 937,
+      "forks": "7.5k",
+      "homepage": "https://graphifylabs.ai/",
+      "topics": ["tree-sitter", "skills", "gemini", "knowledge-graph", "leiden", "codex", "rag", "graphrag", "antigravity", "claude-code", "openclaw"],
+      "latest_release": "v0.9.4 (2026-07-01), 150 releases",
+      "readme_summary": "输入 /graphify 一行命令，把整个项目（代码、文档、PDF、图片、视频）解析成可查询的知识图谱，让 AI 编程助手用查询代替满仓库 grep。用 tree-sitter 解析源码，Leiden 算法做社区划分（GraphRAG）。产出 graph.html（可交互）、GRAPH_REPORT.md、graph.json 三个文件，支持推送到 Neo4j / FalkorDB。适配 Claude Code、Codex、Cursor、Gemini CLI、Copilot 等 20 多个平台。YC S26。PyPI 包名 graphifyy。"
+    },
+    {
+      "full_name": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "license": "BSD-3-Clause (PyTorch BSD-style license)",
+      "stars_total_trending": 101401,
+      "stars_today": 290,
+      "forks": 28247,
+      "homepage": "https://pytorch.org",
+      "topics": ["deep-learning", "machine-learning", "neural-network", "gpu", "tensor", "autograd", "python"],
+      "readme_summary": "PyTorch 是主流深度学习框架，提供张量运算与动态计算图，配 autograd 自动求导和 GPU 加速。社区驱动，由 Soumith Chintala 等人维护，是训练现代神经网络的基础设施之一。README 因体量较大在抓取时被截断。"
+    },
+    {
+      "full_name": "facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total_repo_page": "6.3k",
+      "stars_today": 943,
+      "forks": 403,
+      "homepage": "http://astryx.atmeta.com",
+      "topics": [],
+      "latest_release": "v0.1.3 (2026-07-04), 5 releases, Beta",
+      "readme_summary": "Astryx 是 Meta 内部沉淀 8 年、体量最大的设计系统，现开源。内部曾支撑 13,000+ 应用。基于 React + StyleX，提供 150+ 无障碍组件、主题定制、暗色模式、模板和 CLI。不锁定样式方案（可用 Tailwind / CSS Module 覆盖）。核心卖点之一是 API、文档、CLI 同一套设计，让人和 AI 助手用同样方式构建。当前 Beta。"
+    }
+  ]
+}

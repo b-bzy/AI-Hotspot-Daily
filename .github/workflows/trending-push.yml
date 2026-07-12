@@ -1,0 +1,38 @@
+name: Push trending article to Telegram
+
+# GitHub-Trending 板块（本地 Claude Code 定时任务 09:00 生成）把当日文章推上 main 后，
+# 本 Action 把 article.md 发到 Telegram（Hotspot 机器人窗口）。
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'GitHub-Trending/待审核/**/article.md'
+  workflow_dispatch:
+
+concurrency:
+  group: trending-push
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send latest article to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::error::缺少 TELEGRAM secrets"; exit 1
+          fi
+          D=$(ls -d GitHub-Trending/待审核/*/ 2>/dev/null | sort | tail -1 | xargs basename)
+          if [ -z "$D" ] || [ ! -f "GitHub-Trending/待审核/$D/article.md" ]; then
+            echo "无文章产物，跳过"; exit 0
+          fi
+          echo "推送文章: $D"
+          python3 scripts/send_telegram.py --file "GitHub-Trending/待审核/$D/article.md" \
+            --text "📰 <b>今日 GitHub AI 项目文章</b>（$D）——Trending 日榜 AI 前 3，科技媒体风格，标题候选见文首注释"

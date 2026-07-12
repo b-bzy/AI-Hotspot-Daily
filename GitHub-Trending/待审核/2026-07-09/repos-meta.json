@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-09",
+  "source": "github.com/trending?since=daily (HTML)",
+  "selected": [
+    {"slug":"ruvnet/RuView","stars":79280,"stars_today":799,"language":"Rust","license":"MIT","created":"2025-06-07","homepage":"https://Cognitum.One/RuView","topics":["spatial-intelligence","pose-estimation","wifi","self-learning","claude","iot"],"desc":"用 WiFi CSI 信号做空间感知/生命体征监测"},
+    {"slug":"TencentCloud/CubeSandbox","stars":9036,"stars_today":564,"language":"Rust","license":"Apache-2.0","created":"2026-04-10","homepage":"https://cubesandbox.com","topics":["agents","container","sandbox"],"desc":"面向 AI Agent 的轻量安全沙箱"},
+    {"slug":"TencentCloud/TencentDB-Agent-Memory","stars":7783,"stars_today":318,"language":"TypeScript","license":"MIT","created":"2026-04-07","homepage":"","topics":["agent","ai-agent","llm","embedding","long-term-memory","vector-search"],"desc":"面向 AI Agent 的本地长期记忆系统"}
+  ],
+  "excluded_by_history": ["addyosmani/agent-skills","mvanhorn/last30days-skill","obra/superpowers","alibaba/zvec","asgeirtj/system_prompts_leaks","iOfficeAI/OfficeCLI","bradautomates/claude-video"],
+  "excluded_non_ai": ["prisma/prisma","argoproj/argo-cd","Diolinux/PhotoGIMP","huxingyi/autoremesher","wonderwhy-er/DesktopCommanderMCP(备选,+28低动量)"]
+}
