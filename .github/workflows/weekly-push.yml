@@ -1,0 +1,43 @@
+name: Push weekly picks to Telegram
+
+# 周报架构: 云端 routine 每周日读 AI-Daily-Briefing 的一周早报(只读),
+# 产物存到本仓库 周报/YYYY-MM-DD/ 并推 main → 本 Action 用本仓库 Secret
+# (即 AI-Hotspot 对应的 Telegram 机器人)把两份文档发出去。
+on:
+  push:
+    branches: [main]
+    paths:
+      - '周报/**'
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-push
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send weekly docs to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::error::缺少 TELEGRAM secrets"; exit 1
+          fi
+          WEEK=$(ls -d 周报/*/ 2>/dev/null | sort | tail -1 | sed 's#周报/##; s#/##')
+          if [ -z "$WEEK" ]; then echo "无周报产物，跳过"; exit 0; fi
+          echo "推送周报: $WEEK"
+          if [ -f "周报/$WEEK/本周选题TOP10.md" ]; then
+            python3 scripts/send_telegram.py --file "周报/$WEEK/本周选题TOP10.md" \
+              --text "🗓 <b>本周选题 TOP10</b>（$WEEK）——基于一周 AI 早报，按爆款选题评分框架排序"
+          fi
+          if [ -f "周报/$WEEK/一周AI串烧初稿.md" ]; then
+            python3 scripts/send_telegram.py --file "周报/$WEEK/一周AI串烧初稿.md" \
+              --text "🎬 <b>一周 AI 大事串烧 · 口播初稿</b>（$WEEK）——高密度快串，【】锚点可直接喂分镜"
+          fi
