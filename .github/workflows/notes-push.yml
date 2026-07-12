@@ -1,0 +1,42 @@
+name: Push daily note to Telegram
+
+# 每日资讯笔记流水线（本地 Claude Code 定时任务 07:30 生成，机器之心风格 + 评审迭代 + 卡兹克标题包）
+# 把当日产物推上 main 后，本 Action 把正文和标题包发到 Telegram（Hotspot 机器人窗口）。
+on:
+  push:
+    branches: [main]
+    paths:
+      - '资讯笔记/**'
+  workflow_dispatch:
+
+concurrency:
+  group: notes-push
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send latest note to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "::error::缺少 TELEGRAM secrets"; exit 1
+          fi
+          D=$(ls -d 资讯笔记/*/ 2>/dev/null | sort | tail -1 | xargs basename)
+          if [ -z "$D" ]; then echo "无产物，跳过"; exit 0; fi
+          echo "推送资讯笔记: $D"
+          if [ -f "资讯笔记/$D/$D-article.md" ]; then
+            python3 scripts/send_telegram.py --file "资讯笔记/$D/$D-article.md" \
+              --text "📝 <b>今日资讯笔记 · 正文</b>（$D）——机器之心风格，已过评审迭代"
+          fi
+          if [ -f "资讯笔记/$D/$D-headline.md" ]; then
+            python3 scripts/send_telegram.py --file "资讯笔记/$D/$D-headline.md" \
+              --text "🎁 <b>今日资讯笔记 · 标题包</b>（$D）——封面标题/正文标题/开篇词/数字标签"
+          fi
