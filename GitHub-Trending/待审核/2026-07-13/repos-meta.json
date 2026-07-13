@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-13",
+  "repos": [
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars_total": 118733,
+      "stars_today": 408,
+      "topics": ["python", "agents", "rag", "llms"],
+      "readme_source": "WebFetch(github.com repo page, since api.github.com not enabled for this repo without add_repo)"
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "stars_total": 48511,
+      "stars_today": 459,
+      "topics": ["ai", "claude-api", "notebooks", "recipes"],
+      "readme_source": "WebFetch(github.com repo page)"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 61459,
+      "stars_today": 115,
+      "topics": ["ai", "trading", "llm", "hedge-fund"],
+      "readme_source": "WebFetch(github.com repo page)"
+    }
+  ],
+  "excluded_by_dedup_90d": [
+    {"repo": "wonderwhy-er/DesktopCommanderMCP", "last_used": "2026-07-10"},
+    {"repo": "davila7/claude-code-templates", "last_used": "2026-07-10"},
+    {"repo": "HKUDS/Vibe-Trading", "last_used": "2026-06-30"}
+  ],
+  "other_ai_candidates_not_selected": [
+    {"repo": "Nutlope/hallmark", "reason": "diversity — 与已选项目主题重叠较少但整体信息密度和数据可信度弱于前三"},
+    {"repo": "ColeMurray/background-agents", "reason": "star 基数较小(2.3k)，信息密度不足以支撑 200-400 字"},
+    {"repo": "Dicklesworthstone/destructive_command_guard", "reason": "AI 相关性偏弱（agent 安全防护工具，非典型 AI 项目），且信号命中未达清晰阈值"}
+  ]
+}

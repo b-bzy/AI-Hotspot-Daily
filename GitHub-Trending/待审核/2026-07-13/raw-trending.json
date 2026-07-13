@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-13",
+  "source": "https://github.com/trending?since=daily (via WebFetch, curl direct to github.com blocked by sandbox proxy)",
+  "repos": [
+    {"rank": 1, "repo": "Dicklesworthstone/destructive_command_guard", "description": "blocking dangerous git and shell commands from being executed by agents", "language": "Rust", "stars_total": 3078, "forks": 112, "stars_today": 444},
+    {"rank": 2, "repo": "wonderwhy-er/DesktopCommanderMCP", "description": "MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities", "language": "TypeScript", "stars_total": 8030, "forks": 987, "stars_today": 210},
+    {"rank": 3, "repo": "HKUDS/Vibe-Trading", "description": "Your Personal Trading Agent", "language": "Python", "stars_total": 20726, "forks": 3617, "stars_today": 768},
+    {"rank": 4, "repo": "PrefectHQ/prefect", "description": "workflow orchestration framework for building resilient data pipelines in Python", "language": "Python", "stars_total": 23200, "forks": 2394, "stars_today": 66},
+    {"rank": 5, "repo": "Shubhamsaboo/awesome-llm-apps", "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship", "language": "Python", "stars_total": 118733, "forks": 17649, "stars_today": 408},
+    {"rank": 6, "repo": "anthropics/claude-cookbooks", "description": "collection of notebooks/recipes showcasing some fun and effective ways of using Claude", "language": "Jupyter Notebook", "stars_total": 48511, "forks": 5738, "stars_today": 459},
+    {"rank": 7, "repo": "home-assistant/core", "description": "Open source home automation that puts local control and privacy first", "language": "Python", "stars_total": 89134, "forks": 38088, "stars_today": 400},
+    {"rank": 8, "repo": "Crosstalk-Solutions/project-nomad", "description": "self-contained, offline survival computer packed with critical tools, knowledge, and AI", "language": "TypeScript", "stars_total": 33860, "forks": 3395, "stars_today": 125},
+    {"rank": 9, "repo": "ColeMurray/background-agents", "description": "open-source background agents coding system", "language": "TypeScript", "stars_total": 2298, "forks": 343, "stars_today": 16},
+    {"rank": 10, "repo": "k1tbyte/Wand-Enhancer", "description": "Advanced UX and interoperability extension for Wand (WeMod) app", "language": "C#", "stars_total": 7011, "forks": 19615, "stars_today": 609},
+    {"rank": 11, "repo": "pingdotgg/t3code", "description": null, "language": "TypeScript", "stars_total": 13781, "forks": 2895, "stars_today": 75},
+    {"rank": 12, "repo": "virattt/ai-hedge-fund", "description": "An AI Hedge Fund Team", "language": "Python", "stars_total": 61459, "forks": 10866, "stars_today": 115},
+    {"rank": 13, "repo": "chen08209/FlClash", "description": "multi-platform proxy client based on ClashMeta, simple and easy to use, open-source and ad-free", "language": "Dart", "stars_total": 45293, "forks": 2857, "stars_today": 154},
+    {"rank": 14, "repo": "davila7/claude-code-templates", "description": "CLI tool for configuring and monitoring Claude Code", "language": "Python", "stars_total": 29276, "forks": 3206, "stars_today": 274},
+    {"rank": 15, "repo": "par274/sharpemu", "description": "An experimental PlayStation 5 emulator project", "language": "C#", "stars_total": 1331, "forks": 78, "stars_today": 314},
+    {"rank": 16, "repo": "malisper/pgrust", "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests", "language": "Rust", "stars_total": 2547, "forks": 71, "stars_today": 518},
+    {"rank": 17, "repo": "Nutlope/hallmark", "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex", "language": "CSS", "stars_total": 4393, "forks": 254, "stars_today": 155}
+  ]
+}
