@@ -5,11 +5,12 @@ name: Fetch AI hotspot sources (daily)
 # 所以抓取由这里代劳，routine 只读仓库里的 items.json 做整理。
 on:
   schedule:
-    - cron: '43 3 * * *'   # 03:43 UTC = 07:43 GST = 11:43 北京，早于 routine 的 04:17 UTC
+    # GitHub cron 是尽力而为(2026-07-13 实测被延迟近 3 小时导致日报断更),
+    # 改为三班次重试: 任一班准点即可,脚本幂等(items.json 已存在则跳过,不重复抓不重复提交)
+    - cron: '35 2 * * *'   # 02:35 UTC = 06:35 GST = 10:35 北京
+    - cron: '55 2 * * *'   # 第二班
+    - cron: '15 3 * * *'   # 第三班(仍早于日报 routine 03:30 UTC)
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/fetch-daily.yml'   # 推送本文件时立即试跑一次（测试用）
 
 permissions:
   contents: write
