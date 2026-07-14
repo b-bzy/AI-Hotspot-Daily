@@ -5,11 +5,19 @@ name: Fetch AI hotspot sources (daily)
 # 所以抓取由这里代劳，routine 只读仓库里的 items.json 做整理。
 on:
   schedule:
-    # GitHub cron 是尽力而为(2026-07-13 实测被延迟近 3 小时导致日报断更),
-    # 改为三班次重试: 任一班准点即可,脚本幂等(items.json 已存在则跳过,不重复抓不重复提交)
+    # GitHub cron 是尽力而为,三班次同一天(07-13/07-14)被连续观测到延迟 3+ 小时,
+    # 说明"多加几班 schedule"治标不治本——GitHub 高峰期是把整个 schedule 队列一起delay,
+    # 不是单班次偶发。保留三班次做"运气好时更早"的尝试,但不再是唯一触发路径。
     - cron: '35 2 * * *'   # 02:35 UTC = 06:35 GST = 10:35 北京
     - cron: '55 2 * * *'   # 第二班
     - cron: '15 3 * * *'   # 第三班(仍早于日报 routine 03:30 UTC)
+  push:
+    # 主触发路径的兜底:push 事件不受 schedule 队列延迟影响,通常几十秒内起跑。
+    # 日报 routine 发现 items.json 未就绪时,会主动更新并 push 这个标记文件来即时唤起本工作流。
+    # 路径限定到标记文件本身,不会被下面"Commit results"步骤(只 add 待审核/$DATE/)误触发,不会自循环。
+    branches: [main]
+    paths:
+      - '.github/fetch-trigger'
   workflow_dispatch:
 
 permissions:
