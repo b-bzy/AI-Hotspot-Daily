@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-14",
+  "source": "https://github.com/trending?since=daily (fetched via WebFetch; direct curl to github.com in this sandbox is intercepted by the session proxy and only api.github.com calls scoped to the mounted repo are allowed, so scripts/fetch_trending.py's HTML-curl approach could not run here)",
+  "items": [
+    {"rank": 1, "repo": "OpenCut-app/OpenCut", "description": "The open-source CapCut alternative", "language": "TypeScript", "stars_total": 67011, "stars_today": 1229},
+    {"rank": 2, "repo": "HKUDS/Vibe-Trading", "description": "Vibe-Trading: Your Personal Trading Agent", "language": "Python", "stars_total": 21967, "stars_today": 1153},
+    {"rank": 3, "repo": "moeru-ai/airi", "description": "Self-hosted AI companion with voice chat and gaming capabilities", "language": "TypeScript", "stars_total": 42008, "stars_today": 78},
+    {"rank": 4, "repo": "Shubhamsaboo/awesome-llm-apps", "description": "100+ AI Agent & RAG apps you can actually run", "language": "Python", "stars_total": 119830, "stars_today": 996},
+    {"rank": 5, "repo": "Nutlope/hallmark", "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex", "language": "CSS", "stars_total": 5317, "stars_today": 794},
+    {"rank": 6, "repo": "Raphire/Win11Debloat", "description": "PowerShell utility for removing pre-installed applications and disabling telemetry on Windows", "language": "PowerShell", "stars_total": 50987, "stars_today": 118},
+    {"rank": 7, "repo": "Graphify-Labs/graphify", "description": "AI coding assistant skill mapping code/docs into a queryable knowledge graph", "language": "Python", "stars_total": 84973, "stars_today": 1095},
+    {"rank": 8, "repo": "hasaneyldrm/exercises-dataset", "description": "Fitness dataset with 1,324 exercises, animations and multilingual instructions", "language": "HTML", "stars_total": 12758, "stars_today": 451},
+    {"rank": 9, "repo": "github/spec-kit", "description": "Toolkit to help you get started with Spec-Driven Development", "language": "Python", "stars_total": 120730, "stars_today": 543},
+    {"rank": 10, "repo": "coreyhaines31/marketingskills", "description": "Marketing skills for Claude Code and AI agents", "language": "JavaScript", "stars_total": 38724, "stars_today": 299}
+  ],
+  "notes": "WebFetch's summarizer model reliably returned only ranks 1-10 across three separate requests (with consistent stars/descriptions each time); attempts to request ranks 11-25 returned hallucinated repeats of items already in 1-10, so the list was capped at 10 verified items rather than trusting fabricated continuations."
+}

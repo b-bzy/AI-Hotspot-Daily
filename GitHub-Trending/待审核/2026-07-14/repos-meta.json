@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-14",
+  "note": "api.github.com repo/readme calls returned 403 'GitHub access to this repository is not enabled for this session' for repos other than the mounted b-bzy/AI-Hotspot-Daily, so metadata/topics came from WebFetch on the repo page and README came from git clone --depth 1 (clones deleted after reading).",
+  "selected": [
+    {
+      "repo": "moeru-ai/airi",
+      "description": "Self hosted, you-owned AI companion / virtual character with voice chat and gaming capabilities across Web/macOS/Windows",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 42008,
+      "stars_today": 78,
+      "topics": ["live2d", "vrm", "digital-life", "vtuber", "airi", "neurosama", "ai-vtuber", "neuro-sama", "ai-companion"],
+      "homepage": "https://airi.moeru.ai"
+    },
+    {
+      "repo": "github/spec-kit",
+      "description": "Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 120730,
+      "stars_today": 543,
+      "topics": ["engineering", "development", "ai", "spec", "copilot", "prd", "spec-driven"],
+      "homepage": "https://github.github.io/spec-kit/"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars_total": 38724,
+      "stars_today": 299,
+      "topics": ["marketing", "codex", "claude"],
+      "homepage": null
+    }
+  ],
+  "excluded_from_ai_candidates": [
+    {"repo": "HKUDS/Vibe-Trading", "reason": "AI-relevant (score >=3) but written 2026-06-30, within 90-day dedup window"},
+    {"repo": "Shubhamsaboo/awesome-llm-apps", "reason": "AI-relevant but written 2026-07-13 (yesterday), within dedup window"},
+    {"repo": "Graphify-Labs/graphify", "reason": "AI-relevant but same project/name as safishamsi/graphify covered 2026-07-12 (2 days ago, likely an org-transfer re-listing); treated as duplicate for editorial freshness even though the owner string differs"},
+    {"repo": "Nutlope/hallmark", "reason": "Only one clear AI-keyword signal class (description); did not clear the 'at least two signal classes' bar in ai-keywords.md"},
+    {"repo": "OpenCut-app/OpenCut", "reason": "Video editor, no AI signal"},
+    {"repo": "Raphire/Win11Debloat", "reason": "Windows debloat utility, no AI signal"},
+    {"repo": "hasaneyldrm/exercises-dataset", "reason": "Fitness dataset, no AI/ML signal"}
+  ]
+}
