@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-15",
+  "source": "https://github.com/trending?since=daily (via WebFetch, direct curl to github.com blocked by session proxy policy)",
+  "repos": [
+    {"rank":1,"full_name":"Shubhamsaboo/awesome-llm-apps","description":"100+ AI Agent & RAG apps you can actually run — clone, customize, ship.","language":"Python","stars_today":1106},
+    {"rank":2,"full_name":"mattpocock/skills","description":"Skills for Real Engineers. Straight from my .claude directory.","language":"Shell","stars_today":1679},
+    {"rank":3,"full_name":"Dicklesworthstone/destructive_command_guard","description":"The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.","language":"Rust","stars_today":473},
+    {"rank":4,"full_name":"OpenCut-app/OpenCut","description":"The open-source CapCut alternative","language":"TypeScript","stars_today":4276},
+    {"rank":5,"full_name":"virattt/ai-hedge-fund","description":"An AI Hedge Fund Team","language":"Python","stars_today":109},
+    {"rank":6,"full_name":"Nutlope/hallmark","description":"Anti-AI-slop design skill for Claude Code, Cursor, and Codex.","language":"CSS","stars_today":1015},
+    {"rank":7,"full_name":"HKUDS/Vibe-Trading","description":"Vibe-Trading: Your Personal Trading Agent","language":"Python","stars_today":1256},
+    {"rank":8,"full_name":"Raphire/Win11Debloat","description":"Script enabling removal of pre-installed apps and disabling telemetry on Windows.","language":"PowerShell","stars_today":783},
+    {"rank":9,"full_name":"hasaneyldrm/exercises-dataset","description":"1,324-exercise fitness dataset — animation GIFs, thumbnails, muscle-group & equipment data","language":"HTML","stars_today":851},
+    {"rank":10,"full_name":"penpot/penpot","description":"Penpot: The open-source design platform for Product teams that need scalable collaboration.","language":"Clojure","stars_today":395},
+    {"rank":11,"full_name":"AIEraDev/Clypra","description":"A modern video editor built with Tauri, React, and TypeScript.","language":"TypeScript","stars_today":85},
+    {"rank":12,"full_name":"par274/sharpemu","description":"An experimental PlayStation 5 emulator project.","language":"C#","stars_today":332},
+    {"rank":13,"full_name":"chenyme/grok2api","description":"Multi-account API gateway for Grok services","language":"Go","stars_today":186},
+    {"rank":14,"full_name":"Graphify-Labs/graphify","description":"Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph.","language":"Python","stars_today":1851,"note":"same project as safishamsi/graphify covered 2026-07-12 (org transfer, confirmed via README CI badge); excluded as duplicate"},
+    {"rank":15,"full_name":"HenryNdubuaku/maths-cs-ai-compendium","description":"Become a cracked AI/ML Research Engineer","language":"TypeScript","stars_today":112}
+  ]
+}

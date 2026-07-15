@@ -1,0 +1,42 @@
+{
+  "selected": [
+    {
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "description": "High-performance hook blocking dangerous git and shell commands from execution by AI coding agents",
+      "language": "Rust",
+      "license": "custom",
+      "total_stars": "4.5k",
+      "stars_today": 473,
+      "topics": ["ai-agents","security","git-safety","command-interception"]
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "license": "MIT",
+      "total_stars": "6.3k",
+      "stars_today": 1015,
+      "topics": []
+    },
+    {
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "total_stars": "5.3k",
+      "stars_today": 112,
+      "topics": ["artificial-intelligence","machine-learning","deep-learning","ai-textbook"]
+    }
+  ],
+  "excluded_ai_candidates": [
+    {"full_name":"Shubhamsaboo/awesome-llm-apps","reason":"duplicate — covered 选题历史 2026-07-13"},
+    {"full_name":"virattt/ai-hedge-fund","reason":"duplicate — covered 选题历史 2026-07-13"},
+    {"full_name":"HKUDS/Vibe-Trading","reason":"duplicate — covered 选题历史 2026-06-30"},
+    {"full_name":"mattpocock/skills","reason":"duplicate — covered 选题历史 2026-06-21"},
+    {"full_name":"Graphify-Labs/graphify","reason":"same project as safishamsi/graphify covered 2026-07-12 under prior org name; org transfer confirmed via README CI badge referencing safishamsi/graphify"},
+    {"full_name":"chenyme/grok2api","reason":"below AI-keyword threshold, thin info density"}
+  ],
+  "excluded_non_ai": [
+    "OpenCut-app/OpenCut","Raphire/Win11Debloat","hasaneyldrm/exercises-dataset","penpot/penpot","AIEraDev/Clypra","par274/sharpemu"
+  ]
+}
