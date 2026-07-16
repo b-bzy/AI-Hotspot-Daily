@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-16",
+  "repos": [
+    {
+      "full_name": "openinterpreter/openinterpreter",
+      "description": "A coding agent optimized for low-cost models",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars_total": 65562,
+      "stars_today": 299,
+      "forks": 5657,
+      "homepage": "http://openinterpreter.com/",
+      "topics": ["rust", "acp", "kimi", "qwen", "deepseek", "coding-agent"],
+      "latest_release": "0.0.25 (2026-07-15)",
+      "total_releases": 56,
+      "language_breakdown": "Rust 96.6%, Python 2.6%, Starlark 0.2%",
+      "harnesses": ["native", "claude-code", "claude-code-bare", "zcode", "kimi-cli", "qwen-code", "deepseek-tui", "swe-agent", "minimal"],
+      "install_cmd": "curl -fsSL https://www.openinterpreter.com/install | sh",
+      "notes": "Rust 重写版，README 明确写'a fork of OpenAI's Codex'，原 Python 版本已转为社区 fork（endolith/open-interpreter）继续维护"
+    },
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "description": "Lifelong Personalized Tutoring — an agent-native learning workspace",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars_total": 26385,
+      "stars_today": 172,
+      "forks": 3580,
+      "homepage": "https://deeptutor.info/",
+      "topics": ["interactive-learning", "multi-agent-systems", "ai-agents", "cli-tool", "rag", "large-language-models", "ai-tutor", "deepresearch"],
+      "latest_release": "v1.5.1 (2026-07-09)",
+      "python_requirement": "3.11+",
+      "install_cmd": "pip install -U deeptutor && deeptutor init && deeptutor start",
+      "retrieval_engines": ["LlamaIndex (默认)", "PageIndex", "GraphRAG", "LightRAG", "Obsidian vault"],
+      "supported_providers": ["OpenAI", "Anthropic Claude", "Ollama", "LM Studio", "llama.cpp", "vLLM", "Google Gemini", "NVIDIA NIM", "Qwen"],
+      "notes": "香港大学 HKUDS 实验室出品，同一 agent loop 支撑 Chat/Quiz/Research/Visualize/Solve/Mastery 六种模式"
+    },
+    {
+      "full_name": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 72166,
+      "stars_today": 1664,
+      "forks": 7373,
+      "homepage": "https://opencut.app",
+      "topics": ["editor", "oss", "videoeditor"],
+      "latest_stable_version": "v0.3.0 (2026-04-15, classic 版)",
+      "open_issues": 243,
+      "language_breakdown": "TypeScript 97.2%, CSS 2.1%, Rust 0.7%",
+      "notes": "正在从零重写（统一 Rust core，桌面/移动/浏览器共用一套后端），旧版仍在 opencut-classic 维护；计划中包含面向 AI agent 的 MCP server，但目前主打开源视频剪辑，非 AI 原生项目，本次为补位项目"
+    }
+  ]
+}

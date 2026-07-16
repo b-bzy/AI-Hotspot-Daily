@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-16",
+  "source": "github.com/trending?since=daily (WebFetch, api.github.com/trending page blocked for direct curl in this session — repo-scoped proxy)",
+  "repos": [
+    {"rank":1,"full_name":"OpenCut-app/OpenCut","description":"The open-source CapCut alternative","language":"TypeScript","stars_total":72166,"forks":7373,"stars_today":1664},
+    {"rank":2,"full_name":"Nutlope/hallmark","description":"Anti-AI-slop design skill for Claude Code, Cursor, and Codex","language":"CSS","stars_total":8903,"forks":455,"stars_today":1277},
+    {"rank":3,"full_name":"mattpocock/skills","description":"Skills for Real Engineers. Straight from my .claude directory","language":"Shell","stars_total":172558,"forks":14817,"stars_today":2130},
+    {"rank":4,"full_name":"moeru-ai/airi","description":"Self-hosted AI companion with voice chat and game-playing capabilities","language":"TypeScript","stars_total":42576,"forks":4253,"stars_today":110},
+    {"rank":5,"full_name":"Dicklesworthstone/destructive_command_guard","description":"Blocking dangerous git and shell commands from being executed by agents","language":"Rust","stars_total":4812,"forks":180,"stars_today":471},
+    {"rank":6,"full_name":"HKUDS/Vibe-Trading","description":"Your Personal Trading Agent","language":"Python","stars_total":23802,"forks":4050,"stars_today":915},
+    {"rank":7,"full_name":"openinterpreter/openinterpreter","description":"A coding agent for low-cost models","language":"Rust","stars_total":65562,"forks":5657,"stars_today":299},
+    {"rank":8,"full_name":"HKUDS/DeepTutor","description":"Lifelong Personalized Tutoring","language":"Python","stars_total":26385,"forks":3580,"stars_today":172},
+    {"rank":9,"full_name":"HenryNdubuaku/maths-cs-ai-compendium","description":"Become a cracked AI/ML Research Engineer","language":"TypeScript","stars_total":5998,"forks":748,"stars_today":725},
+    {"rank":10,"full_name":"Shubhamsaboo/awesome-llm-apps","description":"100+ AI Agent & RAG apps you can actually run","language":"Python","stars_total":122036,"forks":18009,"stars_today":1236},
+    {"rank":11,"full_name":"coreyhaines31/marketingskills","description":"Marketing skills for AI agents covering CRO, copywriting, SEO","language":"JavaScript","stars_total":39851,"forks":6326,"stars_today":340},
+    {"rank":12,"full_name":"YimMenu/YimMenuV2","description":"Experimental menu for GTA 5: Enhanced","language":"C++","stars_total":1439,"forks":355,"stars_today":38},
+    {"rank":13,"full_name":"hasaneyldrm/exercises-dataset","description":"1,324-exercise fitness dataset with animations and instructions","language":"HTML","stars_total":14470,"forks":1734,"stars_today":949}
+  ],
+  "dedup_excluded_90d": [
+    "Nutlope/hallmark (2026-07-15)",
+    "mattpocock/skills (2026-06-21)",
+    "moeru-ai/airi (2026-07-14)",
+    "Dicklesworthstone/destructive_command_guard (2026-07-15)",
+    "HKUDS/Vibe-Trading (2026-06-30)",
+    "HenryNdubuaku/maths-cs-ai-compendium (2026-07-15)",
+    "Shubhamsaboo/awesome-llm-apps (2026-07-13)",
+    "coreyhaines31/marketingskills (2026-07-14)"
+  ],
+  "ai_candidates_after_dedup": ["openinterpreter/openinterpreter", "HKUDS/DeepTutor"],
+  "non_ai_remaining_by_stars_today": ["OpenCut-app/OpenCut (1664)", "hasaneyldrm/exercises-dataset (949)", "YimMenu/YimMenuV2 (38)"],
+  "selected_3": ["openinterpreter/openinterpreter", "HKUDS/DeepTutor", "OpenCut-app/OpenCut"],
+  "selection_reason": "2 AI candidates survived keyword scoring + 90天去重；第3个按 today's stars 倒序从非AI项目补足（OpenCut-app/OpenCut today 1664 star 为非重复项目中最高）"
+}
