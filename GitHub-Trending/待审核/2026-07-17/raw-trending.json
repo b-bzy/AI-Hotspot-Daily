@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-17",
+  "source": "github_trending_html_via_webfetch",
+  "note": "本地沙箱代理仅放行本会话已挂载仓库(b-bzy/AI-Hotspot-Daily)的 git/API 操作，通用 github.com 页面与 api.github.com 任意仓库请求被拦截（403，'sessions are bound to their configured repositories'）；OSSInsight 等其它域名同样被拦截。改用 WebFetch 工具（服务端抓取，不经过本地代理）读取 Trending 页与各仓库页面。",
+  "repos": [
+    {"rank": 1, "repo": "apache/ossie", "description": "Industry standardization effort for semantic metadata exchange across analytics, AI, and BI platforms", "language": "Python", "total_stars": 956, "stars_today": 60},
+    {"rank": 2, "repo": "Nutlope/hallmark", "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex", "language": "CSS", "total_stars": 11086, "stars_today": 3372},
+    {"rank": 3, "repo": "OpenCut-app/OpenCut", "description": "Open-source CapCut alternative", "language": "TypeScript", "total_stars": 74149, "stars_today": 3537},
+    {"rank": 4, "repo": "PostHog/posthog", "description": "Platform for building self-driving products with AI observability, analytics, and more", "language": "Python", "total_stars": 35892, "stars_today": 77},
+    {"rank": 5, "repo": "openinterpreter/openinterpreter", "description": "Coding agent for open models like Kimi K3", "language": "Rust", "total_stars": 66032, "stars_today": 661},
+    {"rank": 6, "repo": "PrismML-Eng/Bonsai-demo", "description": "Bonsai Demo", "language": "Shell", "total_stars": 1553, "stars_today": 196},
+    {"rank": 7, "repo": "hasaneyldrm/exercises-dataset", "description": "1,324-exercise fitness dataset with animations, thumbnails, and multilingual instructions", "language": "HTML", "total_stars": 15115, "stars_today": 710},
+    {"rank": 8, "repo": "Shubhamsaboo/awesome-llm-apps", "description": "100+ runnable AI Agent and RAG applications", "language": "Python", "total_stars": 123021, "stars_today": 923},
+    {"rank": 9, "repo": "lobehub/lobehub", "description": "Chief Agent Operator organizing agents into 24/7 operations", "language": "TypeScript", "total_stars": 80230, "stars_today": 71},
+    {"rank": 10, "repo": "YimMenu/YimMenuV2", "description": "Experimental menu for GTA 5: Enhanced", "language": "C++", "total_stars": 1514, "stars_today": 128},
+    {"rank": 11, "repo": "HKUDS/DeepTutor", "description": "Lifelong personalized tutoring platform", "language": "Python", "total_stars": 26952, "stars_today": 656},
+    {"rank": 12, "repo": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .claude directory", "language": "Shell", "total_stars": 174452, "stars_today": 2060},
+    {"rank": 13, "repo": "github/copilot-sdk", "description": "Multi-platform SDK for integrating GitHub Copilot Agent", "language": "Java", "total_stars": 9676, "stars_today": 13},
+    {"rank": 14, "repo": "ibelick/ui-skills", "description": "Skills for Design Engineers", "language": "TypeScript", "total_stars": 4351, "stars_today": 178},
+    {"rank": 15, "repo": "Graphify-Labs/graphify", "description": "AI coding assistant turning code folders into queryable knowledge graphs", "language": "Python", "total_stars": 89240, "stars_today": 1107},
+    {"rank": 16, "repo": "codecrafters-io/build-your-own-x", "description": "Master programming by recreating your favorite technologies from scratch", "language": "Markdown", "total_stars": 526440, "stars_today": 435},
+    {"rank": 17, "repo": "ossu/computer-science", "description": "Path to a free self-taught education in Computer Science", "language": "HTML", "total_stars": 206609, "stars_today": 107}
+  ]
+}

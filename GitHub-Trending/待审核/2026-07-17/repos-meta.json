@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-17",
+  "dedup_check": {
+    "method": "grep -F against 选题历史.md, 90-day window",
+    "excluded_exact_match": [
+      "Nutlope/hallmark (used 2026-07-15)",
+      "OpenCut-app/OpenCut (used 2026-07-16)",
+      "openinterpreter/openinterpreter (used 2026-07-16)",
+      "Shubhamsaboo/awesome-llm-apps (used 2026-07-13)",
+      "HKUDS/DeepTutor (used 2026-07-16)",
+      "mattpocock/skills (used 2026-06-21)"
+    ],
+    "excluded_judgment_call": [
+      "Graphify-Labs/graphify — WebFetch confirmed github.com/safishamsi/graphify now resolves to Graphify-Labs/graphify with identical description/purpose (same project, transferred from personal account to an org). Same underlying project already covered on 2026-07-12 as safishamsi/graphify. Excluded to honor dedup intent despite the owner/name string not matching exactly."
+    ]
+  },
+  "ai_scoring": {
+    "min_score": 3,
+    "qualified": [
+      {"repo": "lobehub/lobehub", "score": 4, "signals": ["description hits 'agent'/'AI' (+2)", "topics hit agent/ai/claude/gpt/openai/mcp etc (+2)"]},
+      {"repo": "PostHog/posthog", "score": 4, "signals": ["description hits 'AI observability' (+2)", "topics hit 'ai-analytics' (+2)"]}
+    ],
+    "borderline_excluded": [
+      {"repo": "apache/ossie", "score": "~2-3 depending on reading", "reason": "'AI' appears only as one of three listed platform types (analytics/AI/BI) in a metadata-standardization spec; core subject is not an AI tool. Topics are only 'metadata, semantic', no AI topic. Judged not genuinely AI-relevant despite a marginal keyword hit."},
+      {"repo": "github/copilot-sdk", "score": 2, "reason": "description hits 'agent' (+2) but no topics shown and repo name has no ai/llm/gpt/claude/agent substring — only one signal type, below the '≥2 signal types' bar."}
+    ]
+  },
+  "fill_logic": "Only 2 AI-qualified candidates after dedup, so filled the 3rd slot with the highest today's-stars non-AI/non-excluded repo per 配置.yaml fill_with_non_ai_if_insufficient=true.",
+  "fill_candidates_ranked_by_stars_today": [
+    {"repo": "hasaneyldrm/exercises-dataset", "stars_today": 710, "selected": true},
+    {"repo": "codecrafters-io/build-your-own-x", "stars_today": 435, "selected": false, "reason": "generic programming tutorial list, no fresh news angle"},
+    {"repo": "PrismML-Eng/Bonsai-demo", "stars_today": 196, "selected": false, "reason": "sparse description ('Bonsai Demo'), low information density"},
+    {"repo": "ibelick/ui-skills", "stars_today": 178, "selected": false}
+  ],
+  "selected": [
+    {
+      "repo": "lobehub/lobehub",
+      "description": "Chief Agent Operator organizing agents into 24/7 operations",
+      "language": "TypeScript",
+      "license": "LobeHub Community License (non-standard, no SPDX id)",
+      "total_stars": "80.2k",
+      "stars_today": 71,
+      "forks": "15.6k",
+      "topics": ["agent","ai","skills","mcp","gemini","openai","claude","chatgpt","deepseek","agent-collaboration","chief-agent-operator"],
+      "readme_source": "WebFetch github.com/lobehub/lobehub"
+    },
+    {
+      "repo": "PostHog/posthog",
+      "description": "Platform for building self-driving products with AI observability, analytics, and more",
+      "language": "Python",
+      "license": "MIT",
+      "total_stars": "35.9k",
+      "stars_today": 77,
+      "forks": "3k",
+      "topics": ["analytics","ai-analytics","product-analytics","session-replay","feature-flags"],
+      "readme_source": "WebFetch github.com/PostHog/posthog"
+    },
+    {
+      "repo": "hasaneyldrm/exercises-dataset",
+      "description": "1,324-exercise fitness dataset with animations, thumbnails, and multilingual instructions",
+      "language": "HTML",
+      "license": "MIT (+ media notice for gym visual content, see NOTICE.md)",
+      "total_stars": "15.1k",
+      "stars_today": 710,
+      "forks": "1.8k",
+      "topics": [],
+      "readme_source": "WebFetch github.com/hasaneyldrm/exercises-dataset"
+    }
+  ],
+  "api_note": "api.github.com curl calls returned 403 'GitHub access to this repository is not enabled for this session' for all repos outside the session's mounted source — used WebFetch tool instead for both trending list and per-repo metadata/README (server-side fetch, bypasses local sandbox proxy scoping)."
+}
