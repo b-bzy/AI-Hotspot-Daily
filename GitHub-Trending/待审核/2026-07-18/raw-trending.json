@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-18",
+  "source": "https://github.com/trending?since=daily (via WebFetch, curl to github.com/api.github.com blocked by session's repo-scoped egress policy)",
+  "fetched_via": "WebFetch tool (cross-validated with two independent fetches, identical numbers both times)",
+  "repos": [
+    {"rank": 1, "repo": "codecrafters-io/build-your-own-x", "description": "Master programming by recreating your favorite technologies from scratch.", "language": "Markdown", "stars": 527494, "stars_today": 1068},
+    {"rank": 2, "repo": "PostHog/posthog", "description": "Leading platform for building self-driving products with analytics and observability tools", "language": "Python", "stars": 36237, "stars_today": 438},
+    {"rank": 3, "repo": "HenryNdubuaku/maths-cs-ai-compendium", "description": "Become a cracked AI/ML Research Engineer", "language": "TypeScript", "stars": 6675, "stars_today": 200},
+    {"rank": 4, "repo": "Nutlope/hallmark", "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.", "language": "CSS", "stars": 12144, "stars_today": 1485},
+    {"rank": 5, "repo": "github/copilot-sdk", "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services", "language": "Java", "stars": 9811, "stars_today": 233},
+    {"rank": 6, "repo": "anthropics/cwc-workshops", "description": null, "language": "TypeScript", "stars": 1610, "stars_today": 45},
+    {"rank": 7, "repo": "PrismML-Eng/Bonsai-demo", "description": "Bonsai Demo", "language": "Shell", "stars": 1727, "stars_today": 278},
+    {"rank": 8, "repo": "protocolbuffers/protobuf", "description": "Protocol Buffers - Google's data interchange format", "language": "C++", "stars": 71549, "stars_today": 11},
+    {"rank": 9, "repo": "tirth8205/code-review-graph", "description": "Local-first code intelligence graph for MCP with persistent codebase mapping", "language": "Python", "stars": 19798, "stars_today": 74},
+    {"rank": 10, "repo": "docusealco/docuseal", "description": "Open source DocuSign alternative. Create, fill, and sign digital documents", "language": "Ruby", "stars": 17881, "stars_today": 91},
+    {"rank": 11, "repo": "openinterpreter/openinterpreter", "description": "A coding agent for open models like Kimi K3", "language": "Rust", "stars": 66419, "stars_today": 431},
+    {"rank": 12, "repo": "RyanCodrai/turbovec", "description": "A vector index built on TurboQuant, written in Rust with Python bindings", "language": "Python", "stars": 13361, "stars_today": 280},
+    {"rank": 13, "repo": "HKUDS/DeepTutor", "description": "Lifelong Personalized Tutoring platform", "language": "Python", "stars": 27412, "stars_today": 531},
+    {"rank": 14, "repo": "OpenCut-app/OpenCut", "description": "The open-source CapCut alternative", "language": "TypeScript", "stars": 74950, "stars_today": 1074}
+  ]
+}

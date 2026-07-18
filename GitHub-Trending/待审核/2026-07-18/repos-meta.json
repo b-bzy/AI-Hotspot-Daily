@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-18",
+  "selection_method": "AI relevance scoring per reference/ai-keywords.md, dedup against 选题历史.md (90-day window), README fetched via git clone --depth 1 (api.github.com blocked for repos not registered in this session's GitHub scope)",
+  "excluded_for_dedup": [
+    {"repo": "PostHog/posthog", "last_used": "2026-07-17"},
+    {"repo": "HenryNdubuaku/maths-cs-ai-compendium", "last_used": "2026-07-15"},
+    {"repo": "Nutlope/hallmark", "last_used": "2026-07-15"},
+    {"repo": "openinterpreter/openinterpreter", "last_used": "2026-07-16"},
+    {"repo": "HKUDS/DeepTutor", "last_used": "2026-07-16"},
+    {"repo": "OpenCut-app/OpenCut", "last_used": "2026-07-16"}
+  ],
+  "excluded_not_ai": [
+    {"repo": "codecrafters-io/build-your-own-x", "reason": "教育型编程项目，无 AI 关键词命中"},
+    {"repo": "protocolbuffers/protobuf", "reason": "序列化协议库，无 AI 关键词命中"},
+    {"repo": "docusealco/docuseal", "reason": "电子签名工具，无 AI 关键词命中"},
+    {"repo": "PrismML-Eng/Bonsai-demo", "reason": "描述信息过少（仅 'Bonsai Demo'），未见明确 AI 信号"},
+    {"repo": "anthropics/cwc-workshops", "reason": "AI/Agent 相关性强，但为不再维护的工作坊材料集合，与已选 copilot-sdk / code-review-graph 主题重叠（均为 AI 编程/Agent 工具），为保持多样性未入选"}
+  ],
+  "selected": [
+    {
+      "owner_repo": "github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "license": "MIT",
+      "stars_total": 9811,
+      "stars_today": 233,
+      "positioning": "把 Copilot CLI 背后的 agent runtime 暴露成可编程 SDK，支持 6 种语言"
+    },
+    {
+      "owner_repo": "tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP with persistent codebase mapping",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 19798,
+      "stars_today": 74,
+      "positioning": "用 Tree-sitter 建代码结构图，通过 MCP 给 AI 编程工具精准上下文，减少重复读代码的 token 消耗"
+    },
+    {
+      "owner_repo": "RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 13361,
+      "stars_today": 280,
+      "positioning": "基于 Google TurboQuant 算法的向量索引，面向本地 / 隐私敏感的 RAG 场景"
+    }
+  ]
+}
