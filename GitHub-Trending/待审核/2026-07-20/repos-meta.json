@@ -1,0 +1,29 @@
+[
+  {
+    "owner": "bojieli", "repo": "ai-agent-book",
+    "description": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，含全书文本、编译版 PDF 与分章节代码示例",
+    "language": "Python", "license": "Apache-2.0", "stars": 6560, "stars_today": 1734,
+    "topics": ["agent", "reinforcement-learning", "book", "mcp", "multi-agent", "multimodal", "rag", "ai-agent", "large-language-models", "llm", "agent-memory", "coding-agent", "context-engineering"],
+    "homepage": null,
+    "ai_score_signals": ["description(+2)", "name(+1)", "topics(+2)"],
+    "source": "WebFetch on github.com repo page (api.github.com blocked for non-session repos)"
+  },
+  {
+    "owner": "kvcache-ai", "repo": "ktransformers",
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "language": "Python", "license": "Apache-2.0", "stars": 18438, "stars_today": 360,
+    "topics": ["llm-inference", "fine-tuning", "cpu-gpu-heterogeneous", "moe", "quantization", "model-serving"],
+    "homepage": "https://kvcache-ai.github.io/ktransformers/",
+    "ai_score_signals": ["description(+2)", "name(+1)", "python+inference(+1)"],
+    "source": "WebFetch on github.com repo page"
+  },
+  {
+    "owner": "Canner", "repo": "WrenAI",
+    "description": "GenBI for AI agents with text-to-SQL across 20+ data sources",
+    "language": "Python", "license": "Apache-2.0 (also AGPL-3.0 / CC-BY-4.0 for parts)", "stars": 16256, "stars_today": 121,
+    "topics": ["agent", "bigquery", "charts", "sql", "postgresql", "openai", "vertex", "genbi", "text-to-sql", "rag", "text2sql", "duckdb", "llm", "anthropic", "sqlai", "text-to-chart", "context-engineering"],
+    "homepage": "https://getwren.ai",
+    "ai_score_signals": ["description(+2)", "name(+1)", "topics(+2)"],
+    "source": "WebFetch on github.com repo page"
+  }
+]

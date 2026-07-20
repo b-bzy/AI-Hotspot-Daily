@@ -1,0 +1,21 @@
+[
+  {"rank": 1, "repo": "bojieli/ai-agent-book", "description": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库", "language": "Python", "stars": 6560, "stars_today": 1734},
+  {"rank": 2, "repo": "tirth8205/code-review-graph", "description": "Local-first code intelligence graph for MCP and CLI", "language": "Python", "stars": 21512, "stars_today": 663},
+  {"rank": 3, "repo": "kvcache-ai/ktransformers", "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations", "language": "Python", "stars": 18438, "stars_today": 360},
+  {"rank": 4, "repo": "rohitg00/ai-engineering-from-scratch", "description": "Learn it. Build it. Ship it for others.", "language": "Python", "stars": 39822, "stars_today": 501},
+  {"rank": 5, "repo": "jamiepine/voicebox", "description": "The open-source AI voice studio. Clone, dictate, create.", "language": "TypeScript", "stars": 43483, "stars_today": 610},
+  {"rank": 6, "repo": "KnockOutEZ/wigolo", "description": "Web interface for AI coding agents with local-first search and research capabilities", "language": "TypeScript", "stars": 1950, "stars_today": 595},
+  {"rank": 7, "repo": "andrewrabert/jellium-desktop", "description": "An unofficial desktop client for Jellyfin", "language": "Rust", "stars": 1314, "stars_today": 43},
+  {"rank": 8, "repo": "github/copilot-sdk", "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps", "language": "Java", "stars": 9978, "stars_today": 39},
+  {"rank": 9, "repo": "PostHog/posthog", "description": "Platform for building self-driving products with AI observability and analytics", "language": "Python", "stars": 36980, "stars_today": 411},
+  {"rank": 10, "repo": "microsoft/terminal", "description": "The new Windows Terminal and original Windows console host", "language": "C++", "stars": 104210, "stars_today": 59},
+  {"rank": 11, "repo": "AstrBotDevs/AstrBot", "description": "AI Agent Assistant framework integrating IM platforms, LLMs, and plugins", "language": "Python", "stars": 36735, "stars_today": 83},
+  {"rank": 12, "repo": "1jehuang/jcode", "description": "Coding Agent Harness", "language": "Rust", "stars": 8981, "stars_today": 235},
+  {"rank": 13, "repo": "trycua/cua", "description": "Scale computer-use with open-source drivers and cross-OS fleets", "language": "HTML", "stars": 20258, "stars_today": 64},
+  {"rank": 14, "repo": "MoonshotAI/kimi-cli", "description": "Kimi Code CLI is your next CLI agent.", "language": "Python", "stars": 9938, "stars_today": 410},
+  {"rank": 15, "repo": "Flowseal/zapret-discord-youtube", "description": "Network utility tool", "language": "Batchfile", "stars": 31040, "stars_today": 106},
+  {"rank": 16, "repo": "codecrafters-io/build-your-own-x", "description": "Master programming by recreating favorite technologies from scratch", "language": "Markdown", "stars": 529009, "stars_today": 754},
+  {"rank": 17, "repo": "lyogavin/airllm", "description": "AirLLM 70B inference with single 4GB GPU", "language": "Jupyter Notebook", "stars": 23678, "stars_today": 358},
+  {"rank": 18, "repo": "Canner/WrenAI", "description": "GenBI for AI agents with text-to-SQL across 20+ data sources", "language": "Python", "stars": 16256, "stars_today": 121},
+  {"rank": 19, "repo": "PKUFlyingPig/cs-self-learning", "description": "计算机自学指南", "language": "HTML", "stars": 74233, "stars_today": 134}
+]
