@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-21",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com blocked by sandbox session policy: only repo-scoped API for mounted repos is allowed; api.github.com and api.ossinsight.io both returned 403)",
+  "repos": [
+    {"rank": 1, "full_name": "tirth8205/code-review-graph", "description": "Local-first code intelligence graph for MCP and CLI", "language": "Python", "stars_total": 23487, "stars_today": 1833},
+    {"rank": 2, "full_name": "1jehuang/jcode", "description": "The most intelligent agent harness for code", "language": "Rust", "stars_total": 9748, "stars_today": 568},
+    {"rank": 3, "full_name": "diegosouzapw/OmniRoute", "description": "Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models", "language": "TypeScript", "stars_total": 22081, "stars_today": 1107},
+    {"rank": 4, "full_name": "rohitg00/ai-engineering-from-scratch", "description": "Learn it. Build it. Ship it for others.", "language": "Python", "stars_total": 40678, "stars_today": 823},
+    {"rank": 5, "full_name": "msitarzewski/agency-agents", "description": "Complete AI agency with specialized expert agents", "language": "Shell", "stars_total": 134838, "stars_today": 862},
+    {"rank": 6, "full_name": "kvcache-ai/ktransformers", "description": "Framework for heterogeneous LLM inference/fine-tune optimizations", "language": "Python", "stars_total": 18764, "stars_today": 458},
+    {"rank": 7, "full_name": "jamiepine/voicebox", "description": "Open-source AI voice studio. Clone, dictate, create.", "language": "TypeScript", "stars_total": 44304, "stars_today": 821},
+    {"rank": 8, "full_name": "topoteretes/cognee", "description": "Open-source AI memory platform for agents with persistent knowledge graph", "language": "Python", "stars_total": 28848, "stars_today": 234},
+    {"rank": 9, "full_name": "Robbyant/lingbot-map", "description": "Feed-forward 3D foundation model for scene reconstruction from streaming data", "language": "Python", "stars_total": 14326, "stars_today": 565},
+    {"rank": 10, "full_name": "every-app/open-seo", "description": "Open source alternative to Semrush and Ahrefs", "language": "TypeScript", "stars_total": 5968, "stars_today": 939},
+    {"rank": 11, "full_name": "MoonshotAI/kimi-cli", "description": "Kimi Code CLI is your next CLI agent.", "language": "Python", "stars_total": 10286, "stars_today": 410},
+    {"rank": 12, "full_name": "AstrBotDevs/AstrBot", "description": "AI Agent Assistant integrating IM platforms, LLMs, and plugins", "language": "Python", "stars_total": 37164, "stars_today": 317},
+    {"rank": 13, "full_name": "PrefectHQ/fastmcp", "description": "Fast, Pythonic way to build MCP servers and clients", "language": "Python", "stars_total": 26586, "stars_today": 96},
+    {"rank": 14, "full_name": "KnockOutEZ/wigolo", "description": "Local-first web for AI coding agents with search, fetch, crawl capabilities", "language": "TypeScript", "stars_total": 2634, "stars_today": 689},
+    {"rank": 15, "full_name": "tokio-rs/topcoat", "description": "Batteries-included framework for building web apps", "language": "Rust", "stars_total": 1626, "stars_today": 371},
+    {"rank": 16, "full_name": "iptv-org/iptv", "description": "Collection of publicly available IPTV channels worldwide", "language": "TypeScript", "stars_total": 133818, "stars_today": 240},
+    {"rank": 17, "full_name": "oblien/openship", "description": "Self-hosted deployment platform", "language": "TypeScript", "stars_total": 4964, "stars_today": 1641},
+    {"rank": 18, "full_name": "microsoft/Ontology-Playground", "description": "Free web app for learning ontologies and Microsoft Fabric IQ", "language": "TypeScript", "stars_total": 1776, "stars_today": 464},
+    {"rank": 19, "full_name": "handy-computer/transcribe.cpp", "description": "ggml speech-to-text inference for 16+ model families", "language": "C++", "stars_total": 1323, "stars_today": 395},
+    {"rank": 20, "full_name": "moonshine-ai/moonshine", "description": "Low latency speech-to-text, intent recognition, and text-to-speech", "language": "C++", "stars_total": 9941, "stars_today": 282}
+  ]
+}
