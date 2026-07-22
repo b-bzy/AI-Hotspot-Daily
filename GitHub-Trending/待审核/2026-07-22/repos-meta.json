@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-22",
+  "data_source": "github_trending_html (via WebFetch, cross-verified twice)",
+  "selected": [
+    {
+      "repo": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "license": "AGPL-3.0-only",
+      "stars_total": 65904,
+      "stars_today": 1295,
+      "homepage": "https://www.worldmonitor.app",
+      "topics": ["agent", "opensource", "osint", "news", "ai", "monitoring", "dashboard", "mcp", "palantir", "geopolitics", "situation", "mcp-server"],
+      "ai_score_signals": ["description keyword(ai)", "topics(ai/agent/mcp)"]
+    },
+    {
+      "repo": "langchain-ai/open_deep_research",
+      "description": "Deep research has broken out as one of the most popular agent applications. This is a simple, configurable, fully open source deep research agent that works across many model providers, search tools, and MCP servers.",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 12300,
+      "stars_today": 23,
+      "homepage": null,
+      "topics": [],
+      "ai_score_signals": ["description keyword(agent/model/mcp)", "name substring(ai)", "readme mentions HuggingFace/GPT-5"]
+    },
+    {
+      "repo": "dottxt-ai/outlines",
+      "description": "Structured outputs for LLMs",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars_total": 14900,
+      "stars_today": 65,
+      "homepage": "https://dottxt-ai.github.io/outlines/",
+      "topics": ["json", "regex", "cfg", "symbolic-ai", "prompt-engineering", "llms", "generative-ai", "structured-generation"],
+      "ai_score_signals": ["description keyword(llms)", "name substring(ai)", "topics(llms/generative-ai)", "readme mentions HuggingFace/NVIDIA/OpenAI/Ollama"]
+    }
+  ],
+  "excluded_dedup_90d": [
+    {"repo": "bojieli/ai-agent-book", "reason": "used 2026-07-20"},
+    {"repo": "AstrBotDevs/AstrBot", "reason": "used 2026-07-21"},
+    {"repo": "diegosouzapw/OmniRoute", "reason": "used 2026-07-01"},
+    {"repo": "tirth8205/code-review-graph", "reason": "used 2026-07-18"}
+  ],
+  "excluded_low_score_or_offtopic": [
+    "oblien/openship", "every-app/open-seo", "hyprwm/Hyprland", "chrislgarry/Apollo-11",
+    "DioxusLabs/dioxus", "schollz/croc", "microsoft/Ontology-Playground",
+    "ayghri/i-have-adhd", "earthtojake/text-to-cad", "1jehuang/jcode",
+    "tradesdontlie/tradingview-mcp", "AlexsJones/llmfit", "agegr/pi-web", "KnockOutEZ/wigolo"
+  ]
+}
