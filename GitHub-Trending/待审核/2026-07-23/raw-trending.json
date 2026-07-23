@@ -1,0 +1,21 @@
+[
+  {"rank":1,"repo":"koala73/worldmonitor","description":"Real-time global intelligence dashboard. AI-powered news aggregation...","language":"TypeScript","stars_total":69351,"stars_today":4139},
+  {"rank":2,"repo":"ruvnet/RuView","description":"RuView turns commodity WiFi signals into real-time spatial intelligence...","language":"Rust","stars_total":83984,"stars_today":741},
+  {"rank":3,"repo":"ayghri/i-have-adhd","description":"A skill for your coding agent to stop it from burying the answer...","language":"Python","stars_total":8459,"stars_today":1699},
+  {"rank":4,"repo":"schollz/croc","description":"Easily and securely send things from one computer to another","language":"Go","stars_total":37728,"stars_today":739},
+  {"rank":5,"repo":"likec4/likec4","description":"Visualize, collaborate, and evolve the software architecture...","language":"TypeScript","stars_total":4357,"stars_today":80},
+  {"rank":6,"repo":"chrislgarry/Apollo-11","description":"Original Apollo 11 Guidance Computer (AGC) source code...","language":"Assembly","stars_total":70679,"stars_today":768},
+  {"rank":7,"repo":"jamiepine/voicebox","description":"The open-source AI voice studio. Clone, dictate, create.","language":"TypeScript","stars_total":45878,"stars_today":557},
+  {"rank":8,"repo":"diegosouzapw/OmniRoute","description":"Free MIT AI gateway: one endpoint, 268+ providers...","language":"TypeScript","stars_total":25541,"stars_today":1651},
+  {"rank":9,"repo":"shiyu-coder/Kronos","description":"Kronos: A Foundation Model for the Language of Financial Markets","language":"Python","stars_total":32655,"stars_today":137},
+  {"rank":10,"repo":"ComposioHQ/awesome-claude-skills","description":"A curated list of awesome Claude Skills, resources, and tools...","language":"Python","stars_total":68871,"stars_today":163},
+  {"rank":11,"repo":"oblien/openship","description":"Self-hosted deployment platform","language":"TypeScript","stars_total":7390,"stars_today":1302},
+  {"rank":12,"repo":"agegr/pi-web","description":"Web UI for the pi coding agent","language":"TypeScript","stars_total":2112,"stars_today":314},
+  {"rank":13,"repo":"rohitg00/ai-engineering-from-scratch","description":"Learn it. Build it. Ship it for others.","language":"Python","stars_total":42364,"stars_today":652},
+  {"rank":14,"repo":"tirth8205/code-review-graph","description":"Local-first code intelligence graph for MCP and CLI...","language":"Python","stars_total":25418,"stars_today":882},
+  {"rank":15,"repo":"dreamhunter2333/cloudflare_temp_email","description":"CloudFlare free temp domain email service with attachments...","language":"TypeScript","stars_total":10849,"stars_today":68},
+  {"rank":16,"repo":"DioxusLabs/dioxus","description":"Fullstack app framework for web, desktop, and mobile.","language":"Rust","stars_total":38060,"stars_today":420},
+  {"rank":17,"repo":"hyprwm/Hyprland","description":"Hyprland is an independent, highly customizable, dynamic tiling...","language":"C++","stars_total":37323,"stars_today":356},
+  {"rank":18,"repo":"Pumpkin-MC/Pumpkin","description":"Empowering everyone to host fast and efficient Minecraft servers.","language":"Rust","stars_total":8484,"stars_today":108},
+  {"rank":19,"repo":"dottxt-ai/outlines","description":"Structured Outputs","language":"Python","stars_total":15146,"stars_today":364}
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "owner_repo": "ComposioHQ/awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stargazers_count": 68900,
+    "stars_today": 163,
+    "topics": ["automation","skill","mcp","saas","developer-tools","cursor","codex","workflow-automation","ai-agents","claude","rube","openai-codex","gemini-cli","composio","antigravity","agent-skills","claude-code"],
+    "readme_source": "web page (api.github.com blocked for non-source repos in this session; used github.com page fetch)",
+    "readme_note": "no truncation marker needed, summarized via WebFetch"
+  },
+  {
+    "owner_repo": "ayghri/i-have-adhd",
+    "description": "A skill for coding agents that formats responses to be more direct and action-oriented, eliminating verbose preambles.",
+    "language": "Python",
+    "license": "MIT",
+    "stargazers_count": 8500,
+    "stars_today": 1699,
+    "topics": ["productivity","developer-tools","adhd","claude-code-plugin","claude-skills"],
+    "readme_source": "web page (api.github.com blocked for non-source repos in this session; used github.com page fetch)"
+  },
+  {
+    "owner_repo": "oblien/openship",
+    "description": "Self-hosted deployment platform",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stargazers_count": 7400,
+    "stars_today": 1302,
+    "topics": ["ai","deployments","self-hosted","agents"],
+    "readme_source": "web page (api.github.com blocked for non-source repos in this session; used github.com page fetch)",
+    "note": "non-AI backfill pick: tagged 'ai'/'agents' but only single signal type (topics only), score below ai_filter.min_score threshold with required double-signal; product itself is a deployment platform with no AI feature described in README"
+  }
+]
