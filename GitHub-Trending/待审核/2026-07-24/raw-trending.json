@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-24",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com/trending blocked by sandbox egress policy — 403, session-scoped)",
+  "items": [
+    {"rank": 1, "repo": "block/buzz", "description": "A hive mind communication platform", "language": "Rust", "stars_total": 7266, "stars_today": 2162},
+    {"rank": 2, "repo": "koala73/worldmonitor", "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface", "language": "TypeScript", "stars_total": 71873, "stars_today": 3175},
+    {"rank": 3, "repo": "shiyu-coder/Kronos", "description": "Kronos: A Foundation Model for the Language of Financial Markets", "language": "Python", "stars_total": 33139, "stars_today": 401},
+    {"rank": 4, "repo": "Pumpkin-MC/Pumpkin", "description": "Empowering everyone to host fast and efficient Minecraft servers", "language": "Rust", "stars_total": 8982, "stars_today": 565},
+    {"rank": 5, "repo": "citrolabs/ego-lite", "description": "The best browser for both you and your AI agents work in parallel", "language": "JavaScript", "stars_total": 1776, "stars_today": 247},
+    {"rank": 6, "repo": "chrislgarry/Apollo-11", "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules", "language": "Assembly", "stars_total": 71146, "stars_today": 592},
+    {"rank": 7, "repo": "diegosouzapw/OmniRoute", "description": "Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models with auto-fallback and token compression", "language": "TypeScript", "stars_total": 27414, "stars_today": 1929},
+    {"rank": 8, "repo": "ComposioHQ/awesome-claude-skills", "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows", "language": "Python", "stars_total": 69528, "stars_today": 636},
+    {"rank": 9, "repo": "earthtojake/text-to-cad", "description": "A collection of agent skills for CAD, robotics and hardware design", "language": "JavaScript", "stars_total": 10067, "stars_today": 230},
+    {"rank": 10, "repo": "agegr/pi-web", "description": "Web UI for the pi coding agent", "language": "TypeScript", "stars_total": 2423, "stars_today": 315},
+    {"rank": 11, "repo": "alibaba/open-code-review", "description": "Open-source code review tool with hybrid architecture: deterministic pipelines and LLM Agent", "language": "Go", "stars_total": 11686, "stars_today": 180},
+    {"rank": 12, "repo": "ruvnet/RuView", "description": "WiFi-based spatial intelligence for real-time monitoring and presence detection without video", "language": "Rust", "stars_total": 85300, "stars_today": 1708},
+    {"rank": 13, "repo": "likec4/likec4", "description": "Visualize, collaborate, and evolve software architecture with live diagrams from code", "language": "TypeScript", "stars_total": 4749, "stars_today": 472},
+    {"rank": 14, "repo": "Automattic/harper", "description": "Offline, privacy-first grammar checker powered by Rust", "language": "Rust", "stars_total": 12419, "stars_today": 624},
+    {"rank": 15, "repo": "jellyfin/jellyfin", "description": "The Free Software Media System - Server Backend & API", "language": "C#", "stars_total": 54770, "stars_today": 66}
+  ]
+}

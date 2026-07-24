@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-24",
+  "selection_method": "ai-keywords.md 打分 + 90 天选题历史去重 + Claude 二判（信息密度/数据可信度/多样性）",
+  "excluded_by_dedup": [
+    {"repo": "koala73/worldmonitor", "last_used": "2026-07-22", "days_ago": 2},
+    {"repo": "diegosouzapw/OmniRoute", "last_used": "2026-07-01", "days_ago": 23},
+    {"repo": "ComposioHQ/awesome-claude-skills", "last_used": "2026-07-23", "days_ago": 1},
+    {"repo": "ruvnet/RuView", "last_used": "2026-07-09", "days_ago": 15}
+  ],
+  "not_ai_scored_zero": ["block/buzz", "Pumpkin-MC/Pumpkin", "chrislgarry/Apollo-11", "likec4/likec4", "Automattic/harper", "jellyfin/jellyfin"],
+  "ai_candidates_not_selected": ["citrolabs/ego-lite", "agegr/pi-web"],
+  "selected": [
+    {
+      "repo": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 33139,
+      "stars_today": 401,
+      "readme_source": "git clone --depth 1 (api.github.com blocked for non-attached repos, fell back to clone per task instructions)",
+      "key_facts": ["first open-source foundation model for financial candlesticks (K-lines)", "trained on data from 45+ global exchanges", "two-stage: tokenizer quantizes OHLCV into discrete tokens + autoregressive decoder-only Transformer", "model zoo: mini 4.1M / small 24.7M / base 102.3M params, hosted on Hugging Face", "accepted by AAAI 2026", "live demo forecasts BTC/USDT 24h ahead"]
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset, OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "stars_total": 11686,
+      "stars_today": 180,
+      "readme_source": "git clone --depth 1",
+      "key_facts": ["originated as Alibaba's internal AI code review assistant, 2 years in production, tens of thousands of developers, millions of defects found", "combines deterministic engineering (file selection/bundling/rule matching) with an LLM agent for dynamic review decisions", "benchmark: 50 repos, 200 real PRs, 10 languages, 80+ senior engineers, 1505 annotated issues", "vs general-purpose agents (Claude Code) with same underlying model: higher Precision/F1, ~1/9 tokens, lower recall as tradeoff", "supports GitHub Actions/GitLab/Bitbucket/Gerrit/GitFlic CI"]
+    },
+    {
+      "repo": "earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "license": "MIT",
+      "stars_total": 10067,
+      "stars_today": 230,
+      "readme_source": "git clone --depth 1",
+      "key_facts": ["11 agent skills: CAD, CAD Viewer, step.parts, DXF, URDF, SRDF, SDF, SendCutSend, G-code, Bambu Labs, Implicit CAD", "generates STEP/STL/3MF/GLB CAD geometry from plain-language or image requests", "installs into Claude Code / Codex as skills or plugins", "reproducible benchmark prompts, e.g. a 100x60x20mm calibration block with four 8mm holes and a 2mm chamfer", "step.parts skill sources off-the-shelf screws/bearings/motors/connectors"]
+    }
+  ]
+}
