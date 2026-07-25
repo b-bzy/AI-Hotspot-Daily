@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-25",
+  "note": "api.github.com 元数据端点被会话代理拦截（仅允许 add_repo 授权过的仓库），metadata 取自 trending 页；README 通过 git clone --depth 1 拉取（读取后已删除本地 clone 目录）。",
+  "selected": [
+    {
+      "owner": "citrolabs",
+      "repo": "ego-lite",
+      "stars_total": 2700,
+      "stars_today": 880,
+      "language": "JavaScript",
+      "license": "MIT",
+      "topics": ["agent-skills", "ai-agent", "browser", "skills", "skills-sh"],
+      "ai_score_note": "description命中'AI agents'(+2)，topics命中ai-agent(+2)，仓库名含ai/agent信号(+1)：判定AI相关"
+    },
+    {
+      "owner": "Lordog",
+      "repo": "dive-into-llms",
+      "stars_total": 45055,
+      "stars_today": 328,
+      "language": "Jupyter Notebook",
+      "license": null,
+      "topics": [],
+      "ai_score_note": "description/README命中'大模型'(llm对应中文，等价+2)，README前50行密集出现LLM/微调/RLHF等：判定AI相关"
+    },
+    {
+      "owner": "OtterMind",
+      "repo": "Chat2DB",
+      "stars_total": 26379,
+      "stars_today": 82,
+      "language": "Java",
+      "license": "Apache-2.0（5.3.0起附加条款，早期版本纯Apache-2.0）",
+      "topics": ["ai", "bi", "chatgpt", "clickhouse", "clickhouse-client", "database", "datagrip", "db2", "dbeaver", "gpt", "hive", "mysql", "navicat", "oracle", "postgresql", "redis", "redis-client", "sqlserver", "text2sql"],
+      "ai_score_note": "description命中'AI-driven'(+2)，topics命中ai/gpt/chatgpt/text2sql(+2)：判定AI相关"
+    }
+  ],
+  "rejected": [
+    {"owner": "koala73", "repo": "worldmonitor", "reason": "AI相关但90天内已用过（2026-07-22）"},
+    {"owner": "ComposioHQ", "repo": "awesome-claude-skills", "reason": "AI相关但90天内已用过（2026-07-23）"},
+    {"owner": "shiyu-coder", "repo": "Kronos", "reason": "AI相关但90天内已用过（2026-07-24，即昨天）"},
+    {"owner": "diegosouzapw", "repo": "OmniRoute", "reason": "AI相关但90天内已用过（2026-07-01）"},
+    {"owner": "ruvnet", "repo": "RuView", "reason": "AI相关但90天内已用过（2026-07-09）"},
+    {"owner": "CoreBunch", "repo": "Instatic", "reason": "AI相关（README确认AI agent编辑页面功能），未入选：与ego-lite同属'智能体操作型工具'赛道，为保证选题多样性让位"},
+    {"owner": "block", "repo": "buzz", "reason": "description未见AI/LLM/agent明确信号，打分不足3分，未深入判定"},
+    {"owner": "Pumpkin-MC", "repo": "Pumpkin", "reason": "Minecraft服务端，非AI"},
+    {"owner": "Automattic", "repo": "harper", "reason": "语法检查工具，未见AI/LLM相关信号，打分不足3分"},
+    {"owner": "likec4", "repo": "likec4", "reason": "架构图可视化工具，非AI"},
+    {"owner": "yorukot", "repo": "superfile", "reason": "终端文件管理器，非AI"},
+    {"owner": "chrislgarry", "repo": "Apollo-11", "reason": "历史代码归档，非AI"},
+    {"owner": "mattpocock", "repo": "skills", "reason": "描述为通用工程师技能集合(.agents目录)，未见明确LLM/AI agent功能信号，打分不足3分，未深入判定"}
+  ]
+}

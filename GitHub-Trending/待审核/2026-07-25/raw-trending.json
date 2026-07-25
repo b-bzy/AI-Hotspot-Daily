@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-25",
+  "source": "github.com/trending?since=daily (via WebFetch, curl直连被沙箱代理拦截：api.github.com/非仓库范围路径返回403 'sessions are bound to their configured repositories')",
+  "repos": [
+    {"rank": 1, "owner": "block", "name": "buzz", "description": "A hive mind communication platform", "language": "Rust", "stars_total": 10184, "stars_today": 3270},
+    {"rank": 2, "owner": "koala73", "name": "worldmonitor", "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking", "language": "TypeScript", "stars_total": 73414, "stars_today": 2184},
+    {"rank": 3, "owner": "ComposioHQ", "name": "awesome-claude-skills", "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows", "language": "Python", "stars_total": 70134, "stars_today": 663},
+    {"rank": 4, "owner": "Pumpkin-MC", "name": "Pumpkin", "description": "Empowering everyone to host fast and efficient Minecraft servers", "language": "Rust", "stars_total": 9376, "stars_today": 473},
+    {"rank": 5, "owner": "shiyu-coder", "name": "Kronos", "description": "Kronos: A Foundation Model for the Language of Financial Markets", "language": "Python", "stars_total": 33528, "stars_today": 499},
+    {"rank": 6, "owner": "Automattic", "name": "harper", "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered", "language": "Rust", "stars_total": 13083, "stars_today": 876},
+    {"rank": 7, "owner": "likec4", "name": "likec4", "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code", "language": "TypeScript", "stars_total": 5055, "stars_today": 337},
+    {"rank": 8, "owner": "citrolabs", "name": "ego-lite", "description": "The fastest browser for AI agents to run web automation, built for sharing logged-in browser state with AI agents", "language": "JavaScript", "stars_total": 2700, "stars_today": 880},
+    {"rank": 9, "owner": "yorukot", "name": "superfile", "description": "Pretty fancy and modern terminal file manager", "language": "Go", "stars_total": 19645, "stars_today": 338},
+    {"rank": 10, "owner": "ruvnet", "name": "RuView", "description": "Turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection", "language": "Rust", "stars_total": 86003, "stars_today": 1022},
+    {"rank": 11, "owner": "CoreBunch", "name": "Instatic", "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS", "language": "TypeScript", "stars_total": 4335, "stars_today": 201},
+    {"rank": 12, "owner": "chrislgarry", "name": "Apollo-11", "description": "Original Apollo 11 Guidance Computer source code for the command and lunar modules", "language": "Assembly", "stars_total": 71427, "stars_today": 409},
+    {"rank": 13, "owner": "mattpocock", "name": "skills", "description": "Skills for Real Engineers. Straight from my .agents directory", "language": "Shell", "stars_total": 186972, "stars_today": 2251},
+    {"rank": 14, "owner": "Lordog", "name": "dive-into-llms", "description": "《动手学大模型Dive into LLMs》系列编程实践教程", "language": "Jupyter Notebook", "stars_total": 45055, "stars_today": 328},
+    {"rank": 15, "owner": "diegosouzapw", "name": "OmniRoute", "description": "Free MIT AI gateway: one endpoint, 290+ providers, 500+ models with quota-aware auto-fallback", "language": "TypeScript", "stars_total": 28995, "stars_today": 1841},
+    {"rank": 16, "owner": "OtterMind", "name": "Chat2DB", "description": "AI-driven database tool and SQL client supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, and more", "language": "Java", "stars_total": 26379, "stars_today": 82}
+  ]
+}
