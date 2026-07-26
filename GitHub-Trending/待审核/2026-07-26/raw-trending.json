@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-26",
+  "source": "https://github.com/trending?since=daily",
+  "fetched_via": "WebFetch (github.com/trending?since=daily rendered content)",
+  "entries": [
+    {"rank": 1, "repo": "block/buzz", "description": "A hive mind communication platform", "language": "Rust", "stars_total": 12081, "stars_today": 2491},
+    {"rank": 2, "repo": "alibaba/open-code-review", "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool", "language": "Go", "stars_total": 13055, "stars_today": 431},
+    {"rank": 3, "repo": "citrolabs/ego-lite", "description": "The fastest browser for AI agents to run web automation", "language": "JavaScript", "stars_total": 3674, "stars_today": 986},
+    {"rank": 4, "repo": "ComposioHQ/awesome-claude-skills", "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows", "language": "Python", "stars_total": 70637, "stars_today": 577},
+    {"rank": 5, "repo": "anthropics/claude-cookbooks", "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude", "language": "Jupyter Notebook", "stars_total": 49930, "stars_today": 132},
+    {"rank": 6, "repo": "Automattic/harper", "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered", "language": "Rust", "stars_total": 13455, "stars_today": 503},
+    {"rank": 7, "repo": "shiyu-coder/Kronos", "description": "Kronos: A Foundation Model for the Language of Financial Markets", "language": "Python", "stars_total": 33832, "stars_today": 319},
+    {"rank": 8, "repo": "obra/superpowers", "description": "An agentic skills framework & software development methodology that works", "language": "Shell", "stars_total": 261149, "stars_today": 479},
+    {"rank": 9, "repo": "Pumpkin-MC/Pumpkin", "description": "Empowering everyone to host fast and efficient Minecraft servers", "language": "Rust", "stars_total": 9740, "stars_today": 358},
+    {"rank": 10, "repo": "permissionlesstech/bitchat", "description": "bluetooth mesh chat, IRC vibes", "language": "Swift", "stars_total": 28792, "stars_today": 1720},
+    {"rank": 11, "repo": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .agents directory", "language": "Shell", "stars_total": 188420, "stars_today": 1740},
+    {"rank": 12, "repo": "palmier-io/palmier-pro", "description": "macOS video editor built for AI", "language": "Swift", "stars_total": 12258, "stars_today": 412},
+    {"rank": 13, "repo": "CoreBunch/Instatic", "description": "The open-source alternative to Webflow, Framer and WordPress", "language": "TypeScript", "stars_total": 5140, "stars_today": 426},
+    {"rank": 14, "repo": "Lordog/dive-into-llms", "description": "《动手学大模型Dive into LLMs》系列编程实践教程", "language": "Jupyter Notebook", "stars_total": 45399, "stars_today": 408},
+    {"rank": 15, "repo": "RyanCodrai/turbovec", "description": "A vector index built on TurboQuant, written in Rust with Python bindings", "language": "Python", "stars_total": 14311, "stars_today": 86},
+    {"rank": 16, "repo": "OtterMind/Chat2DB", "description": "AI-driven database tool and SQL client", "language": "Java", "stars_total": 26713, "stars_today": 360},
+    {"rank": 17, "repo": "andrewyng/aisuite", "description": "Simple, unified interface to multiple Generative AI providers", "language": "Python", "stars_total": 15250, "stars_today": 77},
+    {"rank": 18, "repo": "affaan-m/ECC", "description": "The agent harness performance optimization system for Claude Code, Codex, Opencode, Cursor and beyond", "language": "JavaScript", "stars_total": 233362, "stars_today": 377}
+  ],
+  "ai_filter": {
+    "candidates_scored_ge_3": ["anthropics/claude-cookbooks", "palmier-io/palmier-pro", "affaan-m/ECC", "citrolabs/ego-lite", "ComposioHQ/awesome-claude-skills", "Lordog/dive-into-llms", "OtterMind/Chat2DB", "andrewyng/aisuite", "obra/superpowers", "RyanCodrai/turbovec", "shiyu-coder/Kronos"],
+    "excluded_by_90day_dedup": ["citrolabs/ego-lite (2026-07-25)", "ComposioHQ/awesome-claude-skills (2026-07-23)", "Lordog/dive-into-llms (2026-07-25)", "OtterMind/Chat2DB (2026-07-25)", "andrewyng/aisuite (2026-06-14)", "obra/superpowers (2026-06-13)", "RyanCodrai/turbovec (2026-06-10, 2026-07-18)", "shiyu-coder/Kronos (2026-06-14, 2026-07-24)"],
+    "final_selection": ["anthropics/claude-cookbooks", "palmier-io/palmier-pro", "affaan-m/ECC"],
+    "non_ai_padding_used": false
+  }
+}

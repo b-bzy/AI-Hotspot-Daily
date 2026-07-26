@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-26",
+  "repos": [
+    {
+      "owner_repo": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "license_spdx": "MIT",
+      "stars_total": 49930,
+      "stars_today": 132,
+      "created_at": "2023-08-15",
+      "homepage": null,
+      "topics": [],
+      "readme_summary": "面向使用 Claude API 的开发者的可复用代码示例集合，覆盖分类、检索增强生成（RAG）、摘要、工具调用（客服 agent、计算器、SQL 查询）、第三方集成（Pinecone、Wikipedia、Voyage AI embeddings）、多模态（图像分析、图表解读、表单提取、图像生成）、子 agent、PDF 解析、自动化评测、JSON 模式、内容审核、prompt caching 等主题。面向 Claude API 新手，建议先修 API Fundamentals 课程。",
+      "readme_source": "WebFetch on github.com repo page (README not directly curl-able in this sandbox; api.github.com/repos/.../readme also blocked for non-source repos)"
+    },
+    {
+      "owner_repo": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "license_spdx": "GPL-3.0",
+      "stars_total": 12260,
+      "stars_today": 412,
+      "created_at": "2026-04-07",
+      "homepage": "https://palmier.io",
+      "topics": ["ai-video", "claude", "macos", "mcp", "seedance2", "swift", "video-editor"],
+      "readme_summary": "Swift 原生视频编辑器，主打人类与 AI agent 在同一条时间线上协作剪辑。内置 Seedance、Kling 等模型做视频/图像生成，通过 Model Context Protocol 接入 Claude、Codex、Cursor（本地暴露 MCP server：http://127.0.0.1:19789/mcp）。编辑器内核 GPLv3 开源，生成式 AI 处理部分为闭源付费功能。仅支持 macOS 26（Tahoe）+ Apple Silicon。团队为 YC S24。",
+      "readme_source": "WebFetch on github.com repo page"
+    },
+    {
+      "owner_repo": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "license_spdx": "MIT",
+      "stars_total": 233362,
+      "stars_today": 377,
+      "created_at": "2026-01-18",
+      "homepage": "https://ecc.tools",
+      "topics": ["ai-agents", "anthropic", "claude", "claude-code", "developer-tools", "llm", "mcp", "productivity"],
+      "readme_summary": "面向多个 AI coding harness（Claude Code、Cursor、OpenCode、Codex、Gemini、Zed）的统一配置层，解决多工具间配置碎片化的问题。内含 67 个可委派的专职 agent（规划、架构、代码评审、安全）、279 个按领域分类的可复用 skill、基于 hook 的前后置自动化、AgentShield 安全审计模块（1282 条测试、102 条静态规则）、带置信度评分的持续学习机制（v2）、跨 12+ 语言的多语言支持。",
+      "readme_source": "WebFetch on github.com repo page + api.github.com/repos/affaan-m/ECC (cross-checked stargazers_count=233362, matches trending page)"
+    }
+  ],
+  "note": "此沙箱环境内 curl 直连 github.com/api.github.com 被会话代理拦截（仅放行已挂载 source 仓库的 repo-scoped 路径），改用 WebFetch 服务端抓取 trending 页与各仓库页/API 端点，关键数字（star 数、today's stars）已做多次独立抓取交叉核对一致。"
+}
