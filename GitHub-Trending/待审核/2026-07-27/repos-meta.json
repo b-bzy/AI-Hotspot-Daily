@@ -1,0 +1,32 @@
+[
+  {
+    "repo": "block/buzz",
+    "description": "A hive mind communication platform",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars_total": 13480,
+    "stars_today": 1710,
+    "topics": [],
+    "source": "trending_html + git_clone_readme"
+  },
+  {
+    "repo": "CoreBunch/Instatic",
+    "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages.",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars_total": 5767,
+    "stars_today": 888,
+    "topics": ["cms", "css", "css-framework", "page-builder", "static", "website"],
+    "source": "trending_html + git_clone_readme"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "description": "The design language that makes your AI harness better at design.",
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "stars_total": 50788,
+    "stars_today": 413,
+    "topics": [],
+    "source": "trending_html + git_clone_readme"
+  }
+]
