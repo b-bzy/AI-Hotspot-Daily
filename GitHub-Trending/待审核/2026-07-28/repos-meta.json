@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-28",
+  "selected": [
+    {
+      "repo": "permissionlesstech/bitchat",
+      "description": "A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach.",
+      "language": "Swift",
+      "license": "Unlicense",
+      "stars_total": 32442,
+      "stars_today": 2346,
+      "homepage": "bitchat.free",
+      "topics": ["bluetooth", "bluetooth-le", "decentralized", "e2e-encryption", "ios", "macos", "mesh-network", "messaging", "nostr", "swift"],
+      "ai_related": false,
+      "selection_reason": "非 AI 补位项目，today's stars 全榜最高"
+    },
+    {
+      "repo": "vudovn/ag-kit",
+      "description": "Antigravity-first agent engineering kit with rules, skills, specialist agents, workflows, persistent memory, MCP guidance, orchestration, and a native safety hook.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 7997,
+      "stars_today": 14,
+      "homepage": "https://ag-kit.unikorn.vn",
+      "topics": [],
+      "ai_related": true,
+      "ai_score_signals": ["description 命中 agent (+2)", "README 提到 AI agents / MCP / specialist agents (+1)"],
+      "selection_reason": "唯一通过 90 天去重的 AI 相关候选"
+    },
+    {
+      "repo": "yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "license": "MIT",
+      "stars_total": 20972,
+      "stars_today": 600,
+      "homepage": "https://superfile.dev",
+      "topics": ["bubbletea", "cli", "file-manager", "filemanager", "filesystem", "golang", "hacktoberfest", "linux-app", "terminal-app", "terminal-based", "tui"],
+      "ai_related": false,
+      "selection_reason": "非 AI 补位项目，today's stars 第二高（去重后）"
+    }
+  ],
+  "excluded_ai_candidates": [
+    {"repo": "moeru-ai/airi", "reason": "90 天内已用 (2026-07-14)"},
+    {"repo": "pbakaus/impeccable", "reason": "90 天内已用 (2026-07-27，昨天)"},
+    {"repo": "shiyu-coder/Kronos", "reason": "90 天内已用 (2026-06-14, 2026-07-24)"},
+    {"repo": "alibaba/open-code-review", "reason": "90 天内已用 (2026-07-24)"},
+    {"repo": "bradautomates/claude-video", "reason": "90 天内已用 (2026-07-07)"},
+    {"repo": "mvanhorn/last30days-skill", "reason": "90 天内已用 (2026-06-10)"},
+    {"repo": "NanmiCoder/MediaCrawler", "reason": "90 天内已用 (2026-06-27)，且非 AI 打分主体"}
+  ],
+  "data_source_note": "api.github.com 被会话代理拒绝（仅放行已挂载仓库），全部 metadata/README 改用 WebFetch 抓取仓库页面。"
+}

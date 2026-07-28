@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-28",
+  "source": "https://github.com/trending?since=daily (via WebFetch)",
+  "items": [
+    {"rank": 1, "repo": "permissionlesstech/bitchat", "description": "bluetooth mesh chat, IRC vibes", "language": "Swift", "stars_total": 32442, "stars_today": 2346},
+    {"rank": 2, "repo": "amnezia-vpn/amnezia-client", "description": "Amnezia VPN Client (Desktop+Mobile)", "language": "C++", "stars_total": 13920, "stars_today": 515},
+    {"rank": 3, "repo": "moeru-ai/airi", "description": "Self hosted, you-owned Grok Companion, a container of souls of waifu", "language": "TypeScript", "stars_total": 44163, "stars_today": 572},
+    {"rank": 4, "repo": "opengeos/GeoLibre", "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data", "language": "TypeScript", "stars_total": 2808, "stars_today": 420},
+    {"rank": 5, "repo": "yorukot/superfile", "description": "Pretty fancy and modern terminal file manager", "language": "Go", "stars_total": 20972, "stars_today": 600},
+    {"rank": 6, "repo": "NanmiCoder/MediaCrawler", "description": "Chinese social media crawlers for Xiaohongshu, TikTok, Kuaishou, Bilibili, Weibo, Baidu Tieba, Zhihu", "language": "Python", "stars_total": 58404, "stars_today": 362},
+    {"rank": 7, "repo": "pbakaus/impeccable", "description": "The design language that makes your AI harness better at design", "language": "JavaScript", "stars_total": 51677, "stars_today": 847},
+    {"rank": 8, "repo": "shiyu-coder/Kronos", "description": "Kronos: A Foundation Model for the Language of Financial Markets", "language": "Python", "stars_total": 34615, "stars_today": 441},
+    {"rank": 9, "repo": "alibaba/open-code-review", "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool", "language": "Go", "stars_total": 15000, "stars_today": 979},
+    {"rank": 10, "repo": "jenkinsci/jenkins", "description": "Jenkins automation server", "language": "Java", "stars_total": 25909, "stars_today": 180},
+    {"rank": 11, "repo": "bradautomates/claude-video", "description": "Give Claude the ability to watch any video", "language": "Python", "stars_total": 11235, "stars_today": 434},
+    {"rank": 12, "repo": "vudovn/ag-kit", "description": "Antigravity-first agent engineering kit with rules, skills, specialist agents, workflows, persistent memory, MCP guidance, orchestration, and a native safety hook", "language": "TypeScript", "stars_total": 7997, "stars_today": 14},
+    {"rank": 13, "repo": "apache/cassandra", "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance", "language": "Java", "stars_total": 9984, "stars_today": 11},
+    {"rank": 14, "repo": "mvanhorn/last30days-skill", "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket", "language": "Python", "stars_total": 54260, "stars_today": 240},
+    {"rank": 15, "repo": "ocornut/imgui", "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies", "language": "C++", "stars_total": 75236, "stars_today": 51}
+  ],
+  "note": "WebFetch summarization of the trending page returned 15 unique entries; a second request for ranks 16-25 re-served the same tail content, so the daily list is treated as 15 items for scoring purposes."
+}
