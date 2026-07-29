@@ -1,0 +1,20 @@
+{
+  "source": "https://github.com/trending?since=daily",
+  "fetched_via": "WebFetch (curl direct to github.com blocked by session egress proxy: repo-scoped only)",
+  "fetched_at_note": "2026-07-29 Asia/Shanghai",
+  "repos": [
+    {"rank":1,"full_name":"pascalorg/editor","desc":"Create and share 3D architectural projects","language":"TypeScript","stars":18856,"forks":2535,"stars_today":341},
+    {"rank":2,"full_name":"jenkinsci/jenkins","desc":"Jenkins automation server","language":"Java","stars":26103,"forks":9688,"stars_today":180},
+    {"rank":3,"full_name":"moeru-ai/airi","desc":"Self-hosted AI companion supporting realtime voice chat and game playing","language":"TypeScript","stars":44867,"forks":4453,"stars_today":797},
+    {"rank":4,"full_name":"andrewyng/aisuite","desc":"Simple, unified interface to multiple Generative AI providers","language":"Python","stars":15718,"forks":1657,"stars_today":62},
+    {"rank":5,"full_name":"affaan-m/ECC","desc":"The agent harness performance optimization system","language":"JavaScript","stars":234941,"forks":35796,"stars_today":636},
+    {"rank":6,"full_name":"hello245m/free-stockdb","desc":"Chinese stock market quantitative engine with K-line data and backtesting","language":"HTML","stars":1410,"forks":214,"stars_today":50},
+    {"rank":7,"full_name":"huggingface/speech-to-speech","desc":"Build local voice agents with open-source models","language":"Python","stars":7348,"forks":960,"stars_today":227},
+    {"rank":8,"full_name":"virgiliojr94/book-to-skill","desc":"Convert technical book PDFs into Claude Code skills","language":"Python","stars":11608,"forks":1350,"stars_today":423},
+    {"rank":9,"full_name":"opengeos/GeoLibre","desc":"Cloud-native GIS platform for geospatial data visualization and analysis","language":"TypeScript","stars":3479,"forks":396,"stars_today":607},
+    {"rank":10,"full_name":"paperswithbacktest/awesome-systematic-trading","desc":"Curated list for systematic trading libraries and strategies","language":"Python","stars":9752,"forks":1302,"stars_today":309},
+    {"rank":11,"full_name":"microsoft/agent-governance-toolkit","desc":"AI Agent governance with policy enforcement and sandboxing","language":"Python","stars":5268,"forks":838,"stars_today":46},
+    {"rank":12,"full_name":"yorukot/superfile","desc":"Pretty fancy and modern terminal file manager","language":"Go","stars":21545,"forks":698,"stars_today":662},
+    {"rank":13,"full_name":"bradautomates/claude-video","desc":"Enable Claude to analyze video content through frame extraction","language":"Python","stars":12222,"forks":1223,"stars_today":988}
+  ]
+}

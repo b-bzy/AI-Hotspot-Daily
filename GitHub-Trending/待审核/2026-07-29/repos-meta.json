@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-29",
+  "fetch_note": "api.github.com blocked for repos outside session scope (session bound to b-bzy/ai-hotspot-daily; cross-owner add_repo not supported in this session). Fell back to WebFetch per SKILL.md cloud-adaptation fallback.",
+  "selected": [
+    {
+      "full_name": "huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 7348,
+      "stars_display": "7.3k",
+      "stars_today": 227,
+      "forks": 960,
+      "topics": ["ai", "assistant", "language-model", "machine-learning", "python", "speech", "speech-synthesis", "speech-to-text", "speech-translation"],
+      "source": "WebFetch of github.com repo page"
+    },
+    {
+      "full_name": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 11608,
+      "stars_display": "11.6k",
+      "stars_today": 423,
+      "forks": 1350,
+      "topics": ["agent-skills", "claude", "knowledge-base", "pdf-extraction", "skill-development"],
+      "source": "WebFetch of github.com repo page"
+    },
+    {
+      "full_name": "microsoft/agent-governance-toolkit",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 5268,
+      "stars_display": "5.3k",
+      "stars_today": 46,
+      "forks": 838,
+      "homepage": "https://microsoft.github.io/agent-governance-toolkit",
+      "topics": ["agent-framework", "ai-agents", "ai-safety", "compliance", "governance", "microsoft", "owasp", "policy-engine", "python", "security", "trust", "zero-trust"],
+      "source": "WebFetch of github.com repo page"
+    }
+  ],
+  "excluded_dedup": [
+    {"full_name": "moeru-ai/airi", "reason": "选题历史命中 2026-07-14（15 天内）"},
+    {"full_name": "andrewyng/aisuite", "reason": "选题历史命中 2026-06-14（45 天内）"},
+    {"full_name": "affaan-m/ECC", "reason": "选题历史命中 2026-07-26（3 天内）"},
+    {"full_name": "yorukot/superfile", "reason": "选题历史命中 2026-07-28（1 天内），且非 AI 相关"},
+    {"full_name": "bradautomates/claude-video", "reason": "选题历史命中 2026-07-07（22 天内）"}
+  ],
+  "excluded_not_ai": [
+    {"full_name": "pascalorg/editor", "reason": "3D 建筑设计工具，无 AI 信号"},
+    {"full_name": "jenkinsci/jenkins", "reason": "CI/CD 自动化服务器，无 AI 信号"},
+    {"full_name": "hello245m/free-stockdb", "reason": "股票量化引擎，描述未命中 AI 关键词"},
+    {"full_name": "opengeos/GeoLibre", "reason": "地理信息可视化平台，无 AI 信号"},
+    {"full_name": "paperswithbacktest/awesome-systematic-trading", "reason": "量化交易资源列表，未命中 AI 关键词阈值"}
+  ]
+}
