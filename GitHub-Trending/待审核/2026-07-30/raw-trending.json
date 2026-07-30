@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-30",
+  "source": "https://github.com/trending?since=daily (fetched via WebFetch, direct curl blocked by sandbox proxy)",
+  "repos": [
+    {"rank": 1, "repo": "opengeos/GeoLibre", "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data", "language": "TypeScript", "stars_total": 4143, "stars_today": 671},
+    {"rank": 2, "repo": "moeru-ai/airi", "description": "Self hosted, you-owned AI companion with voice chat and gaming capabilities", "language": "TypeScript", "stars_total": 45478, "stars_today": 682},
+    {"rank": 3, "repo": "affaan-m/ECC", "description": "The agent harness performance optimization system for Claude Code and similar tools", "language": "JavaScript", "stars_total": 235676, "stars_today": 857},
+    {"rank": 4, "repo": "huggingface/speech-to-speech", "description": "Build local voice agents using open-source models", "language": "Python", "stars_total": 7967, "stars_today": 827},
+    {"rank": 5, "repo": "1jehuang/jcode", "description": "The most RAM efficient harness", "language": "Rust", "stars_total": 13559, "stars_today": 640},
+    {"rank": 6, "repo": "grokability/snipe-it", "description": "A free open source IT asset/license management system", "language": "PHP", "stars_total": 14498, "stars_today": 164},
+    {"rank": 7, "repo": "deepfakes/faceswap", "description": "Deepfakes Software For All", "language": "Python", "stars_total": 56401, "stars_today": 166},
+    {"rank": 8, "repo": "microsoft/VibeVoice", "description": "Open-Source Frontier Voice AI", "language": "Python", "stars_total": 51388, "stars_today": 336},
+    {"rank": 9, "repo": "different-ai/openwork", "description": "The open-source alternative to Claude Cowork (powered by opencode)", "language": "TypeScript", "stars_total": 18050, "stars_today": 97},
+    {"rank": 10, "repo": "obra/superpowers", "description": "An agentic skills framework & software development methodology that works", "language": "Shell", "stars_total": 263387, "stars_today": 616},
+    {"rank": 11, "repo": "MoonshotAI/FlashKDA", "description": "FlashKDA: Flash Kimi Delta Attention -- high-performance KDA kernels built on CUTLASS", "language": "Cuda", "stars_total": 1019, "stars_today": 91},
+    {"rank": 12, "repo": "NanmiCoder/MediaCrawler", "description": "Multi-platform social media content and comment crawler for Chinese platforms", "language": "Python", "stars_total": 59178, "stars_today": 154},
+    {"rank": 13, "repo": "alibaba/open-code-review", "description": "Open-source & free code review tool with hybrid architecture and LLM agent support", "language": "Go", "stars_total": 16131, "stars_today": 359},
+    {"rank": 14, "repo": "paperswithbacktest/awesome-systematic-trading", "description": "Curated collection of systematic trading libraries and resources", "language": "Python", "stars_total": 10472, "stars_today": 945},
+    {"rank": 15, "repo": "maderix/ANE", "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs", "language": "Objective-C", "stars_total": 7165, "stars_today": 22},
+    {"rank": 16, "repo": "pascalorg/editor", "description": "Create and share 3D architectural projects", "language": "TypeScript", "stars_total": 19650, "stars_today": 1022},
+    {"rank": 17, "repo": "virgiliojr94/book-to-skill", "description": "Turn any technical book PDF into a Claude Code skill", "language": "Python", "stars_total": 12944, "stars_today": 1421}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-30",
+  "ai_filter_notes": "打分依据 reference/ai-keywords.md；grep -F 硬校验 选题历史.md 剔除 90 天内重复项目",
+  "excluded_duplicates": [
+    "moeru-ai/airi (2026-07-14)",
+    "affaan-m/ECC (2026-07-26)",
+    "huggingface/speech-to-speech (2026-07-29)",
+    "obra/superpowers (2026-06-13)",
+    "NanmiCoder/MediaCrawler (2026-06-27)",
+    "alibaba/open-code-review (2026-07-24)",
+    "virgiliojr94/book-to-skill (2026-07-29)"
+  ],
+  "excluded_non_ai": [
+    "opengeos/GeoLibre - GIS 平台，无 AI 信号",
+    "grokability/snipe-it - IT 资产管理，与 AI 无关",
+    "deepfakes/faceswap - 老牌深度学习换脸项目，打分不足且非今日新闻点",
+    "paperswithbacktest/awesome-systematic-trading - 量化交易资源列表，无 AI 信号",
+    "maderix/ANE - 训练相关但主语言 Objective-C、topics 未见 AI 标签，单一信号来源",
+    "pascalorg/editor - 3D 建筑设计工具，无 AI 信号"
+  ],
+  "selected": [
+    {
+      "repo": "1jehuang/jcode",
+      "why_selected": "description+topics(ai, ai-agent, ai-coding-agent, claude, llm, mcp, openai)双信号命中，得分远超阈值；24h 新增 640 star 在候选中排名靠前；README 含具体可信基准数据",
+      "language": "Rust",
+      "license": "MIT",
+      "stars_total": 13559,
+      "stars_today": 640,
+      "topics": ["ai", "ai-agent", "ai-coding-agent", "claude", "cli", "coding-agent", "llm", "mcp", "openai", "rust", "terminal", "tui"]
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "why_selected": "description 含 Voice AI 关键词，topics 含 speech-synthesis/tts/asr，双信号命中；总 star 51.4k、来自 Microsoft，数据可信度高",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 51388,
+      "stars_today": 336,
+      "topics": ["speech-synthesis", "text-to-speech", "automatic-speech-recognition", "voice-ai", "neural-audio"]
+    },
+    {
+      "repo": "MoonshotAI/FlashKDA",
+      "why_selected": "owner 名 MoonshotAI 含 ai 子串 + description 含 attention 关键词，双信号命中；虽星数较少但为 Moonshot AI(Kimi) 官方仓库，代表大模型推理底层优化方向，与另外两个项目形成差异化",
+      "language": "Cuda",
+      "license": "MIT",
+      "stars_total": 1019,
+      "stars_today": 91,
+      "topics": []
+    }
+  ]
+}
