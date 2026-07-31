@@ -1,0 +1,42 @@
+{
+  "selected": [
+    {
+      "full_name": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "stars": 18800,
+      "stars_today": 915,
+      "homepage": "https://openworklabs.com",
+      "selection_reason": "AI关键词命中(claude/agent/mcp)，非重复选题"
+    },
+    {
+      "full_name": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "stars": 20200,
+      "stars_today": 625,
+      "homepage": "https://editor.pascal.app",
+      "selection_reason": "非AI补位，today's stars排名第2（AI候选不足3个）"
+    },
+    {
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "license_spdx": null,
+      "stars": 11200,
+      "stars_today": 621,
+      "homepage": null,
+      "selection_reason": "非AI补位，today's stars排名第3（AI候选不足3个）"
+    }
+  ],
+  "rejected_ai_candidates_deduped": [
+    {"full_name": "huggingface/speech-to-speech", "reason": "90天去重命中：2026-07-29 已写过"},
+    {"full_name": "microsoft/AI-For-Beginners", "reason": "90天去重命中：2026-07-01 已写过"},
+    {"full_name": "mvanhorn/last30days-skill", "reason": "90天去重命中：2026-06-10 已写过"},
+    {"full_name": "ChromeDevTools/chrome-devtools-mcp", "reason": "90天去重命中：2026-07-05 已写过"},
+    {"full_name": "affaan-m/ECC", "reason": "90天去重命中：2026-07-26 已写过"}
+  ],
+  "data_source_note": "api.github.com 未挂载该会话授权（403），元数据改用 WebFetch 抓取仓库页 + git clone --depth 1 读 README/LICENSE（读完已删除本地克隆目录）"
+}
