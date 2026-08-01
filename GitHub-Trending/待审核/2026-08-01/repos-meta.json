@@ -1,0 +1,48 @@
+{
+  "selected": [
+    {
+      "full_name": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack",
+      "language": "PowerShell",
+      "license_spdx": "MIT",
+      "stars": 10875,
+      "stars_today": 335,
+      "homepage": null,
+      "selection_reason": "AI关键词命中(description含ai/agent关键词+2，README多次提及Claude Code/Codex CLI/Cursor等AI编程客户端+1，两类信号且≥3分)，非重复选题"
+    },
+    {
+      "full_name": "agavra/tuicr",
+      "description": "Code review TUI with vim keybindings. Export to GitHub, GitLab, or clipboard.",
+      "language": "Rust",
+      "license_spdx": "MIT",
+      "stars": 2174,
+      "stars_today": 335,
+      "homepage": "https://tuicr.dev",
+      "selection_reason": "AI关键词命中(topics含ai-tools+2，README明确提及Claude/Codex/Cursor等AI编程智能体的agent导出工作流+1，两类信号且=3分)，非重复选题"
+    },
+    {
+      "full_name": "deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "language": "Python",
+      "license_spdx": "GPL-3.0",
+      "stars": 57027,
+      "stars_today": 93,
+      "homepage": "https://faceswap.dev",
+      "selection_reason": "AI关键词命中(topics含deep-learning/machine-learning/neural-networks+2，description含deep learning关键词+2，两类信号且≥3分)，非重复选题"
+    }
+  ],
+  "rejected_ai_candidates_deduped": [
+    {"full_name": "different-ai/openwork", "reason": "90天去重命中：2026-07-31 已写过"},
+    {"full_name": "mvanhorn/last30days-skill", "reason": "90天去重命中：2026-06-10 已写过"},
+    {"full_name": "microsoft/AI-For-Beginners", "reason": "90天去重命中：2026-07-01 已写过"},
+    {"full_name": "github/copilot-sdk", "reason": "90天去重命中：2026-07-18 已写过"},
+    {"full_name": "1jehuang/jcode", "reason": "90天去重命中：2026-07-30 已写过"}
+  ],
+  "rejected_non_ai": [
+    {"full_name": "paperswithbacktest/awesome-systematic-trading", "reason": "非AI相关（量化交易资源列表），且90天去重命中：2026-07-31 已写过"},
+    {"full_name": "chatwoot/chatwoot", "reason": "非AI相关（客服/在线聊天系统）"},
+    {"full_name": "usekaneo/kaneo", "reason": "非AI相关（项目管理工具）"},
+    {"full_name": "geo-tp/ESP32-Bit-Pirate", "reason": "非AI相关（硬件安全测试工具）"}
+  ],
+  "data_source_note": "api.github.com 未挂载该会话授权（403），trending 页与仓库元数据改用 WebFetch 抓取，README 用 git clone --depth 1 读取（读完已删除本地克隆目录）"
+}

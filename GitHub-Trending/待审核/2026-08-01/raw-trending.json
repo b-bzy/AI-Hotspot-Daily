@@ -1,0 +1,14 @@
+[
+  {"rank":1,"full_name":"zhaoxuya520/reverse-skill","description":"Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack","language":"PowerShell","stars":10875,"forks":1668,"stars_today":335},
+  {"rank":2,"full_name":"different-ai/openwork","description":"The open-source alternative to Claude Cowork (powered by opencode)","language":"TypeScript","stars":19573,"forks":2009,"stars_today":806},
+  {"rank":3,"full_name":"mvanhorn/last30days-skill","description":"AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web","language":"Python","stars":56288,"forks":4898,"stars_today":658},
+  {"rank":4,"full_name":"paperswithbacktest/awesome-systematic-trading","description":"Curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading","language":"Python","stars":11819,"forks":1473,"stars_today":763},
+  {"rank":5,"full_name":"microsoft/AI-For-Beginners","description":"12 Weeks, 24 Lessons, AI for All!","language":"Jupyter Notebook","stars":55412,"forks":11160,"stars_today":1592},
+  {"rank":6,"full_name":"github/copilot-sdk","description":"Multi-platform SDK for integrating GitHub Copilot Agent into apps and services","language":"Java","stars":10148,"forks":1373,"stars_today":7},
+  {"rank":7,"full_name":"chatwoot/chatwoot","description":"Open-source live-chat, email support, omni-channel desk alternative to Intercom, Zendesk","language":"Ruby","stars":35164,"forks":8443,"stars_today":35},
+  {"rank":8,"full_name":"agavra/tuicr","description":"Code review TUI with vim keybindings. Export to GitHub, GitLab, or clipboard.","language":"Rust","stars":2174,"forks":172,"stars_today":335},
+  {"rank":9,"full_name":"usekaneo/kaneo","description":"Open source project management tool designed for flexible workflows","language":"TypeScript","stars":5159,"forks":453,"stars_today":194},
+  {"rank":10,"full_name":"geo-tp/ESP32-Bit-Pirate","description":"Hardware hacking tool with web-based CLI supporting multiple protocols","language":"C++","stars":5056,"forks":410,"stars_today":83},
+  {"rank":11,"full_name":"deepfakes/faceswap","description":"Deepfakes Software For All","language":"Python","stars":57027,"forks":13481,"stars_today":93},
+  {"rank":12,"full_name":"1jehuang/jcode","description":"The most RAM efficient harness","language":"Rust","stars":14663,"forks":1617,"stars_today":527}
+]
