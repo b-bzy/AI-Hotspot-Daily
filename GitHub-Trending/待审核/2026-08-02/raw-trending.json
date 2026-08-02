@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-02",
+  "source": "https://github.com/trending?since=daily (via WebFetch)",
+  "repos": [
+    {"rank":1,"repo":"microsoft/AI-For-Beginners","description":"12 Weeks, 24 Lessons, AI for All!","language":"Jupyter Notebook","stars":57476,"forks":11376,"stars_today":949},
+    {"rank":2,"repo":"paperswithbacktest/awesome-systematic-trading","description":"Curated libraries and strategies for systematic trading","language":"Python","stars":12300,"forks":1516,"stars_today":523},
+    {"rank":3,"repo":"usekaneo/kaneo","description":"All you need. Nothing you don't - open source project management","language":"TypeScript","stars":5729,"forks":491,"stars_today":760},
+    {"rank":4,"repo":"zhaoxuya520/reverse-skill","description":"Reverse engineering and security skills router with AI routing","language":"PowerShell","stars":12004,"forks":1816,"stars_today":1320},
+    {"rank":5,"repo":"microsoft/generative-ai-for-beginners","description":"21 Lessons, Get Started Building with Generative AI","language":"Jupyter Notebook","stars":114277,"forks":61227,"stars_today":108},
+    {"rank":6,"repo":"github/copilot-sdk","description":"Multi-platform SDK for GitHub Copilot Agent integration","language":"Java","stars":10291,"forks":1388,"stars_today":142},
+    {"rank":7,"repo":"github/gh-stack","description":"GitHub Stacked PRs tool","language":"Go","stars":837,"forks":38,"stars_today":46},
+    {"rank":8,"repo":"huggingface/speech-to-speech","description":"Build local voice agents with open-source models","language":"Python","stars":10247,"forks":1250,"stars_today":442},
+    {"rank":9,"repo":"abus-aikorea/voice-pro","description":"Gradio WebUI for TTS and voice cloning with audio processing","language":"Python","stars":11803,"forks":1726,"stars_today":58},
+    {"rank":10,"repo":"iv-org/invidious","description":"Alternative front-end to YouTube","language":"Crystal","stars":21650,"forks":2434,"stars_today":435},
+    {"rank":11,"repo":"ansible/ansible","description":"IT automation platform using SSH with no agents required","language":"Python","stars":70118,"forks":24272,"stars_today":30},
+    {"rank":12,"repo":"microsoft/TRELLIS.2","description":"Native and compact structured latents for 3D generation","language":"Python","stars":9957,"forks":1201,"stars_today":107},
+    {"rank":13,"repo":"TencentCloud/TencentDB-Agent-Memory","description":"Team-level memory hub for AI Agents","language":"TypeScript","stars":10343,"forks":991,"stars_today":227},
+    {"rank":14,"repo":"NomaDamas/k-skill","description":"Korean-language agent skills collection","language":"JavaScript","stars":6758,"forks":797,"stars_today":53},
+    {"rank":15,"repo":"bytedance/deer-flow","description":"Long-horizon SuperAgent for research, coding, and creation","language":"Python","stars":78762,"forks":10746,"stars_today":209}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-02",
+  "selected": [
+    {
+      "repo": "microsoft/TRELLIS.2",
+      "description": "Native and compact structured latents for 3D generation",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 9957,
+      "forks": 1201,
+      "stars_today": 107,
+      "homepage": "https://microsoft.github.io/TRELLIS.2",
+      "topics": ["3d-generation", "image-to-3d", "generative-ai", "mesh-generation", "texture-synthesis"],
+      "readme_notes": "4B参数3D生成模型，field-free稀疏体素架构O-Voxel，支持任意拓扑（含开放曲面/非流形几何/封闭内部结构），512^3分辨率约3秒、1536^3约60秒生成（H100），mesh转O-Voxel单CPU 10秒内，反向操作CUDA下100毫秒内，基于Sparse 3D VAE 16倍空间下采样，支持PBR材质（basecolor/roughness/metallic/opacity），训练基于Objaverse-XL，需24GB显存GPU"
+    },
+    {
+      "repo": "NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로（面向韩国用户的 AI Agent 技能集合）",
+      "language": "JavaScript",
+      "license": "MIT (代理服务组件为 AGPL-3.0-only)",
+      "stars": 6758,
+      "forks": 797,
+      "stars_today": 53,
+      "homepage": "https://k-skill.nomadamas.org",
+      "topics": ["ai-agent-skills", "korean", "automation"],
+      "readme_notes": "100+ 模块化技能，覆盖交通订票(SRT/KTX/大巴)、金融证券查询、政务、电商比价、法律文书、生活服务等；兼容 Claude Code / Codex / OpenCode / ClawHub 多个 Agent；无需客户端 API 层，直连代理服务器；862 次提交、116 个开放 issue；Coupang 等部分技能支持本地 HMAC 或托管代理两种鉴权模式"
+    },
+    {
+      "repo": "abus-aikorea/voice-pro",
+      "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation",
+      "language": "Python",
+      "license": "GPL-3.0",
+      "stars": 11803,
+      "forks": 1726,
+      "stars_today": 58,
+      "homepage": "https://www.wctokyoseoul.com",
+      "topics": ["tts", "voice-cloning", "voice-conversion", "whisper", "speech-synthesis", "speech-to-text"],
+      "readme_notes": "v4.0：包管理从 Miniconda/pip 迁移到 uv，运行环境升级到 Python 3.12 + Torch 2.8.0+cu128，支持 RTX 50 系列显卡；新增 Fun-CosyVoice3-0.5B 模型，支持韩语及另外 8 种语言；不再需要单独安装 CUDA Toolkit 和 Visual Studio Build Tools，依赖以预编译 wheel 形式提供；系统需求：4GB+ 显存 GPU、4GB+ 内存、20GB+ 存储；首次运行下载约 10GB 模型"
+    }
+  ],
+  "eliminated": [
+    {"repo": "microsoft/AI-For-Beginners", "reason": "90天去重命中：2026-07-01 已写过"},
+    {"repo": "paperswithbacktest/awesome-systematic-trading", "reason": "90天去重命中：2026-07-31 已写过"},
+    {"repo": "zhaoxuya520/reverse-skill", "reason": "90天去重命中：2026-08-01（昨天）刚写过"},
+    {"repo": "github/copilot-sdk", "reason": "90天去重命中：2026-07-18 已写过"},
+    {"repo": "huggingface/speech-to-speech", "reason": "90天去重命中：2026-07-29 已写过"},
+    {"repo": "TencentCloud/TencentDB-Agent-Memory", "reason": "90天去重命中：2026-07-09 已写过"},
+    {"repo": "bytedance/deer-flow", "reason": "90天去重命中：2026-06-22 已写过"},
+    {"repo": "usekaneo/kaneo", "reason": "AI相关性打分不足3分，纯项目管理工具"},
+    {"repo": "github/gh-stack", "reason": "AI相关性打分不足3分，纯Git工具"},
+    {"repo": "iv-org/invidious", "reason": "AI相关性打分不足3分，YouTube前端替代品"},
+    {"repo": "ansible/ansible", "reason": "AI相关性打分不足3分，IT自动化工具，agent非AI语境"},
+    {"repo": "microsoft/generative-ai-for-beginners", "reason": "AI相关性达标但为二判淘汰：纯教程课程，24h新增仅108，信息密度偏教学类而非产品/技术新闻，为保证多样性让位于TRELLIS.2/k-skill/voice-pro"}
+  ]
+}
