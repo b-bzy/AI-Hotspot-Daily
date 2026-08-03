@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-03",
+  "note": "api.github.com 返回 403（session 未挂载这些仓库），license/topics/README 改用 WebFetch + git clone --depth 1 获取，clone 用完已删除。",
+  "selected": [
+    {
+      "repo": "microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "stars_total": 114897,
+      "stars_today": 588,
+      "topics": ["ai","azure","chatgpt","dall-e","generative-ai","generativeai","gpt","language-model","llms","microsoft-for-beginners","openai","prompt-engineering","semantic-search","transformers"],
+      "ai_score_signals": ["description keyword hit (generative ai)", "name substring 'ai'", "topics keyword hits (ai/gpt/llms/openai/...)"],
+      "selection_reason": "AI 相关分数远超阈值，24h 新增 588 star 为当日最高，作为结构化学习类项目具备高信息密度"
+    },
+    {
+      "repo": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "license": "MIT (仓库 /ee 目录下另有 Fair Source License)",
+      "stars_total": 20423,
+      "stars_today": 280,
+      "topics": null,
+      "ai_score_signals": ["description keyword hit (claude)", "owner name substring 'ai' (different-ai)"],
+      "selection_reason": "AI Agent 工作流/技能共享工具，与另两个入选项目主题不重叠，保证选题多样性"
+    },
+    {
+      "repo": "antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "license": "MIT",
+      "stars_total": 20061,
+      "stars_today": 139,
+      "topics": ["ai","machine-learning","inference","deepseek","gguf","metal","cuda","rocm","quantization","local-llm"],
+      "ai_score_signals": ["description keyword hits (deepseek/inference)", "topics keyword hits (ai/machine-learning/inference/deepseek)"],
+      "selection_reason": "本地推理引擎方向，作者为知名开发者 antirez（Redis），与教程/工具两类项目形成差异化"
+    }
+  ],
+  "excluded_for_dedup_90days": [
+    "microsoft/AI-For-Beginners (已于 2026-07-01 写过)",
+    "lyogavin/airllm (已于 2026-06-23 写过)",
+    "zhaoxuya520/reverse-skill (已于 2026-08-01 写过)",
+    "Panniantong/Agent-Reach (已于 2026-06-16 写过)",
+    "TencentCloud/TencentDB-Agent-Memory (已于 2026-07-09 写过)",
+    "mvanhorn/last30days-skill (已于 2026-06-10 写过)",
+    "NomaDamas/k-skill (已于 2026-08-02 写过)"
+  ],
+  "excluded_not_ai_or_low_score": [
+    "usekaneo/kaneo (项目管理工具，无 AI 信号)",
+    "iv-org/invidious (YouTube 前端，无 AI 信号)",
+    "codecrafters-io/build-your-own-x (编程教程合集，无 AI 关键词命中)",
+    "HarbourMasters/Lighthouse (无描述，无 AI 信号)"
+  ],
+  "excluded_for_diversity": [
+    "esengine/DeepSeek-Reasonix (AI 相关分数达标，但与 antirez/ds4 同属 DeepSeek 本地化工具细分主题，为保证三选题多样性未入选；24h 新增 333、总 star 29.2k，若后续需要备选可用)"
+  ]
+}
