@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-04",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (直接 curl github.com 被本会话代理拦截，代理仅放行已挂载仓库的 repos/{owner}/{repo} API 路径；改用 WebFetch 服务端工具抓取)",
+  "repos": [
+    {"rank": 1, "full_name": "lyogavin/airllm", "description": "AirLLM 70B inference with single 4GB GPU", "language": "Jupyter Notebook", "stars": 27331, "forks": 2983, "stars_today": 1085},
+    {"rank": 2, "full_name": "zhaoxuya520/reverse-skill", "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack", "language": "PowerShell", "stars": 16125, "forks": 2264, "stars_today": 2446},
+    {"rank": 3, "full_name": "firecrawl/pdf-inspector", "description": "Fast Rust library for PDF inspection, classification, and text extraction", "language": "Rust", "stars": 8548, "forks": 562, "stars_today": 1699},
+    {"rank": 4, "full_name": "esengine/DeepSeek-Reasonix", "description": "DeepSeek-native AI coding agent for your terminal", "language": "Go", "stars": 30082, "forks": 1936, "stars_today": 883},
+    {"rank": 5, "full_name": "TencentCloud/TencentDB-Agent-Memory", "description": "Team-level memory hub for AI Agents — turning conversations, docs, and code into reusable memory assets", "language": "TypeScript", "stars": 12298, "forks": 1163, "stars_today": 1090},
+    {"rank": 6, "full_name": "microsoft/AI-For-Beginners", "description": "12 Weeks, 24 Lessons, AI for All!", "language": "Jupyter Notebook", "stars": 60950, "forks": 11856, "stars_today": 1902},
+    {"rank": 7, "full_name": "microsoft/generative-ai-for-beginners", "description": "21 Lessons, Get Started Building with Generative AI", "language": "Jupyter Notebook", "stars": 115701, "forks": 61454, "stars_today": 775},
+    {"rank": 8, "full_name": "donnemartin/system-design-primer", "description": "Learn how to design large-scale systems. Prep for the system design interview", "language": "Python", "stars": 360623, "forks": 57528, "stars_today": 237},
+    {"rank": 9, "full_name": "antirez/ds4", "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm", "language": "C", "stars": 20403, "forks": 1804, "stars_today": 384},
+    {"rank": 10, "full_name": "shiyu-coder/Kronos", "description": "Kronos: A Foundation Model for the Language of Financial Markets", "language": "Python", "stars": 35852, "forks": 5967, "stars_today": 200},
+    {"rank": 11, "full_name": "Panniantong/Agent-Reach", "description": "Give your AI agent eyes to see the entire internet. Read & search social platforms", "language": "Python", "stars": 65860, "forks": 5463, "stars_today": 1057},
+    {"rank": 12, "full_name": "Alishahryar1/free-claude-code", "description": "Use Claude Code, Codex and Pi for free from terminal, app, IDE, or phone", "language": "Python", "stars": 44094, "forks": 7274, "stars_today": 278},
+    {"rank": 13, "full_name": "iv-org/invidious", "description": "Invidious is an alternative front-end to YouTube", "language": "Crystal", "stars": 22295, "forks": 2482, "stars_today": 402},
+    {"rank": 14, "full_name": "livekit/agents", "description": "A framework for building realtime voice AI agents", "language": "Python", "stars": 12059, "forks": 3461, "stars_today": 148},
+    {"rank": 15, "full_name": "usekaneo/kaneo", "description": "Open source project management that works for you, not against you", "language": "TypeScript", "stars": 6924, "forks": 558, "stars_today": 665},
+    {"rank": 16, "full_name": "jamiepine/voicebox", "description": "The open-source AI voice studio. Clone, dictate, create", "language": "TypeScript", "stars": 48783, "forks": 5997, "stars_today": 412}
+  ]
+}

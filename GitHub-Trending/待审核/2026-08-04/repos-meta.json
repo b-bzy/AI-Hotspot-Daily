@@ -1,0 +1,61 @@
+{
+  "date": "2026-08-04",
+  "selected": [
+    {
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "license": "MIT",
+      "stars": 30082,
+      "stars_today": 883,
+      "forks": 1936,
+      "topics": ["agent", "agent-framework", "ai-agent", "ai-coding", "cli", "coding-agent", "deepseek", "developer-tools", "prompt-caching", "terminal", "tool-use", "tui"],
+      "category": "AI",
+      "ai_score_basis": "description命中 ai/agent/deepseek 关键词(+2*3)，仓库名含 deepseek 子串(+1)，≥3分入选",
+      "dedup_check": "grep -F 选题历史.md 未命中，通过"
+    },
+    {
+      "full_name": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "license": "MIT",
+      "stars": 8600,
+      "stars_today": 1699,
+      "forks": 563,
+      "topics": ["markdown", "nodejs", "ocr-routing", "pdf", "pdf-classification", "pdf-extraction", "pdf-parser", "python", "rust", "text-extraction"],
+      "category": "非AI（补位）",
+      "ai_score_basis": "description/topics 未命中 ai-keywords.md 关键词表，得分<3，未进入AI候选池",
+      "dedup_check": "grep -F 选题历史.md 未命中，通过",
+      "fill_reason": "AI候选池经dedup后仅剩2个，按配置.yaml fill_with_non_ai_if_insufficient=true，从非AI项目里按today's stars倒序取最高的一个补位"
+    },
+    {
+      "full_name": "livekit/agents",
+      "description": "A framework for building realtime voice AI agents",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 12059,
+      "stars_today": 148,
+      "forks": 3461,
+      "topics": ["agents", "ai", "openai", "real-time", "video", "voice"],
+      "category": "AI",
+      "ai_score_basis": "description命中 ai/agent/voice 关键词(+2*2)，name含agent子串(+1)，≥3分入选",
+      "dedup_check": "grep -F 选题历史.md 未命中，通过"
+    }
+  ],
+  "rejected": [
+    {"full_name": "lyogavin/airllm", "reason": "AI相关(打分达标)，但grep命中2026-06-23选题历史，90天去重窗口内剔除"},
+    {"full_name": "zhaoxuya520/reverse-skill", "reason": "非AI（渗透测试/逆向工程工具），且grep命中2026-08-01选题历史，剔除"},
+    {"full_name": "microsoft/AI-For-Beginners", "reason": "AI相关(打分达标)，但grep命中2026-07-01选题历史，90天去重窗口内剔除（首轮人工判断误认为未命中，二次grep -F硬校验后发现命中，已改判）"},
+    {"full_name": "microsoft/generative-ai-for-beginners", "reason": "grep命中2026-08-03选题历史（前一天刚写），剔除"},
+    {"full_name": "antirez/ds4", "reason": "AI相关(打分达标)，但grep命中2026-08-03选题历史，剔除"},
+    {"full_name": "shiyu-coder/Kronos", "reason": "grep命中2026-06-14及2026-07-24选题历史（已写过两次），剔除"},
+    {"full_name": "Panniantong/Agent-Reach", "reason": "AI相关(打分达标)，但grep命中2026-06-16选题历史，剔除"},
+    {"full_name": "jamiepine/voicebox", "reason": "AI相关(打分达标)，但grep命中2026-06-21选题历史，剔除"},
+    {"full_name": "TencentCloud/TencentDB-Agent-Memory", "reason": "AI相关(打分达标)，初判未发现重复，二次grep -F硬校验发现命中2026-07-09选题历史（26天前，90天窗口内），已从初稿中撤下并替换为pdf-inspector"},
+    {"full_name": "Alishahryar1/free-claude-code", "reason": "AI相关(打分达标)且grep未命中去重历史，读README确认为合法的本地模型代理网关工具（非破解/盗号工具），但涉及绕开官方计费渠道使用Claude Code/Codex CLI连接第三方模型后端，属ToS灰色地带，编辑口径从严不作为主推项目介绍，主动剔除"},
+    {"full_name": "donnemartin/system-design-primer", "reason": "非AI，today's stars(237)低于pdf-inspector(1699)，未被选为补位"},
+    {"full_name": "iv-org/invidious", "reason": "非AI，today's stars(402)低于pdf-inspector(1699)，未被选为补位"},
+    {"full_name": "usekaneo/kaneo", "reason": "非AI，today's stars(665)低于pdf-inspector(1699)，未被选为补位"}
+  ],
+  "notes": "1) api.github.com 在本会话代理下仅放行已挂载仓库的 repos/{owner}/{repo} 路径，无法直接查询任意 trending 项目 metadata，也无法直接 curl github.com/trending（返回代理侧403）；改用 WebFetch 工具抓取 github.com 网页版数据（trending 列表页 + 各仓库详情页交叉核对一致），README 用 git clone --depth 1 拉取后本地读取，读完已删除本地clone目录。 2) 去重环节严格使用 grep -F 对选题历史.md 做硬校验，过程中发现 TencentCloud/TencentDB-Agent-Memory 和 microsoft/AI-For-Beginners 两个凭初判\"未命中\"的项目实际在grep后命中历史记录，及时更正剔除，避免了重复选题。"
+}
