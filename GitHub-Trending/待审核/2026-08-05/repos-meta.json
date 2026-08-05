@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-05",
+  "selected": [
+    {
+      "repo": "uber/ADR",
+      "category": "AI",
+      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars_total": 731,
+      "stars_today": 148,
+      "forks": 70,
+      "homepage": "https://arxiv.org/abs/2605.17380",
+      "topics": ["agent-security", "ai-agents", "ai-security", "benchmark", "claude", "claude-code", "codex", "cursor", "llm-security", "mcp", "model-context-protocol", "prompt-injection", "threat-detection"],
+      "readme_summary": "ADR (Agentic AI Detection and Response) is an enterprise security system for AI coding agents (Cursor, Claude Code, Codex) and customer-facing agents. Four capabilities: ADR Sensor (observability across 7+ AI coding platforms), ADR-Bench (300+ tasks, 133 MCP servers, 17 attack techniques), ADR Detector (dual-agent: high-recall triage + deeper agentic reasoning for suspicious sessions), and prevention (blocking unsafe actions, not in OSS release). Research accepted to MLSys 2026, in production at Uber. Setup: git clone, uv sync, export Anthropic/OpenAI API keys, default detector 'adr'. References 'llamafirewall' as an alternative detector without comparative benchmarks."
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "category": "AI",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 23908,
+      "stars_today": 40,
+      "forks": 1958,
+      "homepage": "https://every.to/guides/compound-engineering",
+      "topics": ["compound", "engineering"],
+      "readme_summary": "Plugin implementing 'Compound Engineering': each unit of engineering work should make subsequent units easier. Inverts the usual 80% execution / 20% planning ratio to 80% planning+review / 20% execution. 32 skills total, core loop: /ce-brainstorm, /ce-plan, /ce-work, /ce-simplify-code, /ce-code-review, /ce-compound. Also /ce-ideate, /ce-strategy, /ce-product-pulse, /ce-debug, /ce-pov, /ce-explain, plus 16 support skills like /ce-doc-review, /ce-optimize, /ce-commit-push-pr, /ce-babysit-pr, /ce-test-browser, /ce-test-xcode, /ce-dogfood. Flagship /lfg command runs the full pipeline autonomously: plan, implement, simplify, review, commit, open PR, monitor CI, repair failures until passing. Integrates with Claude Code, Cursor Agent, Codex, Kimi Code CLI, Cline, Devin CLI, GitHub Copilot, Factory Droid, Qwen Code, OpenCode, Pi, Antigravity CLI. 141 watchers, 1,121 commits."
+    },
+    {
+      "repo": "usekaneo/kaneo",
+      "category": "non-AI (补位, by today's stars ranking)",
+      "description": "All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 7332,
+      "stars_today": 559,
+      "forks": 580,
+      "homepage": "https://kaneo.app/",
+      "topics": ["hacktoberfest", "hono", "issue-management", "issue-tracker", "jira-alternative", "kanban", "linear-alternative", "project-management", "react", "self-hosted", "typescript"],
+      "readme_summary": "Minimalist self-hosted project management tool, positioned as a Jira/Linear alternative. Clean interface, self-hosted data privacy, performance-focused. Deploys via Docker Compose or a CLI tool called drim, PostgreSQL backend, pnpm workspaces + Turborepo monorepo. Includes an MCP (Model Context Protocol) server letting AI assistants like Claude manage tasks directly. Kubernetes/Helm support for enterprise deployment."
+    }
+  ],
+  "ai_candidates_before_dedup": ["TencentCloud/TencentDB-Agent-Memory", "uber/ADR", "obra/superpowers", "lyogavin/airllm", "browser-use/video-use", "EveryInc/compound-engineering-plugin"],
+  "dedup_excluded": {
+    "TencentCloud/TencentDB-Agent-Memory": "used 2026-07-09 (within 90d)",
+    "obra/superpowers": "used 2026-06-13 (within 90d)",
+    "lyogavin/airllm": "used 2026-06-23 (within 90d)",
+    "browser-use/video-use": "used 2026-06-29 and 2026-07-03 (within 90d)",
+    "zhaoxuya520/reverse-skill": "used 2026-08-01 (within 90d), also not AI-scored",
+    "microsoft/generative-ai-for-beginners": "used 2026-08-03 (within 90d)",
+    "livekit/agents": "used 2026-08-04 (within 90d)",
+    "esengine/DeepSeek-Reasonix": "used 2026-08-04 (within 90d)",
+    "firecrawl/pdf-inspector": "used 2026-08-04 (within 90d)"
+  }
+}

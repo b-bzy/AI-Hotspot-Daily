@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-05",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com/trending blocked by session egress proxy - repo-scoped only; api.github.com also blocked for repos not attached via add_repo)",
+  "repos": [
+    {"rank": 1, "repo": "TencentCloud/TencentDB-Agent-Memory", "language": "TypeScript", "stars_total": 13917, "forks": 1294, "stars_today": 1111, "description": "Team-level memory hub for AI Agents"},
+    {"rank": 2, "repo": "zhaoxuya520/reverse-skill", "language": "PowerShell", "stars_total": 18137, "forks": 2485, "stars_today": 2297, "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack"},
+    {"rank": 3, "repo": "firecrawl/pdf-inspector", "language": "Rust", "stars_total": 10225, "forks": 666, "stars_today": 2540, "description": "Fast Rust library for PDF inspection, classification, and text extraction"},
+    {"rank": 4, "repo": "uber/ADR", "language": "Python", "stars_total": 731, "forks": 70, "stars_today": 148, "description": "Secures enterprise AI agents through observability, security benchmarking, and threat detection"},
+    {"rank": 5, "repo": "obra/superpowers", "language": "Shell", "stars_total": 266600, "forks": 23834, "stars_today": 653, "description": "An agentic skills framework & software development methodology that works"},
+    {"rank": 6, "repo": "microsoft/generative-ai-for-beginners", "language": "Jupyter Notebook", "stars_total": 116352, "forks": 61573, "stars_today": 783, "description": "21 Lessons, Get Started Building with Generative AI"},
+    {"rank": 7, "repo": "cypress-io/cypress", "language": "TypeScript", "stars_total": 50820, "forks": 3628, "stars_today": 11, "description": "Fast, easy and reliable testing for anything that runs in a browser"},
+    {"rank": 8, "repo": "lyogavin/airllm", "language": "Jupyter Notebook", "stars_total": 28500, "forks": 3073, "stars_today": 1711, "description": "AirLLM 70B inference with single 4GB GPU"},
+    {"rank": 9, "repo": "webpack/webpack", "language": "JavaScript", "stars_total": 65948, "forks": 9529, "stars_today": 10, "description": "Bundler supporting modular code splitting and multiple module formats"},
+    {"rank": 10, "repo": "gabime/spdlog", "language": "C++", "stars_total": 29393, "forks": 5372, "stars_today": 10, "description": "Fast C++ logging library"},
+    {"rank": 11, "repo": "denoland/deno", "language": "Rust", "stars_total": 108082, "forks": 6306, "stars_today": 31, "description": "A modern runtime for JavaScript and TypeScript"},
+    {"rank": 12, "repo": "usekaneo/kaneo", "language": "TypeScript", "stars_total": 7332, "forks": 580, "stars_today": 559, "description": "Open source project management that works for you, not against you"},
+    {"rank": 13, "repo": "livekit/agents", "language": "Python", "stars_total": 12476, "forks": 3484, "stars_today": 432, "description": "A framework for building realtime voice AI agents"},
+    {"rank": 14, "repo": "angular/angular", "language": "TypeScript", "stars_total": 100856, "forks": 27401, "stars_today": 13, "description": "Deliver web apps with confidence"},
+    {"rank": 15, "repo": "tailwindlabs/tailwindcss", "language": "TypeScript", "stars_total": 96528, "forks": 5537, "stars_today": 52, "description": "A utility-first CSS framework for rapid UI development"},
+    {"rank": 16, "repo": "browser-use/video-use", "language": "Python", "stars_total": 19418, "forks": 2415, "stars_today": 320, "description": "Edit videos with coding agents"},
+    {"rank": 17, "repo": "esengine/DeepSeek-Reasonix", "language": "Go", "stars_total": 30905, "forks": 1986, "stars_today": 922, "description": "DeepSeek-native AI coding agent for your terminal"},
+    {"rank": 18, "repo": "EveryInc/compound-engineering-plugin", "language": "TypeScript", "stars_total": 23908, "forks": 1958, "stars_today": 40, "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more"}
+  ]
+}
