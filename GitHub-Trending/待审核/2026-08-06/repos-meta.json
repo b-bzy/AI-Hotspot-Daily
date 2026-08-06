@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-06",
+  "selected": [
+    {
+      "repo": "cloudflare/computer",
+      "description": "Give your agent a computer — a virtual filesystem living in a Durable Object, exposing execution through pluggable backends (container FUSE mount, isolate shell, isolate JS).",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 3341,
+      "stars_today": 891,
+      "created": "unknown (not shown in fetched content)",
+      "homepage": null,
+      "topics_observed": [],
+      "ai_score_basis": "description repeatedly says 'agent' (durable execution/filesystem surface built for coding agents); positioned directly against Anthropic/OpenAI 'computer use' concept",
+      "readme_source": "git clone --depth 1 (api.github.com not reachable for unattached repos in this sandbox; curl to github.com/trending and api.ossinsight.io both 403)"
+    },
+    {
+      "repo": "huangruiteng/loopx",
+      "description": "Lightweight loop engineering state kernel and local control plane for long-running AI agent teams; agent-agnostic across Codex, Claude Code, Cursor.",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": 2293,
+      "stars_today": 326,
+      "created": "unknown (not shown in fetched content)",
+      "homepage": "https://huangruiteng.github.io/loopx/",
+      "topics_observed": ["agent-control-plane", "agent-ops", "ai-agents", "codex", "long-running-agents", "loop-engineering", "loopx", "workflow-automation"],
+      "ai_score_basis": "description +2 (AI agent), topics +2 (ai-agents/agent-ops), explicit Codex/Claude Code integration",
+      "readme_source": "git clone --depth 1"
+    },
+    {
+      "repo": "tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 96901,
+      "stars_today": 408,
+      "created": "unknown (not shown in fetched content)",
+      "homepage": "https://tailwindcss.com",
+      "topics_observed": ["css", "css-framework", "functional-css", "postcss", "responsive", "tailwindcss", "utility-classes"],
+      "ai_score_basis": "non-AI, used as fill-in (today's stars: 408, highest among unused non-AI candidates)",
+      "readme_source": "git clone --depth 1; latest changelog entries (4.3.3 2026-07-16, 4.3.2 2026-06-26, unreleased adds @tailwindcss/turbopack)"
+    }
+  ],
+  "excluded_ai_dedup": [
+    {"repo": "TencentCloud/TencentDB-Agent-Memory", "reason": "used 2026-07-09 (within 90-day window)"},
+    {"repo": "addyosmani/agent-skills", "reason": "used 2026-06-11"},
+    {"repo": "obra/superpowers", "reason": "used 2026-06-13"},
+    {"repo": "lyogavin/airllm", "reason": "used 2026-06-23"},
+    {"repo": "roboflow/supervision", "reason": "used 2026-06-11"},
+    {"repo": "esengine/DeepSeek-Reasonix", "reason": "used 2026-08-04"},
+    {"repo": "uber/ADR", "reason": "used 2026-08-05"}
+  ],
+  "excluded_non_ai_not_chosen": [
+    {"repo": "firecrawl/pdf-inspector", "reason": "used 2026-08-04"},
+    {"repo": "vercel/next.js", "reason": "used previously"},
+    {"repo": "donnemartin/system-design-primer", "reason": "unused but lower today-stars (303) than tailwindcss (408)"}
+  ]
+}
