@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-07",
+  "selection_note": "13 个 daily trending 项目中，AI 相关性打分 ≥3 且双信号命中的候选有 TencentCloud/TencentDB-Agent-Memory、addyosmani/agent-skills、cloudflare/computer(需二次确认)、mattpocock/skills(需二次确认)、huangruiteng/loopx(需二次确认)、Significant-Gravitas/AutoGPT、tirth8205/code-review-graph(需二次确认)、esengine/DeepSeek-Reasonix、obra/superpowers；用 grep -F 核对选题历史.md（90 天窗口）后，除 AutoGPT 外全部命中过往记录被剔除，AI 候选池仅剩 1 个。按配置 fill_with_non_ai_if_insufficient=true，从榜单非 AI 项目里按 today's stars 倒序补足：goauthentik/authentik(138) > TapXWorld/ChinaTextbook(134) > google/guava(13)，三者去重历史均无命中，选前两个补足。",
+  "selected": [
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "type": "AI",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.",
+      "language": "Python",
+      "license": "MIT（classic 目录）/ Polyform Shield 1.0.0（autogpt_platform 目录，双协议）",
+      "stars_total": 186073,
+      "stars_today": 37,
+      "topics": ["agentic-ai", "agents", "ai", "artificial-intelligence", "autonomous-agents", "claude", "gpt", "llama-api", "llm", "openai", "python"],
+      "homepage": "https://agpt.co",
+      "readme_source": "https://github.com/Significant-Gravitas/AutoGPT (WebFetch)"
+    },
+    {
+      "repo": "goauthentik/authentik",
+      "type": "非 AI 补位",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "license": "MIT（核心代码）/ CC BY-SA 4.0（文档）/ 另有企业版专有协议",
+      "stars_total": 23182,
+      "stars_today": 138,
+      "topics": ["authentication", "authorization", "kubernetes", "oauth2", "oidc", "saml", "sso"],
+      "homepage": "https://goauthentik.io",
+      "readme_source": "https://github.com/goauthentik/authentik (WebFetch)"
+    },
+    {
+      "repo": "TapXWorld/ChinaTextbook",
+      "type": "非 AI 补位",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff（GitHub 语言识别结果）",
+      "license": "仓库未附 LICENSE 文件（访问 /blob/master/LICENSE 返回 404）",
+      "stars_total": 77236,
+      "stars_today": 134,
+      "topics": [],
+      "homepage": null,
+      "readme_source": "https://github.com/TapXWorld/ChinaTextbook (WebFetch)"
+    }
+  ],
+  "data_source_note": "api.github.com 在本沙箱被代理拦截（403，要求 repo 需先 add_repo 挂载），改用 WebFetch 直接读取 github.com 仓库主页解析 metadata + README，非 REST API JSON。"
+}
