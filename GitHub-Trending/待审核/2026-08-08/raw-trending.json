@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-08",
+  "source": "https://github.com/trending?since=daily (fetched via WebFetch, curl to github.com blocked by session proxy)",
+  "total_repos": 17,
+  "repos": [
+    {"rank": 1, "repo": "PrimeIntellect-ai/prime-agent", "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.", "language": "TypeScript", "stars_total": "6.8k", "forks": 545, "stars_today": 2293},
+    {"rank": 2, "repo": "addyosmani/agent-skills", "description": "Production-grade engineering skills for AI coding agents.", "language": "JavaScript", "stars_total": "83,974", "forks": 8973, "stars_today": 1131},
+    {"rank": 3, "repo": "cloudflare/computer", "description": "Give your agent a computer", "language": "TypeScript", "stars_total": "5.9k", "forks": 296, "stars_today": 872},
+    {"rank": 4, "repo": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .agents directory.", "language": "Shell", "stars_total": "208,975", "forks": 18044, "stars_today": 2152},
+    {"rank": 5, "repo": "obra/superpowers", "description": "An agentic skills framework & software development methodology that works.", "language": "Shell", "stars_total": "268,803", "forks": 24002, "stars_today": 782},
+    {"rank": 6, "repo": "goauthentik/authentik", "description": "The authentication glue you need.", "language": "Python", "stars_total": "23,652", "forks": 1811, "stars_today": 530},
+    {"rank": 7, "repo": "semantica-agi/semantica", "description": "Graph-Native Infrastructure for Context and Accountable AI Systems", "language": "Python", "stars_total": "2.4k", "forks": 310, "stars_today": 122},
+    {"rank": 8, "repo": "666ghj/MiroFish", "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything.", "language": "Python", "stars_total": "70,557", "forks": 10994, "stars_today": 141},
+    {"rank": 9, "repo": "chenyme/grok2api", "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console", "language": "Go", "stars_total": "7.2k", "forks": 2172, "stars_today": 55},
+    {"rank": 10, "repo": "jdx/mise", "description": "dev tools, env vars, task runner", "language": "Rust", "stars_total": "32,091", "forks": 1337, "stars_today": 135},
+    {"rank": 11, "repo": "Significant-Gravitas/AutoGPT", "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.", "language": "Python", "stars_total": "186,350", "forks": 46060, "stars_today": 355},
+    {"rank": 12, "repo": "google/guava", "description": "Google core libraries for Java", "language": "Java", "stars_total": "51,772", "forks": 11177, "stars_today": 152},
+    {"rank": 13, "repo": "unclebob/swarm-forge", "description": "A simple tool for coordinating several AI agents.", "language": "Clojure", "stars_total": "1,860", "forks": 203, "stars_today": 81},
+    {"rank": 14, "repo": "denoland/celld", "description": "self-hosted, distributed Durable Objects", "language": "Rust", "stars_total": "2.2k", "forks": null, "stars_today": 516},
+    {"rank": 15, "repo": "K2SOsint/Legendary_OSINT", "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.", "language": null, "stars_total": "1,492", "forks": 193, "stars_today": 109},
+    {"rank": 16, "repo": "pranshuparmar/witr", "description": "Why is this running? Trace any process, port, container, or file back to what started it.", "language": "Go", "stars_total": "19,823", "forks": 643, "stars_today": 234},
+    {"rank": 17, "repo": "google/skills", "description": "Agent Skills for Google products and technologies", "language": null, "stars_total": "16,305", "forks": 1294, "stars_today": 327}
+  ],
+  "ai_score_notes": {
+    "PrimeIntellect-ai/prime-agent": "score=3 (description hit 'agent' +2, owner/name contains 'agent' +1) -> qualifies",
+    "semantica-agi/semantica": "score>=4 (description hit 'ai' +2, topics hit ai/artificial-intelligence/llm/generative-ai etc +2) -> qualifies",
+    "cloudflare/computer": "score=2 (description hit 'agent' +2 only, single signal) -> excluded from AI pool; also dedup-excluded (used 2026-08-06)",
+    "unclebob/swarm-forge": "score=2 (description hit 'ai'+'agent' +2 only, single signal) -> excluded",
+    "google/skills": "score=2 (description hit 'agent' +2 only, single signal; topics do not include ai-related tags) -> excluded",
+    "666ghj/MiroFish": "score=2 (topics hit 'llms'/'multi-agent-simulation' +2 only, single signal; description has no literal keyword hit) -> excluded",
+    "chenyme/grok2api": "score=0 (grok/grok2api not in keyword list; language Go) -> excluded"
+  },
+  "dedup_excluded": {
+    "mattpocock/skills": "used 2026-06-21",
+    "addyosmani/agent-skills": "used 2026-06-11",
+    "obra/superpowers": "used 2026-06-13",
+    "cloudflare/computer": "used 2026-08-06",
+    "goauthentik/authentik": "used 2026-08-07",
+    "Significant-Gravitas/AutoGPT": "used 2026-08-07"
+  },
+  "selected": ["PrimeIntellect-ai/prime-agent", "denoland/celld", "semantica-agi/semantica"],
+  "selection_logic": "PrimeIntellect-ai/prime-agent and semantica-agi/semantica passed AI relevance scoring (>=3, dual signal) and are not in 90-day dedup history. Only 2 AI-qualifying candidates existed after dedup, so per SKILL.md 1.4 the 3rd slot was filled by the highest stars_today non-AI project not in dedup history: denoland/celld (516 stars today)."
+}

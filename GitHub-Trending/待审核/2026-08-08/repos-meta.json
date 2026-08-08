@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-08",
+  "fetched_via": "WebFetch (curl to api.github.com blocked by session proxy — only repo-scoped git ops for the mounted repo are allowed)",
+  "repos": [
+    {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": "6.8k",
+      "forks": 545,
+      "stars_today": 2293,
+      "homepage": "https://primeintellect.ai",
+      "topics": null,
+      "readme_note": "README fetched via WebFetch, first ~30 lines only (not full 4000-char pull due to tool constraints)"
+    },
+    {
+      "repo": "denoland/celld",
+      "description": "Self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars_total": "2.2k",
+      "forks": null,
+      "stars_today": 516,
+      "homepage": "https://celld.dev",
+      "topics": null,
+      "readme_note": "README fetched via WebFetch, first ~60 lines"
+    },
+    {
+      "repo": "semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": "2.4k",
+      "forks": 310,
+      "stars_today": 122,
+      "homepage": "https://getsemantica.ai/",
+      "topics": ["agent-memory", "ai", "ai-governance", "ai-infrastructure", "artificial-intelligence", "context-engineering", "context-graphs", "data-engineering", "decision-intelligence", "developer-tools", "explainable-ai", "generative-ai", "graph-rag", "knowledge-graph", "llm", "ontology", "provenance", "python", "reasoning", "semantic-search"],
+      "readme_note": "README fetched via WebFetch, first ~30 lines"
+    }
+  ]
+}
