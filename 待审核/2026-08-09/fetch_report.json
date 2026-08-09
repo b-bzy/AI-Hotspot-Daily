@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "date": "2026-08-09",
+  "window_hours": 24,
+  "generated_at": "2026-08-09T12:01:55+08:00",
+  "sources_ok": 24,
+  "sources_enabled": 25,
+  "total_items": 105
+ },
+ "sources": [
+  {
+   "source": "hackernews",
+   "ok": true,
+   "count": 8,
+   "secs": 1.6
+  },
+  {
+   "source": "hf_papers",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "source": "hf_trending",
+   "ok": true,
+   "count": 23,
+   "secs": 0.1
+  },
+  {
+   "source": "github_trending",
+   "ok": true,
+   "count": 5,
+   "secs": 0.9
+  },
+  {
+   "source": "techmeme",
+   "ok": true,
+   "count": 5,
+   "secs": 0.4
+  },
+  {
+   "source": "smolai",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "source": "vendor_blogs",
+   "ok": true,
+   "count": 1,
+   "secs": 1.7
+  },
+  {
+   "source": "zpravobot",
+   "ok": true,
+   "count": 0,
+   "secs": 3.0
+  },
+  {
+   "source": "bluesky",
+   "ok": true,
+   "count": 2,
+   "secs": 2.1
+  },
+  {
+   "source": "weibo",
+   "ok": true,
+   "count": 1,
+   "secs": 1.4
+  },
+  {
+   "source": "zhihu",
+   "ok": true,
+   "count": 0,
+   "secs": 1.4
+  },
+  {
+   "source": "bilibili",
+   "ok": true,
+   "count": 5,
+   "secs": 0.8
+  },
+  {
+   "source": "qbitai",
+   "ok": true,
+   "count": 6,
+   "secs": 1.8
+  },
+  {
+   "source": "ithome",
+   "ok": true,
+   "count": 16,
+   "secs": 4.0
+  },
+  {
+   "source": "kr36",
+   "ok": false,
+   "count": 0,
+   "error": "ParseError: not well-formed (invalid token): line 9, column 542",
+   "secs": 3.3
+  },
+  {
+   "source": "juejin",
+   "ok": true,
+   "count": 20,
+   "secs": 1.5
+  },
+  {
+   "source": "thedecoder",
+   "ok": true,
+   "count": 8,
+   "secs": 1.3
+  },
+  {
+   "source": "techcrunch",
+   "ok": true,
+   "count": 2,
+   "secs": 0.0
+  },
+  {
+   "source": "theverge",
+   "ok": true,
+   "count": 1,
+   "secs": 0.1
+  },
+  {
+   "source": "venturebeat",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "source": "mit_tr",
+   "ok": true,
+   "count": 0,
+   "secs": 0.0
+  },
+  {
+   "source": "arstechnica",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "source": "leiphone",
+   "ok": true,
+   "count": 0,
+   "secs": 5.0
+  },
+  {
+   "source": "producthunt",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "source": "newsnow",
+   "ok": true,
+   "count": 1,
+   "secs": 0.9
+  }
+ ]
+}
