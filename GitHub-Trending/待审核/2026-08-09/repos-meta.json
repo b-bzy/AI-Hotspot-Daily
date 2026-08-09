@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-09",
+  "selected": [
+    {
+      "owner_repo": "google/skills",
+      "category": "AI",
+      "ai_score_notes": "description命中'agent'(+2)；README前50行大量出现Gemini/Agent Platform/Claude Code等AI关键词(+1)；总分>=3，两类以上信号",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "total_stars": "16.8k",
+      "stars_today": "481",
+      "homepage": null,
+      "readme_source": "git clone --depth 1 (README.md 全文，未截断)"
+    },
+    {
+      "owner_repo": "TauricResearch/TradingAgents",
+      "category": "AI",
+      "ai_score_notes": "description命中'LLM'/'Agent'(+2)；仓库名含'Agent'子串(+1)；总分=3",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "total_stars": "96.6k",
+      "stars_today": "153",
+      "homepage": null,
+      "readme_source": "git clone --depth 1 (README.md 前140行 + CHANGELOG.md 前40行)"
+    },
+    {
+      "owner_repo": "google/guava",
+      "category": "非AI补位",
+      "ai_score_notes": "0分，非AI；按 today's stars 倒序补位（93，跳过分数更高但话题不适配的 bannedbook/fanqiang）",
+      "description": "Google core libraries for Java",
+      "language": "Java",
+      "license": "Apache-2.0",
+      "total_stars": "51.9k",
+      "stars_today": "93",
+      "homepage": null,
+      "readme_source": "git clone --depth 1 (README.md 前80行 + git log)"
+    }
+  ]
+}

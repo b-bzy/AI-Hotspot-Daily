@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-09",
+  "source": "https://github.com/trending?since=daily (WebFetch, HTML parse; note: page render truncated after rank 12)",
+  "repos": [
+    {"rank": 1, "owner_repo": "PrimeIntellect-ai/prime-agent", "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.", "language": "TypeScript", "total_stars": "9,161", "stars_today": "2,483"},
+    {"rank": 2, "owner_repo": "addyosmani/agent-skills", "description": "Production-grade engineering skills for AI coding agents.", "language": "JavaScript", "total_stars": "84,650", "stars_today": "779"},
+    {"rank": 3, "owner_repo": "TapXWorld/ChinaTextbook", "description": "所有小初高、大学PDF教材。", "language": "Roff", "total_stars": "77,994", "stars_today": "118"},
+    {"rank": 4, "owner_repo": "google/skills", "description": "Agent Skills for Google products and technologies", "language": "Python", "total_stars": "16,800", "stars_today": "481"},
+    {"rank": 5, "owner_repo": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .agents directory.", "language": "Shell", "total_stars": "210,155", "stars_today": "1,359"},
+    {"rank": 6, "owner_repo": "goauthentik/authentik", "description": "The authentication glue you need.", "language": "Python", "total_stars": "24,006", "stars_today": "467"},
+    {"rank": 7, "owner_repo": "TauricResearch/TradingAgents", "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework", "language": "Python", "total_stars": "96,553", "stars_today": "153"},
+    {"rank": 8, "owner_repo": "google/guava", "description": "Google core libraries for Java", "language": "Java", "total_stars": "51,864", "stars_today": "93"},
+    {"rank": 9, "owner_repo": "LadybirdBrowser/ladybird", "description": "Truly independent web browser", "language": "C++", "total_stars": "65,027", "stars_today": "48"},
+    {"rank": 10, "owner_repo": "denoland/celld", "description": "self-hosted, distributed Durable Objects", "language": "Rust", "total_stars": "2,627", "stars_today": "432"},
+    {"rank": 11, "owner_repo": "litu54/DevOps-Interview-Guide", "description": "DevOps Interview Guide", "language": null, "total_stars": "722", "stars_today": "68"},
+    {"rank": 12, "owner_repo": "bannedbook/fanqiang", "description": "翻墙-科学上网", "language": "Kotlin", "total_stars": "49,952", "stars_today": "101"}
+  ],
+  "dedup_excluded": [
+    {"owner_repo": "PrimeIntellect-ai/prime-agent", "reason": "选题历史命中 2026-08-08"},
+    {"owner_repo": "addyosmani/agent-skills", "reason": "选题历史命中 2026-06-11"},
+    {"owner_repo": "TapXWorld/ChinaTextbook", "reason": "选题历史命中 2026-08-07"},
+    {"owner_repo": "mattpocock/skills", "reason": "选题历史命中 2026-06-21"},
+    {"owner_repo": "goauthentik/authentik", "reason": "选题历史命中 2026-08-07"},
+    {"owner_repo": "denoland/celld", "reason": "选题历史命中 2026-08-08"}
+  ],
+  "editorial_excluded": [
+    {"owner_repo": "bannedbook/fanqiang", "reason": "非 AI 相关，且为审查规避类工具，与正经科技媒体选题定位不符，跳过不作为非AI补位候选"}
+  ]
+}
