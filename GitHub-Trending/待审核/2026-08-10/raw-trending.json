@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-10",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com/trending blocked by session repo-scope policy, api.github.com blocked for non-configured repos)",
+  "repos": [
+    {"rank": 1, "repo": "PrimeIntellect-ai/prime-agent", "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.", "language": "TypeScript", "stars": 11519, "forks": 1177, "stars_today": 2356},
+    {"rank": 2, "repo": "vitali87/code-graph-rag", "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with AI and knowledge graphs", "language": "Python", "stars": 3117, "forks": 527, "stars_today": 96},
+    {"rank": 3, "repo": "msitarzewski/agency-agents", "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.", "language": "Shell", "stars": 140948, "forks": 23008, "stars_today": 858},
+    {"rank": 4, "repo": "pranshuparmar/witr", "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.", "language": "Go", "stars": 20803, "forks": 729, "stars_today": 210},
+    {"rank": 5, "repo": "google-deepmind/weathernext", "description": null, "language": "Python", "stars": 7127, "forks": 941, "stars_today": 86},
+    {"rank": 6, "repo": "addyosmani/agent-skills", "description": "Production-grade engineering skills for AI coding agents.", "language": "JavaScript", "stars": 85243, "forks": 9171, "stars_today": 680},
+    {"rank": 7, "repo": "ZhuLinsen/daily_stock_analysis", "description": "LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard.", "language": "Python", "stars": 61334, "forks": 52042, "stars_today": 306},
+    {"rank": 8, "repo": "goauthentik/authentik", "description": "The authentication glue you need.", "language": "Python", "stars": 24335, "forks": 1861, "stars_today": 310},
+    {"rank": 9, "repo": "google/skills", "description": "Agent Skills for Google products and technologies", "language": "Python", "stars": 17313, "forks": 1398, "stars_today": 528},
+    {"rank": 10, "repo": "Comfy-Org/ComfyUI", "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.", "language": "Python", "stars": 125654, "forks": 14851, "stars_today": 365},
+    {"rank": 11, "repo": "harveyai/harvey-labs", "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.", "language": "Python", "stars": 870, "forks": 181, "stars_today": 47},
+    {"rank": 12, "repo": "pingdotgg/t3code", "description": null, "language": "TypeScript", "stars": 17719, "forks": 4016, "stars_today": 163}
+  ],
+  "excluded_dedup_90d": [
+    {"repo": "PrimeIntellect-ai/prime-agent", "reason": "选题历史.md 2026-08-08 用过"},
+    {"repo": "msitarzewski/agency-agents", "reason": "选题历史.md 2026-06-13 用过"},
+    {"repo": "addyosmani/agent-skills", "reason": "选题历史.md 2026-06-11 用过"},
+    {"repo": "google/skills", "reason": "选题历史.md 2026-08-09 用过"},
+    {"repo": "ZhuLinsen/daily_stock_analysis", "reason": "选题历史.md 2026-06-22 用过"},
+    {"repo": "goauthentik/authentik", "reason": "选题历史.md 2026-08-07 用过（且非 AI 相关）"}
+  ],
+  "excluded_non_ai_or_low_score": [
+    {"repo": "pranshuparmar/witr", "reason": "进程/端口溯源 CLI 工具，无 AI 信号"},
+    {"repo": "google-deepmind/weathernext", "reason": "description 为空，topics 仅 weather/weather-forecast，未命中 AI 关键词，按打分规则不足 3 分"},
+    {"repo": "pingdotgg/t3code", "reason": "description 为空，无 AI 信号"}
+  ]
+}
