@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-11",
+  "selected": [
+    {
+      "owner_repo": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 76600,
+      "stars_today": 198,
+      "topics_note": "topics not retrievable (api.github.com blocked for non-scoped repos); scored via description + owner-name('ai') + README keyword density",
+      "ai_score_basis": "description hits 'agent' (+2); owner name 'paperclipai' contains 'ai' substring (+1); README repeatedly uses 'AI agents' / 'agentic' / 'MCP' (+1) -> qualifies, dual signal"
+    },
+    {
+      "owner_repo": "danielmiessler/LifeOS",
+      "description": "A General Hill-climbing AI harness that helps you move from Current State to Ideal State",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 18000,
+      "stars_today": 315,
+      "ai_score_basis": "description hits 'ai' (+2); README headline 'The AI-Powered Life Operating System' + repeated AI harness language (+1) -> qualifies, dual signal"
+    },
+    {
+      "owner_repo": "google-deepmind/weathernext",
+      "description": "Weather prediction model (WeatherNext 2) from Google DeepMind / Google Research",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 7400,
+      "stars_today": 325,
+      "ai_score_basis": "README hits 'graph neural networks' / 'diffusion-based ensemble forecasting' / 'trained on' / 'AI model' repeatedly (+2 topics-equivalent, +1 python+trained signal) -> qualifies, dual signal"
+    }
+  ],
+  "excluded_duplicates_90d": [
+    "semantica-agi/semantica (2026-08-08)",
+    "msitarzewski/agency-agents (2026-06-13)",
+    "NanmiCoder/MediaCrawler (2026-06-27)",
+    "addyosmani/agent-skills (2026-06-11)",
+    "PrimeIntellect-ai/prime-agent (2026-08-08)",
+    "ruvnet/RuView (2026-07-09)",
+    "firecrawl/firecrawl (2026-06-23)",
+    "TauricResearch/TradingAgents (2026-08-09)",
+    "vitali87/code-graph-rag (2026-08-10)",
+    "Comfy-Org/ComfyUI (2026-08-10)"
+  ],
+  "excluded_non_ai": [
+    "LadybirdBrowser/ladybird (web browser, no AI signal)",
+    "pingdotgg/t3code (TypeScript framework, no AI signal)",
+    "opa334/Dopamine (iOS jailbreak tool, no AI signal)"
+  ]
+}
