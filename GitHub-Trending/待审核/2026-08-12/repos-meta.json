@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-12",
+  "repos": [
+    {
+      "owner_repo": "anthropics/skills",
+      "description": "Public repository for Agent Skills - a collection of skills that demonstrate what's possible with Claude's skills system.",
+      "language": "Markdown",
+      "license": "Apache-2.0（部分文档技能为 source-available，非全部开源）",
+      "stars_total": 168226,
+      "stars_today": 485,
+      "forks": 20039,
+      "topics": ["agent-skills"],
+      "readme_summary": "Skills 是给 Claude 用的可复用技能包：每个 skill 是一个自包含文件夹，核心是带 YAML frontmatter（name/description）的 SKILL.md，配合示例、脚本和参考资料。覆盖创意应用、技术任务（测试 Web 应用、生成 MCP server）、企业工作流（品牌规范文档生成）等场景，跨 Claude Code / Claude.ai / Claude API 可用。仓库有 47 次主分支提交、311 个 issue、766 个 PR。",
+      "readme_truncated": false
+    },
+    {
+      "owner_repo": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars_total": 163900,
+      "stars_today": 80,
+      "forks": 34200,
+      "topics": ["audio","deep-learning","deepseek","gemma","glm","llm","machine-learning","model-hub","natural-language-processing","nlp","pretrained-models","python","pytorch","pytorch-transformers","qwen","speech-recognition","transformer","vlm"],
+      "readme_summary": "Transformers 把模型定义这件事标准化：作为一个中心枢纽，让同一套模型定义能兼容不同训练框架（Axolotl、DeepSpeed、PyTorch-Lightning）和推理引擎（vLLM、SGLang）。提供统一 Pipeline API 做高层推理，支持 PyTorch/JAX/TensorFlow 间的模型迁移。Hugging Face Hub 上有超过 100 万个模型 checkpoint 使用这套定义，awesome-transformers 收录了 100 个社区项目案例。要求 Python 3.10+、PyTorch 2.5+。",
+      "readme_truncated": false
+    },
+    {
+      "owner_repo": "practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "language": "multiple (curated list)",
+      "license": "MIT",
+      "stars_total": 279000,
+      "stars_today": 401,
+      "forks": 35800,
+      "topics": ["beginner-project","cpp","golang","javascript","project","python","tutorial","webdevelopment"],
+      "readme_summary": "一份按编程语言分类（C#、C/C++、Go、Java、JavaScript、Python、Rust 等 20 余种）整理的实战教程清单，覆盖 Web 开发、爬虫、游戏开发、机器学习、系统编程等方向，主打\"边做边学\"而非纯理论。属于非 AI 项目，本次为 AI 候选不足 3 个时按 today's stars 倒序补位选入。",
+      "readme_truncated": false
+    }
+  ]
+}

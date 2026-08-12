@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-12",
+  "source": "https://github.com/trending?since=daily (via WebFetch, curl blocked by session repo-scope gate)",
+  "repos": [
+    {"rank":1,"repo":"msitarzewski/agency-agents","description":"A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas...","language":"Shell","stars":143497,"forks":23309,"stars_today":958},
+    {"rank":2,"repo":"semantica-agi/semantica","description":"Graph-Native Infrastructure for Context and Accountable AI Systems","language":"Python","stars":5018,"forks":542,"stars_today":893},
+    {"rank":3,"repo":"nvm-sh/nvm","description":"Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions","language":"Shell","stars":94508,"forks":10355,"stars_today":22},
+    {"rank":4,"repo":"addyosmani/agent-skills","description":"Production-grade engineering skills for AI coding agents.","language":"JavaScript","stars":86296,"forks":9270,"stars_today":578},
+    {"rank":5,"repo":"ZhuLinsen/daily_stock_analysis","description":"LLM-powered multi-market stock analysis with multi-source data and real-time news","language":"Python","stars":62245,"forks":52469,"stars_today":243},
+    {"rank":6,"repo":"vitali87/code-graph-rag","description":"The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases...","language":"Python","stars":3880,"forks":566,"stars_today":341},
+    {"rank":7,"repo":"anthropics/skills","description":"Public repository for Agent Skills","language":"Markdown","stars":168226,"forks":20039,"stars_today":485},
+    {"rank":8,"repo":"3b1b/manim","description":"Animation engine for explanatory math videos","language":"Python","stars":90266,"forks":7490,"stars_today":197},
+    {"rank":9,"repo":"HKUDS/DeepTutor","description":"DeepTutor: Lifelong Personalized Tutoring.","language":"Python","stars":34833,"forks":4432,"stars_today":812},
+    {"rank":10,"repo":"stablyai/orca","description":"Orca is the ADE for working with a fleet of parallel agents...","language":"TypeScript","stars":42940,"forks":2993,"stars_today":875},
+    {"rank":11,"repo":"paperclipai/paperclip","description":"The open-source app everyone uses to manage agents at work","language":"TypeScript","stars":77243,"forks":14263,"stars_today":748},
+    {"rank":12,"repo":"huggingface/transformers","description":"Transformers: the model-definition framework for state-of-the-art machine learning models","language":"Python","stars":163900,"forks":34200,"stars_today":80},
+    {"rank":13,"repo":"harveyai/harvey-labs","description":"A benchmark built to evaluate and improve agent capabilities for supporting legal work.","language":"Python","stars":1106,"forks":198,"stars_today":28},
+    {"rank":14,"repo":"jaywcjlove/awesome-mac","description":"This project is dedicated to collecting high-quality macOS software...","language":"Swift","stars":110549,"forks":8423,"stars_today":298},
+    {"rank":15,"repo":"calesthio/OpenMontage","description":"World's first open-source, agentic video production system with 12 pipelines...","language":"Python","stars":47444,"forks":5912,"stars_today":458},
+    {"rank":16,"repo":"practical-tutorials/project-based-learning","description":"Curated list of project-based tutorials","language":"multiple","stars":279000,"forks":35800,"stars_today":401},
+    {"rank":17,"repo":"PrimeIntellect-ai/prime-agent","description":"A self-improving RLM agent for coding workflows and long-running autonomous tasks.","language":"TypeScript","stars":14236,"forks":1467,"stars_today":1138}
+  ],
+  "dedup_excluded_90d": [
+    "msitarzewski/agency-agents (2026-06-13)",
+    "semantica-agi/semantica (2026-08-08)",
+    "addyosmani/agent-skills (2026-06-11)",
+    "ZhuLinsen/daily_stock_analysis (2026-06-22)",
+    "vitali87/code-graph-rag (2026-08-10)",
+    "HKUDS/DeepTutor (2026-07-16)",
+    "stablyai/orca (2026-06-25)",
+    "paperclipai/paperclip (2026-08-11)",
+    "harveyai/harvey-labs (2026-08-10)",
+    "calesthio/OpenMontage (2026-06-20)",
+    "PrimeIntellect-ai/prime-agent (2026-08-08)"
+  ],
+  "ai_candidates_non_duplicate": ["anthropics/skills", "huggingface/transformers"],
+  "non_ai_fill": "practical-tutorials/project-based-learning (highest stars_today among non-AI, non-duplicate remainder)",
+  "selected": ["anthropics/skills", "huggingface/transformers", "practical-tutorials/project-based-learning"]
+}
