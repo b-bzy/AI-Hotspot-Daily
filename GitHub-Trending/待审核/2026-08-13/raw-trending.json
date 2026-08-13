@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-13",
+  "source": "https://github.com/trending?since=daily (via WebFetch, curl to github.com/api.github.com blocked by sandbox proxy)",
+  "candidates_considered": [
+    {"rank":1,"repo":"cathrynlavery/diagram-design","desc":"29 editorial diagram types for Claude Code","stars_today":2855,"note":"weak/single-signal AI score, not selected"},
+    {"rank":2,"repo":"macro-inc/macro","desc":"unified workspace: email, chat, docs, tasks, agents, calls, CRM","stars_today":227,"note":"ambiguous 'agents' (human agents/CRM), not selected"},
+    {"rank":3,"repo":"semantica-agi/semantica","desc":"Graph-Native Infrastructure for Context and Accountable AI Systems","stars_today":845,"note":"dedup: used 2026-08-08"},
+    {"rank":4,"repo":"stablyai/orca","desc":"ADE for working with a fleet of parallel agents","stars_today":1235,"note":"dedup: used 2026-06-25"},
+    {"rank":5,"repo":"msitarzewski/agency-agents","desc":"Complete AI agency at your fingertips","stars_today":1873,"note":"dedup: used 2026-06-13"},
+    {"rank":6,"repo":"shiyu-coder/Kronos","desc":"Foundation Model for the Language of Financial Markets","stars_today":266,"note":"dedup: used 2026-06-14 and 2026-07-24"},
+    {"rank":7,"repo":"NanmiCoder/MediaCrawler","desc":"Multi-platform media crawlers","stars_today":215,"note":"not AI; dedup: used 2026-06-27"},
+    {"rank":8,"repo":"hugohe3/ppt-master","desc":"AI turns documents/topics into PowerPoint decks","stars_today":476,"note":"dedup: used 2026-06-28"},
+    {"rank":9,"repo":"infiniflow/ragflow","desc":"leading open-source RAG engine fused with Agent capabilities","stars_today":139,"note":"SELECTED"},
+    {"rank":10,"repo":"paperclipai/paperclip","desc":"open-source app to manage agents at work","stars_today":571,"note":"dedup: used 2026-08-11"},
+    {"rank":11,"repo":"NVIDIA-NeMo/Switchyard","desc":"Rust framework for NeMo (no description)","stars_today":421,"note":"insufficient description/topics signal, not selected"},
+    {"rank":12,"repo":"ZuodaoTech/everyone-can-use-english","desc":"English learning tool","stars_today":86,"note":"not AI"},
+    {"rank":13,"repo":"smicallef/spiderfoot","desc":"OSINT automation","stars_today":74,"note":"not AI"},
+    {"rank":14,"repo":"localsend/localsend","desc":"open-source AirDrop alternative","stars_today":213,"note":"not AI"},
+    {"rank":15,"repo":"Lightricks/LTX-2","desc":"audio-video generative model inference/LoRA trainer","stars_today":65,"note":"dedup: used 2026-06-19"},
+    {"rank":16,"repo":"embabel/embabel-agent","desc":"Agent framework for the JVM","stars_today":40,"note":"SELECTED"},
+    {"rank":17,"repo":"cactus-compute/needle","desc":"14MB foundation model for tiny devices","stars_today":315,"note":"SELECTED"}
+  ]
+}

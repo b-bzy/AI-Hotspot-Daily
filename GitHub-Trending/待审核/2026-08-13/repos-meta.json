@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-13",
+  "selected": [
+    {
+      "owner": "infiniflow",
+      "repo": "ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "stars_total": "87.6k",
+      "stars_today": 139,
+      "topics": ["rag", "retrieval-augmented-generation", "agentic-ai", "ai-agents", "llm-apps", "context-engineering"],
+      "homepage": "https://ragflow.io"
+    },
+    {
+      "owner": "embabel",
+      "repo": "embabel-agent",
+      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel",
+      "language": "Kotlin",
+      "license": "Apache-2.0",
+      "stars_total": "4.2k",
+      "stars_today": 40,
+      "topics": ["agent", "agentic-ai", "multi-agents", "genai", "llms", "spring"],
+      "homepage": "https://hub.embabel.com"
+    },
+    {
+      "owner": "cactus-compute",
+      "repo": "needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots",
+      "language": "Python",
+      "license": "MIT",
+      "stars_total": "4.3k",
+      "stars_today": 315,
+      "topics": ["llm", "on-device-ai", "gemma", "gemini", "cactus"],
+      "homepage": "https://huggingface.co/Cactus-Compute/needle2"
+    }
+  ],
+  "data_notes": "curl to github.com / api.github.com blocked by sandbox proxy (403, repo-scope-only). Used WebFetch on github.com/trending and on each repo page for metadata; README fetched directly via raw.githubusercontent.com (unblocked)."
+}
