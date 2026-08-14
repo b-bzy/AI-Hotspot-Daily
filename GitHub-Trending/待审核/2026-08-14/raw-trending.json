@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-14",
+  "source": "web_fetch:https://github.com/trending?since=daily",
+  "note": "curl to github.com is intercepted by this session's git proxy (repo-scoped only, returns a JSON error instead of HTML); api.github.com is likewise restricted to attached repos. Used the WebFetch tool as the fallback data path instead of scripts/fetch_trending.py or the OSSInsight API (api.ossinsight.io was also blocked by the sandbox's outbound network policy, CONNECT tunnel 403).",
+  "repos": [
+    {"rank": 1, "repo": "cathrynlavery/diagram-design", "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.", "language": "HTML", "stars_total": 15024, "stars_today": 4475},
+    {"rank": 2, "repo": "semantica-agi/semantica", "description": "Graph-Native Infrastructure for Context and Accountable AI Systems", "language": "Python", "stars_total": 6829, "stars_today": 713},
+    {"rank": 3, "repo": "anthropics/skills", "description": "Public repository for Agent Skills", "language": "Python", "stars_total": 169115, "stars_today": 312},
+    {"rank": 4, "repo": "cactus-compute/needle", "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.", "language": "Python", "stars_total": 5034, "stars_today": 769},
+    {"rank": 5, "repo": "altic-dev/FluidVoice", "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model.", "language": "Swift", "stars_total": 9912, "stars_today": 76},
+    {"rank": 6, "repo": "unslothai/unsloth", "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.", "language": "Python", "stars_total": 71127, "stars_today": 328},
+    {"rank": 7, "repo": "macro-inc/macro", "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM.", "language": "Rust", "stars_total": 2666, "stars_today": 1239},
+    {"rank": 8, "repo": "megadose/holehe", "description": "Holehe checks if email is used on different sites like twitter, instagram and retrieves forgotten password information.", "language": "Python", "stars_total": 12475, "stars_today": 195},
+    {"rank": 9, "repo": "smicallef/spiderfoot", "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.", "language": "Python", "stars_total": 20699, "stars_today": 283},
+    {"rank": 10, "repo": "NVIDIA-NeMo/Switchyard", "description": "Routes LLM traffic across models and providers while preserving OpenAI and Anthropic API compatibility.", "language": "Rust", "stars_total": 1267, "stars_today": 408},
+    {"rank": 11, "repo": "holaboss-ai/holaOS", "description": "Open-source All in One AI agent workspace. Run any agent across your tools with shared memory.", "language": "TypeScript", "stars_total": 6701, "stars_today": 241},
+    {"rank": 12, "repo": "kepano/obsidian-skills", "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown.", "language": "Unknown", "stars_total": 45883, "stars_today": 292},
+    {"rank": 13, "repo": "3b1b/manim", "description": "Animation engine for explanatory math videos", "language": "Python", "stars_total": 90931, "stars_today": 176},
+    {"rank": 14, "repo": "msitarzewski/agency-agents", "description": "A complete AI agency at your fingertips with specialized expert agents.", "language": "Shell", "stars_total": 145247, "stars_today": 778},
+    {"rank": 15, "repo": "Lightricks/LTX-2", "description": "Official Python inference and LoRA trainer package for the LTX-2 audio-video generative model.", "language": "Python", "stars_total": 8948, "stars_today": 205},
+    {"rank": 16, "repo": "lightningpixel/modly", "description": "Desktop app to generate 3D models from images using local AI - runs entirely on your GPU", "language": "TypeScript", "stars_total": 5501, "stars_today": 118},
+    {"rank": 17, "repo": "infiniflow/ragflow", "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation engine fusing RAG with Agent capabilities.", "language": "Go", "stars_total": 88097, "stars_today": 465}
+  ],
+  "excluded_by_dedup_90d": [
+    {"repo": "anthropics/skills", "used_on": "2026-08-12"},
+    {"repo": "cactus-compute/needle", "used_on": "2026-08-13"},
+    {"repo": "infiniflow/ragflow", "used_on": "2026-08-13"},
+    {"repo": "Lightricks/LTX-2", "used_on": "2026-06-19"},
+    {"repo": "msitarzewski/agency-agents", "used_on": "2026-06-13"}
+  ],
+  "selected": ["unslothai/unsloth", "NVIDIA-NeMo/Switchyard", "holaboss-ai/holaOS"]
+}
