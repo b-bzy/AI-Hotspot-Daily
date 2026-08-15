@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-15",
+  "dedup_excluded_90d": [
+    "cactus-compute/needle (2026-08-13)",
+    "citrolabs/ego-lite (2026-07-25)",
+    "holaboss-ai/holaOS (2026-08-14)",
+    "github/spec-kit (2026-07-14)",
+    "infiniflow/ragflow (2026-08-13)",
+    "semantica-agi/semantica (2026-08-08)",
+    "OpenCut-app/OpenCut (2026-07-16)",
+    "unslothai/unsloth (2026-08-14)"
+  ],
+  "ai_score_notes": {
+    "cathrynlavery/diagram-design": {"score": 3, "signals": ["description hits 'claude' (+2)", "README first-50-lines mentions Anthropic/Claude ecosystem (+1)"]},
+    "macro-inc/macro": {"score": 5, "signals": ["topics hit agent/ai/ai-agents/mcp (+2)", "description hits 'agents'/'ai' (+2)", "README mentions OpenAI/Google/Anthropic (+1)"]},
+    "lightningpixel/modly": {"score": 4, "signals": ["topics hit ai-local/ai-tools (+2)", "description hits 'AI' (+2)"]},
+    "ToolJet/ToolJet": {"score": 4, "signals": ["topics hit ai-app-builder (+2)", "description hits 'AI' (+2)"], "note": "not selected — AI features are Enterprise-only, community edition is primarily low-code, thinner AI technical substance than the other 3 candidates"},
+    "deepseek-ai/awesome-deepseek-agent": {"score": 2, "signals": ["repo name hits 'ai'/'agent' substring (+1)", "README mentions DeepSeek/company names (+1)"], "note": "below threshold 3, also a curated awesome-list with low information density"},
+    "cursor/plugins": {"score": 0, "note": "no direct keyword hits in description/topics; agent mentions are generic plugin terminology, not core AI"},
+    "megadose/holehe": {"score": 0, "note": "OSINT tool, not AI"},
+    "smicallef/spiderfoot": {"score": 0, "note": "OSINT tool, not AI"},
+    "rustdesk/rustdesk": {"score": 0, "note": "remote desktop tool, not AI"}
+  },
+  "selected": [
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "stars_total": 17396,
+      "stars_today": 3646,
+      "language": "HTML",
+      "license": "MIT",
+      "topics_seen": ["Claude Code skill/plugin ecosystem (no explicit GitHub topics tags visible)"],
+      "positioning": "为 Claude Code 等 AI 编程助手做的品牌化图表生成技能"
+    },
+    {
+      "repo": "macro-inc/macro",
+      "stars_total": 3060,
+      "stars_today": 436,
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "topics_seen": ["agent", "ai", "ai-agents", "mcp", "crm", "workspace"],
+      "positioning": "把邮件/聊天/任务/CRM 整合进一个带共享 AI 记忆的团队工作空间"
+    },
+    {
+      "repo": "lightningpixel/modly",
+      "stars_total": 5985,
+      "stars_today": 579,
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics_seen": ["ai-local", "ai-tools", "3d", "desktop-app", "self-hosted"],
+      "positioning": "本地跑开源生成模型，把照片转成 3D 模型的桌面应用"
+    }
+  ]
+}

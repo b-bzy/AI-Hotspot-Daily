@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-15",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com blocked by sandbox proxy: session bound to configured repos only)",
+  "items": [
+    {"rank": 1, "repo": "cathrynlavery/diagram-design", "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.", "language": "HTML", "stars_total": 17396, "forks": 1042, "stars_today": 3646},
+    {"rank": 2, "repo": "cactus-compute/needle", "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.", "language": "Python", "stars_total": 5663, "forks": 375, "stars_today": 662},
+    {"rank": 3, "repo": "megadose/holehe", "description": "Check if email is used on different sites like Twitter, Instagram; retrieves information via forgotten password function.", "language": "Python", "stars_total": 12877, "forks": 1717, "stars_today": 427},
+    {"rank": 4, "repo": "macro-inc/macro", "description": "Unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked with shared AI memory.", "language": "Rust", "stars_total": 3060, "forks": 308, "stars_today": 436},
+    {"rank": 5, "repo": "smicallef/spiderfoot", "description": "Automates OSINT for threat intelligence and mapping attack surface.", "language": "Python", "stars_total": 20973, "forks": 3344, "stars_today": 293},
+    {"rank": 6, "repo": "citrolabs/ego-lite", "description": "Fastest browser for AI agents to run browser automation; share logged-in browser state with AI agents.", "language": "JavaScript", "stars_total": 10422, "forks": 528, "stars_today": 165},
+    {"rank": 7, "repo": "holaboss-ai/holaOS", "description": "Open-source AI agent workspace; run any agent across tools, apps, browser, and files with shared memory.", "language": "TypeScript", "stars_total": 7342, "forks": 640, "stars_today": 769},
+    {"rank": 8, "repo": "github/spec-kit", "description": "Toolkit to help you get started with Spec-Driven Development.", "language": "Python", "stars_total": 128577, "forks": 11495, "stars_today": 1160},
+    {"rank": 9, "repo": "lightningpixel/modly", "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on GPU.", "language": "TypeScript", "stars_total": 5985, "forks": 604, "stars_today": 579},
+    {"rank": 10, "repo": "infiniflow/ragflow", "description": "Leading open-source Retrieval-Augmented Generation engine fusing RAG with Agent capabilities.", "language": "Go", "stars_total": 88413, "forks": 10378, "stars_today": 473},
+    {"rank": 11, "repo": "cursor/plugins", "description": "Cursor plugin specification and official plugins.", "language": "TypeScript", "stars_total": 2824, "forks": 228, "stars_today": 41},
+    {"rank": 12, "repo": "deepseek-ai/awesome-deepseek-agent", "description": null, "language": "Unknown", "stars_total": 5746, "forks": 692, "stars_today": 222},
+    {"rank": 13, "repo": "semantica-agi/semantica", "description": "Graph-Native Infrastructure for Context and Accountable AI Systems.", "language": "Python", "stars_total": 7567, "forks": 786, "stars_today": 1181},
+    {"rank": 14, "repo": "rustdesk/rustdesk", "description": "Open-source remote desktop application designed for self-hosting as alternative to TeamViewer.", "language": "Rust", "stars_total": 120670, "forks": 18461, "stars_today": 143},
+    {"rank": 15, "repo": "OpenCut-app/OpenCut", "description": "The open-source CapCut alternative.", "language": "TypeScript", "stars_total": 83211, "forks": 8235, "stars_today": 255},
+    {"rank": 16, "repo": "unslothai/unsloth", "description": "Local UI to run and train LLMs and diffusion models including Qwen3.8, Kimi K3, and others.", "language": "Python", "stars_total": 71547, "forks": 6459, "stars_today": 501},
+    {"rank": 17, "repo": "ToolJet/ToolJet", "description": "Open-source foundation for ToolJet AI; enterprise app generation platform for building internal tools and workflows.", "language": "JavaScript", "stars_total": 39120, "forks": 5268, "stars_today": 132}
+  ]
+}
