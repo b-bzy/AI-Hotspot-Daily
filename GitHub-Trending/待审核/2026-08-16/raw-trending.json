@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-16",
+  "source": "github.com/trending?since=daily (WebFetch, curl to github.com blocked by sandbox proxy — repo-scoped only)",
+  "note": "Sandbox curl to https://github.com/trending returned 403 from the session's git/API proxy (only repo-scoped api.github.com paths for attached repos are allowed; raw HTML trending page and arbitrary repo API calls are blocked). Fell back to WebFetch tool per SKILL.md contingency plan. WebFetch's markdown conversion only surfaced the first 13 entries of the page despite repeated re-fetch attempts for later ranks.",
+  "entries": [
+    {"rank": 1, "repo": "cordiverse/cordis", "description": "Meta-Framework of Spatiotemporal Composability", "language": "TypeScript", "stars_total": 4149, "stars_today": 599},
+    {"rank": 2, "repo": "cathrynlavery/diagram-design", "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG.", "language": "HTML", "stars_total": 18741, "stars_today": 1607, "excluded_reason": "选题历史.md 命中 2026-08-15，90天去重窗口内"},
+    {"rank": 3, "repo": "cursor/plugins", "description": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars_total": 2969, "stars_today": 149},
+    {"rank": 4, "repo": "cactus-compute/needle", "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.", "language": "Python", "stars_total": 6102, "stars_today": 547, "excluded_reason": "选题历史.md 命中 2026-08-13，90天去重窗口内"},
+    {"rank": 5, "repo": "unslothai/unsloth", "description": "Local UI to run and train LLMs and diffusion models", "language": "Python", "stars_total": 72105, "stars_today": 434, "excluded_reason": "选题历史.md 命中 2026-08-14，90天去重窗口内"},
+    {"rank": 6, "repo": "public-apis/public-apis", "description": "A collective list of free APIs", "language": "Python", "stars_total": 460305, "stars_today": 2260, "ai_relevant": false},
+    {"rank": 7, "repo": "MakazhanAlpamys/Soup", "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.", "language": "Python", "stars_total": 1707, "stars_today": 297},
+    {"rank": 8, "repo": "github/spec-kit", "description": "Toolkit to help you get started with Spec-Driven Development", "language": "Python", "stars_total": 129256, "stars_today": 892, "ai_relevant": false, "excluded_reason": "亦命中 2026-07-14 选题历史"},
+    {"rank": 9, "repo": "megadose/holehe", "description": "Check if an email is used on different sites", "language": "Python", "stars_total": 13144, "stars_today": 382, "ai_relevant": false},
+    {"rank": 10, "repo": "altic-dev/FluidVoice", "description": "macOS Dictation app with on-device STT and custom trained AI enhancement model", "language": "Swift", "stars_total": 10355, "stars_today": 104, "excluded_reason": "选题历史.md 命中 2026-06-30，90天去重窗口内"},
+    {"rank": 11, "repo": "ToolJet/ToolJet", "description": "Open-source foundation of ToolJet AI - AI-native platform for internal tools, workflows and AI agents", "language": "JavaScript", "stars_total": 39581, "stars_today": 544, "note": "README 显示 AI 功能（Agent Builder / AI 查询生成）仅在企业版 ToolJet AI，社区版本质是低代码搭建器，未入选以保信息密度"},
+    {"rank": 12, "repo": "HKUDS/CLI-Anything", "description": "Making ALL Software Agent-Native", "language": "Python", "stars_total": 47411, "stars_today": 118},
+    {"rank": 13, "repo": "citrolabs/ego-lite", "description": "The fastest browser for AI agents to run browser automation", "language": "JavaScript", "stars_total": 11041, "stars_today": 545, "excluded_reason": "选题历史.md 命中 2026-07-25，90天去重窗口内"}
+  ],
+  "selected": ["MakazhanAlpamys/Soup", "HKUDS/CLI-Anything", "cursor/plugins"]
+}
