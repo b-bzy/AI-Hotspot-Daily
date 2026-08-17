@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-17",
+  "source_note": "api.github.com blocked for unattached repos in this sandbox; metadata + README pulled via WebFetch on each repo's GitHub page instead of the REST API.",
+  "repos": [
+    {
+      "rank": 1,
+      "owner_repo": "jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "total_stars": "18.8k",
+      "stars_today": 60,
+      "homepage": "https://omlx.ai",
+      "topics": ["apple-silicon", "inference-server", "llm", "macos", "mlx", "openai-api"],
+      "readme_summary": "Tiered KV cache (hot tier in RAM, cold tier on SSD via safetensors) so previously computed prefixes are restored from disk instead of recomputed. Continuous batching via mlx-lm's BatchGenerator, block-based cache management inspired by vLLM (prefix sharing, copy-on-write), LRU eviction for multi-model serving. Supports text LLMs, vision-language models, OCR, embeddings, rerankers. Native Swift/SwiftUI menu bar app, OpenAI/Anthropic API compatibility, MCP integration, one-click HuggingFace model downloads. Model families supported via mlx-lm: Llama, Qwen3.5, DeepSeek, GLM, Gemma, MiniMax, Mistral, Pixtral, Kimi K2."
+    },
+    {
+      "rank": 2,
+      "owner_repo": "chaitanyagiri/munder-difflin",
+      "description": "Local multi-agent harness",
+      "language": "TypeScript",
+      "license": "MIT",
+      "total_stars": "1.3k",
+      "stars_today": 181,
+      "homepage": "https://munderdiffl.in",
+      "topics": ["agents", "claude-code", "free", "harness", "harness-engineering", "memory"],
+      "readme_summary": "Wraps multiple LLM-provider coding CLIs (Claude Code, Antigravity/Gemini, OpenAI Codex, xAI Grok, Kimi Code, Qwen, GitHub Copilot CLI, and others) as processes in pseudo-terminals via node-pty, coordinated through a local git-based 'hive' layer with shared memory, mailboxes, and a blackboard. A 'GOD' orchestrator routes tasks between agents and escalates only critical decisions to a human. Built with Electron, React, TypeScript, Pixi.js, xterm.js; renders a pixel-art office floor showing agent avatars working in real time. Users bring their own API keys/credentials (BYOK) per agent session."
+    },
+    {
+      "rank": 3,
+      "owner_repo": "CodebuffAI/freebuff",
+      "description": "Free, ad-supported AI coding agent platform (Desktop, CLI, Web, Cloud, Chat) requiring no subscription, credits, or API key",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "total_stars": "9.7k",
+      "stars_today": 141,
+      "homepage": "https://freebuff.com",
+      "topics": [],
+      "readme_summary": "Built on the open-source Codebuff multi-agent framework. Instead of routing every task through one model, it splits work across specialized agents: file-finding agents for context mapping, implementation agents for editing/review, research agents for doc lookup, plus parallel workspace isolation on desktop. Install via `npm install -g freebuff`; describe a task and it locates relevant files, edits them, and runs validation checks. Model catalog referenced in the README includes DeepSeek V4 Pro/Flash, OpenAI GPT-5.6 Luna, MiniMax M3, GLM 5.2, Gemini 3.1 Flash Lite, and Claude Code. Text ads fund the free model access; availability varies by region."
+    }
+  ]
+}

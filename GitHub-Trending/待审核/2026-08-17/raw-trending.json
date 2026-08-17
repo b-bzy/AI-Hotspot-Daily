@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-17",
+  "timezone": "Asia/Shanghai",
+  "source": "github_trending_html_via_webfetch",
+  "note": "api.github.com and direct curl to github.com are blocked in this sandbox for unattached repos (session GitHub scoping); OSSInsight fallback API is also blocked (non-github.com egress). Used WebFetch on github.com/trending pages (overall + per-language filters) as the data source, per SKILL.md 云端适配说明. The overall daily page's static fetch only surfaces 7 entries (rest load via client-side JS); per-language filtered pages (python/typescript/jupyter-notebook) were fetched additionally to broaden coverage.",
+  "pages_fetched": [
+    "https://github.com/trending?since=daily",
+    "https://github.com/trending/python?since=daily",
+    "https://github.com/trending/typescript?since=daily",
+    "https://github.com/trending/jupyter-notebook?since=daily"
+  ],
+  "entries": [
+    {"rank": 1, "repo": "cordiverse/cordis", "desc": "Meta-Framework of Spatiotemporal Composability", "language": "TypeScript", "stars_today": 720, "list": "daily"},
+    {"repo": "basecamp/omarchy", "desc": "Beautiful, Modern & Opinionated Linux", "language": "Shell", "stars_today": 270, "list": "daily"},
+    {"repo": "unslothai/unsloth", "desc": "Local UI to run and train LLMs and diffusion models", "language": "Python", "stars_today": 572, "list": "daily/python", "note": "AI-relevant but deduped, used 2026-08-14"},
+    {"repo": "OpenCut-app/OpenCut", "desc": "The open-source CapCut alternative", "language": "Rust", "stars_today": 150, "list": "daily/typescript", "note": "deduped, used 2026-07-16"},
+    {"repo": "public-apis/public-apis", "desc": "A collective list of free APIs", "language": "Python", "stars_today": 1588, "list": "daily/python"},
+    {"repo": "ToolJet/ToolJet", "desc": "Open-source platform for internal tools, workflows and AI agents", "language": "TypeScript", "stars_today": 452, "list": "daily", "note": "AI mention is enterprise-edition feature, does not meet score threshold"},
+    {"repo": "cactus-compute/needle", "desc": "14MB foundation model for tiny devices", "language": "Python", "stars_today": 443, "list": "daily/python", "note": "AI-relevant but deduped, used 2026-08-13"},
+    {"repo": "cursor/plugins", "desc": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars_today": 144, "list": "typescript", "note": "deduped, used 2026-08-16"},
+    {"repo": "CodebuffAI/freebuff", "desc": "The free coding agent", "language": "TypeScript", "stars_today": 141, "list": "typescript", "selected": true},
+    {"repo": "chaitanyagiri/munder-difflin", "desc": "local multi-agent harness", "language": "TypeScript", "stars_today": 181, "list": "typescript", "selected": true},
+    {"repo": "remotion-dev/remotion", "desc": "Make videos programmatically with React", "language": "TypeScript", "stars_today": 87, "list": "typescript"},
+    {"repo": "HKUDS/CLI-Anything", "desc": "Making ALL Software Agent-Native", "language": "Python", "stars_today": 384, "list": "python", "note": "AI-relevant but deduped, used 2026-08-16"},
+    {"repo": "harry0703/MoneyPrinterTurbo", "desc": "AI-powered workflow generating HD short videos from topics", "language": "Python", "stars_today": 494, "list": "python", "note": "AI-relevant but deduped, used 2026-06-11"},
+    {"repo": "smicallef/spiderfoot", "desc": "SpiderFoot automates OSINT for threat intelligence", "language": "Python", "stars_today": 54, "list": "python"},
+    {"repo": "megadose/holehe", "desc": "Check if email is used on different sites", "language": "Python", "stars_today": 231, "list": "python"},
+    {"repo": "MakazhanAlpamys/Soup", "desc": "Fine-tune LLMs from one YAML configuration", "language": "Python", "stars_today": 443, "list": "python", "note": "AI-relevant but deduped, used 2026-08-16"},
+    {"repo": "yt-dlp/yt-dlp", "desc": "Feature-rich command-line audio/video downloader", "language": "Python", "stars_today": 216, "list": "python"},
+    {"repo": "THUDM/slime", "desc": "LLM post-training framework for RL Scaling", "language": "Python", "stars_today": 31, "list": "python"},
+    {"repo": "newton-physics/newton", "desc": "GPU-accelerated physics simulation engine", "language": "Python", "stars_today": 35, "list": "python"},
+    {"repo": "usestrix/strix", "desc": "Open-source AI penetration testing tool", "language": "Python", "stars_today": 856, "list": "python", "note": "AI-relevant but deduped, used 2026-06-29 and 2026-07-03"},
+    {"repo": "jundot/omlx", "desc": "LLM inference server for Apple Silicon", "language": "Python", "stars_today": 60, "list": "python", "selected": true},
+    {"repo": "google-research/timesfm", "desc": "Time Series Foundation Model for forecasting", "language": "Python", "stars_today": 109, "list": "python", "note": "AI-relevant but deduped, used 2026-06-18"},
+    {"repo": "0xSero/ai-data-extraction", "desc": "Extract personal data history from AI code editors", "language": "Python", "stars_today": 51, "list": "python"}
+  ],
+  "selected_final_3": ["jundot/omlx", "chaitanyagiri/munder-difflin", "CodebuffAI/freebuff"]
+}
