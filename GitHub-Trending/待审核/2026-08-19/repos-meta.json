@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-19",
+  "fetch_method": "WebFetch on github.com repo pages (api.github.com blocked for repos not attached via add_repo in this session)",
+  "repos": [
+    {
+      "repo": "volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills",
+      "language": "Rust (含 Python 组件)",
+      "license": "AGPL-3.0（主项目）/ Apache-2.0（CLI 与示例）",
+      "stars_total": 29500,
+      "stars_today": 213,
+      "homepage": "https://www.openviking.ai",
+      "topics": ["agent-memory", "agent-plugins", "agentic-rag", "context-database", "self-evolving"],
+      "readme_summary": "把 Agent 的记忆、RAG 检索到的知识、技能统一存成一个虚拟文件系统（viking:// 协议），用 ls/tree/find 这类命令式操作代替传统向量库查询。内容按 L0（一句话摘要）/ L1（约 2k token 概览）/ L2（完整原文）三层组织，按需加载对应深度以省 token。检索方式是先向量定位命中率最高的目录，再逐层下钻，同时保留检索轨迹便于调试。系统会异步把已完成的会话自动转成长期记忆，提取用户偏好和 agent 经验。README 给出的 benchmark：用户记忆准确率从 24%-57% 提升到 80%-83%，token 消耗下降 34%-91%，查询延迟降低 58%-66%。"
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Markdown",
+      "license": "MIT",
+      "stars_total": 464800,
+      "stars_today": 1005,
+      "homepage": null,
+      "topics": ["api", "apis", "dataset", "development", "free", "list", "open-source", "public-api", "resources"],
+      "readme_summary": "社区维护的免费 API 目录，按 40+ 个分类索引（Animals、Anti-Malware、Blockchain、Currency Exchange、Machine Learning、Weather 等），每条 API 条目标注描述、认证方式、是否支持 HTTPS、是否支持 CORS，方便开发者快速筛选可用接口。README 自述由社区成员与 APILayer 员工共同人工维护。仓库有 51.3k fork、1.7k 个 PR。"
+    },
+    {
+      "repo": "agalwood/Motrix",
+      "description": "A full-featured download manager",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 53800,
+      "stars_today": 609,
+      "homepage": "https://motrix.app",
+      "topics": ["aria2", "bittorrent", "download-manager", "electron", "linux", "macos", "windows"],
+      "readme_summary": "跨平台桌面下载管理器，支持 HTTP、FTP、BitTorrent、磁力链接。v2（Turbo）版本用 Electron + React + TypeScript 重写，底层基于 aria2 的一个 fork，新增基于 JSON-RPC 2.0 的开放协议，供 UI、浏览器插件、命令行工具互相通信。功能包括 BT 按文件选择下载、内置 tracker 自动更新、UPnP/NAT-PMP 端口映射、QuickJS 插件沙箱与插件市场、Chrome/Firefox 浏览器扩展、官方 CLI（@motrix/cli）、可跑在 NAS 上的 Docker 无头服务端 + Web UI。支持 macOS 12+、Windows x64、Linux x64/arm64。"
+    }
+  ]
+}

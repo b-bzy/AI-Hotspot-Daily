@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-19",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com/trending blocked by session git-proxy: 403 'not a repository-scoped endpoint')",
+  "repos": [
+    {"rank": 1, "repo": "harry0703/MoneyPrinterTurbo", "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频", "language": "Python", "stars_total": 108818, "stars_today": 2304},
+    {"rank": 2, "repo": "chaitanyagiri/munder-difflin", "description": "Local multi-agent harness", "language": "TypeScript", "stars_total": 2148, "stars_today": 306},
+    {"rank": 3, "repo": "akitaonrails/ai-memory", "description": "Solution for long term memory for agent coding CLIs and handoff between vendors", "language": "Rust", "stars_total": 2826, "stars_today": 648},
+    {"rank": 4, "repo": "volcengine/OpenViking", "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills", "language": "Rust/Python", "stars_total": 29538, "stars_today": 213},
+    {"rank": 5, "repo": "mukul975/Anthropic-Cybersecurity-Skills", "description": "817 structured cybersecurity skills for AI agents mapped to 6 frameworks", "language": "Markdown/YAML", "stars_total": 29292, "stars_today": 730},
+    {"rank": 6, "repo": "public-apis/public-apis", "description": "A collective list of free APIs", "language": "Markdown", "stars_total": 464761, "stars_today": 1005},
+    {"rank": 7, "repo": "basecamp/omarchy", "description": "Beautiful, Modern & Opinionated Linux", "language": "Shell", "stars_total": 26487, "stars_today": 356},
+    {"rank": 8, "repo": "agalwood/Motrix", "description": "A full-featured download manager", "language": "TypeScript", "stars_total": 53766, "stars_today": 609},
+    {"rank": 9, "repo": "NawfalMotii79/PLFM_RADAR", "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system", "language": "PLSQL", "stars_total": 24362, "stars_today": 192},
+    {"rank": 10, "repo": "jundot/omlx", "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon", "language": "Python", "stars_total": 19470, "stars_today": 370},
+    {"rank": 11, "repo": "genlayerlabs/genlayer-project-boilerplate", "description": "Boilerplate for a GenLayer intelligent-contract use case (football bets game), Python contract + Next.js frontend, LLM used inside the contract logic", "language": "TypeScript/Python", "stars_total": 16009, "stars_today": 535},
+    {"rank": 12, "repo": "OpenCut-app/OpenCut", "description": "The open-source CapCut alternative", "language": "TypeScript", "stars_total": 84878, "stars_today": 192}
+  ],
+  "ai_candidates_after_score": ["harry0703/MoneyPrinterTurbo", "chaitanyagiri/munder-difflin", "akitaonrails/ai-memory", "volcengine/OpenViking", "mukul975/Anthropic-Cybersecurity-Skills", "jundot/omlx"],
+  "excluded_by_dedup_90d_grep_verified": {
+    "harry0703/MoneyPrinterTurbo": "选题历史.md 2026-06-11 已写过（69 天前，在 90 天窗口内）",
+    "chaitanyagiri/munder-difflin": "选题历史.md 2026-08-17 已写过",
+    "akitaonrails/ai-memory": "选题历史.md 2026-08-18 已写过",
+    "mukul975/Anthropic-Cybersecurity-Skills": "选题历史.md 2026-06-23 已写过（57 天前，在 90 天窗口内）",
+    "jundot/omlx": "选题历史.md 2026-08-17 已写过",
+    "OpenCut-app/OpenCut": "选题历史.md 2026-07-16 已写过（补位候选池同样剔除）"
+  },
+  "note": "首轮打分选出的 3 个 AI 候选中有 2 个 grep 复核后发现命中 90 天去重窗口（MoneyPrinterTurbo、Anthropic-Cybersecurity-Skills），已剔除重选。AI 候选筛完后仅剩 volcengine/OpenViking 1 个未去重命中，按规则用非 AI 项目按 today's stars 倒序补足 2 个（public-apis/public-apis 1005、agalwood/Motrix 609），二者 grep 均未命中历史。",
+  "selected_3": ["volcengine/OpenViking", "public-apis/public-apis", "agalwood/Motrix"]
+}
