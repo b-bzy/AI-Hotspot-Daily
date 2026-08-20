@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-20",
+  "repos": [
+    {
+      "owner_repo": "amadeusprotocol/node",
+      "description": null,
+      "language": "Erlang",
+      "license": null,
+      "stars_total": 4637,
+      "stars_today": 1397,
+      "forks": 85,
+      "topics": [],
+      "homepage": null,
+      "readme_source": "raw.githubusercontent.com/amadeusprotocol/node/main/README.md",
+      "readme_note": "README is a setup/ops guide (testnet, systemd service, sysctl tuning) with no descriptive prose. No LICENSE file found in repo root. Repo carries a disclaimer: experimental research code, no warranty, restricted in sanctioned jurisdictions."
+    },
+    {
+      "owner_repo": "genlayerlabs/genlayer-project-boilerplate",
+      "description": "Sample GenLayer project",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": 16236,
+      "stars_today": 430,
+      "forks": 810,
+      "topics": [],
+      "homepage": null,
+      "readme_source": "raw.githubusercontent.com/genlayerlabs/genlayer-project-boilerplate/main/README.md",
+      "readme_note": "Boilerplate for GenLayer 'intelligent contracts' platform: a football-betting smart contract with web access + LLM integration, validated via consensus across nodes. Python contracts, Next.js 15 + TypeScript frontend, direct-mode (mocked) tests plus full integration tests against GenLayer Studio."
+    },
+    {
+      "owner_repo": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "stars_total": 111939,
+      "stars_today": 128,
+      "forks": 6633,
+      "topics": ["backup-tool", "flutter", "google-photos", "google-photos-alternative", "javascript", "mobile-app", "nestjs", "nodejs", "photo-gallery", "photos", "photos-management", "self-hosted", "svelte", "sveltekit", "typescript", "videos"],
+      "homepage": "https://immich.app",
+      "readme_source": "raw.githubusercontent.com/immich-app/immich/main/README.md",
+      "readme_note": "Self-hosted Google Photos alternative. NestJS backend, SvelteKit web frontend, Flutter mobile app. Features: auto backup, multi-user, shared albums, raw format support, EXIF/map metadata, search by metadata/objects/faces/CLIP embeddings, OAuth support."
+    }
+  ]
+}

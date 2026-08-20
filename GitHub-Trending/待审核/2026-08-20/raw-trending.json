@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-20",
+  "source": "https://github.com/trending?since=daily",
+  "fetch_method": "WebFetch (curl to github.com blocked by session git-proxy: 403 'GitHub access to this repository is not enabled for this session')",
+  "repos": [
+    {"rank": 1, "owner_repo": "harry0703/MoneyPrinterTurbo", "language": "Python", "stars_total": 111181, "stars_today": 2221, "description": "Generate HD short videos from a topic or keyword with an automated AI workflow"},
+    {"rank": 2, "owner_repo": "volcengine/OpenViking", "language": "Python", "stars_total": 30375, "stars_today": 804, "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills"},
+    {"rank": 3, "owner_repo": "chaitanyagiri/munder-difflin", "language": "TypeScript", "stars_total": 2763, "stars_today": 795, "description": "local multi-agent harness"},
+    {"rank": 4, "owner_repo": "mukul975/Anthropic-Cybersecurity-Skills", "language": "Python", "stars_total": 29941, "stars_today": 766, "description": "817 structured cybersecurity skills mapped to 6 frameworks including MITRE ATT&CK and NIST standards"},
+    {"rank": 5, "owner_repo": "nautechsystems/nautilus_trader", "language": "Rust", "stars_total": 26491, "stars_today": 80, "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture"},
+    {"rank": 6, "owner_repo": "mattpocock/skills", "language": "Shell", "stars_total": 224037, "stars_today": 1894, "description": "Skills for Real Engineers. Straight from my .agents directory"},
+    {"rank": 7, "owner_repo": "obra/superpowers", "language": "Shell", "stars_total": 274379, "stars_today": 557, "description": "An agentic skills framework & software development methodology that works"},
+    {"rank": 8, "owner_repo": "jundot/omlx", "language": "Python", "stars_total": 19876, "stars_today": 472, "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon"},
+    {"rank": 9, "owner_repo": "santifer/career-ops", "language": "JavaScript", "stars_total": 65902, "stars_today": 198, "description": "Open-source AI job search tool with CV tailoring and application tracking"},
+    {"rank": 10, "owner_repo": "immich-app/immich", "language": "TypeScript", "stars_total": 111939, "stars_today": 128, "description": "High performance self-hosted photo and video management solution"},
+    {"rank": 11, "owner_repo": "amadeusprotocol/node", "language": "Erlang", "stars_total": 4637, "stars_today": 1397, "description": null},
+    {"rank": 12, "owner_repo": "marceloprates/prettymaps", "language": "Python", "stars_total": 13216, "stars_today": 63, "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx + matplotlib + shapely"},
+    {"rank": 13, "owner_repo": "genlayerlabs/genlayer-project-boilerplate", "language": "TypeScript", "stars_total": 16236, "stars_today": 430, "description": "Sample GenLayer project"}
+  ],
+  "ai_scoring": {
+    "min_score": 3,
+    "qualified_ai_candidates": [
+      "harry0703/MoneyPrinterTurbo",
+      "volcengine/OpenViking",
+      "chaitanyagiri/munder-difflin",
+      "mukul975/Anthropic-Cybersecurity-Skills",
+      "obra/superpowers",
+      "jundot/omlx",
+      "santifer/career-ops"
+    ],
+    "excluded_by_dedup_90d": {
+      "harry0703/MoneyPrinterTurbo": "2026-06-11",
+      "volcengine/OpenViking": "2026-08-19",
+      "chaitanyagiri/munder-difflin": "2026-08-17",
+      "mukul975/Anthropic-Cybersecurity-Skills": "2026-06-23",
+      "obra/superpowers": "2026-06-13",
+      "jundot/omlx": "2026-08-17",
+      "santifer/career-ops": "2026-08-18",
+      "mattpocock/skills": "2026-06-21 (borderline AI score, also duplicate)"
+    },
+    "remaining_ai_candidates_after_dedup": 0
+  },
+  "final_selection_method": "0 AI candidates survived dedup -> filled 3 slots by today's-stars descending among non-duplicate repos",
+  "final_selection": [
+    "amadeusprotocol/node",
+    "genlayerlabs/genlayer-project-boilerplate",
+    "immich-app/immich"
+  ]
+}
