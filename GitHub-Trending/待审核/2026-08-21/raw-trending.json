@@ -1,0 +1,24 @@
+{
+  "source": "https://github.com/trending?since=daily",
+  "fetched_via": "WebFetch (curl blocked by session proxy: github.com API restricted to repo-scoped endpoints)",
+  "fetched_at_local_date": "2026-08-21",
+  "repos": [
+    {"rank": 1, "full_name": "modular/modular", "description": "The Modular Platform (includes MAX & Mojo)", "language": "Mojo", "stars_total": 28053, "stars_today": 268},
+    {"rank": 2, "full_name": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .agents directory.", "language": "Shell", "stars_total": 226915, "stars_today": 2192},
+    {"rank": 3, "full_name": "AprilNEA/OpenLogi", "description": "A native, local-first alternative to Logitech Options+, written in Rust", "language": "Rust", "stars_total": 12031, "stars_today": 1545},
+    {"rank": 4, "full_name": "obra/superpowers", "description": "An agentic skills framework & software development methodology that works.", "language": "Shell", "stars_total": 275033, "stars_today": 727},
+    {"rank": 5, "full_name": "cursor/plugins", "description": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars_total": 4136, "stars_today": 449},
+    {"rank": 6, "full_name": "santifer/career-ops", "description": "Open-source AI job search: scan job portals, evaluate listings, tailor CV, track applications.", "language": "JavaScript", "stars_total": 66815, "stars_today": 816},
+    {"rank": 7, "full_name": "akitaonrails/ai-memory", "description": "Solution for long term memory for agent coding CLIs", "language": "Rust", "stars_total": 3687, "stars_today": 332},
+    {"rank": 8, "full_name": "harry0703/MoneyPrinterTurbo", "description": "Generate HD short videos from a topic or keyword with automated AI workflow.", "language": "Python", "stars_total": 113102, "stars_today": 2761},
+    {"rank": 9, "full_name": "agent-substrate/substrate", "description": "Agent Substrate delivers a performant, high density runtime environment for large scale agent deployments.", "language": "Go", "stars_total": 1433, "stars_today": 22},
+    {"rank": 10, "full_name": "chaitanyagiri/munder-difflin", "description": "local multi-agent harness", "language": "TypeScript", "stars_total": 3161, "stars_today": 507},
+    {"rank": 11, "full_name": "PostHog/posthog", "description": "Leading platform for building self-driving products with AI observability, analytics, session replay, flags, experiments, error tracking.", "language": "Python", "stars_total": 38040, "stars_today": 60},
+    {"rank": 12, "full_name": "mahlernim/google-timeline-visualizer", "description": "Visualize your year in travel using your Google Location History (Timeline) data", "language": "Kotlin", "stars_total": 1697, "stars_today": 657},
+    {"rank": 13, "full_name": "volcengine/OpenViking", "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.", "language": "Python", "stars_total": 31125, "stars_today": 950},
+    {"rank": 14, "full_name": "JuliusBrussee/caveman", "description": "Claude Code skill that cuts 65% of tokens by talking like caveman", "language": "Go", "stars_total": 99710, "stars_today": 258},
+    {"rank": 15, "full_name": "makeplane/plane", "description": "Open-source Jira, Linear, Monday, and ClickUp alternative for project management.", "language": "TypeScript", "stars_total": 56568, "stars_today": 98},
+    {"rank": 16, "full_name": "Tencent/AI-Infra-Guard", "description": "Full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan.", "language": "Python", "stars_total": 5032, "stars_today": 50},
+    {"rank": 17, "full_name": "RyanCodrai/turbovec", "description": "A vector index built on TurboQuant, written in Rust with Python bindings", "language": "Rust", "stars_total": 15982, "stars_today": 230}
+  ]
+}
