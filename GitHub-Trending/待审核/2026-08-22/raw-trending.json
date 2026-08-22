@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-22",
+  "source": "WebFetch(https://github.com/trending?since=daily)",
+  "note": "直接 curl github.com 在本沙箱被出站代理拦截（仅放行 api.github.com 的 session 已挂载仓库范围），改用 WebFetch 服务端抓取。",
+  "entries": [
+    {"rank": 1, "repo": "mattpocock/skills", "description": "Skills for Real Engineers. Straight from my .agents directory.", "language": "Shell", "stars_today": 3362},
+    {"rank": 2, "repo": "mahlernim/google-timeline-visualizer", "description": "Visualize your year in travel using your Google Location History (Timeline) data", "language": "Kotlin", "stars_today": 1053},
+    {"rank": 3, "repo": "harry0703/MoneyPrinterTurbo", "description": "Generate HD short videos from a topic or keyword with an automated AI workflow.", "language": "Python", "stars_today": 1201},
+    {"rank": 4, "repo": "AprilNEA/OpenLogi", "description": "A native, local-first alternative to Logitech Options+, written in Rust", "language": "Rust", "stars_today": 1380},
+    {"rank": 5, "repo": "PostHog/posthog", "description": "Platform for building self-driving products with developer tools including AI observability, analytics, and session replay.", "language": "Python", "stars_today": 335},
+    {"rank": 6, "repo": "microsoft/TypeScript", "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.", "language": "Go", "stars_today": 65},
+    {"rank": 7, "repo": "obra/superpowers", "description": "An agentic skills framework & software development methodology that works.", "language": "Shell", "stars_today": 790},
+    {"rank": 8, "repo": "santifer/career-ops", "description": "Open-source AI job search tool that scans portals and evaluates listings with structured rubrics.", "language": "JavaScript", "stars_today": 921},
+    {"rank": 9, "repo": "cursor/plugins", "description": "Cursor plugin specification and official plugins", "language": "TypeScript", "stars_today": 388},
+    {"rank": 10, "repo": "modular/modular", "description": "The Modular Platform (includes MAX & Mojo)", "language": "Mojo", "stars_today": 913},
+    {"rank": 11, "repo": "affaan-m/ECC", "description": "Agent harness performance optimization system for Claude Code, Codex, and Cursor.", "language": "JavaScript", "stars_today": 357},
+    {"rank": 12, "repo": "TryGhost/Ghost", "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.", "language": "JavaScript", "stars_today": 32},
+    {"rank": 13, "repo": "ruvnet/ruflo", "description": "Agent meta-harness for deploying intelligent multi-player swarms and autonomous workflows.", "language": "TypeScript", "stars_today": 140},
+    {"rank": 14, "repo": "apache/maka", "description": "Apache Maka is a local-first AI agent workspace recording model messages and tool interactions.", "language": "TypeScript", "stars_today": 148},
+    {"rank": 15, "repo": "protocolbuffers/protobuf", "description": "Protocol Buffers - Google's data interchange format", "language": "C++", "stars_today": 4},
+    {"rank": 16, "repo": "elder-plinius/OBLITERATUS", "description": "OBLITERATE THE CHAINS THAT BIND YOU", "language": "Python", "stars_today": 63},
+    {"rank": 17, "repo": "microsoft/onnxruntime", "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator", "language": "C++", "stars_today": 5}
+  ]
+}

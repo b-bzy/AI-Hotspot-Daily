@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-22",
+  "note": "api.github.com 在本沙箱被限制为仅 session 已挂载仓库，三个项目均未挂载，改用 WebFetch 直接读取仓库页面获取 metadata 与 README 摘要。",
+  "selected": [
+    {
+      "repo": "ruvnet/ruflo",
+      "description": "Agent meta-harness for deploying intelligent multi-player swarms and autonomous workflows.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars_total": "68.7k",
+      "stars_today": 140,
+      "topics": ["agentic-ai", "ai-agents", "autonomous-agents", "multi-agent", "mcp-server", "swarm-intelligence", "claude-code"],
+      "homepage": "https://cognitum.one/agentic-engineering",
+      "readme_excerpt": "Agent = Model + Harness. npx ruflo init 接入 98 个专用 Agent、60+ 命令、30 个技能模块、MCP Server 与 35 个插件。作者公开基准：向量记忆检索 5k 规模下比暴力搜索快 3.2-4.7 倍，recall@10 ~0.99；任务路由准确率 89%。"
+    },
+    {
+      "repo": "apache/maka",
+      "description": "Apache Maka is a local-first AI agent workspace recording model messages and tool interactions.",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars_total": "2.1k",
+      "stars_today": 148,
+      "topics": ["agent-runtime", "ai", "ai-agent", "apache", "cli", "desktop", "electron", "event-sourcing", "llm", "local-first"],
+      "homepage": null,
+      "readme_excerpt": "本地优先的 Agent 工作台，Desktop/TUI/CLI/Eval 均通过 Runtime Host 运行。模型消息、工具调用、结果和终止事件写入 Runtime Event Log，会话、界面、上下文和恢复机制均从该日志派生。内置 Read/Write/Edit/Bash/Glob/Grep 等本地工具及权限策略。"
+    },
+    {
+      "repo": "microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "license": "MIT",
+      "stars_total": "21.5k",
+      "stars_today": 5,
+      "topics": ["ai-framework", "deep-learning", "hardware-acceleration", "machine-learning", "neural-networks", "onnx", "pytorch", "scikit-learn", "tensorflow"],
+      "homepage": "https://onnxruntime.ai",
+      "readme_excerpt": "跨平台推理与训练加速器，支持 PyTorch、TensorFlow/Keras 及 scikit-learn/LightGBM/XGBoost 等模型。训练组件针对多节点 NVIDIA GPU 上的 Transformer 训练做加速，官方称只需给现有 PyTorch 训练脚本加一行代码即可接入。"
+    }
+  ],
+  "excluded": [
+    {"repo": "affaan-m/ECC", "reason": "90 天去重命中：选题历史.md 2026-07-26 已写过"},
+    {"repo": "cursor/plugins", "reason": "90 天去重命中：选题历史.md 2026-08-16 已写过"},
+    {"repo": "mattpocock/skills", "reason": "90 天去重命中：选题历史.md 2026-06-21 已写过"},
+    {"repo": "harry0703/MoneyPrinterTurbo", "reason": "90 天去重命中：选题历史.md 2026-06-11 已写过"},
+    {"repo": "PostHog/posthog", "reason": "90 天去重命中：选题历史.md 2026-07-17 已写过"},
+    {"repo": "obra/superpowers", "reason": "90 天去重命中：选题历史.md 2026-06-13 已写过"},
+    {"repo": "santifer/career-ops", "reason": "90 天去重命中：选题历史.md 2026-08-18 已写过"},
+    {"repo": "modular/modular", "reason": "90 天去重命中：选题历史.md 2026-08-21 已写过（昨天刚发）"},
+    {"repo": "elder-plinius/OBLITERATUS", "reason": "description 信息不足，且作者账号历来发布越狱/破解类内容，与正经科技媒体风格及去重规则无关但编辑判断不适合选题"},
+    {"repo": "mahlernim/google-timeline-visualizer", "reason": "非 AI 相关（地理位置数据可视化）"},
+    {"repo": "AprilNEA/OpenLogi", "reason": "非 AI 相关（外设配置工具）"},
+    {"repo": "microsoft/TypeScript", "reason": "非 AI 相关"},
+    {"repo": "TryGhost/Ghost", "reason": "非 AI 相关（发布/订阅平台）"},
+    {"repo": "protocolbuffers/protobuf", "reason": "非 AI 相关"}
+  ]
+}
