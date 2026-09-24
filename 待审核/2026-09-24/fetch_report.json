@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "date": "2026-09-24",
+  "window_hours": 24,
+  "generated_at": "2026-09-24T15:47:06+08:00",
+  "sources_ok": 23,
+  "sources_enabled": 25,
+  "total_items": 202
+ },
+ "sources": [
+  {
+   "source": "hackernews",
+   "ok": true,
+   "count": 16,
+   "secs": 2.2
+  },
+  {
+   "source": "hf_papers",
+   "ok": true,
+   "count": 13,
+   "secs": 0.2
+  },
+  {
+   "source": "hf_trending",
+   "ok": true,
+   "count": 23,
+   "secs": 0.2
+  },
+  {
+   "source": "github_trending",
+   "ok": true,
+   "count": 14,
+   "secs": 1.4
+  },
+  {
+   "source": "techmeme",
+   "ok": true,
+   "count": 9,
+   "secs": 0.4
+  },
+  {
+   "source": "smolai",
+   "ok": true,
+   "count": 0,
+   "secs": 0.4
+  },
+  {
+   "source": "vendor_blogs",
+   "ok": true,
+   "count": 13,
+   "secs": 3.2
+  },
+  {
+   "source": "zpravobot",
+   "ok": true,
+   "count": 7,
+   "secs": 3.5
+  },
+  {
+   "source": "bluesky",
+   "ok": true,
+   "count": 5,
+   "secs": 1.7
+  },
+  {
+   "source": "weibo",
+   "ok": true,
+   "count": 1,
+   "secs": 1.1
+  },
+  {
+   "source": "zhihu",
+   "ok": true,
+   "count": 5,
+   "secs": 1.0
+  },
+  {
+   "source": "bilibili",
+   "ok": true,
+   "count": 5,
+   "secs": 0.7
+  },
+  {
+   "source": "qbitai",
+   "ok": true,
+   "count": 10,
+   "secs": 1.7
+  },
+  {
+   "source": "ithome",
+   "ok": true,
+   "count": 17,
+   "secs": 2.8
+  },
+  {
+   "source": "kr36",
+   "ok": false,
+   "count": 0,
+   "error": "ParseError: not well-formed (invalid token): line 9, column 542",
+   "secs": 1.5
+  },
+  {
+   "source": "juejin",
+   "ok": true,
+   "count": 20,
+   "secs": 3.7
+  },
+  {
+   "source": "thedecoder",
+   "ok": true,
+   "count": 9,
+   "secs": 1.4
+  },
+  {
+   "source": "techcrunch",
+   "ok": true,
+   "count": 14,
+   "secs": 0.1
+  },
+  {
+   "source": "theverge",
+   "ok": true,
+   "count": 10,
+   "secs": 0.2
+  },
+  {
+   "source": "venturebeat",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "secs": 0.2
+  },
+  {
+   "source": "mit_tr",
+   "ok": true,
+   "count": 1,
+   "secs": 0.1
+  },
+  {
+   "source": "arstechnica",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "source": "leiphone",
+   "ok": true,
+   "count": 5,
+   "secs": 3.6
+  },
+  {
+   "source": "producthunt",
+   "ok": true,
+   "count": 4,
+   "secs": 0.1
+  },
+  {
+   "source": "newsnow",
+   "ok": true,
+   "count": 1,
+   "secs": 1.1
+  }
+ ]
+}
