@@ -1,0 +1,165 @@
+{
+ "meta": {
+  "date": "2026-11-11",
+  "window_hours": 24,
+  "generated_at": "2026-11-11T17:47:48+08:00",
+  "sources_ok": 22,
+  "sources_enabled": 25,
+  "total_items": 188
+ },
+ "sources": [
+  {
+   "source": "hackernews",
+   "ok": true,
+   "count": 12,
+   "secs": 2.2
+  },
+  {
+   "source": "hf_papers",
+   "ok": true,
+   "count": 17,
+   "secs": 0.2
+  },
+  {
+   "source": "hf_trending",
+   "ok": true,
+   "count": 23,
+   "secs": 0.1
+  },
+  {
+   "source": "github_trending",
+   "ok": true,
+   "count": 8,
+   "secs": 1.2
+  },
+  {
+   "source": "techmeme",
+   "ok": true,
+   "count": 7,
+   "secs": 6.2
+  },
+  {
+   "source": "smolai",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "source": "vendor_blogs",
+   "ok": true,
+   "count": 13,
+   "secs": 4.6
+  },
+  {
+   "source": "zpravobot",
+   "ok": true,
+   "count": 7,
+   "secs": 3.7
+  },
+  {
+   "source": "bluesky",
+   "ok": true,
+   "count": 6,
+   "secs": 1.1
+  },
+  {
+   "source": "weibo",
+   "ok": true,
+   "count": 1,
+   "secs": 1.0
+  },
+  {
+   "source": "zhihu",
+   "ok": true,
+   "count": 2,
+   "secs": 1.8
+  },
+  {
+   "source": "bilibili",
+   "ok": true,
+   "count": 6,
+   "secs": 0.7
+  },
+  {
+   "source": "qbitai",
+   "ok": true,
+   "count": 0,
+   "secs": 1.7
+  },
+  {
+   "source": "ithome",
+   "ok": true,
+   "count": 23,
+   "secs": 0.9
+  },
+  {
+   "source": "kr36",
+   "ok": false,
+   "count": 0,
+   "error": "ParseError: not well-formed (invalid token): line 10, column 168",
+   "secs": 1.1
+  },
+  {
+   "source": "juejin",
+   "ok": true,
+   "count": 20,
+   "secs": 1.6
+  },
+  {
+   "source": "thedecoder",
+   "ok": true,
+   "count": 8,
+   "secs": 1.6
+  },
+  {
+   "source": "techcrunch",
+   "ok": true,
+   "count": 17,
+   "secs": 0.1
+  },
+  {
+   "source": "theverge",
+   "ok": true,
+   "count": 10,
+   "secs": 0.1
+  },
+  {
+   "source": "venturebeat",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests",
+   "secs": 0.1
+  },
+  {
+   "source": "mit_tr",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "source": "arstechnica",
+   "ok": true,
+   "count": 1,
+   "secs": 0.3
+  },
+  {
+   "source": "leiphone",
+   "ok": false,
+   "count": 0,
+   "error": "TimeoutError: The read operation timed out",
+   "secs": 22.3
+  },
+  {
+   "source": "producthunt",
+   "ok": true,
+   "count": 6,
+   "secs": 0.1
+  },
+  {
+   "source": "newsnow",
+   "ok": true,
+   "count": 1,
+   "secs": 1.0
+  }
+ ]
+}
